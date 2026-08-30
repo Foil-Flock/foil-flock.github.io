@@ -1,51 +1,37 @@
 name: Montana
 abbreviation: MT
 slug: montana
-
 statute:
   name: Montana Constitution Art. II §9 & Right to Know
   short_name: MT Right to Know
-  citation: "MCA \xA7 2-6-1001 et seq."
+  citation: MCA § 2-6-1001 et seq.
   url: https://leg.mt.gov/bills/mca/title_0020/chapter_0060/parts_index.html
-
 presumption: open
-
 response:
   initial_days: 0
   final_days: null
   day_type: business
-  notes: >-
-    Montana's constitution provides a right of access (Art. II §9)
-    but neither the constitution nor the implementing statutes set
-    a specific response deadline. Records must be available for
-    inspection during normal business hours. Courts have required
-    agencies to respond within a "reasonable time." Constructive
-    denial may be inferred from unreasonable delay.
-
+  notes: Montana's constitution provides a right of access (Art. II §9) but neither the constitution nor the implementing
+    statutes set a specific response deadline. Records must be available for inspection during normal business hours. Courts
+    have required agencies to respond within a "reasonable time." Constructive denial may be inferred from unreasonable delay.
 appeal:
   required_before_court: false
   deadline_days: null
   response_days: null
   body: Direct court action (District Court)
   advisory_body: null
-
 enforcement:
   penalty_type: fee_shifting
   per_day_cap: null
   attorney_fees: discretionary
-  fee_trigger: >-
-    Under MCA §2-3-221, the court may award costs and reasonable
-    attorney fees to the prevailing party. Montana's constitutional
-    right of access (Art. II §9) provides additional grounds for
-    enforcement. The court may issue injunctive or declaratory
-    relief to compel disclosure. There are no specific statutory
-    penalties for noncompliance beyond fee-shifting.
+  fee_trigger: Under MCA §2-3-221, the court may award costs and reasonable attorney fees to the prevailing party. Montana's
+    constitutional right of access (Art. II §9) provides additional grounds for enforcement. The court may issue injunctive
+    or declaratory relief to compel disclosure. There are no specific statutory penalties for noncompliance beyond fee-shifting.
   court_action: Civil action in district court
   court_name: District Court
   filing_fee_approx: 120
   filing_deadline_days: null
   burden_of_proof: agency
-
 fees:
   copy_per_page: null
   copy_max_size: null
@@ -53,51 +39,31 @@ fees:
   review_fee_allowed: false
   redaction_fee_allowed: false
   electronic_delivery_required: false
-  notes: >-
-    Agencies may charge fees that do not exceed actual costs. No
-    statutory per-page rate. Agencies should provide records in
-    electronic format when feasible and available. Fees may be
-    waived if disclosure serves the public interest.
-
+  notes: Agencies may charge fees that do not exceed actual costs. No statutory per-page rate. Agencies should provide records
+    in electronic format when feasible and available. Fees may be waived if disclosure serves the public interest.
 alpr:
   specific_exemption: true
-  exemption_citation: "MCA \xA7 46-5-118"
-  notes: >-
-    Montana has an ALPR-specific statute (MCA §46-5-118) that
-    restricts use of ALPR data and imposes a 90-day retention
-    limit for data not related to an active investigation. Law
-    enforcement agencies must adopt written policies governing
-    ALPR use and data access. This retention limit means most
-    routine ALPR data will be purged before a public records
-    request can reach it.
-
+  exemption_citation: MCA § 46-5-118
+  notes: Montana has an ALPR-specific statute (MCA §46-5-118) that restricts use of ALPR data and imposes a 90-day retention
+    limit for data not related to an active investigation. Law enforcement agencies must adopt written policies governing
+    ALPR use and data access. This retention limit means most routine ALPR data will be purged before a public records request
+    can reach it.
 exemptions:
-  - Records whose disclosure would violate individual privacy rights (Art. II §10)
-  - Criminal justice information restricted by federal law
-  - Trade secrets and confidential commercial information
-  - Records made confidential by other state or federal law
-  - Deliberative process materials (pre-decisional)
-  - Tax return information (MCA §15-30-2618)
-  - ALPR data restricted under MCA §46-5-118
-
+- text: Records whose disclosure would violate individual privacy rights (Art. II §10)
+- text: Criminal justice information restricted by federal law
+- text: Trade secrets and confidential commercial information
+- text: Records made confidential by other state or federal law
+- text: Deliberative process materials (pre-decisional)
+- text: Tax return information (MCA §15-30-2618)
+- text: ALPR data restricted under MCA §46-5-118
 template_fragments:
-  statute_invocation: >-
-    Pursuant to Montana's constitutional right of access
-    (Art. II §9) and the Right to Know statutes
-    (MCA §2-6-1001 et seq.)
-  response_reminder: >-
-    Under Montana's Constitution Art. II §9, no person shall be
-    denied the right to inspect documents of public bodies. I
-    expect a timely response to this request.
-  fee_cap_notice: >-
-    If fulfilling this request will cost more than $__FEE_CAP__,
-    please provide an estimate before proceeding. Fees must
-    reflect actual costs.
-  electronic_delivery_clause: >-
-    I request that records be provided in electronic format where
-    available.
-  appeal_deadline_warning: >-
-    If this request is denied, I reserve the right to seek judicial
-    enforcement under Montana's constitutional right of access
-    (Art. II §9). The court may award reasonable attorney fees
-    and costs to the prevailing party under MCA §2-3-221.
+  statute_invocation: Pursuant to Montana's constitutional right of access (Art. II §9) and the Right to Know statutes (MCA
+    §2-6-1001 et seq.)
+  response_reminder: Under Montana's Constitution Art. II §9, no person shall be denied the right to inspect documents of
+    public bodies. I expect a timely response to this request.
+  fee_cap_notice: If fulfilling this request will cost more than $__FEE_CAP__, please provide an estimate before proceeding.
+    Fees must reflect actual costs.
+  electronic_delivery_clause: I request that records be provided in electronic format where available.
+  appeal_deadline_warning: If this request is denied, I reserve the right to seek judicial enforcement under Montana's constitutional
+    right of access (Art. II §9). The court may award reasonable attorney fees and costs to the prevailing party under MCA
+    §2-3-221.

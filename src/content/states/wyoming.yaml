@@ -1,28 +1,20 @@
 name: Wyoming
 abbreviation: WY
 slug: wyoming
-
 statute:
   name: Wyoming Public Records Act
   short_name: WY PRA
-  citation: "WS \xA7 16-4-201 et seq."
+  citation: WS § 16-4-201 et seq.
   url: https://wyoleg.gov/statutes/compress/title16.pdf
-
 presumption: open
-
 response:
   initial_days: 30
   final_days: null
   day_type: calendar
-  notes: >-
-    An agency must respond within 30 calendar days. The custodian
-    must acknowledge receipt within seven business days and provide
-    the reasons for any delay. If the records cannot be produced
-    within 30 days, the agency must notify the requester with a
-    specific date by which the records will be available. Denial
-    must be in writing, state the reasons, and cite the applicable
-    exemption. The Public Records Ombudsman may mediate disputes.
-
+  notes: An agency must respond within 30 calendar days. The custodian must acknowledge receipt within seven business days
+    and provide the reasons for any delay. If the records cannot be produced within 30 days, the agency must notify the requester
+    with a specific date by which the records will be available. Denial must be in writing, state the reasons, and cite the
+    applicable exemption. The Public Records Ombudsman may mediate disputes.
 appeal:
   required_before_court: false
   deadline_days: null
@@ -34,24 +26,18 @@ appeal:
     phone: null
     email: null
     address: null
-
 enforcement:
   penalty_type: both
   per_day_cap: 750
   attorney_fees: discretionary
-  fee_trigger: >-
-    Under WS §16-4-205(d), a custodian who knowingly and
-    intentionally violates the act is subject to a civil penalty
-    of up to $750 per violation. The court may award reasonable
-    attorney fees and costs to the prevailing plaintiff. The
-    Public Records Ombudsman may mediate disputes and recommend
-    disclosure but cannot compel it.
+  fee_trigger: Under WS §16-4-205(d), a custodian who knowingly and intentionally violates the act is subject to a civil penalty
+    of up to $750 per violation. The court may award reasonable attorney fees and costs to the prevailing plaintiff. The Public
+    Records Ombudsman may mediate disputes and recommend disclosure but cannot compel it.
   court_action: Civil action in district court
   court_name: District Court
   filing_fee_approx: 170
   filing_deadline_days: null
   burden_of_proof: agency
-
 fees:
   copy_per_page: null
   copy_max_size: null
@@ -59,46 +45,28 @@ fees:
   review_fee_allowed: false
   redaction_fee_allowed: false
   electronic_delivery_required: false
-  notes: >-
-    Agencies may charge reasonable fees that do not exceed actual
-    costs. No statutory per-page rate. Search fees may be charged.
-    Electronic records should be provided in the format requested
-    when feasible. Fees may not be used as a deterrent to access.
-
+  notes: Agencies may charge reasonable fees that do not exceed actual costs. No statutory per-page rate. Search fees may
+    be charged. Electronic records should be provided in the format requested when feasible. Fees may not be used as a deterrent
+    to access.
 alpr:
   specific_exemption: false
   exemption_citation: null
-  notes: >-
-    Wyoming has no ALPR-specific legislation or exemption. ALPR
-    data would be analyzed under the Wyoming PRA's general
-    exemptions, including the law enforcement investigation
-    records exemption and the personal privacy exemption.
-
+  notes: Wyoming has no ALPR-specific legislation or exemption. ALPR data would be analyzed under the Wyoming PRA's general
+    exemptions, including the law enforcement investigation records exemption and the personal privacy exemption.
 exemptions:
-  - Records of law enforcement investigations and intelligence (WS §16-4-203(b)(i))
-  - Personnel files and personal data (WS §16-4-203(d)(iii))
-  - Trade secrets and confidential commercial information (WS §16-4-203(d)(v))
-  - Records made confidential by other state or federal law
-  - Attorney-client privileged communications (WS §16-4-203(b)(ii))
-  - Deliberative process communications (inter-/intra-agency)
-
+- text: Records of law enforcement investigations and intelligence (WS §16-4-203(b)(i))
+- text: Personnel files and personal data (WS §16-4-203(d)(iii))
+- text: Trade secrets and confidential commercial information (WS §16-4-203(d)(v))
+- text: Records made confidential by other state or federal law
+- text: Attorney-client privileged communications (WS §16-4-203(b)(ii))
+- text: Deliberative process communications (inter-/intra-agency)
 template_fragments:
-  statute_invocation: >-
-    Pursuant to the Wyoming Public Records Act
-    (WS §16-4-201 et seq.)
-  response_reminder: >-
-    Under WS §16-4-204, the custodian must acknowledge this
-    request within seven business days and produce records within
-    thirty calendar days.
-  fee_cap_notice: >-
-    If fulfilling this request will cost more than $__FEE_CAP__,
-    please provide an estimate before proceeding. Fees must
-    reflect actual costs and may not be used to deter access.
-  electronic_delivery_clause: >-
-    I request that records be provided in electronic format where
-    available.
-  appeal_deadline_warning: >-
-    If this request is denied, I reserve the right to seek judicial
-    enforcement under WS §16-4-205. The court may award reasonable
-    attorney fees and impose civil penalties of up to $750 per
-    violation for knowing and intentional violations.
+  statute_invocation: Pursuant to the Wyoming Public Records Act (WS §16-4-201 et seq.)
+  response_reminder: Under WS §16-4-204, the custodian must acknowledge this request within seven business days and produce
+    records within thirty calendar days.
+  fee_cap_notice: If fulfilling this request will cost more than $__FEE_CAP__, please provide an estimate before proceeding.
+    Fees must reflect actual costs and may not be used to deter access.
+  electronic_delivery_clause: I request that records be provided in electronic format where available.
+  appeal_deadline_warning: If this request is denied, I reserve the right to seek judicial enforcement under WS §16-4-205.
+    The court may award reasonable attorney fees and impose civil penalties of up to $750 per violation for knowing and intentional
+    violations.

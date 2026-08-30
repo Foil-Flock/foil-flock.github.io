@@ -1,28 +1,20 @@
 name: District of Columbia
 abbreviation: DC
 slug: district-of-columbia
-
 statute:
   name: DC Freedom of Information Act
   short_name: DC FOIA
-  citation: "DC Code \xA7 2-531 et seq."
+  citation: DC Code § 2-531 et seq.
   url: https://code.dccouncil.gov/us/dc/council/code/titles/2/chapters/5/subchapters/II
-
 presumption: open
-
 response:
   initial_days: 15
   final_days: 25
   day_type: business
-  notes: >-
-    A public body must respond within 15 business days of receiving
-    the request (DC Code §2-532(c)). The body may extend the
-    deadline by an additional 10 business days (25 total) in unusual
-    circumstances, with written notice to the requester. Denial
-    must be in writing and cite the specific exemption. If the body
-    fails to respond within the time limits, the request is deemed
-    denied.
-
+  notes: A public body must respond within 15 business days of receiving the request (DC Code §2-532(c)). The body may extend
+    the deadline by an additional 10 business days (25 total) in unusual circumstances, with written notice to the requester.
+    Denial must be in writing and cite the specific exemption. If the body fails to respond within the time limits, the request
+    is deemed denied.
 appeal:
   required_before_court: true
   deadline_days: null
@@ -31,29 +23,22 @@ appeal:
   advisory_body:
     name: DC Office of Open Government
     url: https://www.open-dc.gov/
-    phone: "(202) 481-3411"
+    phone: (202) 481-3411
     email: null
-    address: "441 4th Street NW, Suite 830 South, Washington, DC 20001"
-
+    address: 441 4th Street NW, Suite 830 South, Washington, DC 20001
 enforcement:
   penalty_type: both
   per_day_cap: 100
   attorney_fees: discretionary
-  fee_trigger: >-
-    Under DC Code §2-537(c), a public official who arbitrarily
-    or capriciously violates the act may be subject to
-    disciplinary action and a fine of up to $100 for a
-    misdemeanor. The court may award reasonable attorney fees
-    and costs to the prevailing plaintiff. The DC Office of
-    Open Government (formerly the Office of Open Government
-    within BEGA) provides advisory opinions and can recommend
-    compliance.
+  fee_trigger: Under DC Code §2-537(c), a public official who arbitrarily or capriciously violates the act may be subject
+    to disciplinary action and a fine of up to $100 for a misdemeanor. The court may award reasonable attorney fees and costs
+    to the prevailing plaintiff. The DC Office of Open Government (formerly the Office of Open Government within BEGA) provides
+    advisory opinions and can recommend compliance.
   court_action: Appeal to agency head, then DC Superior Court
   court_name: DC Superior Court
   filing_fee_approx: 120
   filing_deadline_days: null
   burden_of_proof: agency
-
 fees:
   copy_per_page: 0.25
   copy_max_size: null
@@ -61,54 +46,29 @@ fees:
   review_fee_allowed: true
   redaction_fee_allowed: false
   electronic_delivery_required: false
-  notes: >-
-    $0.25 per page for copies. Search fees: actual cost of
-    search, calculated by the hourly salary of the employee
-    involved. Review fees may be charged for time spent
-    reviewing records for exemptions. Fees may be waived or
-    reduced if disclosure serves the public interest. Electronic
-    records should be provided in the format requested when
-    feasible.
-
+  notes: '$0.25 per page for copies. Search fees: actual cost of search, calculated by the hourly salary of the employee involved.
+    Review fees may be charged for time spent reviewing records for exemptions. Fees may be waived or reduced if disclosure
+    serves the public interest. Electronic records should be provided in the format requested when feasible.'
 alpr:
   specific_exemption: false
   exemption_citation: null
-  notes: >-
-    The District of Columbia has no ALPR-specific legislation or
-    exemption. ALPR data would be analyzed under DC FOIA's
-    general exemptions, including the law enforcement
-    investigation records exemption and the personal privacy
-    exemption in DC Code §2-534.
-
+  notes: The District of Columbia has no ALPR-specific legislation or exemption. ALPR data would be analyzed under DC FOIA's
+    general exemptions, including the law enforcement investigation records exemption and the personal privacy exemption in
+    DC Code §2-534.
 exemptions:
-  - Records compiled for law enforcement purposes that could interfere with proceedings (DC Code §2-534(a)(3))
-  - Records whose disclosure would constitute an unwarranted invasion of privacy (DC Code §2-534(a)(2))
-  - Trade secrets and commercial/financial information (DC Code §2-534(a)(1))
-  - Inter-/intra-agency memoranda not available by law (DC Code §2-534(a)(4))
-  - Personnel and medical files (DC Code §2-534(a)(2))
-  - Records specifically exempted by other DC or federal statute
-
+- text: Records compiled for law enforcement purposes that could interfere with proceedings (DC Code §2-534(a)(3))
+- text: Records whose disclosure would constitute an unwarranted invasion of privacy (DC Code §2-534(a)(2))
+- text: Trade secrets and commercial/financial information (DC Code §2-534(a)(1))
+- text: Inter-/intra-agency memoranda not available by law (DC Code §2-534(a)(4))
+- text: Personnel and medical files (DC Code §2-534(a)(2))
+- text: Records specifically exempted by other DC or federal statute
 template_fragments:
-  statute_invocation: >-
-    Pursuant to the DC Freedom of Information Act
-    (DC Code §2-531 et seq.)
-  response_reminder: >-
-    Under DC Code §2-532(c), the public body must respond to this
-    request within fifteen business days. A ten-business-day
-    extension is permitted in unusual circumstances with written
-    notice.
-  fee_cap_notice: >-
-    If fulfilling this request will cost more than $__FEE_CAP__,
-    please provide an estimate before proceeding. Under DC FOIA,
-    copies are $0.25/page and fees may be waived if disclosure
-    serves the public interest.
-  electronic_delivery_clause: >-
-    I request that records be provided in electronic format where
-    available.
-  appeal_deadline_warning: >-
-    If this request is denied, I reserve the right to appeal to
-    the Mayor or agency head and to seek judicial enforcement in
-    DC Superior Court under DC Code §2-537. The court may award
-    reasonable attorney fees and costs to the prevailing plaintiff.
-    I may also file a complaint with the DC Office of Open
-    Government.
+  statute_invocation: Pursuant to the DC Freedom of Information Act (DC Code §2-531 et seq.)
+  response_reminder: Under DC Code §2-532(c), the public body must respond to this request within fifteen business days. A
+    ten-business-day extension is permitted in unusual circumstances with written notice.
+  fee_cap_notice: If fulfilling this request will cost more than $__FEE_CAP__, please provide an estimate before proceeding.
+    Under DC FOIA, copies are $0.25/page and fees may be waived if disclosure serves the public interest.
+  electronic_delivery_clause: I request that records be provided in electronic format where available.
+  appeal_deadline_warning: If this request is denied, I reserve the right to appeal to the Mayor or agency head and to seek
+    judicial enforcement in DC Superior Court under DC Code §2-537. The court may award reasonable attorney fees and costs
+    to the prevailing plaintiff. I may also file a complaint with the DC Office of Open Government.

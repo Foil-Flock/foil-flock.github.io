@@ -1,51 +1,38 @@
 name: Rhode Island
 abbreviation: RI
 slug: rhode-island
-
 statute:
   name: Access to Public Records Act
   short_name: RI APRA
-  citation: "RI Gen. Laws \xA7 38-2-1 et seq."
+  citation: RI Gen. Laws § 38-2-1 et seq.
   url: http://webserver.rilegislature.gov/Statutes/TITLE38/38-2/INDEX.htm
-
 presumption: open
-
 response:
   initial_days: 10
   final_days: 30
   day_type: business
-  notes: >-
-    An agency must respond within 10 business days of receiving
-    the request (§38-2-7). The agency may extend the deadline by
-    an additional 20 business days (30 total) if the request is
-    voluminous or requires search of records in storage. Denials
-    must be in writing and cite the specific exemption. If an
-    agency fails to respond within the statutory timeframe, fees
+  notes: An agency must respond within 10 business days of receiving the request (§38-2-7). The agency may extend the deadline
+    by an additional 20 business days (30 total) if the request is voluminous or requires search of records in storage. Denials
+    must be in writing and cite the specific exemption. If an agency fails to respond within the statutory timeframe, fees
     are waived for the first hour of search and retrieval.
-
 appeal:
   required_before_court: false
   deadline_days: 180
   response_days: 45
   body: Department of Attorney General or Superior Court
   advisory_body: null
-
 enforcement:
   penalty_type: fee_shifting
   per_day_cap: null
   attorney_fees: discretionary
-  fee_trigger: >-
-    The court may award reasonable attorney fees and costs to
-    the prevailing plaintiff. Under §38-2-9, the court may also
-    impose fines for willful violations. A public body that fails
-    to comply with a court order may be held in contempt. The AG
-    can investigate complaints and issue advisory opinions.
+  fee_trigger: The court may award reasonable attorney fees and costs to the prevailing plaintiff. Under §38-2-9, the court
+    may also impose fines for willful violations. A public body that fails to comply with a court order may be held in contempt.
+    The AG can investigate complaints and issue advisory opinions.
   court_action: Complaint to AG or civil action in superior court
   court_name: Superior Court
   filing_fee_approx: 160
   filing_deadline_days: 180
   burden_of_proof: agency
-
 fees:
   copy_per_page: 0.15
   copy_max_size: null
@@ -53,49 +40,28 @@ fees:
   review_fee_allowed: false
   redaction_fee_allowed: false
   electronic_delivery_required: false
-  notes: >-
-    $0.15 per page for copies. Search and retrieval fees at
-    $15/hour, with the first hour free. No charges for review or
-    legal analysis. If the agency fails to respond within the
-    statutory timeframe, fees are waived for the first hour.
+  notes: $0.15 per page for copies. Search and retrieval fees at $15/hour, with the first hour free. No charges for review
+    or legal analysis. If the agency fails to respond within the statutory timeframe, fees are waived for the first hour.
     Electronic records should be provided in the format requested.
-
 alpr:
   specific_exemption: false
   exemption_citation: null
-  notes: >-
-    Rhode Island has no ALPR-specific legislation or exemption.
-    ALPR data would be analyzed under the APRA's general
-    exemptions, including the law enforcement investigatory
-    records exemption and the personal privacy exemption.
-
+  notes: Rhode Island has no ALPR-specific legislation or exemption. ALPR data would be analyzed under the APRA's general
+    exemptions, including the law enforcement investigatory records exemption and the personal privacy exemption.
 exemptions:
-  - Law enforcement investigatory records compiled for criminal proceedings (§38-2-2(4)(D))
-  - Records whose disclosure would constitute an unwarranted invasion of privacy (§38-2-2(4)(A)(I))
-  - Trade secrets and commercial/financial information (§38-2-2(4)(B))
-  - Personnel files (§38-2-2(4)(A)(I)(a))
-  - Records made confidential by other state or federal law
-  - Preliminary drafts, notes, and inter-/intra-agency memoranda (§38-2-2(4)(K))
-
+- text: Law enforcement investigatory records compiled for criminal proceedings (§38-2-2(4)(D))
+- text: Records whose disclosure would constitute an unwarranted invasion of privacy (§38-2-2(4)(A)(I))
+- text: Trade secrets and commercial/financial information (§38-2-2(4)(B))
+- text: Personnel files (§38-2-2(4)(A)(I)(a))
+- text: Records made confidential by other state or federal law
+- text: Preliminary drafts, notes, and inter-/intra-agency memoranda (§38-2-2(4)(K))
 template_fragments:
-  statute_invocation: >-
-    Pursuant to the Rhode Island Access to Public Records Act
-    (RI Gen. Laws §38-2-1 et seq.)
-  response_reminder: >-
-    Under §38-2-7, the agency must respond to this request within
-    ten business days. If the request requires additional time, a
-    twenty-business-day extension is permitted with written notice.
-  fee_cap_notice: >-
-    If fulfilling this request will cost more than $__FEE_CAP__,
-    please provide an estimate before proceeding. Under the APRA,
-    copies are $0.15/page and search fees are $15/hr with the
-    first hour free.
-  electronic_delivery_clause: >-
-    I request that records be provided in electronic format where
-    available.
-  appeal_deadline_warning: >-
-    If this request is denied, I reserve the right to file a
-    complaint with the Department of Attorney General or seek
-    judicial enforcement in Superior Court under §38-2-8. The
-    court may award reasonable attorney fees and costs to the
-    prevailing plaintiff.
+  statute_invocation: Pursuant to the Rhode Island Access to Public Records Act (RI Gen. Laws §38-2-1 et seq.)
+  response_reminder: Under §38-2-7, the agency must respond to this request within ten business days. If the request requires
+    additional time, a twenty-business-day extension is permitted with written notice.
+  fee_cap_notice: If fulfilling this request will cost more than $__FEE_CAP__, please provide an estimate before proceeding.
+    Under the APRA, copies are $0.15/page and search fees are $15/hr with the first hour free.
+  electronic_delivery_clause: I request that records be provided in electronic format where available.
+  appeal_deadline_warning: If this request is denied, I reserve the right to file a complaint with the Department of Attorney
+    General or seek judicial enforcement in Superior Court under §38-2-8. The court may award reasonable attorney fees and
+    costs to the prevailing plaintiff.

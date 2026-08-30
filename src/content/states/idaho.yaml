@@ -1,51 +1,38 @@
 name: Idaho
 abbreviation: ID
 slug: idaho
-
 statute:
   name: Idaho Public Records Act
   short_name: Idaho PRA
-  citation: "Idaho Code \xA7 74-101 et seq."
+  citation: Idaho Code § 74-101 et seq.
   url: https://legislature.idaho.gov/statutesrules/idstat/Title74/
-
 presumption: open
-
 response:
   initial_days: 3
   final_days: 10
   day_type: business
-  notes: >-
-    The statute does not set a specific response deadline, but the
-    Attorney General's Public Records Manual recommends agencies
-    respond within three working days of receipt. If the request
-    requires additional time, the agency should notify the requester
-    within ten working days with an estimated completion date.
-    Constructive denial may be inferred from unreasonable delay.
-
+  notes: The statute does not set a specific response deadline, but the Attorney General's Public Records Manual recommends
+    agencies respond within three working days of receipt. If the request requires additional time, the agency should notify
+    the requester within ten working days with an estimated completion date. Constructive denial may be inferred from unreasonable
+    delay.
 appeal:
   required_before_court: false
   deadline_days: null
   response_days: null
   body: Direct court action (District Court)
   advisory_body: null
-
 enforcement:
   penalty_type: both
   per_day_cap: 1000
   attorney_fees: discretionary
-  fee_trigger: >-
-    Under Idaho Code §74-116(2), a court may award reasonable
-    attorney fees to any prevailing party. If the court finds
-    an agency's refusal was "frivolously pursued," fees may be
-    awarded to the requester. Civil penalties of up to $1,000
-    may be imposed for bad-faith denials under §74-117. The
-    court may also issue injunctive relief to compel disclosure.
+  fee_trigger: Under Idaho Code §74-116(2), a court may award reasonable attorney fees to any prevailing party. If the court
+    finds an agency's refusal was "frivolously pursued," fees may be awarded to the requester. Civil penalties of up to $1,000
+    may be imposed for bad-faith denials under §74-117. The court may also issue injunctive relief to compel disclosure.
   court_action: Petition in district court
   court_name: District Court
   filing_fee_approx: 221
   filing_deadline_days: null
   burden_of_proof: agency
-
 fees:
   copy_per_page: null
   copy_max_size: null
@@ -53,50 +40,29 @@ fees:
   review_fee_allowed: false
   redaction_fee_allowed: false
   electronic_delivery_required: false
-  notes: >-
-    Agencies may charge fees reasonably calculated to reimburse
-    actual labor and material costs. Fees may not exceed actual
-    costs. No statutory per-page rate. Electronic records should
-    be provided in the format requested when feasible. Fees may
-    be waived if disclosure is in the public interest.
-
+  notes: Agencies may charge fees reasonably calculated to reimburse actual labor and material costs. Fees may not exceed
+    actual costs. No statutory per-page rate. Electronic records should be provided in the format requested when feasible.
+    Fees may be waived if disclosure is in the public interest.
 alpr:
   specific_exemption: false
   exemption_citation: null
-  notes: >-
-    Idaho has no ALPR-specific legislation or exemption. ALPR
-    data would be analyzed under the Idaho PRA's general
-    exemptions, including the law enforcement investigation
-    records exemption in Idaho Code §74-124 and the exemption
-    for records whose disclosure would endanger life or safety.
-
+  notes: Idaho has no ALPR-specific legislation or exemption. ALPR data would be analyzed under the Idaho PRA's general exemptions,
+    including the law enforcement investigation records exemption in Idaho Code §74-124 and the exemption for records whose
+    disclosure would endanger life or safety.
 exemptions:
-  - Law enforcement investigation records (Idaho Code §74-124)
-  - Records exempt from disclosure by federal or state law
-  - Personnel records of public employees (Idaho Code §74-106(1))
-  - Trade secrets and proprietary information (Idaho Code §74-107(1))
-  - Deliberative process and preliminary drafts (Idaho Code §74-107(9))
-  - Records whose disclosure would endanger life or safety
-
+- text: Law enforcement investigation records (Idaho Code §74-124)
+- text: Records exempt from disclosure by federal or state law
+- text: Personnel records of public employees (Idaho Code §74-106(1))
+- text: Trade secrets and proprietary information (Idaho Code §74-107(1))
+- text: Deliberative process and preliminary drafts (Idaho Code §74-107(9))
+- text: Records whose disclosure would endanger life or safety
 template_fragments:
-  statute_invocation: >-
-    Pursuant to the Idaho Public Records Act
-    (Idaho Code §74-101 et seq.)
-  response_reminder: >-
-    Under the Idaho PRA, all public records are open to
-    inspection at reasonable times. The Attorney General's
-    Public Records Manual recommends response within three
-    working days. I expect a timely response to this request.
-  fee_cap_notice: >-
-    If fulfilling this request will cost more than $__FEE_CAP__,
-    please provide an estimate before proceeding. Fees must
-    reflect actual costs and may not exceed the cost of labor
-    and materials.
-  electronic_delivery_clause: >-
-    I request that records be provided in electronic format where
-    available.
-  appeal_deadline_warning: >-
-    If this request is denied, I reserve the right to seek judicial
-    enforcement under Idaho Code §74-115. The court may award
-    reasonable attorney fees to the prevailing party and impose
-    civil penalties of up to $1,000 for bad-faith denials.
+  statute_invocation: Pursuant to the Idaho Public Records Act (Idaho Code §74-101 et seq.)
+  response_reminder: Under the Idaho PRA, all public records are open to inspection at reasonable times. The Attorney General's
+    Public Records Manual recommends response within three working days. I expect a timely response to this request.
+  fee_cap_notice: If fulfilling this request will cost more than $__FEE_CAP__, please provide an estimate before proceeding.
+    Fees must reflect actual costs and may not exceed the cost of labor and materials.
+  electronic_delivery_clause: I request that records be provided in electronic format where available.
+  appeal_deadline_warning: If this request is denied, I reserve the right to seek judicial enforcement under Idaho Code §74-115.
+    The court may award reasonable attorney fees to the prevailing party and impose civil penalties of up to $1,000 for bad-faith
+    denials.
