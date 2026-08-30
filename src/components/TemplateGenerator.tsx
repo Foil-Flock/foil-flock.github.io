@@ -286,6 +286,63 @@ export default function TemplateGenerator({ templates, agency, stateData }: Prop
             </div>
             <div class="letter-output" ref={outputRef}>{generatedLetter}</div>
           </div>
+
+          {/* next steps */}
+          <div class="next-steps">
+            <h3>Now file it</h3>
+            <p class="next-steps-intro">
+              Copy your letter above, then choose how to send it:
+            </p>
+            <div class="next-steps-options">
+              <div class="next-step-card">
+                <div class="next-step-label">Option 1</div>
+                <div class="next-step-title">Email directly</div>
+                <p>
+                  Send the letter yourself — by email, mail, or through the
+                  agency's FOIA portal. You keep full control and avoid
+                  third-party accounts.
+                </p>
+                {agency?.contact?.email ? (
+                  <a
+                    class="next-step-action"
+                    href={`mailto:${agency.contact.email}?subject=${encodeURIComponent(stateData.statute_short_name + " Request")}&body=${encodeURIComponent(generatedLetter)}`}
+                  >
+                    Open in email client
+                  </a>
+                ) : agency?.contact?.form_url ? (
+                  <a
+                    class="next-step-action"
+                    href={agency.contact.form_url}
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    Agency FOIA portal
+                  </a>
+                ) : (
+                  <span class="next-step-note">
+                    Paste the letter into an email to the agency's records officer.
+                  </span>
+                )}
+              </div>
+              <div class="next-step-card">
+                <div class="next-step-label">Option 2</div>
+                <div class="next-step-title">File through MuckRock</div>
+                <p>
+                  MuckRock handles submission, tracks deadlines, sends
+                  follow-ups, and publicly archives the response. Free
+                  accounts available.
+                </p>
+                <a
+                  class="next-step-action"
+                  href="https://www.muckrock.com/foi/create/"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Start a request on MuckRock
+                </a>
+              </div>
+            </div>
+          </div>
         </>
       )}
     </div>

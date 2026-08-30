@@ -2,6 +2,7 @@
 import Base from "../../layouts/Base.astro";
 import { getCollection } from "astro:content";
 import agencyData from "../../data/agencies.json";
+import cameraCountData from "../../data/state_camera_counts.json";
 
 const statesRaw = await getCollection("states");
 
@@ -12,6 +13,9 @@ const agencyCountByState = new Map<string, number>();
 for (const a of agencies) {
   agencyCountByState.set(a.state, (agencyCountByState.get(a.state) ?? 0) + 1);
 }
+
+// Camera counts per state
+const cameraCounts: Record<string, number> = cameraCountData.counts;
 
 // Sort states alphabetically
 const states = statesRaw
@@ -86,11 +90,18 @@ function responseLabel(s: any) {
             </div>
           </div>
 
-          {count > 0 && (
-            <div class="state-card-agencies">
-              {count} {count === 1 ? "agency" : "agencies"} listed
-            </div>
-          )}
+          <div class="state-card-footer">
+            {cameraCounts[s.abbreviation] > 0 && (
+              <span class="footer-stat cameras">
+                {cameraCounts[s.abbreviation].toLocaleString()} cameras detected
+              </span>
+            )}
+            {count > 0 && (
+              <span class="footer-stat">
+                {count} {count === 1 ? "agency" : "agencies"}
+              </span>
+            )}
+          </div>
         </a>
       );
     })}
@@ -203,11 +214,21 @@ function responseLabel(s: any) {
   .mini-value.warn { color: var(--warn); }
   .mini-value.bad { color: var(--bad); }
 
-  .state-card-agencies {
+  .state-card-footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--gap-xs) var(--gap-sm);
+    margin-top: var(--gap-xs);
+  }
+
+  .footer-stat {
     font-size: 11px;
     color: var(--text-muted);
-    margin-top: var(--gap-xs);
     font-family: var(--mono);
+  }
+
+  .footer-stat.cameras {
+    color: var(--warn);
   }
 
   @media (max-width: 600px) {

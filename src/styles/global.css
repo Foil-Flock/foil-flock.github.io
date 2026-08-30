@@ -520,6 +520,238 @@ hr {
 .agency-tag.active { background: var(--good-light); color: var(--good); }
 .agency-tag.cancelled { background: var(--bad-light); color: var(--bad); }
 .agency-tag.unknown { background: var(--warn-light); color: var(--warn); }
+.agency-tag.cameras { background: var(--warn-light); color: var(--warn); }
+
+/* ── Agency list component ──────────────────────────────── */
+
+.agency-list-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-sm);
+}
+
+.agency-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gap-sm);
+  align-items: center;
+}
+
+.agency-search {
+  flex: 1 1 200px;
+  min-width: 200px;
+}
+
+.agency-filters {
+  display: flex;
+  gap: var(--gap-sm);
+}
+
+.agency-select {
+  width: auto;
+  min-width: 140px;
+}
+
+.agency-count {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--text-muted);
+  letter-spacing: 0.02em;
+}
+
+.agency-cards {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-xs);
+}
+
+.agency-card {
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+}
+.agency-card:hover {
+  border-color: var(--accent-border);
+}
+.agency-card.expanded {
+  border-color: var(--accent-border);
+  background: var(--surface-raised);
+}
+
+.agency-card-row {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-xs);
+}
+
+.agency-detail {
+  margin-top: var(--gap-sm);
+  padding-top: var(--gap-sm);
+  border-top: 1px solid var(--rule);
+}
+
+.agency-detail dl {
+  margin: 0;
+  font-size: 13px;
+}
+
+.agency-detail dt {
+  color: var(--text-muted);
+  font-size: 11px;
+  font-family: var(--mono);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-top: var(--gap-xs);
+}
+.agency-detail dt:first-child {
+  margin-top: 0;
+}
+
+.agency-detail dd {
+  margin: 0;
+  margin-top: 1px;
+  color: var(--text);
+}
+
+.agency-detail dd a {
+  font-size: 13px;
+}
+
+.agency-sources {
+  margin-top: var(--gap-sm);
+  display: flex;
+  gap: var(--gap-sm);
+}
+
+.source-link {
+  font-family: var(--mono);
+  font-size: 11px;
+}
+
+.agency-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-md);
+  margin-top: var(--gap-sm);
+}
+
+.page-btn {
+  font-family: var(--mono);
+  font-size: 12px;
+  padding: 0.35rem 0.8rem;
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  color: var(--accent);
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+.page-btn:hover:not(:disabled) {
+  background: var(--accent-light);
+  border-color: var(--accent-border);
+}
+.page-btn:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.page-info {
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+@media (max-width: 500px) {
+  .agency-controls {
+    flex-direction: column;
+  }
+  .agency-search {
+    width: 100%;
+  }
+  .agency-filters {
+    width: 100%;
+  }
+  .agency-select {
+    flex: 1;
+  }
+}
+
+/* ── Next steps (template generator) ────────────────────── */
+
+.next-steps {
+  margin-top: var(--gap-lg);
+  padding-top: var(--gap-lg);
+  border-top: 1px solid var(--rule);
+}
+.next-steps h3 {
+  margin-bottom: var(--gap-xs);
+}
+.next-steps-intro {
+  font-size: 14px;
+  color: var(--text-secondary);
+  margin-bottom: var(--gap-md);
+}
+.next-steps-options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--gap-sm);
+}
+.next-step-card {
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  padding: var(--gap-md);
+}
+.next-step-label {
+  font-family: var(--mono);
+  font-size: 9.5px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: var(--gap-xs);
+}
+.next-step-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: var(--gap-xs);
+}
+.next-step-card p {
+  font-size: 13px;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: var(--gap-sm);
+}
+.next-step-action {
+  display: inline-block;
+  font-family: var(--sans);
+  font-size: 13px;
+  font-weight: 500;
+  padding: 0.4rem 0.9rem;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius);
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.next-step-action:hover {
+  background: var(--accent-hover);
+  color: #fff;
+}
+.next-step-note {
+  font-size: 13px;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+@media (max-width: 600px) {
+  .next-steps-options {
+    grid-template-columns: 1fr;
+  }
+}
 
 /* ── Search input ────────────────────────────────────────── */
 

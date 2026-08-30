@@ -79,8 +79,13 @@
         {
           "name": "MuckRock",
           "url": "https://www.muckrock.com/",
-          "description": "File, track, and publish records requests. Handles submission, follow-ups, and appeals. Publicly archives results. Has an API for programmatic access.",
+          "description": "File, track, and publish records requests. Handles submission, follow-ups, and appeals. Publicly archives results. Free accounts available. Has an API for programmatic access.",
           "api_url": "https://www.muckrock.com/api/"
+        },
+        {
+          "name": "FOIA Machine",
+          "url": "https://www.foiamachine.org/",
+          "description": "Open-source FOIA filing and tracking tool. Generate a letter on Foil Flock, then file and track it here. Now maintained by MuckRock."
         },
         {
           "name": "FOIA.gov",

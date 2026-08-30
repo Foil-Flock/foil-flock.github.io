@@ -3,7 +3,9 @@ import Base from "../../layouts/Base.astro";
 import TemplateGenerator from "../../components/TemplateGenerator";
 import { getCollection } from "astro:content";
 import agencyData from "../../data/agencies.json";
+import cameraCountData from "../../data/state_camera_counts.json";
 import templateData from "../../templates/request-templates.json";
+import AgencyList from "../../components/AgencyList";
 
 export async function getStaticPaths() {
   const states = await getCollection("states");
@@ -20,6 +22,9 @@ const s = state.data;
 const stateAgencies = agencyData.agencies.filter(
   (a) => a.state === s.abbreviation
 );
+
+// Total cameras detected in this state
+const totalCameras: number = (cameraCountData.counts as Record<string, number>)[s.abbreviation] ?? 0;
 
 // Map the first agency if there is one (for pre-filling the template)
 const firstAgency = stateAgencies[0]
@@ -112,6 +117,12 @@ function feeLabel(type: string) {
         {s.enforcement.burden_of_proof === "agency" ? "On the agency" : "On requester"}
       </div>
     </div>
+    {totalCameras > 0 && (
+      <div class="stat-block">
+        <div class="stat-label">Cameras detected</div>
+        <div class="stat-value warn">{totalCameras.toLocaleString()}</div>
+      </div>
+    )}
   </div>
 
   {/* ── Response timeline ───────────────────────────────── */}
@@ -276,22 +287,15 @@ function feeLabel(type: string) {
   {stateAgencies.length > 0 && (
     <section class="law-section">
       <h2>Agencies in {s.name}</h2>
-      <div style="display: flex; flex-direction: column; gap: var(--gap-sm);">
-        {stateAgencies.map((a) => (
-          <div class="agency-card">
-            <div class="agency-name">{a.name}</div>
-            <div class="agency-meta">
-              <span class="agency-tag">{a.jurisdiction}</span>
-              <span class={`agency-tag ${a.alpr.contract_status}`}>
-                {a.alpr.contract_status}
-              </span>
-              {a.alpr.camera_count && (
-                <span class="agency-tag">{a.alpr.camera_count} cameras</span>
-              )}
-            </div>
-          </div>
-        ))}
-      </div>
+      <p class="note-text" style="margin-bottom: var(--gap-sm);">
+        {stateAgencies.length} {stateAgencies.length === 1 ? "agency" : "agencies"} with
+        known or suspected ALPR deployments. Camera counts from WiFi detection —
+        actual installations may differ.
+      </p>
+      <AgencyList
+        client:load
+        agencies={stateAgencies}
+      />
     </section>
   )}
 

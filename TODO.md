@@ -1,45 +1,42 @@
 # Foil Flock Roadmap
 
-Current: 15 states verified, 29 agencies, 4 letter templates, deployed to GitHub Pages.
+Current: 25 states verified, 29 agencies, 4 letter templates, deployed to GitHub Pages.
 
 
 ## Phase 1 — Complete state coverage
 
-Add the remaining 35 states + DC. Each state needs a YAML file in
+Add the remaining 25 states + DC. Each state needs a YAML file in
 `src/content/states/` following the schema in `config.ts`, verified
 against the actual statute text.
 
-### Batch A — High ALPR deployment states (do first)
-These states have large Flock/ALPR footprints and are the most likely
-targets for records requests.
+### Batch A — High ALPR deployment states ✓
+- [x] Tennessee
+- [x] North Carolina
+- [x] South Carolina
+- [x] Indiana
+- [x] Missouri
+- [x] Alabama
+- [x] Louisiana
+- [x] Oklahoma
+- [x] Maryland
+- [x] Minnesota
 
-- [ ] Tennessee
-- [ ] North Carolina
-- [ ] South Carolina
-- [ ] Indiana
-- [ ] Missouri
-- [ ] Alabama
-- [ ] Louisiana
-- [ ] Oklahoma
-- [ ] Maryland
-- [ ] Minnesota
-
-### Batch B — Remaining states with known ALPR programs
-- [ ] Oregon
-- [ ] Connecticut
-- [ ] Wisconsin
-- [ ] Iowa
-- [ ] Kentucky
-- [ ] Kansas
-- [ ] Arkansas
-- [ ] Mississippi
-- [ ] Nebraska
-- [ ] Nevada
-- [ ] New Hampshire
-- [ ] New Mexico
-- [ ] Utah
-- [ ] West Virginia
-- [ ] Hawaii
+### Batch B — States with known ALPR programs ✓
+- [x] Oregon
+- [x] Connecticut
+- [x] Wisconsin
+- [x] Iowa
+- [x] Kentucky
+- [x] Kansas
+- [x] Arkansas
+- [x] Mississippi
+- [x] Nebraska
+- [x] Nevada
+- [x] New Hampshire
+- [x] New Mexico
+- [x] Utah
+- [x] West Virginia
+- [x] Hawaii
 
 ### Batch C — Low ALPR deployment / remaining
 - [ ] Alaska
@@ -84,6 +81,9 @@ targets for records requests.
 - [ ] Add template: Data Retention Policy request
 - [ ] Add template: Data Sharing Agreement request
 
+### State page enhancements
+- [ ] Add total camera count per state in stat-grid (aggregate from agencies.json)
+
 ### UI / UX
 - [ ] Mobile responsiveness audit (especially stat-grid, template tabs)
 - [ ] Accessibility audit (color contrast, focus states, screen reader flow)
@@ -117,8 +117,8 @@ targets for records requests.
 ## Done
 
 - [x] Core site architecture (Astro + Preact + Fuse.js)
-- [x] 15 state YAML files created
-- [x] All 15 states verified against primary statutory sources
+- [x] 25 state YAML files created (Batches A + B)
+- [x] All 25 states verified against primary statutory sources
 - [x] 29 agencies across 15 states
 - [x] 4 letter templates (detection data, contracts/policies, appeal denial, appeal non-response)
 - [x] Fuzzy search on landing page
