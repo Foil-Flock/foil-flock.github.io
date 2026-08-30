@@ -1,48 +1,36 @@
 name: Ohio
 abbreviation: OH
 slug: ohio
-
 statute:
   name: Ohio Public Records Act
   short_name: Public Records Act
-  citation: "Ohio Rev. Code § 149.43"
+  citation: Ohio Rev. Code § 149.43
   url: https://codes.ohio.gov/ohio-revised-code/section-149.43
-
 presumption: open
-
 response:
   initial_days: 0
   final_days: null
   day_type: business
-  notes: >-
-    Ohio law requires records be made available "promptly" for
-    inspection during regular business hours. No fixed statutory
-    deadline, but the Ohio Supreme Court has held that a reasonable
-    time is measured in hours and days, not weeks and months.
+  notes: Ohio law requires records be made available "promptly" for inspection during regular business hours. No fixed statutory
+    deadline, but the Ohio Supreme Court has held that a reasonable time is measured in hours and days, not weeks and months.
     Copies must be provided within a reasonable period.
-
 appeal:
   required_before_court: false
   deadline_days: null
   response_days: null
   body: Ohio Court of Claims or mandamus action in court
   advisory_body: null
-
 enforcement:
   penalty_type: both
   per_day_cap: 100
   attorney_fees: discretionary
-  fee_trigger: >-
-    Court may award reasonable attorney fees to a requester who
-    prevails in a mandamus action. Statutory damages of $100 per
-    business day of noncompliance, up to $1,000 total. Ohio Rev.
-    Code § 149.43(C).
+  fee_trigger: Court may award reasonable attorney fees to a requester who prevails in a mandamus action. Statutory damages
+    of $100 per business day of noncompliance, up to $1,000 total. Ohio Rev. Code § 149.43(C).
   court_action: Mandamus action or Court of Claims complaint
   court_name: Court of Claims or Court of Common Pleas
   filing_fee_approx: 150
   filing_deadline_days: null
   burden_of_proof: agency
-
 fees:
   copy_per_page: null
   copy_max_size: null
@@ -50,46 +38,26 @@ fees:
   review_fee_allowed: false
   redaction_fee_allowed: false
   electronic_delivery_required: true
-  notes: >-
-    Agencies may charge only actual copying costs (paper, toner,
-    storage media, postage). No charges permitted for staff time
-    to search, review, or redact. If records exist in electronic
-    format, they must be provided electronically when requested.
-
+  notes: Agencies may charge only actual copying costs (paper, toner, storage media, postage). No charges permitted for staff
+    time to search, review, or redact. If records exist in electronic format, they must be provided electronically when requested.
 alpr:
   specific_exemption: false
   exemption_citation: null
-  notes: >-
-    No ALPR-specific public records exemption. ALPR data is
-    subject to standard Ohio public records exemptions.
-
+  notes: No ALPR-specific public records exemption. ALPR data is subject to standard Ohio public records exemptions.
 exemptions:
-  - Confidential law enforcement investigatory records
-  - Personal privacy (medical, adoption, DNA records)
-  - Security and infrastructure records
-  - Trade secrets
-  - Attorney-client privileged communications
-  - Trial preparation records
-
+- text: Confidential law enforcement investigatory records
+- text: Personal privacy (medical, adoption, DNA records)
+- text: Security and infrastructure records
+- text: Trade secrets
+- text: Attorney-client privileged communications
+- text: Trial preparation records
 template_fragments:
-  statute_invocation: >-
-    Pursuant to the Ohio Public Records Act
-    (Ohio Rev. Code § 149.43)
-  response_reminder: >-
-    I expect prompt access to these records as required by Ohio
-    Rev. Code § 149.43(B). If you deny any portion of this
-    request, you must provide an explanation including the legal
-    authority for each redaction or denial.
-  fee_cap_notice: >-
-    If fulfilling this request will cost more than $__FEE_CAP__,
-    please provide an estimate before proceeding. Please note that
-    no charges may be assessed for staff time to search, review,
-    or redact records.
-  electronic_delivery_clause: >-
-    I request that records be provided in electronic format
-    pursuant to Ohio Rev. Code § 149.43(B)(6).
-  appeal_deadline_warning: >-
-    If this request is denied, I reserve the right to file a
-    mandamus action or complaint with the Ohio Court of Claims
-    and seek all remedies available under Ohio Rev. Code
-    § 149.43(C), including statutory damages and attorney fees.
+  statute_invocation: Pursuant to the Ohio Public Records Act (Ohio Rev. Code § 149.43)
+  response_reminder: I expect prompt access to these records as required by Ohio Rev. Code § 149.43(B). If you deny any portion
+    of this request, you must provide an explanation including the legal authority for each redaction or denial.
+  fee_cap_notice: If fulfilling this request will cost more than $__FEE_CAP__, please provide an estimate before proceeding.
+    Please note that no charges may be assessed for staff time to search, review, or redact records.
+  electronic_delivery_clause: I request that records be provided in electronic format pursuant to Ohio Rev. Code § 149.43(B)(6).
+  appeal_deadline_warning: If this request is denied, I reserve the right to file a mandamus action or complaint with the
+    Ohio Court of Claims and seek all remedies available under Ohio Rev. Code § 149.43(C), including statutory damages and
+    attorney fees.

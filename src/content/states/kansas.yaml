@@ -1,29 +1,20 @@
 name: Kansas
 abbreviation: KS
 slug: kansas
-
 statute:
   name: Kansas Open Records Act
   short_name: KORA
-  citation: "KSA 45-215 through 45-254"
+  citation: KSA 45-215 through 45-254
   url: https://law.justia.com/codes/kansas/chapter-45/article-2/
-
 presumption: open
-
 response:
   initial_days: 3
   final_days: null
   day_type: business
-  notes: >-
-    Each request shall be acted upon as soon as possible, but not
-    later than the end of the third business day following the
-    date the request is received (KSA 45-218(d)). If access
-    cannot be provided within three business days, custodian must
-    provide a detailed explanation for the delay and the earliest
-    date records will be available. Special rules: body camera
-    recordings within 20 days (KSA 45-254(c)); child fatality
-    information within 7 days.
-
+  notes: 'Each request shall be acted upon as soon as possible, but not later than the end of the third business day following
+    the date the request is received (KSA 45-218(d)). If access cannot be provided within three business days, custodian must
+    provide a detailed explanation for the delay and the earliest date records will be available. Special rules: body camera
+    recordings within 20 days (KSA 45-254(c)); child fatality information within 7 days.'
 appeal:
   required_before_court: false
   deadline_days: null
@@ -32,29 +23,22 @@ appeal:
   advisory_body:
     name: Kansas Attorney General, Open Government Division
     url: https://www.ag.ks.gov/divisions/administration/open-government
-    phone: "(785) 296-2215"
+    phone: (785) 296-2215
     email: null
-    address: "120 SW 10th Ave., 2nd Floor, Topeka, KS 66612"
-
+    address: 120 SW 10th Ave., 2nd Floor, Topeka, KS 66612
 enforcement:
   penalty_type: fee_shifting
   per_day_cap: null
   attorney_fees: mandatory
-  fee_trigger: >-
-    Court shall award costs and reasonable attorney fees if the
-    agency's denial was "not in good faith and without a
-    reasonable basis in fact or law." KSA 45-222. Fee-shifting is
-    symmetrical: defendant also gets mandatory fees if plaintiff's
-    suit was in bad faith. Knowing violations carry up to $500
-    fine per violation when brought by AG/DA. Class A nonperson
-    misdemeanor for illegally altering, destroying, or concealing
-    records (KSA 21-5920).
+  fee_trigger: 'Court shall award costs and reasonable attorney fees if the agency''s denial was "not in good faith and without
+    a reasonable basis in fact or law." KSA 45-222. Fee-shifting is symmetrical: defendant also gets mandatory fees if plaintiff''s
+    suit was in bad faith. Knowing violations carry up to $500 fine per violation when brought by AG/DA. Class A nonperson
+    misdemeanor for illegally altering, destroying, or concealing records (KSA 21-5920).'
   court_action: Injunction, mandamus, or declaratory judgment
   court_name: District Court
   filing_fee_approx: 195
   filing_deadline_days: null
   burden_of_proof: agency
-
 fees:
   copy_per_page: 0.25
   copy_max_size: null
@@ -62,55 +46,30 @@ fees:
   review_fee_allowed: false
   redaction_fee_allowed: false
   electronic_delivery_required: false
-  notes: >-
-    $0.25/page deemed reasonable; cannot exceed actual cost
-    (KSA 45-219(c)). Staff time included in actual cost of
-    furnishing copies. Executive Order 18-05 waives copying fees
-    for up to 100 pages from Kansas executive branch agencies.
-    State agency standardized rates: $0.25/page copies; attorney
-    time at $60/hour; clerical at $18/hour. Agencies may require
-    advance payment.
-
+  notes: '$0.25/page deemed reasonable; cannot exceed actual cost (KSA 45-219(c)). Staff time included in actual cost of furnishing
+    copies. Executive Order 18-05 waives copying fees for up to 100 pages from Kansas executive branch agencies. State agency
+    standardized rates: $0.25/page copies; attorney time at $60/hour; clerical at $18/hour. Agencies may require advance payment.'
 alpr:
   specific_exemption: true
-  exemption_citation: "KSA 45-221(a)(55)"
-  notes: >-
-    KSA 45-221(a)(55) explicitly exempts records containing
-    "captured license plate data" or information about ALPR
-    system locations from disclosure under KORA. "Captured
-    license plate data" includes GPS coordinates, date and time,
-    photograph, license plate number, and any derived information.
-    No comprehensive ALPR governance legislation beyond this
-    exemption. Kansas has no statutory data retention limits or
-    access audit requirements for ALPR data.
-
+  exemption_citation: KSA 45-221(a)(55)
+  notes: KSA 45-221(a)(55) explicitly exempts records containing "captured license plate data" or information about ALPR system
+    locations from disclosure under KORA. "Captured license plate data" includes GPS coordinates, date and time, photograph,
+    license plate number, and any derived information. No comprehensive ALPR governance legislation beyond this exemption.
+    Kansas has no statutory data retention limits or access audit requirements for ALPR data.
 exemptions:
-  - Criminal investigation records (KSA 45-221(a)(10))
-  - Captured license plate / ALPR data (KSA 45-221(a)(55))
-  - Personnel records (KSA 45-221(a)(4))
-  - Security measures / vulnerability assessments (KSA 45-221(a)(43))
-  - Attorney-client privileged materials
-  - Confidential informant identity
-
+- text: Criminal investigation records (KSA 45-221(a)(10))
+- text: Captured license plate / ALPR data (KSA 45-221(a)(55))
+- text: Personnel records (KSA 45-221(a)(4))
+- text: Security measures / vulnerability assessments (KSA 45-221(a)(43))
+- text: Attorney-client privileged materials
+- text: Confidential informant identity
 template_fragments:
-  statute_invocation: >-
-    Pursuant to the Kansas Open Records Act
-    (KSA § 45-215 et seq.)
-  response_reminder: >-
-    KSA § 45-218(d) requires that this request shall be acted
-    upon as soon as possible, but not later than the end of the
-    third business day following receipt.
-  fee_cap_notice: >-
-    If fulfilling this request will cost more than $__FEE_CAP__,
-    please provide an estimate before proceeding. Under
-    KSA § 45-219(c), a fee of $0.25 per page or less is
-    deemed reasonable.
-  electronic_delivery_clause: >-
-    I request that records be provided in electronic format where
-    available, with fees limited to the cost of computer services
-    and staff time as provided by KSA § 45-219.
-  appeal_deadline_warning: >-
-    If this request is denied, I reserve the right to seek
-    judicial review under KSA § 45-222, with the burden of
-    proof on the public agency to sustain its action, and
-    mandatory attorney fees for denials not in good faith.
+  statute_invocation: Pursuant to the Kansas Open Records Act (KSA § 45-215 et seq.)
+  response_reminder: KSA § 45-218(d) requires that this request shall be acted upon as soon as possible, but not later than
+    the end of the third business day following receipt.
+  fee_cap_notice: If fulfilling this request will cost more than $__FEE_CAP__, please provide an estimate before proceeding.
+    Under KSA § 45-219(c), a fee of $0.25 per page or less is deemed reasonable.
+  electronic_delivery_clause: I request that records be provided in electronic format where available, with fees limited to
+    the cost of computer services and staff time as provided by KSA § 45-219.
+  appeal_deadline_warning: If this request is denied, I reserve the right to seek judicial review under KSA § 45-222, with
+    the burden of proof on the public agency to sustain its action, and mandatory attorney fees for denials not in good faith.

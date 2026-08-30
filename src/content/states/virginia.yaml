@@ -1,25 +1,18 @@
 name: Virginia
 abbreviation: VA
 slug: virginia
-
 statute:
   name: Virginia Freedom of Information Act (VFOIA)
   short_name: VFOIA
-  citation: "Va. Code § 2.2-3700 et seq."
+  citation: Va. Code § 2.2-3700 et seq.
   url: https://law.lis.virginia.gov/vacodepopularnames/virginia-freedom-of-information-act/
-
 presumption: open
-
 response:
   initial_days: 5
   final_days: 12
   day_type: business
-  notes: >-
-    Agency must respond within 5 business days. May invoke one
-    7-business-day extension for a total of 12 business days.
-    If the agency provides a cost estimate over $200, the timeline
-    pauses until the requester responds (30-day response window).
-
+  notes: Agency must respond within 5 business days. May invoke one 7-business-day extension for a total of 12 business days.
+    If the agency provides a cost estimate over $200, the timeline pauses until the requester responds (30-day response window).
 appeal:
   required_before_court: false
   deadline_days: null
@@ -28,29 +21,22 @@ appeal:
   advisory_body:
     name: FOIA Council
     url: https://foiacouncil.dls.virginia.gov
-    phone: "(866) 448-3642"
+    phone: (866) 448-3642
     email: null
-    address: "General Assembly Building, 201 N. 9th St., Suite 540, Richmond, VA 23219"
-
+    address: General Assembly Building, 201 N. 9th St., Suite 540, Richmond, VA 23219
 enforcement:
   penalty_type: both
   per_day_cap: null
   attorney_fees: mandatory
-  fee_trigger: >-
-    Petitioner shall be entitled to recover reasonable costs and
-    attorney fees from the public body if the petitioner
-    substantially prevails on the merits, unless special
-    circumstances would make an award unjust. Va. Code
-    § 2.2-3713(D). Civil penalties of $500–$2,000 for first
-    violation and $2,000–$5,000 for subsequent violations,
-    assessed against the officer or employee personally.
-    Va. Code § 2.2-3714.
+  fee_trigger: Petitioner shall be entitled to recover reasonable costs and attorney fees from the public body if the petitioner
+    substantially prevails on the merits, unless special circumstances would make an award unjust. Va. Code § 2.2-3713(D).
+    Civil penalties of $500–$2,000 for first violation and $2,000–$5,000 for subsequent violations, assessed against the officer
+    or employee personally. Va. Code § 2.2-3714.
   court_action: Petition to compel compliance
   court_name: General District Court or Circuit Court
   filing_fee_approx: 85
   filing_deadline_days: null
   burden_of_proof: agency
-
 fees:
   copy_per_page: null
   copy_max_size: null
@@ -58,53 +44,31 @@ fees:
   review_fee_allowed: false
   redaction_fee_allowed: true
   electronic_delivery_required: true
-  notes: >-
-    Agencies may charge reasonable costs for staff time and
-    copying, but may not charge for the first hour of search time
-    in most circumstances. Must provide records in any existing
-    format requested. Cost estimates over $200 require a deposit
-    before work proceeds.
-
+  notes: Agencies may charge reasonable costs for staff time and copying, but may not charge for the first hour of search
+    time in most circumstances. Must provide records in any existing format requested. Cost estimates over $200 require a
+    deposit before work proceeds.
 alpr:
   specific_exemption: true
-  exemption_citation: "Va. Code § 2.2-5517"
-  notes: >-
-    ALPR system data and audit trail data are explicitly exempt
-    from VFOIA disclosure under Va. Code § 2.2-5517. System data
-    must be purged after 21 days of capture (unless tied to an
-    ongoing investigation), audit trail data after 2 years. Sale
-    of ALPR data is prohibited. Sharing is restricted to other
-    law enforcement agencies for authorized purposes. Agencies
+  exemption_citation: Va. Code § 2.2-5517
+  notes: ALPR system data and audit trail data are explicitly exempt from VFOIA disclosure under Va. Code § 2.2-5517. System
+    data must be purged after 21 days of capture (unless tied to an ongoing investigation), audit trail data after 2 years.
+    Sale of ALPR data is prohibited. Sharing is restricted to other law enforcement agencies for authorized purposes. Agencies
     must publicly post ALPR policies and annual reports.
-
 exemptions:
-  - ALPR system data and audit trail data (§ 2.2-5517)
-  - Law enforcement investigation records (§ 2.2-3706)
-  - Personal privacy (§ 2.2-3705.1)
-  - Endanger life or physical safety
-  - Security plans and procedures
-  - Trade secrets and proprietary information
-  - Personnel records (§ 2.2-3705.1)
-  - Attorney-client privileged communications
-
+- text: ALPR system data and audit trail data (§ 2.2-5517)
+- text: Law enforcement investigation records (§ 2.2-3706)
+- text: Personal privacy (§ 2.2-3705.1)
+- text: Endanger life or physical safety
+- text: Security plans and procedures
+- text: Trade secrets and proprietary information
+- text: Personnel records (§ 2.2-3705.1)
+- text: Attorney-client privileged communications
 template_fragments:
-  statute_invocation: >-
-    Pursuant to the Virginia Freedom of Information Act
-    (Va. Code § 2.2-3700 et seq.)
-  response_reminder: >-
-    I expect a response within five business days as required by
-    Va. Code § 2.2-3704(B). If you deny any portion of this
-    request, please provide a written response citing the specific
-    statutory exemption and explaining in detail how the exemption
-    applies.
-  fee_cap_notice: >-
-    If fulfilling this request will cost more than $__FEE_CAP__,
-    please provide an estimate before proceeding.
-  electronic_delivery_clause: >-
-    I request that records be provided in electronic format
-    pursuant to Va. Code § 2.2-3704(G).
-  appeal_deadline_warning: >-
-    If this request is denied, I reserve the right to petition
-    the appropriate court to compel compliance and seek all
-    remedies available under VFOIA, including civil penalties
-    under Va. Code § 2.2-3714.
+  statute_invocation: Pursuant to the Virginia Freedom of Information Act (Va. Code § 2.2-3700 et seq.)
+  response_reminder: I expect a response within five business days as required by Va. Code § 2.2-3704(B). If you deny any
+    portion of this request, please provide a written response citing the specific statutory exemption and explaining in detail
+    how the exemption applies.
+  fee_cap_notice: If fulfilling this request will cost more than $__FEE_CAP__, please provide an estimate before proceeding.
+  electronic_delivery_clause: I request that records be provided in electronic format pursuant to Va. Code § 2.2-3704(G).
+  appeal_deadline_warning: If this request is denied, I reserve the right to petition the appropriate court to compel compliance
+    and seek all remedies available under VFOIA, including civil penalties under Va. Code § 2.2-3714.

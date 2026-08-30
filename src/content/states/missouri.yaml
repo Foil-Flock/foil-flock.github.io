@@ -1,98 +1,67 @@
 name: Missouri
 abbreviation: MO
 slug: missouri
-
 statute:
   name: Missouri Sunshine Law
   short_name: Sunshine Law
-  citation: "RSMo Chapter 610"
+  citation: RSMo Chapter 610
   url: https://revisor.mo.gov/main/OneSection.aspx?section=610.023
-
 presumption: open
-
 response:
   initial_days: 3
   final_days: null
   day_type: business
-  notes: >-
-    Custodian must respond no later than the end of the third
-    business day following receipt. The response must indicate
-    whether access will be granted but is not a requirement to
-    produce records within 3 days. If records cannot be produced
-    immediately, the custodian must explain the delay and provide
-    the earliest date of availability. RSMo 610.023.3.
-
+  notes: Custodian must respond no later than the end of the third business day following receipt. The response must indicate
+    whether access will be granted but is not a requirement to produce records within 3 days. If records cannot be produced
+    immediately, the custodian must explain the delay and provide the earliest date of availability. RSMo 610.023.3.
 appeal:
   required_before_court: false
   deadline_days: null
   response_days: null
   body: Direct court action (Circuit Court)
   advisory_body: null
-
 enforcement:
   penalty_type: both
   per_day_cap: null
   attorney_fees: mandatory
-  fee_trigger: >-
-    For purposeful violations, court shall order payment of all
-    costs and reasonable attorney fees, with civil penalties up to
-    $5,000. For knowing violations, court may order fees with
-    penalties up to $1,000. RSMo 610.027. Courts may also void
-    actions taken in violation of the Sunshine Law.
+  fee_trigger: For purposeful violations, court shall order payment of all costs and reasonable attorney fees, with civil
+    penalties up to $5,000. For knowing violations, court may order fees with penalties up to $1,000. RSMo 610.027. Courts
+    may also void actions taken in violation of the Sunshine Law.
   court_action: Civil action
   court_name: Circuit Court
   filing_fee_approx: 45
   filing_deadline_days: null
   burden_of_proof: agency
-
 fees:
-  copy_per_page: 0.10
+  copy_per_page: 0.1
   copy_max_size: null
   search_fee_allowed: true
   review_fee_allowed: false
   redaction_fee_allowed: false
   electronic_delivery_required: false
-  notes: >-
-    $0.10/page for standard copies. Search fees at actual cost of
-    research time. Duplication staff time at the average hourly rate
-    for clerical staff. Attorney review time may not be charged per
-    Gross v. Parson (Mo. S. Ct. 2021). Electronic media fees include
-    staff time and cost of medium only. Fee waiver available for
-    requests contributing to public understanding. RSMo 610.026.
-
+  notes: $0.10/page for standard copies. Search fees at actual cost of research time. Duplication staff time at the average
+    hourly rate for clerical staff. Attorney review time may not be charged per Gross v. Parson (Mo. S. Ct. 2021). Electronic
+    media fees include staff time and cost of medium only. Fee waiver available for requests contributing to public understanding.
+    RSMo 610.026.
 alpr:
   specific_exemption: false
   exemption_citation: null
-  notes: >-
-    No ALPR-specific public records exemption. Multiple regulatory
-    bills (SB1087 in 2018, SB1334 in 2024) have not been enacted.
-    ALPR data could be withheld under RSMo 610.021(19) (investigative
-    or surveillance techniques) on a case-by-case basis, but this
-    requires affirmative written justification that disclosure would
-    impair safety and that nondisclosure outweighs the public interest.
-
+  notes: No ALPR-specific public records exemption. Multiple regulatory bills (SB1087 in 2018, SB1334 in 2024) have not been
+    enacted. ALPR data could be withheld under RSMo 610.021(19) (investigative or surveillance techniques) on a case-by-case
+    basis, but this requires affirmative written justification that disclosure would impair safety and that nondisclosure
+    outweighs the public interest.
 exemptions:
-  - Investigative/surveillance techniques (§ 610.021(19))
-  - Security systems and infrastructure plans (§ 610.021(20))
-  - Computer and network security (§ 610.021(22))
-  - Closed investigative reports (§ 610.100)
-  - Attorney-client privilege (§ 610.021(1))
-  - Personnel records (§ 610.021(13))
-
+- text: Investigative/surveillance techniques (§ 610.021(19))
+- text: Security systems and infrastructure plans (§ 610.021(20))
+- text: Computer and network security (§ 610.021(22))
+- text: Closed investigative reports (§ 610.100)
+- text: Attorney-client privilege (§ 610.021(1))
+- text: Personnel records (§ 610.021(13))
 template_fragments:
-  statute_invocation: >-
-    Pursuant to the Missouri Sunshine Law (RSMo Chapter 610)
-  response_reminder: >-
-    I expect a response no later than the end of the third business
-    day following receipt of this request, as required by
-    RSMo 610.023.3.
-  fee_cap_notice: >-
-    If fulfilling this request will cost more than $__FEE_CAP__,
-    please provide an estimate before proceeding.
-  electronic_delivery_clause: >-
-    I request that records be provided in electronic format where
-    available.
-  appeal_deadline_warning: >-
-    If this request is denied, I reserve the right to seek judicial
-    review under RSMo 610.027, including attorney fees and civil
-    penalties of up to $5,000 for purposeful violations.
+  statute_invocation: Pursuant to the Missouri Sunshine Law (RSMo Chapter 610)
+  response_reminder: I expect a response no later than the end of the third business day following receipt of this request,
+    as required by RSMo 610.023.3.
+  fee_cap_notice: If fulfilling this request will cost more than $__FEE_CAP__, please provide an estimate before proceeding.
+  electronic_delivery_clause: I request that records be provided in electronic format where available.
+  appeal_deadline_warning: If this request is denied, I reserve the right to seek judicial review under RSMo 610.027, including
+    attorney fees and civil penalties of up to $5,000 for purposeful violations.

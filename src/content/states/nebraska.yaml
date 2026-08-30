@@ -1,28 +1,20 @@
 name: Nebraska
 abbreviation: NE
 slug: nebraska
-
 statute:
   name: Nebraska Public Records Statutes
   short_name: Nebraska Public Records Act
-  citation: "Neb. Rev. Stat. §§ 84-712 through 84-712.09"
+  citation: Neb. Rev. Stat. §§ 84-712 through 84-712.09
   url: https://nebraskalegislature.gov/laws/statutes.php?statute=84-712
-
 presumption: open
-
 response:
   initial_days: 4
   final_days: null
   day_type: business
-  notes: >-
-    Custodian must respond within 4 business days after actual
-    receipt with: (1) access or copies, (2) written denial citing
-    specific legal authority, or (3) written explanation of delay
-    with the earliest practicable date for fulfillment. Business
-    days exclude Saturdays, Sundays, and days the custodian's
-    offices are closed. Requester then has 10 business days to
-    respond to any cost estimate.
-
+  notes: 'Custodian must respond within 4 business days after actual receipt with: (1) access or copies, (2) written denial
+    citing specific legal authority, or (3) written explanation of delay with the earliest practicable date for fulfillment.
+    Business days exclude Saturdays, Sundays, and days the custodian''s offices are closed. Requester then has 10 business
+    days to respond to any cost estimate.'
 appeal:
   required_before_court: false
   deadline_days: null
@@ -31,30 +23,23 @@ appeal:
   advisory_body:
     name: Nebraska Attorney General, Public Records Division
     url: https://ago.nebraska.gov/public-records
-    phone: "(402) 471-2683"
+    phone: (402) 471-2683
     email: null
-    address: "1445 K Street, Room 2115, Lincoln, NE 68508"
-
+    address: 1445 K Street, Room 2115, Lincoln, NE 68508
 enforcement:
   penalty_type: fee_shifting
   per_day_cap: null
   attorney_fees: discretionary
-  fee_trigger: >-
-    Court may assess reasonable attorney fees and other litigation
-    costs against the public body when complainant has
-    substantially prevailed. Neb. Rev. Stat. § 84-712.07. AG
-    must determine within 15 calendar days whether records may be
-    withheld. If AG finds non-compliance and body refuses to
-    disclose, requester may demand AG file suit within 15 calendar
-    days. Criminal penalty: Class III misdemeanor (fine up to
-    $500, up to 3 months jail). Official also subject to removal
-    from office or impeachment (§ 84-712.09).
+  fee_trigger: 'Court may assess reasonable attorney fees and other litigation costs against the public body when complainant
+    has substantially prevailed. Neb. Rev. Stat. § 84-712.07. AG must determine within 15 calendar days whether records may
+    be withheld. If AG finds non-compliance and body refuses to disclose, requester may demand AG file suit within 15 calendar
+    days. Criminal penalty: Class III misdemeanor (fine up to $500, up to 3 months jail). Official also subject to removal
+    from office or impeachment (§ 84-712.09).'
   court_action: Writ of mandamus
   court_name: District Court
   filing_fee_approx: 300
   filing_deadline_days: null
   burden_of_proof: agency
-
 fees:
   copy_per_page: 0.25
   copy_max_size: null
@@ -62,61 +47,34 @@ fees:
   review_fee_allowed: false
   redaction_fee_allowed: false
   electronic_delivery_required: false
-  notes: >-
-    $0.25/page per AG enforcement guideline; statute requires
-    fees not exceed "actual added cost." First 8 cumulative hours
-    of staff time free for Nebraska residents. After 8 hours,
-    special service charges for staff time apply. Non-residents
-    may be charged proportional salary costs from the start. Fees
-    may be waived when disclosure benefits public understanding
-    of government operations. Advance deposit may be required for
-    requests exceeding $50 estimated cost.
-
+  notes: $0.25/page per AG enforcement guideline; statute requires fees not exceed "actual added cost." First 8 cumulative
+    hours of staff time free for Nebraska residents. After 8 hours, special service charges for staff time apply. Non-residents
+    may be charged proportional salary costs from the start. Fees may be waived when disclosure benefits public understanding
+    of government operations. Advance deposit may be required for requests exceeding $50 estimated cost.
 alpr:
   specific_exemption: true
-  exemption_citation: "Neb. Rev. Stat. §§ 60-3201 through 60-3207"
-  notes: >-
-    The Automatic License Plate Reader Privacy Act (LB93, 2018)
-    provides comprehensive ALPR regulation. Data retention
-    limited to 180 days unless data constitutes evidence,
-    is subject to a preservation request, or covered by warrant
-    or subpoena (§ 60-3204). Manual queries require documented
-    justification. Query entries automatically purged at shift
-    end unless investigation remains active. Annual usage reports
-    must be publicly posted (§ 60-3206). Data shared in
-    violation of the Act is inadmissible as evidence
-    (§ 60-3207).
-
+  exemption_citation: Neb. Rev. Stat. §§ 60-3201 through 60-3207
+  notes: The Automatic License Plate Reader Privacy Act (LB93, 2018) provides comprehensive ALPR regulation. Data retention
+    limited to 180 days unless data constitutes evidence, is subject to a preservation request, or covered by warrant or subpoena
+    (§ 60-3204). Manual queries require documented justification. Query entries automatically purged at shift end unless investigation
+    remains active. Annual usage reports must be publicly posted (§ 60-3206). Data shared in violation of the Act is inadmissible
+    as evidence (§ 60-3207).
 exemptions:
-  - Law enforcement investigation, intelligence, and complaint records (§ 84-712.05(5))
-  - ALPR data (§§ 60-3201 through 60-3207)
-  - Security of public property and persons (§ 84-712.05(9))
-  - Critical energy/electric infrastructure (§ 84-712.05(10))
-  - Cybersecurity records (§ 84-712.05(26))
-  - Attorney work product and litigation strategy (§ 84-712.05(4))
-  - Trade secrets and proprietary information (§ 84-712.05(3))
-
+- text: Law enforcement investigation, intelligence, and complaint records (§ 84-712.05(5))
+- text: ALPR data (§§ 60-3201 through 60-3207)
+- text: Security of public property and persons (§ 84-712.05(9))
+- text: Critical energy/electric infrastructure (§ 84-712.05(10))
+- text: Cybersecurity records (§ 84-712.05(26))
+- text: Attorney work product and litigation strategy (§ 84-712.05(4))
+- text: Trade secrets and proprietary information (§ 84-712.05(3))
 template_fragments:
-  statute_invocation: >-
-    Pursuant to the Nebraska Public Records Statutes
-    (Neb. Rev. Stat. § 84-712)
-  response_reminder: >-
-    Under Neb. Rev. Stat. § 84-712(4), the custodian must
-    respond within four business days after actual receipt with
-    access, copies, a written denial, or a written explanation
-    with the earliest practicable date for fulfillment.
-  fee_cap_notice: >-
-    If fulfilling this request will cost more than $__FEE_CAP__,
-    please provide an estimate before proceeding. Under
-    Neb. Rev. Stat. § 84-712(3)(b), the first eight cumulative
-    hours of search and retrieval time shall be provided without
-    charge to Nebraska residents.
-  electronic_delivery_clause: >-
-    I request that records be provided in electronic format where
-    available.
-  appeal_deadline_warning: >-
-    If this request is denied, I reserve the right to file for a
-    writ of mandamus in district court or petition the Attorney
-    General under Neb. Rev. Stat. § 84-712.03, with the burden
-    on the public body to sustain its withholding by clear and
-    convincing evidence.
+  statute_invocation: Pursuant to the Nebraska Public Records Statutes (Neb. Rev. Stat. § 84-712)
+  response_reminder: Under Neb. Rev. Stat. § 84-712(4), the custodian must respond within four business days after actual
+    receipt with access, copies, a written denial, or a written explanation with the earliest practicable date for fulfillment.
+  fee_cap_notice: If fulfilling this request will cost more than $__FEE_CAP__, please provide an estimate before proceeding.
+    Under Neb. Rev. Stat. § 84-712(3)(b), the first eight cumulative hours of search and retrieval time shall be provided
+    without charge to Nebraska residents.
+  electronic_delivery_clause: I request that records be provided in electronic format where available.
+  appeal_deadline_warning: If this request is denied, I reserve the right to file for a writ of mandamus in district court
+    or petition the Attorney General under Neb. Rev. Stat. § 84-712.03, with the burden on the public body to sustain its
+    withholding by clear and convincing evidence.

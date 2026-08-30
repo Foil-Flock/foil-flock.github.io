@@ -1,30 +1,21 @@
 name: Utah
 abbreviation: UT
 slug: utah
-
 statute:
   name: Government Records Access and Management Act
   short_name: GRAMA
-  citation: "Utah Code § 63G-2-101 et seq."
+  citation: Utah Code § 63G-2-101 et seq.
   url: https://le.utah.gov/xcode/Title63G/Chapter2/63G-2.html
-
 presumption: open
-
 response:
   initial_days: 10
   final_days: null
   day_type: business
-  notes: >-
-    A governmental entity must respond within 10 business days
-    after receiving a written request (§ 63G-2-204). Response
-    must: (a) approve the request and provide the records,
-    (b) deny the request with citation to specific exemptions,
-    (c) notify the requester that it does not maintain the records
-    and suggest the appropriate entity, or (d) describe the records
-    and provide estimated fees. The governmental entity may extend
-    the deadline by an additional 5 business days if extraordinary
-    circumstances exist.
-
+  notes: 'A governmental entity must respond within 10 business days after receiving a written request (§ 63G-2-204). Response
+    must: (a) approve the request and provide the records, (b) deny the request with citation to specific exemptions, (c)
+    notify the requester that it does not maintain the records and suggest the appropriate entity, or (d) describe the records
+    and provide estimated fees. The governmental entity may extend the deadline by an additional 5 business days if extraordinary
+    circumstances exist.'
 appeal:
   required_before_court: true
   deadline_days: 30
@@ -33,29 +24,22 @@ appeal:
   advisory_body:
     name: Government Records Ombudsman
     url: https://archives.utah.gov/gro/
-    phone: "(801) 531-3849"
+    phone: (801) 531-3849
     email: null
-    address: "346 South Rio Grande Street, Salt Lake City, UT 84101"
-
+    address: 346 South Rio Grande Street, Salt Lake City, UT 84101
 enforcement:
   penalty_type: fee_shifting
   per_day_cap: null
   attorney_fees: discretionary
-  fee_trigger: >-
-    Court may award reasonable attorney fees if the requester
-    substantially prevails and the governmental entity's position
-    was not substantially justified or was undertaken for purposes
-    of harassment (§ 63G-2-802(2)). Attorney fees are
-    discretionary ("may"). The State Records Committee may impose
-    a civil penalty up to $500 per violation (§ 63G-2-403).
-    Appeals from the Records Committee go to district court, with
-    de novo review.
+  fee_trigger: Court may award reasonable attorney fees if the requester substantially prevails and the governmental entity's
+    position was not substantially justified or was undertaken for purposes of harassment (§ 63G-2-802(2)). Attorney fees
+    are discretionary ("may"). The State Records Committee may impose a civil penalty up to $500 per violation (§ 63G-2-403).
+    Appeals from the Records Committee go to district court, with de novo review.
   court_action: Petition to district court (after exhausting administrative remedies)
   court_name: District Court
   filing_fee_approx: 375
   filing_deadline_days: 30
   burden_of_proof: agency
-
 fees:
   copy_per_page: null
   copy_max_size: null
@@ -63,60 +47,35 @@ fees:
   review_fee_allowed: false
   redaction_fee_allowed: false
   electronic_delivery_required: false
-  notes: >-
-    No statutory per-page rate; fees may not exceed actual cost of
-    duplicating the record. First 15 minutes of staff search time
-    free; after that, may charge at the rate of the lowest-paid
-    employee capable of fulfilling the request. May charge for
-    compiling a record in a form other than that maintained.
-    Fees may be waived if the request benefits the public rather
-    than the requester. Advance deposit may be required.
-
+  notes: No statutory per-page rate; fees may not exceed actual cost of duplicating the record. First 15 minutes of staff
+    search time free; after that, may charge at the rate of the lowest-paid employee capable of fulfilling the request. May
+    charge for compiling a record in a form other than that maintained. Fees may be waived if the request benefits the public
+    rather than the requester. Advance deposit may be required.
 alpr:
   specific_exemption: true
-  exemption_citation: "Utah Code § 63G-2-305(63) and §§ 41-6a-2001 et seq."
-  notes: >-
-    ALPR data is classified as a "protected record" under GRAMA
-    (§ 63G-2-305(63)). The Automatic License Plate Reader
-    System Act (§§ 41-6a-2001 et seq.) requires data
-    retention of no more than 9 months unless associated with an
-    active investigation or required by warrant, subpoena, or
-    court order. Protected records may be disclosed only to the
-    subject of the record, to the government entity holding the
-    record, or pursuant to a court order. Annual reporting on
-    ALPR usage is required.
-
+  exemption_citation: Utah Code § 63G-2-305(63) and §§ 41-6a-2001 et seq.
+  notes: ALPR data is classified as a "protected record" under GRAMA (§ 63G-2-305(63)). The Automatic License Plate Reader
+    System Act (§§ 41-6a-2001 et seq.) requires data retention of no more than 9 months unless associated with an active investigation
+    or required by warrant, subpoena, or court order. Protected records may be disclosed only to the subject of the record,
+    to the government entity holding the record, or pursuant to a court order. Annual reporting on ALPR usage is required.
 exemptions:
-  - Protected records including ALPR data (§ 63G-2-305)
-  - Private records (personal information) (§ 63G-2-302)
-  - Controlled records (medical, psychiatric, psychological) (§ 63G-2-304)
-  - Law enforcement records that would interfere with investigation (§ 63G-2-305(10))
-  - Trade secrets and confidential commercial information (§ 63G-2-305(1)-(2))
-  - Attorney-client privileged communications (§ 63G-2-305(17))
-  - Security measures and vulnerability assessments (§ 63G-2-305(37))
-
+- text: Protected records including ALPR data (§ 63G-2-305)
+- text: Private records (personal information) (§ 63G-2-302)
+- text: Controlled records (medical, psychiatric, psychological) (§ 63G-2-304)
+- text: Law enforcement records that would interfere with investigation (§ 63G-2-305(10))
+- text: Trade secrets and confidential commercial information (§ 63G-2-305(1)-(2))
+- text: Attorney-client privileged communications (§ 63G-2-305(17))
+- text: Security measures and vulnerability assessments (§ 63G-2-305(37))
 template_fragments:
-  statute_invocation: >-
-    Pursuant to the Government Records Access and Management Act
-    (Utah Code § 63G-2-101 et seq.)
-  response_reminder: >-
-    Under Utah Code § 63G-2-204, the governmental entity must
-    respond to this request within ten business days after receipt.
-  fee_cap_notice: >-
-    If fulfilling this request will cost more than $__FEE_CAP__,
-    please provide an estimate before proceeding. Under
-    Utah Code § 63G-2-203, fees may not exceed actual
-    duplication cost and the first 15 minutes of search time
-    shall be free of charge.
-  electronic_delivery_clause: >-
-    I request that records be provided in electronic format where
-    available, as GRAMA requires records to be provided in the
-    requested format when reasonably possible.
-  appeal_deadline_warning: >-
-    If this request is denied, I will appeal to the chief
-    administrative officer as required by Utah Code
-    § 63G-2-401 and reserve the right to petition the State
-    Records Committee under § 63G-2-403 or seek judicial
-    review under § 63G-2-404, with the burden on the
-    governmental entity to sustain its denial within 30 days
-    of the Director of State Archives's order.
+  statute_invocation: Pursuant to the Government Records Access and Management Act (Utah Code § 63G-2-101 et seq.)
+  response_reminder: Under Utah Code § 63G-2-204, the governmental entity must respond to this request within ten business
+    days after receipt.
+  fee_cap_notice: If fulfilling this request will cost more than $__FEE_CAP__, please provide an estimate before proceeding.
+    Under Utah Code § 63G-2-203, fees may not exceed actual duplication cost and the first 15 minutes of search time shall
+    be free of charge.
+  electronic_delivery_clause: I request that records be provided in electronic format where available, as GRAMA requires records
+    to be provided in the requested format when reasonably possible.
+  appeal_deadline_warning: If this request is denied, I will appeal to the chief administrative officer as required by Utah
+    Code § 63G-2-401 and reserve the right to petition the State Records Committee under § 63G-2-403 or seek judicial review
+    under § 63G-2-404, with the burden on the governmental entity to sustain its denial within 30 days of the Director of
+    State Archives's order.

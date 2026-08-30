@@ -1,27 +1,19 @@
 name: Texas
 abbreviation: TX
 slug: texas
-
 statute:
   name: Texas Public Information Act (PIA)
   short_name: PIA
-  citation: "Gov't Code Chapter 552"
+  citation: Gov't Code Chapter 552
   url: https://statutes.capitol.texas.gov/Docs/GV/htm/GV.552.htm
-
 presumption: open
-
 response:
   initial_days: 10
   final_days: null
   day_type: business
-  notes: >-
-    Agency must respond "promptly." If unable to produce records
-    within 10 business days, must certify in writing and set a date
-    for production. If the agency believes information is excepted,
-    it must request an Attorney General ruling within 10 business
-    days. Failure to timely request a ruling results in a
-    presumption that the information is public.
-
+  notes: Agency must respond "promptly." If unable to produce records within 10 business days, must certify in writing and
+    set a date for production. If the agency believes information is excepted, it must request an Attorney General ruling
+    within 10 business days. Failure to timely request a ruling results in a presumption that the information is public.
 appeal:
   required_before_court: false
   deadline_days: null
@@ -30,77 +22,51 @@ appeal:
   advisory_body:
     name: Office of the Attorney General, Open Records Division
     url: https://www.texasattorneygeneral.gov/open-government
-    phone: "(512) 478-3300"
+    phone: (512) 478-3300
     email: null
-    address: "PO Box 12548, Austin, TX 78711-2548"
-
+    address: PO Box 12548, Austin, TX 78711-2548
 enforcement:
   penalty_type: fee_shifting
   per_day_cap: null
   attorney_fees: mandatory
-  fee_trigger: >-
-    Court shall award reasonable attorney fees, costs, and expenses
-    to a requestor who substantially prevails, unless the agency
-    acted in reasonable reliance on a court judgment, appellate
-    opinion, or written AG decision. Gov't Code § 552.323.
+  fee_trigger: Court shall award reasonable attorney fees, costs, and expenses to a requestor who substantially prevails,
+    unless the agency acted in reasonable reliance on a court judgment, appellate opinion, or written AG decision. Gov't Code
+    § 552.323.
   court_action: Writ of mandamus
   court_name: District Court
   filing_fee_approx: 350
   filing_deadline_days: null
   burden_of_proof: agency
-
 fees:
-  copy_per_page: 0.10
+  copy_per_page: 0.1
   copy_max_size: null
   search_fee_allowed: true
   review_fee_allowed: false
   redaction_fee_allowed: true
   electronic_delivery_required: false
-  notes: >-
-    Standard copy charge is $0.10/page. Agencies may charge for
-    personnel time at the actual cost of the lowest-salaried
-    employee capable of performing the task when requests require
-    more than limited staff time. Overhead charge of 20% of
-    personnel costs may be added. Cost rules are set by the AG
-    under 1 TAC Chapter 70.
-
+  notes: Standard copy charge is $0.10/page. Agencies may charge for personnel time at the actual cost of the lowest-salaried
+    employee capable of performing the task when requests require more than limited staff time. Overhead charge of 20% of
+    personnel costs may be added. Cost rules are set by the AG under 1 TAC Chapter 70.
 alpr:
   specific_exemption: false
   exemption_citation: null
-  notes: >-
-    No ALPR-specific public records exemption. A 2025 bill
-    (HB 961) to regulate ALPR use did not advance. Texas has seen
-    a major surge in Flock camera deployments, with over 16,000
-    documented cameras statewide as of 2026. ALPR data is subject
-    to standard PIA exemptions, primarily law enforcement
-    investigation records.
-
+  notes: No ALPR-specific public records exemption. A 2025 bill (HB 961) to regulate ALPR use did not advance. Texas has seen
+    a major surge in Flock camera deployments, with over 16,000 documented cameras statewide as of 2026. ALPR data is subject
+    to standard PIA exemptions, primarily law enforcement investigation records.
 exemptions:
-  - Law enforcement investigation records (§ 552.108)
-  - Information relating to litigation (§ 552.103)
-  - Personal privacy (§ 552.101, constitutional right)
-  - Endanger physical safety (§ 552.152)
-  - Trade secrets and commercial information (§ 552.110)
-  - Internal personnel records (§ 552.102)
-
+- text: Law enforcement investigation records (§ 552.108)
+- text: Information relating to litigation (§ 552.103)
+- text: Personal privacy (§ 552.101, constitutional right)
+- text: Endanger physical safety (§ 552.152)
+- text: Trade secrets and commercial information (§ 552.110)
+- text: Internal personnel records (§ 552.102)
 template_fragments:
-  statute_invocation: >-
-    Pursuant to the Texas Public Information Act
-    (Gov't Code Chapter 552)
-  response_reminder: >-
-    I expect a prompt response as required by the Public Information
-    Act. If you believe any requested information is excepted from
-    disclosure, you must request an Attorney General ruling within
-    ten business days per § 552.301.
-  fee_cap_notice: >-
-    If fulfilling this request will cost more than $__FEE_CAP__,
-    please provide a written itemized estimate before proceeding.
-  electronic_delivery_clause: >-
-    I request that records be provided in electronic format where
-    available.
-  appeal_deadline_warning: >-
-    If this request is denied without a timely Attorney General
-    ruling, the information is presumed public under § 552.302.
-    I reserve the right to seek a writ of mandamus and all remedies
-    available under the PIA, including attorney fees under
-    § 552.323.
+  statute_invocation: Pursuant to the Texas Public Information Act (Gov't Code Chapter 552)
+  response_reminder: I expect a prompt response as required by the Public Information Act. If you believe any requested information
+    is excepted from disclosure, you must request an Attorney General ruling within ten business days per § 552.301.
+  fee_cap_notice: If fulfilling this request will cost more than $__FEE_CAP__, please provide a written itemized estimate
+    before proceeding.
+  electronic_delivery_clause: I request that records be provided in electronic format where available.
+  appeal_deadline_warning: If this request is denied without a timely Attorney General ruling, the information is presumed
+    public under § 552.302. I reserve the right to seek a writ of mandamus and all remedies available under the PIA, including
+    attorney fees under § 552.323.

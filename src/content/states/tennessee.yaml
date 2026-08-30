@@ -1,27 +1,19 @@
 name: Tennessee
 abbreviation: TN
 slug: tennessee
-
 statute:
   name: Tennessee Public Records Act (TPRA)
   short_name: TPRA
-  citation: "T.C.A. §§ 10-7-503 to 10-7-517"
+  citation: T.C.A. §§ 10-7-503 to 10-7-517
   url: https://law.justia.com/codes/tennessee/title-10/chapter-7/part-5/
-
 presumption: open
-
 response:
   initial_days: 7
   final_days: null
   day_type: business
-  notes: >-
-    Custodian must respond within 7 business days by producing records,
-    denying in writing with legal basis, or providing a time estimate
-    for production. Records that are readily available should be
-    provided promptly; the 7-day clock is the backstop when immediate
-    production is impracticable. No statutory cap on estimated
-    production time.
-
+  notes: Custodian must respond within 7 business days by producing records, denying in writing with legal basis, or providing
+    a time estimate for production. Records that are readily available should be provided promptly; the 7-day clock is the
+    backstop when immediate production is impracticable. No statutory cap on estimated production time.
 appeal:
   required_before_court: false
   deadline_days: null
@@ -33,22 +25,17 @@ appeal:
     phone: null
     email: null
     address: null
-
 enforcement:
   penalty_type: fee_shifting
   per_day_cap: null
   attorney_fees: discretionary
-  fee_trigger: >-
-    Courts may assess reasonable costs and attorney fees when the
-    entity "knowingly and willfully" refused to disclose a public
-    record. T.C.A. § 10-7-505(g). Agencies that followed OORC
-    guidance have a defense against willfulness findings.
+  fee_trigger: Courts may assess reasonable costs and attorney fees when the entity "knowingly and willfully" refused to disclose
+    a public record. T.C.A. § 10-7-505(g). Agencies that followed OORC guidance have a defense against willfulness findings.
   court_action: Show cause petition
   court_name: Chancery Court or Circuit Court
   filing_fee_approx: 300
   filing_deadline_days: null
   burden_of_proof: agency
-
 fees:
   copy_per_page: 0.15
   copy_max_size: null
@@ -56,48 +43,28 @@ fees:
   review_fee_allowed: true
   redaction_fee_allowed: true
   electronic_delivery_required: false
-  notes: >-
-    $0.15/page for black and white; $0.50/page for color copies.
-    Labor charges apply after the first free hour, at the hourly
-    wage of the employee performing the work. No per-page charges
-    for electronic delivery. Fee schedule set by the OORC under
-    T.C.A. § 8-4-604. Inspection is free.
-
+  notes: $0.15/page for black and white; $0.50/page for color copies. Labor charges apply after the first free hour, at the
+    hourly wage of the employee performing the work. No per-page charges for electronic delivery. Fee schedule set by the
+    OORC under T.C.A. § 8-4-604. Inspection is free.
 alpr:
   specific_exemption: false
   exemption_citation: null
-  notes: >-
-    Tennessee's ALPR confidentiality exemption under T.C.A.
-    § 10-7-504(a)(32) contained a sunset clause and was repealed
-    effective July 1, 2026. As of August 2026, captured plate data
-    appears subject to standard TPRA requests. Separately, T.C.A.
-    § 55-10-302 limits ALPR data retention to 90 days unless part
-    of an ongoing investigation.
-
+  notes: Tennessee's ALPR confidentiality exemption under T.C.A. § 10-7-504(a)(32) contained a sunset clause and was repealed
+    effective July 1, 2026. As of August 2026, captured plate data appears subject to standard TPRA requests. Separately,
+    T.C.A. § 55-10-302 limits ALPR data retention to 90 days unless part of an ongoing investigation.
 exemptions:
-  - Criminal investigative files (§ 10-7-504(a)(2))
-  - Electronic information systems security (§ 10-7-504(i))
-  - Government building security and surveillance recordings (§ 10-7-504(m))
-  - Utility and infrastructure vulnerability records (§ 10-7-504(a)(21))
-  - Personal identifying information (§ 10-7-504(a)(29))
-  - Law enforcement personnel information (§ 10-7-504(g))
-  - Attorney General investigation records (§ 8-6-407)
-
+- text: Criminal investigative files (§ 10-7-504(a)(2))
+- text: Electronic information systems security (§ 10-7-504(i))
+- text: Government building security and surveillance recordings (§ 10-7-504(m))
+- text: Utility and infrastructure vulnerability records (§ 10-7-504(a)(21))
+- text: Personal identifying information (§ 10-7-504(a)(29))
+- text: Law enforcement personnel information (§ 10-7-504(g))
+- text: Attorney General investigation records (§ 8-6-407)
 template_fragments:
-  statute_invocation: >-
-    Pursuant to the Tennessee Public Records Act
-    (T.C.A. §§ 10-7-503 to 10-7-517)
-  response_reminder: >-
-    I expect a response within seven business days as required by
-    T.C.A. § 10-7-503. If you deny any portion of this request,
-    please provide a written denial citing the specific legal basis.
-  fee_cap_notice: >-
-    If fulfilling this request will cost more than $__FEE_CAP__,
-    please provide an estimate before proceeding.
-  electronic_delivery_clause: >-
-    I request that records be provided in electronic format where
-    available.
-  appeal_deadline_warning: >-
-    If this request is denied, I reserve the right to petition for
-    access under T.C.A. § 10-7-505 and seek all remedies
-    available, including reasonable costs and attorney fees.
+  statute_invocation: Pursuant to the Tennessee Public Records Act (T.C.A. §§ 10-7-503 to 10-7-517)
+  response_reminder: I expect a response within seven business days as required by T.C.A. § 10-7-503. If you deny any portion
+    of this request, please provide a written denial citing the specific legal basis.
+  fee_cap_notice: If fulfilling this request will cost more than $__FEE_CAP__, please provide an estimate before proceeding.
+  electronic_delivery_clause: I request that records be provided in electronic format where available.
+  appeal_deadline_warning: If this request is denied, I reserve the right to petition for access under T.C.A. § 10-7-505 and
+    seek all remedies available, including reasonable costs and attorney fees.

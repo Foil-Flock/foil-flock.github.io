@@ -275,7 +275,14 @@ function feeLabel(type: string) {
     </p>
     <ul class="exemption-list">
       {s.exemptions.map((ex) => (
-        <li>{ex}</li>
+        <li>
+          {ex.text}
+          {ex.citation && (
+            ex.url
+              ? <a href={ex.url} target="_blank" rel="noopener" class="exemption-cite">{ex.citation}</a>
+              : <span class="exemption-cite">{ex.citation}</span>
+          )}
+        </li>
       ))}
     </ul>
   </section>
@@ -381,6 +388,18 @@ function feeLabel(type: string) {
     background: var(--surface);
     border: 1px solid var(--rule);
     border-radius: var(--radius);
+  }
+  .exemption-cite {
+    margin-left: 0.4em;
+    font-size: 12px;
+    color: var(--text-muted);
+  }
+  a.exemption-cite {
+    color: var(--accent);
+    border-bottom: none;
+  }
+  a.exemption-cite:hover {
+    color: var(--text);
   }
 
   /* ── Template generator overrides ─── */

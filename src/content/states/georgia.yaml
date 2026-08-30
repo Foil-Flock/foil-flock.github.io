@@ -1,26 +1,19 @@
 name: Georgia
 abbreviation: GA
 slug: georgia
-
 statute:
   name: Georgia Open Records Act (ORA)
   short_name: ORA
-  citation: "O.C.G.A. § 50-18-70 et seq."
+  citation: O.C.G.A. § 50-18-70 et seq.
   url: https://law.justia.com/codes/georgia/title-50/chapter-18/article-4/
-
 presumption: open
-
 response:
   initial_days: 3
   final_days: null
   day_type: business
-  notes: >-
-    Agency must respond within 3 business days by producing records,
-    providing a timeline for production, or denying with specific
-    legal authority. No charge for the first 15 minutes of search
-    time. Strong statutory presumption favoring disclosure without
-    delay.
-
+  notes: Agency must respond within 3 business days by producing records, providing a timeline for production, or denying
+    with specific legal authority. No charge for the first 15 minutes of search time. Strong statutory presumption favoring
+    disclosure without delay.
 appeal:
   required_before_court: false
   deadline_days: null
@@ -29,78 +22,52 @@ appeal:
   advisory_body:
     name: Office of the Attorney General, Open Government Unit
     url: https://law.georgia.gov/key-issues/open-government
-    phone: "(404) 458-3600"
+    phone: (404) 458-3600
     email: null
-    address: "40 Capitol Square SW, Atlanta, GA 30334"
-
+    address: 40 Capitol Square SW, Atlanta, GA 30334
 enforcement:
   penalty_type: both
   per_day_cap: null
   attorney_fees: discretionary
-  fee_trigger: >-
-    Courts may award attorney fees and costs to prevailing
-    requesters. Civil penalties of up to $1,000 for first violation
-    and $2,500 for subsequent violations within 12 months. Criminal
-    misdemeanor penalties also available. O.C.G.A. § 50-18-74.
+  fee_trigger: Courts may award attorney fees and costs to prevailing requesters. Civil penalties of up to $1,000 for first
+    violation and $2,500 for subsequent violations within 12 months. Criminal misdemeanor penalties also available. O.C.G.A.
+    § 50-18-74.
   court_action: Civil action or mandamus
   court_name: Superior Court
   filing_fee_approx: 250
   filing_deadline_days: null
   burden_of_proof: agency
-
 fees:
-  copy_per_page: 0.10
+  copy_per_page: 0.1
   copy_max_size: null
   search_fee_allowed: true
   review_fee_allowed: false
   redaction_fee_allowed: false
   electronic_delivery_required: false
-  notes: >-
-    Maximum 10 cents per page for letter/legal size copies. Search
-    fees capped at the prorated hourly salary of the lowest-paid
-    qualified employee. First 15 minutes of search time are free.
-    Requesters may use personal devices to copy records at no charge.
-    Advance payment required if estimated costs exceed $500.
-
+  notes: Maximum 10 cents per page for letter/legal size copies. Search fees capped at the prorated hourly salary of the lowest-paid
+    qualified employee. First 15 minutes of search time are free. Requesters may use personal devices to copy records at no
+    charge. Advance payment required if estimated costs exceed $500.
 alpr:
   specific_exemption: true
-  exemption_citation: "O.C.G.A. § 35-1-22"
-  notes: >-
-    Georgia law explicitly exempts ALPR data from public disclosure.
-    O.C.G.A. § 35-1-22(f) states captured license plate data
-    "shall not be subject to public disclosure pursuant to Article 4
-    of Chapter 18 of Title 50." Data must be destroyed within 30
-    months of collection unless related to an active investigation.
-    Flock Safety is headquartered in Atlanta; Georgia has over 9,600
-    documented ALPR cameras statewide.
-
+  exemption_citation: O.C.G.A. § 35-1-22
+  notes: Georgia law explicitly exempts ALPR data from public disclosure. O.C.G.A. § 35-1-22(f) states captured license plate
+    data "shall not be subject to public disclosure pursuant to Article 4 of Chapter 18 of Title 50." Data must be destroyed
+    within 30 months of collection unless related to an active investigation. Flock Safety is headquartered in Atlanta; Georgia
+    has over 9,600 documented ALPR cameras statewide.
 exemptions:
-  - Law enforcement investigation records
-  - ALPR captured license plate data (O.C.G.A. § 35-1-22)
-  - Personal privacy (medical, financial identifiers)
-  - Pending investigations until litigation is final
-  - Trade secrets (with required affidavit)
-  - Homeland security and terrorism response plans
-  - Computer software programs
-  - Sealed bids and proposals until contract award
-
+- text: Law enforcement investigation records
+- text: ALPR captured license plate data (O.C.G.A. § 35-1-22)
+- text: Personal privacy (medical, financial identifiers)
+- text: Pending investigations until litigation is final
+- text: Trade secrets (with required affidavit)
+- text: Homeland security and terrorism response plans
+- text: Computer software programs
+- text: Sealed bids and proposals until contract award
 template_fragments:
-  statute_invocation: >-
-    Pursuant to the Georgia Open Records Act
-    (O.C.G.A. § 50-18-70 et seq.)
-  response_reminder: >-
-    I expect a response within three business days as required by
-    O.C.G.A. § 50-18-71(b)(1)(A). If you deny any portion of
-    this request, please cite the specific statutory exemption and
-    provide a written explanation.
-  fee_cap_notice: >-
-    If fulfilling this request will cost more than $__FEE_CAP__,
-    please provide an estimate before proceeding.
-  electronic_delivery_clause: >-
-    I request that records be provided in electronic format where
-    available.
-  appeal_deadline_warning: >-
-    If this request is denied, I reserve the right to seek judicial
-    review and all remedies available under the Georgia Open Records
-    Act, including civil penalties under O.C.G.A. § 50-18-74
-    and attorney fees.
+  statute_invocation: Pursuant to the Georgia Open Records Act (O.C.G.A. § 50-18-70 et seq.)
+  response_reminder: I expect a response within three business days as required by O.C.G.A. § 50-18-71(b)(1)(A). If you deny
+    any portion of this request, please cite the specific statutory exemption and provide a written explanation.
+  fee_cap_notice: If fulfilling this request will cost more than $__FEE_CAP__, please provide an estimate before proceeding.
+  electronic_delivery_clause: I request that records be provided in electronic format where available.
+  appeal_deadline_warning: If this request is denied, I reserve the right to seek judicial review and all remedies available
+    under the Georgia Open Records Act, including civil penalties under O.C.G.A. § 50-18-74 and attorney fees.

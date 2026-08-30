@@ -1,51 +1,37 @@
 name: Nevada
 abbreviation: NV
 slug: nevada
-
 statute:
   name: Nevada Public Records Act
   short_name: NPRA
-  citation: "NRS Chapter 239"
+  citation: NRS Chapter 239
   url: https://www.leg.state.nv.us/nrs/nrs-239.html
-
 presumption: open
-
 response:
   initial_days: 5
   final_days: null
   day_type: business
-  notes: >-
-    Within 5 business days, entity must: (a) provide access or
-    copies, (b) redirect to correct entity in writing,
-    (c) provide written delay notice with estimated date, or
-    (d) deny in writing citing specific confidentiality statute
-    (NRS 239.0107). Readily available records must be produced
-    "as expeditiously as practicable," not held until the fifth
-    day. Entity must "make a reasonable effort to assist the
-    requester to focus the request."
-
+  notes: 'Within 5 business days, entity must: (a) provide access or copies, (b) redirect to correct entity in writing, (c)
+    provide written delay notice with estimated date, or (d) deny in writing citing specific confidentiality statute (NRS
+    239.0107). Readily available records must be produced "as expeditiously as practicable," not held until the fifth day.
+    Entity must "make a reasonable effort to assist the requester to focus the request."'
 appeal:
   required_before_court: false
   deadline_days: null
   response_days: null
   body: Direct court action (District Court)
   advisory_body: null
-
 enforcement:
   penalty_type: fee_shifting
   per_day_cap: null
   attorney_fees: mandatory
-  fee_trigger: >-
-    If the requester prevails, the requester is entitled to
-    recover costs and reasonable attorney fees from the
-    governmental entity. NRS 239.011. The phrase "is entitled to"
-    is mandatory. Court action receives priority docketing.
+  fee_trigger: If the requester prevails, the requester is entitled to recover costs and reasonable attorney fees from the
+    governmental entity. NRS 239.011. The phrase "is entitled to" is mandatory. Court action receives priority docketing.
   court_action: Civil action in district court
   court_name: District Court
   filing_fee_approx: 270
   filing_deadline_days: null
   burden_of_proof: agency
-
 fees:
   copy_per_page: null
   copy_max_size: null
@@ -53,55 +39,31 @@ fees:
   review_fee_allowed: false
   redaction_fee_allowed: false
   electronic_delivery_required: true
-  notes: >-
-    No fixed per-page rate; fees must not exceed actual cost
-    (NRS 239.052(1)). NRS 239.055 allows up to $0.50/page for
-    extraordinary use. Agencies may not charge for searching,
-    retrieving, reviewing, or redacting records. Electronic
-    copies must be provided when requested (NRS 239.010(4)).
-    One free copy each of meeting agendas, minutes, and
-    supporting materials (NRS 241.020). Agencies must post fee
-    schedules.
-
+  notes: No fixed per-page rate; fees must not exceed actual cost (NRS 239.052(1)). NRS 239.055 allows up to $0.50/page for
+    extraordinary use. Agencies may not charge for searching, retrieving, reviewing, or redacting records. Electronic copies
+    must be provided when requested (NRS 239.010(4)). One free copy each of meeting agendas, minutes, and supporting materials
+    (NRS 241.020). Agencies must post fee schedules.
 alpr:
   specific_exemption: false
   exemption_citation: null
-  notes: >-
-    Nevada has no dedicated ALPR statute or specific ALPR
-    exemption. No statutory data retention limits or access
-    restrictions specific to ALPR. ALPR data would be treated
-    as general law enforcement records and analyzed under the
-    balancing test from Donrey of Nevada v. Bradshaw (1990),
-    which weighs public interest in disclosure against potential
-    harm from release.
-
+  notes: Nevada has no dedicated ALPR statute or specific ALPR exemption. No statutory data retention limits or access restrictions
+    specific to ALPR. ALPR data would be treated as general law enforcement records and analyzed under the balancing test
+    from Donrey of Nevada v. Bradshaw (1990), which weighs public interest in disclosure against potential harm from release.
 exemptions:
-  - Records declared confidential by specific statute (NRS 239.010(1))
-  - Law enforcement investigative files (case-by-case balancing under Donrey v. Bradshaw)
-  - Confidential informant identities
-  - Police investigative techniques and methods
-  - Records whose disclosure would interfere with ongoing investigation
-  - Personal privacy interests (case-by-case balancing)
-
+- text: Records declared confidential by specific statute (NRS 239.010(1))
+- text: Law enforcement investigative files (case-by-case balancing under Donrey v. Bradshaw)
+- text: Confidential informant identities
+- text: Police investigative techniques and methods
+- text: Records whose disclosure would interfere with ongoing investigation
+- text: Personal privacy interests (case-by-case balancing)
 template_fragments:
-  statute_invocation: >-
-    Pursuant to the Nevada Public Records Act
-    (NRS § 239.010)
-  response_reminder: >-
-    NRS § 239.0107 requires a response not later than the end
-    of the fifth business day after receipt of this request.
-  fee_cap_notice: >-
-    If fulfilling this request will cost more than $__FEE_CAP__,
-    please provide an estimate before proceeding. Under
-    NRS § 239.052, fees must not exceed actual cost, and no
-    charges may be imposed for searching, retrieving, reviewing,
+  statute_invocation: Pursuant to the Nevada Public Records Act (NRS § 239.010)
+  response_reminder: NRS § 239.0107 requires a response not later than the end of the fifth business day after receipt of
+    this request.
+  fee_cap_notice: If fulfilling this request will cost more than $__FEE_CAP__, please provide an estimate before proceeding.
+    Under NRS § 239.052, fees must not exceed actual cost, and no charges may be imposed for searching, retrieving, reviewing,
     or redacting records.
-  electronic_delivery_clause: >-
-    Pursuant to NRS § 239.010(4), I request that records be
-    provided in electronic format by means of an electronic
-    medium.
-  appeal_deadline_warning: >-
-    If this request is denied, I reserve the right to seek
-    judicial enforcement, and under NRS § 239.011, a requester
-    who prevails is entitled to recover costs and reasonable
-    attorney fees from the governmental entity.
+  electronic_delivery_clause: Pursuant to NRS § 239.010(4), I request that records be provided in electronic format by means
+    of an electronic medium.
+  appeal_deadline_warning: If this request is denied, I reserve the right to seek judicial enforcement, and under NRS § 239.011,
+    a requester who prevails is entitled to recover costs and reasonable attorney fees from the governmental entity.

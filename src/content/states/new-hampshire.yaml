@@ -1,29 +1,20 @@
 name: New Hampshire
 abbreviation: NH
 slug: new-hampshire
-
 statute:
   name: Right-to-Know Law
   short_name: Right-to-Know Law
-  citation: "RSA Chapter 91-A"
+  citation: RSA Chapter 91-A
   url: https://www.gencourt.state.nh.us/rsa/html/VI/91-A/91-A-mrg.htm
-
 presumption: open
-
 response:
   initial_days: 5
   final_days: null
   day_type: business
-  notes: >-
-    Each request shall be made available within 5 business days
-    (RSA 91-A:4, IV). If the public body or agency is unable to
-    make the record available within 5 business days, it shall,
-    within that period, acknowledge receipt of the request and
-    provide a statement of the time reasonably necessary to
-    determine whether the request shall be granted or denied and
-    the reason for the delay. Refusals must cite specific
-    exemption(s).
-
+  notes: Each request shall be made available within 5 business days (RSA 91-A:4, IV). If the public body or agency is unable
+    to make the record available within 5 business days, it shall, within that period, acknowledge receipt of the request
+    and provide a statement of the time reasonably necessary to determine whether the request shall be granted or denied and
+    the reason for the delay. Refusals must cite specific exemption(s).
 appeal:
   required_before_court: false
   deadline_days: null
@@ -32,29 +23,22 @@ appeal:
   advisory_body:
     name: Right-to-Know Ombudsman
     url: https://www.doj.nh.gov/civil/right-to-know.html
-    phone: "(603) 271-3658"
+    phone: (603) 271-3658
     email: null
-    address: "33 Capitol Street, Concord, NH 03301"
-
+    address: 33 Capitol Street, Concord, NH 03301
 enforcement:
   penalty_type: both
   per_day_cap: null
   attorney_fees: mandatory
-  fee_trigger: >-
-    Court shall award reasonable attorney fees and costs if the
-    court finds that the public body or agency knowingly violated
-    the statute or if the lawsuit was necessary to make the
-    information available. RSA 91-A:8, I. Civil penalties of not
-    less than $250 and not more than $2,000 for knowing violations
-    (RSA 91-A:14). Court may also impose a fine of $2,000 for
-    destroying, altering, or falsifying a record with intent to
-    prevent disclosure (RSA 91-A:3-a).
+  fee_trigger: Court shall award reasonable attorney fees and costs if the court finds that the public body or agency knowingly
+    violated the statute or if the lawsuit was necessary to make the information available. RSA 91-A:8, I. Civil penalties
+    of not less than $250 and not more than $2,000 for knowing violations (RSA 91-A:14). Court may also impose a fine of $2,000
+    for destroying, altering, or falsifying a record with intent to prevent disclosure (RSA 91-A:3-a).
   court_action: Civil action in superior court
   court_name: Superior Court
   filing_fee_approx: 280
   filing_deadline_days: null
   burden_of_proof: agency
-
 fees:
   copy_per_page: null
   copy_max_size: null
@@ -62,58 +46,34 @@ fees:
   review_fee_allowed: false
   redaction_fee_allowed: false
   electronic_delivery_required: true
-  notes: >-
-    No statutory per-page rate; fees must reasonably reflect the
-    actual cost of providing the copy and may not include the
-    cost of staff time to search for, retrieve, or review records
-    (RSA 91-A:4, IV). If a record is maintained in electronic
-    format, it shall be provided in the electronic format requested
-    if it is feasible (RSA 91-A:4, III-b). Agencies may not charge
-    more than the actual cost of creating a copy.
-
+  notes: No statutory per-page rate; fees must reasonably reflect the actual cost of providing the copy and may not include
+    the cost of staff time to search for, retrieve, or review records (RSA 91-A:4, IV). If a record is maintained in electronic
+    format, it shall be provided in the electronic format requested if it is feasible (RSA 91-A:4, III-b). Agencies may not
+    charge more than the actual cost of creating a copy.
 alpr:
   specific_exemption: true
-  exemption_citation: "RSA 261:75-b"
-  notes: >-
-    RSA 261:75-b restricts ALPR data retention. Data not connected
-    to an active investigation must be purged within 3 minutes of
-    capture. This effectively prevents meaningful FOIA disclosure,
-    as data is destroyed almost immediately unless linked to an
-    ongoing investigation. NOTE: This provision is set to be
-    REPEALED effective January 1, 2027, per Laws 2016, Ch. 322.
-    After repeal, New Hampshire will have no ALPR-specific
-    retention or exemption statute.
-
+  exemption_citation: RSA 261:75-b
+  notes: 'RSA 261:75-b restricts ALPR data retention. Data not connected to an active investigation must be purged within
+    3 minutes of capture. This effectively prevents meaningful FOIA disclosure, as data is destroyed almost immediately unless
+    linked to an ongoing investigation. NOTE: This provision is set to be REPEALED effective January 1, 2027, per Laws 2016,
+    Ch. 322. After repeal, New Hampshire will have no ALPR-specific retention or exemption statute.'
 exemptions:
-  - Records whose disclosure would constitute invasion of privacy (RSA 91-A:5, IV)
-  - Confidential, commercial, or financial information (RSA 91-A:5, IV)
-  - Internal personnel practices (RSA 91-A:5, IV)
-  - Test questions and scoring keys (RSA 91-A:5, IV)
-  - Law enforcement investigative files (RSA 91-A:5, IV)
-  - Attorney-client privileged communications
-  - ALPR data not connected to active investigation (RSA 261:75-b)
-
+- text: Records whose disclosure would constitute invasion of privacy (RSA 91-A:5, IV)
+- text: Confidential, commercial, or financial information (RSA 91-A:5, IV)
+- text: Internal personnel practices (RSA 91-A:5, IV)
+- text: Test questions and scoring keys (RSA 91-A:5, IV)
+- text: Law enforcement investigative files (RSA 91-A:5, IV)
+- text: Attorney-client privileged communications
+- text: ALPR data not connected to active investigation (RSA 261:75-b)
 template_fragments:
-  statute_invocation: >-
-    Pursuant to New Hampshire's Right-to-Know Law
-    (RSA § 91-A:4)
-  response_reminder: >-
-    RSA § 91-A:4, IV requires that records be made available
-    within five business days of receipt of the request.
-  fee_cap_notice: >-
-    If fulfilling this request will cost more than $__FEE_CAP__,
-    please provide an estimate before proceeding. Under
-    RSA § 91-A:4, IV, fees must reasonably reflect actual
-    costs and may not include staff time to search for, retrieve,
+  statute_invocation: Pursuant to New Hampshire's Right-to-Know Law (RSA § 91-A:4)
+  response_reminder: RSA § 91-A:4, IV requires that records be made available within five business days of receipt of the
+    request.
+  fee_cap_notice: If fulfilling this request will cost more than $__FEE_CAP__, please provide an estimate before proceeding.
+    Under RSA § 91-A:4, IV, fees must reasonably reflect actual costs and may not include staff time to search for, retrieve,
     or review records.
-  electronic_delivery_clause: >-
-    Pursuant to RSA § 91-A:4, III-b, I request that records be
-    provided in electronic format, as public records maintained
-    in electronic format shall be provided in the electronic format
-    requested if feasible.
-  appeal_deadline_warning: >-
-    If this request is denied, I reserve the right to seek judicial
-    enforcement under RSA § 91-A:7, and under RSA § 91-A:8
-    the court shall award attorney fees and costs for knowing
-    violations, with civil penalties of $250 to $2,000 per
-    violation under RSA § 91-A:14.
+  electronic_delivery_clause: Pursuant to RSA § 91-A:4, III-b, I request that records be provided in electronic format, as
+    public records maintained in electronic format shall be provided in the electronic format requested if feasible.
+  appeal_deadline_warning: If this request is denied, I reserve the right to seek judicial enforcement under RSA § 91-A:7,
+    and under RSA § 91-A:8 the court shall award attorney fees and costs for knowing violations, with civil penalties of $250
+    to $2,000 per violation under RSA § 91-A:14.

@@ -85,7 +85,13 @@ const states = defineCollection({
     }),
 
     // ── Common exemptions invoked for surveillance records ────
-    exemptions: z.array(z.string()),
+    exemptions: z.array(
+      z.object({
+        text: z.string(),
+        citation: z.string().optional(),
+        url: z.string().url().optional(),
+      })
+    ),
 
     // ── Template fragments for letter generation ──────────────
     // These are state-specific phrases interpolated into request

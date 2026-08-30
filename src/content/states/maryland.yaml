@@ -1,27 +1,20 @@
 name: Maryland
 abbreviation: MD
 slug: maryland
-
 statute:
   name: Maryland Public Information Act (MPIA)
   short_name: MPIA
-  citation: "Md. Code, Gen. Prov. §§ 4-101 to 4-601"
+  citation: Md. Code, Gen. Prov. §§ 4-101 to 4-601
   url: https://law.justia.com/codes/maryland/general-provisions/title-4/
-
 presumption: open
-
 response:
   initial_days: 30
   final_days: null
   day_type: calendar
-  notes: >-
-    Custodian must grant or deny the request within 30 calendar days.
-    Written notice of anticipated delay must be provided within 10
-    working days. Once access is granted, production must occur
-    within 30 calendar days of receipt. Failure to produce within
-    the timeline is deemed a denial unless the custodian has complied
-    with notice provisions and is acting in good faith.
-
+  notes: Custodian must grant or deny the request within 30 calendar days. Written notice of anticipated delay must be provided
+    within 10 working days. Once access is granted, production must occur within 30 calendar days of receipt. Failure to produce
+    within the timeline is deemed a denial unless the custodian has complied with notice provisions and is acting in good
+    faith.
 appeal:
   required_before_court: false
   deadline_days: null
@@ -33,25 +26,19 @@ appeal:
     phone: null
     email: null
     address: null
-
 enforcement:
   penalty_type: fee_shifting
   per_day_cap: null
   attorney_fees: discretionary
-  fee_trigger: >-
-    Court may assess reasonable counsel fees and litigation costs
-    against a defendant governmental unit when the complainant has
-    substantially prevailed. Md. Code, Gen. Prov. § 4-362(f). If
-    the custodian acted arbitrarily or capriciously, the court shall
-    send its finding to the appointing authority for disciplinary
-    action. Willful violation is a misdemeanor with fine up to
-    $1,000. § 4-402.
+  fee_trigger: Court may assess reasonable counsel fees and litigation costs against a defendant governmental unit when the
+    complainant has substantially prevailed. Md. Code, Gen. Prov. § 4-362(f). If the custodian acted arbitrarily or capriciously,
+    the court shall send its finding to the appointing authority for disciplinary action. Willful violation is a misdemeanor
+    with fine up to $1,000. § 4-402.
   court_action: Civil action or injunction
   court_name: Circuit Court
   filing_fee_approx: 185
   filing_deadline_days: null
   burden_of_proof: agency
-
 fees:
   copy_per_page: null
   copy_max_size: null
@@ -59,54 +46,31 @@ fees:
   review_fee_allowed: false
   redaction_fee_allowed: false
   electronic_delivery_required: true
-  notes: >-
-    No statutory per-page rate; fees must bear a reasonable
-    relationship to actual costs. First 2 hours of search and
-    preparation time are free (§ 4-206(c)). Electronic copies
-    required when records exist in searchable/analyzable electronic
-    format (§ 4-205(c)(1)). Mandatory fee waiver for indigent
-    applicants below 50% of state median family income; discretionary
+  notes: No statutory per-page rate; fees must bear a reasonable relationship to actual costs. First 2 hours of search and
+    preparation time are free (§ 4-206(c)). Electronic copies required when records exist in searchable/analyzable electronic
+    format (§ 4-205(c)(1)). Mandatory fee waiver for indigent applicants below 50% of state median family income; discretionary
     waiver when in the public interest.
-
 alpr:
   specific_exemption: true
-  exemption_citation: "Md. Code, Gen. Prov. § 4-326"
-  notes: >-
-    Maryland has a mandatory ALPR exemption: custodians shall deny
-    inspection of captured plate data (§ 4-326). Separately, Pub.
-    Safety § 3-509 restricts ALPR data to legitimate law enforcement
-    purposes, requires 30-day retention limit for non-investigative
-    data, prohibits uploading to other agencies (except MCAC), and
-    bans data sales. Criminal penalty for violations: up to 1 year
-    imprisonment or $10,000 fine. 2024 SB 840 further restricted
-    data sharing.
-
+  exemption_citation: Md. Code, Gen. Prov. § 4-326
+  notes: 'Maryland has a mandatory ALPR exemption: custodians shall deny inspection of captured plate data (§ 4-326). Separately,
+    Pub. Safety § 3-509 restricts ALPR data to legitimate law enforcement purposes, requires 30-day retention limit for non-investigative
+    data, prohibits uploading to other agencies (except MCAC), and bans data sales. Criminal penalty for violations: up to
+    1 year imprisonment or $10,000 fine. 2024 SB 840 further restricted data sharing.'
 exemptions:
-  - ALPR captured plate data (Gen. Prov. § 4-326)
-  - Investigation records that would prejudice an investigation (§ 4-351)
-  - Arrest warrants and charging documents (§ 4-316)
-  - Traffic camera recorded images (§ 4-321)
-  - Surveillance images (§ 4-322)
-  - Personal privacy
-
+- text: ALPR captured plate data (Gen. Prov. § 4-326)
+- text: Investigation records that would prejudice an investigation (§ 4-351)
+- text: Arrest warrants and charging documents (§ 4-316)
+- text: Traffic camera recorded images (§ 4-321)
+- text: Surveillance images (§ 4-322)
+- text: Personal privacy
 template_fragments:
-  statute_invocation: >-
-    Pursuant to the Maryland Public Information Act
-    (Md. Code, Gen. Prov. §§ 4-101 to 4-601)
-  response_reminder: >-
-    I expect a response within thirty calendar days as required by
-    Md. Code, Gen. Prov. § 4-203. If you anticipate delay,
-    please provide written notice within ten working days.
-  fee_cap_notice: >-
-    If fulfilling this request will cost more than $__FEE_CAP__,
-    please provide an estimate before proceeding.
-  electronic_delivery_clause: >-
-    I request that records be provided in searchable and analyzable
-    electronic format as required by Md. Code, Gen. Prov.
-    § 4-205(c)(1).
-  appeal_deadline_warning: >-
-    If this request is denied, I reserve the right to seek judicial
-    review under Md. Code, Gen. Prov. § 4-362 and all remedies
-    available under the Maryland Public Information Act, including
-    attorney fees and disciplinary referral for arbitrary or
-    capricious conduct.
+  statute_invocation: Pursuant to the Maryland Public Information Act (Md. Code, Gen. Prov. §§ 4-101 to 4-601)
+  response_reminder: I expect a response within thirty calendar days as required by Md. Code, Gen. Prov. § 4-203. If you anticipate
+    delay, please provide written notice within ten working days.
+  fee_cap_notice: If fulfilling this request will cost more than $__FEE_CAP__, please provide an estimate before proceeding.
+  electronic_delivery_clause: I request that records be provided in searchable and analyzable electronic format as required
+    by Md. Code, Gen. Prov. § 4-205(c)(1).
+  appeal_deadline_warning: If this request is denied, I reserve the right to seek judicial review under Md. Code, Gen. Prov.
+    § 4-362 and all remedies available under the Maryland Public Information Act, including attorney fees and disciplinary
+    referral for arbitrary or capricious conduct.

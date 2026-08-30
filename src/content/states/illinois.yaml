@@ -1,25 +1,18 @@
 name: Illinois
 abbreviation: IL
 slug: illinois
-
 statute:
   name: Illinois Freedom of Information Act (FOIA)
   short_name: FOIA
   citation: 5 ILCS 140
   url: https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=85
-
 presumption: open
-
 response:
   initial_days: 5
   final_days: 10
   day_type: business
-  notes: >-
-    Agency must respond within 5 business days. May extend by an
-    additional 5 business days (10 total) by providing written
-    notice citing one of seven statutory reasons for delay. Failure
-    to respond within the statutory period is a denial.
-
+  notes: Agency must respond within 5 business days. May extend by an additional 5 business days (10 total) by providing written
+    notice citing one of seven statutory reasons for delay. Failure to respond within the statutory period is a denial.
 appeal:
   required_before_court: false
   deadline_days: 60
@@ -28,26 +21,21 @@ appeal:
   advisory_body:
     name: Public Access Counselor
     url: https://www.foia.ilattorneygeneral.net
-    phone: "(877) 299-3642"
+    phone: (877) 299-3642
     email: null
-    address: "500 S. 2nd Street, Springfield, IL 62701"
-
+    address: 500 S. 2nd Street, Springfield, IL 62701
 enforcement:
   penalty_type: both
   per_day_cap: null
   attorney_fees: mandatory
-  fee_trigger: >-
-    Court shall award reasonable attorney fees and costs to a
-    requester who prevails in a proceeding under FOIA. 5 ILCS
-    140/11(i). Civil penalties of $2,500 to $5,000 per occurrence
-    may be imposed for willful and intentional failure to comply.
-    5 ILCS 140/11(j).
+  fee_trigger: Court shall award reasonable attorney fees and costs to a requester who prevails in a proceeding under FOIA.
+    5 ILCS 140/11(i). Civil penalties of $2,500 to $5,000 per occurrence may be imposed for willful and intentional failure
+    to comply. 5 ILCS 140/11(j).
   court_action: Civil action
   court_name: Circuit Court
   filing_fee_approx: 250
   filing_deadline_days: null
   burden_of_proof: agency
-
 fees:
   copy_per_page: 0.15
   copy_max_size: null
@@ -55,49 +43,29 @@ fees:
   review_fee_allowed: false
   redaction_fee_allowed: false
   electronic_delivery_required: true
-  notes: >-
-    Black-and-white copies at $0.15/page. First 50 pages are free.
-    Color copies at actual cost. Electronic records provided at
-    cost of the medium only. No search or review fees permitted.
-
+  notes: Black-and-white copies at $0.15/page. First 50 pages are free. Color copies at actual cost. Electronic records provided
+    at cost of the medium only. No search or review fees permitted.
 alpr:
   specific_exemption: false
   exemption_citation: null
-  notes: >-
-    No ALPR public records exemption. However, 625 ILCS 5/2-130
-    regulates ALPR use: ALPR information must be held
-    confidentially to the fullest extent permitted by law, and
-    sharing with out-of-state agencies for immigration enforcement
-    or reproductive health investigations is prohibited. No
-    specific data retention period is set in the statute.
-
+  notes: 'No ALPR public records exemption. However, 625 ILCS 5/2-130 regulates ALPR use: ALPR information must be held confidentially
+    to the fullest extent permitted by law, and sharing with out-of-state agencies for immigration enforcement or reproductive
+    health investigations is prohibited. No specific data retention period is set in the statute.'
 exemptions:
-  - Law enforcement investigation records (§ 7(1)(c))
-  - Personal privacy (§ 7(1)(b))
-  - Endanger life or physical safety (§ 7(1)(a))
-  - Preliminary drafts and notes (§ 7(1)(f))
-  - Trade secrets and commercial information (§ 7(1)(g))
-  - Information security vulnerabilities (§ 7(1)(gg))
-
+- text: Law enforcement investigation records (§ 7(1)(c))
+- text: Personal privacy (§ 7(1)(b))
+- text: Endanger life or physical safety (§ 7(1)(a))
+- text: Preliminary drafts and notes (§ 7(1)(f))
+- text: Trade secrets and commercial information (§ 7(1)(g))
+- text: Information security vulnerabilities (§ 7(1)(gg))
 template_fragments:
-  statute_invocation: >-
-    Pursuant to the Illinois Freedom of Information Act
-    (5 ILCS 140)
-  response_reminder: >-
-    I expect a response within five business days as required by
-    5 ILCS 140/3. If you deny any portion of this request, please
-    provide a written notice specifying the statutory exemption
-    and a detailed factual basis for the denial.
-  fee_cap_notice: >-
-    If fulfilling this request will cost more than $__FEE_CAP__,
-    please provide an estimate before proceeding. Please note
-    that the first 50 pages of black-and-white copies are free
-    under the Act.
-  electronic_delivery_clause: >-
-    I request that records be provided in electronic format
-    pursuant to 5 ILCS 140/6.
-  appeal_deadline_warning: >-
-    If this request is denied, I intend to file a Request for
-    Review with the Public Access Counselor and reserve the right
-    to seek judicial review and all remedies available under FOIA,
-    including attorney fees and civil penalties.
+  statute_invocation: Pursuant to the Illinois Freedom of Information Act (5 ILCS 140)
+  response_reminder: I expect a response within five business days as required by 5 ILCS 140/3. If you deny any portion of
+    this request, please provide a written notice specifying the statutory exemption and a detailed factual basis for the
+    denial.
+  fee_cap_notice: If fulfilling this request will cost more than $__FEE_CAP__, please provide an estimate before proceeding.
+    Please note that the first 50 pages of black-and-white copies are free under the Act.
+  electronic_delivery_clause: I request that records be provided in electronic format pursuant to 5 ILCS 140/6.
+  appeal_deadline_warning: If this request is denied, I intend to file a Request for Review with the Public Access Counselor
+    and reserve the right to seek judicial review and all remedies available under FOIA, including attorney fees and civil
+    penalties.

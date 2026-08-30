@@ -1,29 +1,20 @@
 name: Iowa
 abbreviation: IA
 slug: iowa
-
 statute:
   name: Iowa Open Records Law
   short_name: Iowa Open Records Law
-  citation: "Iowa Code Chapter 22"
+  citation: Iowa Code Chapter 22
   url: https://law.justia.com/codes/iowa/title-i/chapter-22/
-
 presumption: open
-
 response:
   initial_days: 0
   final_days: null
   day_type: business
-  notes: >-
-    No fixed statutory deadline. Records must be provided
-    "promptly upon request unless the size or nature of the
-    request makes prompt access infeasible." Custodians must
-    "make every reasonable effort to provide the public record
-    requested at no cost other than copying costs for a record
-    which takes less than thirty minutes to produce"
-    (§ 22.3(1)). The IPIB has advised that no fixed time limit
-    exists for production (Advisory Opinion 14FO:0004).
-
+  notes: No fixed statutory deadline. Records must be provided "promptly upon request unless the size or nature of the request
+    makes prompt access infeasible." Custodians must "make every reasonable effort to provide the public record requested
+    at no cost other than copying costs for a record which takes less than thirty minutes to produce" (§ 22.3(1)). The IPIB
+    has advised that no fixed time limit exists for production (Advisory Opinion 14FO:0004).
 appeal:
   required_before_court: false
   deadline_days: 60
@@ -32,27 +23,21 @@ appeal:
   advisory_body:
     name: Iowa Public Information Board (IPIB)
     url: https://ipib.iowa.gov/
-    phone: "(515) 393-8339"
+    phone: (515) 393-8339
     email: null
-    address: "510 E 12th St, Des Moines, IA 50319"
-
+    address: 510 E 12th St, Des Moines, IA 50319
 enforcement:
   penalty_type: fee_shifting
   per_day_cap: null
   attorney_fees: mandatory
-  fee_trigger: >-
-    Court shall order payment of all costs and reasonable
-    attorney fees to any plaintiff successfully establishing a
-    violation of Chapter 22. Iowa Code § 22.10(3)(c). No bad
-    faith or willfulness requirement. Damages of $100 to $500
-    per violation; $1,000 to $2,500 if knowing participation.
-    Complaint to IPIB must be filed within 60 days of violation.
+  fee_trigger: Court shall order payment of all costs and reasonable attorney fees to any plaintiff successfully establishing
+    a violation of Chapter 22. Iowa Code § 22.10(3)(c). No bad faith or willfulness requirement. Damages of $100 to $500 per
+    violation; $1,000 to $2,500 if knowing participation. Complaint to IPIB must be filed within 60 days of violation.
   court_action: Mandamus, injunction, or civil enforcement action
   court_name: District Court
   filing_fee_approx: 215
   filing_deadline_days: null
   burden_of_proof: agency
-
 fees:
   copy_per_page: null
   copy_max_size: null
@@ -60,57 +45,32 @@ fees:
   review_fee_allowed: true
   redaction_fee_allowed: true
   electronic_delivery_required: false
-  notes: >-
-    No statutory per-page rate; fees vary by agency and must not
-    exceed actual cost. Actual costs may not include "employment
-    benefits, depreciation, maintenance, electricity, or
-    insurance associated with the administration of the office."
-    Requests taking less than 30 minutes should be provided at no
-    cost beyond copying. Legal service costs apply only to
-    redaction or review of legally protected confidential
-    information. Electronic access available "when feasible"
-    (permissive, not mandatory).
-
+  notes: No statutory per-page rate; fees vary by agency and must not exceed actual cost. Actual costs may not include "employment
+    benefits, depreciation, maintenance, electricity, or insurance associated with the administration of the office." Requests
+    taking less than 30 minutes should be provided at no cost beyond copying. Legal service costs apply only to redaction
+    or review of legally protected confidential information. Electronic access available "when feasible" (permissive, not
+    mandatory).
 alpr:
   specific_exemption: false
   exemption_citation: null
-  notes: >-
-    No enacted ALPR legislation as of August 2026. Bill SF 2284 /
-    HF 2161 advanced through the Iowa House in early 2026 but had
-    not been signed into law. Proposed provisions include 30-day
-    data retention limit and prohibition on facial recognition
-    use. ALPR data would likely be classified under existing
-    exemptions for peace officers' investigative reports
-    (§ 22.7(5)) or criminal identification files (§ 22.7(9))
-    depending on context.
-
+  notes: No enacted ALPR legislation as of August 2026. Bill SF 2284 / HF 2161 advanced through the Iowa House in early 2026
+    but had not been signed into law. Proposed provisions include 30-day data retention limit and prohibition on facial recognition
+    use. ALPR data would likely be classified under existing exemptions for peace officers' investigative reports (§ 22.7(5))
+    or criminal identification files (§ 22.7(9)) depending on context.
 exemptions:
-  - Peace officers' investigative reports and privileged records (§ 22.7(5))
-  - Criminal identification files (§ 22.7(9))
-  - Communications from private citizens to government (§ 22.7(18))
-  - Crisis intervention reports (§ 22.7(5A))
-  - Attorney work product and litigation strategy
-  - Confidential personnel records
-
+- text: Peace officers' investigative reports and privileged records (§ 22.7(5))
+- text: Criminal identification files (§ 22.7(9))
+- text: Communications from private citizens to government (§ 22.7(18))
+- text: Crisis intervention reports (§ 22.7(5A))
+- text: Attorney work product and litigation strategy
+- text: Confidential personnel records
 template_fragments:
-  statute_invocation: >-
-    Pursuant to the Iowa Open Records Law
-    (Iowa Code Chapter 22, § 22.1 et seq.)
-  response_reminder: >-
-    Iowa Code § 22.3(1) requires custodians to make every
-    reasonable effort to provide records promptly upon request,
-    at no cost beyond copying for records taking less than thirty
-    minutes to produce.
-  fee_cap_notice: >-
-    If fulfilling this request will cost more than $__FEE_CAP__,
-    please provide an estimate before proceeding. Under Iowa Code
-    § 22.3(2), fees may not exceed actual cost and may not
-    include employment benefits, depreciation, or overhead.
-  electronic_delivery_clause: >-
-    I request that records be provided in electronic format where
-    feasible, as contemplated by Iowa Code § 22.2(3).
-  appeal_deadline_warning: >-
-    If this request is denied, I reserve the right to seek
-    judicial enforcement under Iowa Code § 22.10 and all
-    remedies available, including mandatory attorney fees and
-    damages of $100 to $500 per violation.
+  statute_invocation: Pursuant to the Iowa Open Records Law (Iowa Code Chapter 22, § 22.1 et seq.)
+  response_reminder: Iowa Code § 22.3(1) requires custodians to make every reasonable effort to provide records promptly upon
+    request, at no cost beyond copying for records taking less than thirty minutes to produce.
+  fee_cap_notice: If fulfilling this request will cost more than $__FEE_CAP__, please provide an estimate before proceeding.
+    Under Iowa Code § 22.3(2), fees may not exceed actual cost and may not include employment benefits, depreciation, or overhead.
+  electronic_delivery_clause: I request that records be provided in electronic format where feasible, as contemplated by Iowa
+    Code § 22.2(3).
+  appeal_deadline_warning: If this request is denied, I reserve the right to seek judicial enforcement under Iowa Code § 22.10
+    and all remedies available, including mandatory attorney fees and damages of $100 to $500 per violation.

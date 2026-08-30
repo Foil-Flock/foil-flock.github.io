@@ -1,55 +1,39 @@
 name: Arkansas
 abbreviation: AR
 slug: arkansas
-
 statute:
   name: Arkansas Freedom of Information Act of 1967
   short_name: Arkansas FOIA
-  citation: "Ark. Code Ann. § 25-19-101 et seq."
+  citation: Ark. Code Ann. § 25-19-101 et seq.
   url: https://law.justia.com/codes/arkansas/title-25/chapter-19/
-
 presumption: open
-
 response:
   initial_days: 3
   final_days: null
   day_type: business
-  notes: >-
-    Records must be provided "immediately" during regular
-    business hours if available. If a record is "in active use or
-    storage and therefore not available," the custodian must
-    certify this in writing and set a date within 3 working days
-    for inspection. For personnel/evaluation records, the
-    custodian must determine exemption status within 24 hours.
-
+  notes: Records must be provided "immediately" during regular business hours if available. If a record is "in active use
+    or storage and therefore not available," the custodian must certify this in writing and set a date within 3 working days
+    for inspection. For personnel/evaluation records, the custodian must determine exemption status within 24 hours.
 appeal:
   required_before_court: false
   deadline_days: null
   response_days: null
   body: Direct court action (Circuit Court)
   advisory_body: null
-
 enforcement:
   penalty_type: fee_shifting
   per_day_cap: null
   attorney_fees: mandatory
-  fee_trigger: >-
-    Court shall assess reasonable attorney fees against a
-    non-state defendant when plaintiff obtained a significant or
-    material portion of the requested information, unless the
-    court finds the defendant's position was substantially
-    justified. § 25-19-107(d)(1). Exception: court shall NOT
-    assess fees against the State of Arkansas or its departments;
-    prevailing plaintiffs against the state must file a claim
-    with the Arkansas State Claims Commission within 60 days.
-    Criminal penalty: Class C misdemeanor for negligent violations
-    (§ 25-19-104), fine up to $500, up to 30 days jail.
+  fee_trigger: 'Court shall assess reasonable attorney fees against a non-state defendant when plaintiff obtained a significant
+    or material portion of the requested information, unless the court finds the defendant''s position was substantially justified.
+    § 25-19-107(d)(1). Exception: court shall NOT assess fees against the State of Arkansas or its departments; prevailing
+    plaintiffs against the state must file a claim with the Arkansas State Claims Commission within 60 days. Criminal penalty:
+    Class C misdemeanor for negligent violations (§ 25-19-104), fine up to $500, up to 30 days jail.'
   court_action: Petition to circuit court
   court_name: Circuit Court
   filing_fee_approx: 80
   filing_deadline_days: null
   burden_of_proof: agency
-
 fees:
   copy_per_page: null
   copy_max_size: null
@@ -57,63 +41,36 @@ fees:
   review_fee_allowed: false
   redaction_fee_allowed: false
   electronic_delivery_required: false
-  notes: >-
-    No statutory per-page rate; must not exceed actual costs of
-    reproduction including medium, supplies, equipment, and
-    maintenance (§ 25-19-105(d)). Personnel time for searching
-    or reviewing is not chargeable. If estimated fees exceed $25,
-    custodian may require advance deposit. Audio/visual media
-    from law enforcement: $0 for first 3 hours of footage;
-    $20/hour thereafter (§ 25-19-112). Fees may be waived for
-    noncommercial public interest requests.
-
+  notes: 'No statutory per-page rate; must not exceed actual costs of reproduction including medium, supplies, equipment,
+    and maintenance (§ 25-19-105(d)). Personnel time for searching or reviewing is not chargeable. If estimated fees exceed
+    $25, custodian may require advance deposit. Audio/visual media from law enforcement: $0 for first 3 hours of footage;
+    $20/hour thereafter (§ 25-19-112). Fees may be waived for noncommercial public interest requests.'
 alpr:
   specific_exemption: true
-  exemption_citation: "Ark. Code Ann. §§ 12-12-1801 through 12-12-1808"
-  notes: >-
-    Arkansas has comprehensive ALPR legislation (Automatic License
-    Plate Reader System Act). Captured plate data may only be
-    disclosed to the registered vehicle owner, with the owner's
-    written consent, or under the federal Driver's Privacy
-    Protection Act (§ 12-12-1808). However, "practice and usage
-    data compiled and preserved under § 12-12-1806 are a public
-    record" subject to FOIA. Data retention limited to 150 days
-    on primary server (12 CAR § 24-104). Statistical data must
+  exemption_citation: Ark. Code Ann. §§ 12-12-1801 through 12-12-1808
+  notes: Arkansas has comprehensive ALPR legislation (Automatic License Plate Reader System Act). Captured plate data may
+    only be disclosed to the registered vehicle owner, with the owner's written consent, or under the federal Driver's Privacy
+    Protection Act (§ 12-12-1808). However, "practice and usage data compiled and preserved under § 12-12-1806 are a public
+    record" subject to FOIA. Data retention limited to 150 days on primary server (12 CAR § 24-104). Statistical data must
     be compiled every 6 months and retained for 18 months.
-
 exemptions:
-  - Undisclosed investigations of suspected criminal activity (§ 25-19-105(b)(6))
-  - ALPR captured plate data (§§ 12-12-1801 to 12-12-1808)
-  - Identities of undercover law enforcement officers (§ 25-19-105(b)(12))
-  - Confidential informant/source information
-  - Grand jury minutes (§ 25-19-105(b)(7))
-  - Computer access codes, passwords, security measures (§ 25-19-105(b)(13))
-  - Personnel records (clearly unwarranted invasion of privacy) (§ 25-19-105(b)(10))
-
+- text: Undisclosed investigations of suspected criminal activity (§ 25-19-105(b)(6))
+- text: ALPR captured plate data (§§ 12-12-1801 to 12-12-1808)
+- text: Identities of undercover law enforcement officers (§ 25-19-105(b)(12))
+- text: Confidential informant/source information
+- text: Grand jury minutes (§ 25-19-105(b)(7))
+- text: Computer access codes, passwords, security measures (§ 25-19-105(b)(13))
+- text: Personnel records (clearly unwarranted invasion of privacy) (§ 25-19-105(b)(10))
 template_fragments:
-  statute_invocation: >-
-    Pursuant to the Arkansas Freedom of Information Act
-    (Ark. Code Ann. § 25-19-105)
-  response_reminder: >-
-    Under Ark. Code Ann. § 25-19-105(d), if records are not
-    immediately available, the custodian must certify this in
-    writing and set a date within three working days for
-    inspection.
-  fee_cap_notice: >-
-    If fulfilling this request will cost more than $__FEE_CAP__,
-    please provide an estimate before proceeding. Under
-    Ark. Code Ann. § 25-19-105(d), fees shall not exceed
-    actual costs of reproduction and may not include charges for
+  statute_invocation: Pursuant to the Arkansas Freedom of Information Act (Ark. Code Ann. § 25-19-105)
+  response_reminder: Under Ark. Code Ann. § 25-19-105(d), if records are not immediately available, the custodian must certify
+    this in writing and set a date within three working days for inspection.
+  fee_cap_notice: If fulfilling this request will cost more than $__FEE_CAP__, please provide an estimate before proceeding.
+    Under Ark. Code Ann. § 25-19-105(d), fees shall not exceed actual costs of reproduction and may not include charges for
     personnel time.
-  electronic_delivery_clause: >-
-    I request that records be provided in electronic format, as
-    the statute requires custodians to furnish copies in any
-    medium in which the record is readily available or in any
-    format to which it is readily convertible with existing
-    software.
-  appeal_deadline_warning: >-
-    If this request is denied, I reserve the right to petition
-    the circuit court under Ark. Code Ann. § 25-19-107, which
-    shall fix a hearing date within seven days, and the court
-    shall assess reasonable attorney fees against non-state
-    defendants whose position is not substantially justified.
+  electronic_delivery_clause: I request that records be provided in electronic format, as the statute requires custodians
+    to furnish copies in any medium in which the record is readily available or in any format to which it is readily convertible
+    with existing software.
+  appeal_deadline_warning: If this request is denied, I reserve the right to petition the circuit court under Ark. Code Ann.
+    § 25-19-107, which shall fix a hearing date within seven days, and the court shall assess reasonable attorney fees against
+    non-state defendants whose position is not substantially justified.

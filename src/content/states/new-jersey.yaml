@@ -1,25 +1,18 @@
 name: New Jersey
 abbreviation: NJ
 slug: new-jersey
-
 statute:
   name: Open Public Records Act (OPRA)
   short_name: OPRA
   citation: N.J.S.A. 47:1A-1 et seq.
   url: https://www.nj.gov/grc/act/
-
 presumption: open
-
 response:
   initial_days: 7
   final_days: null
   day_type: business
-  notes: >-
-    Custodian must respond within 7 business days (14 for verified
-    commercial-purpose requests). If unable to fulfill within the
-    deadline, must notify the requester and provide a specific date.
-    Failure to respond is a deemed denial.
-
+  notes: Custodian must respond within 7 business days (14 for verified commercial-purpose requests). If unable to fulfill
+    within the deadline, must notify the requester and provide a specific date. Failure to respond is a deemed denial.
 appeal:
   required_before_court: false
   deadline_days: 45
@@ -28,27 +21,21 @@ appeal:
   advisory_body:
     name: Government Records Council (GRC)
     url: https://www.nj.gov/grc/
-    phone: "(609) 292-6830"
+    phone: (609) 292-6830
     email: null
-    address: "PO Box 819, Trenton, NJ 08625-0819"
-
+    address: PO Box 819, Trenton, NJ 08625-0819
 enforcement:
   penalty_type: both
   per_day_cap: null
   attorney_fees: discretionary
-  fee_trigger: >-
-    Following 2024 reforms, attorney fees are now discretionary.
-    Prevailing requesters may recover fees when the agency acted
-    unreasonably or in bad faith. Civil penalties for knowing and
-    willful violations: $1,000 first offense, $2,500 second,
-    $5,000 third (plus potential discipline), with a 10-year
-    lookback period.
+  fee_trigger: 'Following 2024 reforms, attorney fees are now discretionary. Prevailing requesters may recover fees when the
+    agency acted unreasonably or in bad faith. Civil penalties for knowing and willful violations: $1,000 first offense, $2,500
+    second, $5,000 third (plus potential discipline), with a 10-year lookback period.'
   court_action: Civil action or GRC complaint
   court_name: Superior Court
   filing_fee_approx: 300
   filing_deadline_days: null
   burden_of_proof: agency
-
 fees:
   copy_per_page: 0.05
   copy_max_size: null
@@ -56,46 +43,25 @@ fees:
   review_fee_allowed: false
   redaction_fee_allowed: false
   electronic_delivery_required: true
-  notes: >-
-    Letter-size copies at $0.05/page; legal-size at $0.07/page.
-    Electronic records provided free of charge. Agencies may
-    charge special service fees only for unusually demanding
-    requests requiring extensive IT or clerical resources.
-
+  notes: Letter-size copies at $0.05/page; legal-size at $0.07/page. Electronic records provided free of charge. Agencies
+    may charge special service fees only for unusually demanding requests requiring extensive IT or clerical resources.
 alpr:
   specific_exemption: false
   exemption_citation: null
-  notes: >-
-    No ALPR-specific exemption. A pending bill aims to restrict
-    sharing of license plate data in reproductive health
-    investigations. ALPR data is subject to standard OPRA
-    exemptions.
-
+  notes: No ALPR-specific exemption. A pending bill aims to restrict sharing of license plate data in reproductive health
+    investigations. ALPR data is subject to standard OPRA exemptions.
 exemptions:
-  - Criminal investigatory records
-  - Personal privacy (personnel and medical records)
-  - Emergency security information
-  - Trade secrets and proprietary competitive information
-  - Attorney-client privileged communications
-  - Homeland security and anti-terrorism records
-
+- text: Criminal investigatory records
+- text: Personal privacy (personnel and medical records)
+- text: Emergency security information
+- text: Trade secrets and proprietary competitive information
+- text: Attorney-client privileged communications
+- text: Homeland security and anti-terrorism records
 template_fragments:
-  statute_invocation: >-
-    Pursuant to New Jersey's Open Public Records Act
-    (N.J.S.A. 47:1A-1 et seq.)
-  response_reminder: >-
-    I expect a response within seven business days as required by
-    N.J.S.A. 47:1A-5(i). If you deny any portion of this request,
-    please cite the specific statutory basis for denial and provide
-    a written explanation.
-  fee_cap_notice: >-
-    If fulfilling this request will cost more than $__FEE_CAP__,
-    please provide an estimate before proceeding.
-  electronic_delivery_clause: >-
-    I request that records be provided in electronic format,
-    which is free of charge under OPRA.
-  appeal_deadline_warning: >-
-    If this request is denied, I intend to file a complaint with
-    the Government Records Council and reserve the right to seek
-    judicial review in Superior Court, including all remedies
-    available under OPRA.
+  statute_invocation: Pursuant to New Jersey's Open Public Records Act (N.J.S.A. 47:1A-1 et seq.)
+  response_reminder: I expect a response within seven business days as required by N.J.S.A. 47:1A-5(i). If you deny any portion
+    of this request, please cite the specific statutory basis for denial and provide a written explanation.
+  fee_cap_notice: If fulfilling this request will cost more than $__FEE_CAP__, please provide an estimate before proceeding.
+  electronic_delivery_clause: I request that records be provided in electronic format, which is free of charge under OPRA.
+  appeal_deadline_warning: If this request is denied, I intend to file a complaint with the Government Records Council and
+    reserve the right to seek judicial review in Superior Court, including all remedies available under OPRA.

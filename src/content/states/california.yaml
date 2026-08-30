@@ -1,97 +1,65 @@
 name: California
 abbreviation: CA
 slug: california
-
 statute:
   name: California Public Records Act (CPRA)
   short_name: CPRA
-  citation: "Gov. Code §§ 7920.000–7930.215"
+  citation: Gov. Code §§ 7920.000–7930.215
   url: https://leginfo.legislature.ca.gov/faces/codes_displayexpandedbranch.xhtml?tocCode=GOV&division=10.&title=1.&part=&chapter=&article=
-
 presumption: open
-
 response:
   initial_days: 10
   final_days: 24
   day_type: calendar
-  notes: >-
-    Agency must respond within 10 calendar days. May extend up to
-    14 additional days with written notice stating reasons and the
-    expected date of determination. Failure to respond is a
-    constructive denial.
-
+  notes: Agency must respond within 10 calendar days. May extend up to 14 additional days with written notice stating reasons
+    and the expected date of determination. Failure to respond is a constructive denial.
 appeal:
   required_before_court: false
   deadline_days: null
   response_days: null
   body: Direct court action (no administrative appeal required)
   advisory_body: null
-
 enforcement:
   penalty_type: fee_shifting
   per_day_cap: null
   attorney_fees: mandatory
-  fee_trigger: >-
-    Court shall award reasonable attorney fees and costs to a
-    requester who prevails in litigation. Gov. Code § 7923.115.
+  fee_trigger: Court shall award reasonable attorney fees and costs to a requester who prevails in litigation. Gov. Code §
+    7923.115.
   court_action: Petition for writ of mandate or injunctive/declaratory relief
   court_name: Superior Court
   filing_fee_approx: 435
   filing_deadline_days: null
   burden_of_proof: agency
-
 fees:
-  copy_per_page: 0.10
+  copy_per_page: 0.1
   copy_max_size: null
   search_fee_allowed: false
   review_fee_allowed: false
   redaction_fee_allowed: false
   electronic_delivery_required: true
-  notes: >-
-    Agencies may charge direct costs of duplication only. No search
-    or compilation fees for standard requests. For electronic records
-    requiring data extraction or programming, agencies may charge
-    the cost of producing a copy in electronic format. Electronic
-    delivery is required when requested per § 7922.570(a).
-
+  notes: Agencies may charge direct costs of duplication only. No search or compilation fees for standard requests. For electronic
+    records requiring data extraction or programming, agencies may charge the cost of producing a copy in electronic format.
+    Electronic delivery is required when requested per § 7922.570(a).
 alpr:
   specific_exemption: false
   exemption_citation: null
-  notes: >-
-    No ALPR public records exemption, but Cal. Civ. Code
-    § 1798.90.5 (SB 34, 2015) regulates ALPR use: bars selling
-    data or sharing with private entities, requires agencies to post
-    ALPR usage and privacy policies publicly, and mandates
-    reasonable retention periods. Governor Newsom vetoed SB 210
-    (2024), which would have further restricted police use and
-    sharing of ALPR data. ALPR records are subject to standard
-    CPRA exemptions.
-
+  notes: 'No ALPR public records exemption, but Cal. Civ. Code § 1798.90.5 (SB 34, 2015) regulates ALPR use: bars selling
+    data or sharing with private entities, requires agencies to post ALPR usage and privacy policies publicly, and mandates
+    reasonable retention periods. Governor Newsom vetoed SB 210 (2024), which would have further restricted police use and
+    sharing of ALPR data. ALPR records are subject to standard CPRA exemptions.'
 exemptions:
-  - Law enforcement investigation records (Gov. Code § 7923.600)
-  - Personal privacy (catch-all balancing test)
-  - Endanger safety of individuals
-  - Intelligence information or security procedures
-  - Draft or preliminary documents (deliberative process)
-  - Attorney-client privileged communications
-  - Trade secrets
-
+- text: Law enforcement investigation records (Gov. Code § 7923.600)
+- text: Personal privacy (catch-all balancing test)
+- text: Endanger safety of individuals
+- text: Intelligence information or security procedures
+- text: Draft or preliminary documents (deliberative process)
+- text: Attorney-client privileged communications
+- text: Trade secrets
 template_fragments:
-  statute_invocation: >-
-    Pursuant to the California Public Records Act
-    (Gov. Code §§ 7920.000–7930.215)
-  response_reminder: >-
-    I expect a determination within ten calendar days as required
-    by Gov. Code § 7922.535. If you deny any portion of this
-    request, please cite the specific statutory exemption and explain
-    how it applies to each withheld record.
-  fee_cap_notice: >-
-    If fulfilling this request will cost more than $__FEE_CAP__,
-    please provide a written estimate before proceeding.
-  electronic_delivery_clause: >-
-    I request that records be provided in electronic format
-    pursuant to Gov. Code § 7922.570(a).
-  appeal_deadline_warning: >-
-    If this request is denied, I reserve the right to seek judicial
-    review and all remedies available under the CPRA, including
-    attorney fees and costs under Gov. Code § 7923.115.
+  statute_invocation: Pursuant to the California Public Records Act (Gov. Code §§ 7920.000–7930.215)
+  response_reminder: I expect a determination within ten calendar days as required by Gov. Code § 7922.535. If you deny any
+    portion of this request, please cite the specific statutory exemption and explain how it applies to each withheld record.
+  fee_cap_notice: If fulfilling this request will cost more than $__FEE_CAP__, please provide a written estimate before proceeding.
+  electronic_delivery_clause: I request that records be provided in electronic format pursuant to Gov. Code § 7922.570(a).
+  appeal_deadline_warning: If this request is denied, I reserve the right to seek judicial review and all remedies available
+    under the CPRA, including attorney fees and costs under Gov. Code § 7923.115.

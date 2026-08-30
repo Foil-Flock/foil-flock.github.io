@@ -1,50 +1,37 @@
 name: South Carolina
 abbreviation: SC
 slug: south-carolina
-
 statute:
   name: South Carolina Freedom of Information Act
   short_name: SC FOIA
-  citation: "S.C. Code § 30-4-10 et seq."
+  citation: S.C. Code § 30-4-10 et seq.
   url: https://www.scstatehouse.gov/code/t30c004.php
-
 presumption: open
-
 response:
   initial_days: 10
   final_days: 30
   day_type: business
-  notes: >-
-    Two-tier system: notification of determination within 10 business
-    days for records less than 24 months old (20 business days for
-    older records). Production within 30 calendar days of final
-    determination. If written notification is not provided within the
-    deadline, the request is deemed approved as to nonexempt records.
-    Established by 2017 Act No. 67.
-
+  notes: 'Two-tier system: notification of determination within 10 business days for records less than 24 months old (20 business
+    days for older records). Production within 30 calendar days of final determination. If written notification is not provided
+    within the deadline, the request is deemed approved as to nonexempt records. Established by 2017 Act No. 67.'
 appeal:
   required_before_court: false
   deadline_days: 365
   response_days: null
   body: Direct court action (Circuit Court)
   advisory_body: null
-
 enforcement:
   penalty_type: fee_shifting
   per_day_cap: null
   attorney_fees: discretionary
-  fee_trigger: >-
-    Court may award reasonable attorney fees and costs to a prevailing
-    requestor. S.C. Code § 30-4-100(B). Separate civil fine of $500
-    if the court finds the public body arbitrarily and capriciously
-    violated the Act by refusal or delay. § 30-4-110. Good faith
-    reliance on a prior court determination bars fee awards.
+  fee_trigger: Court may award reasonable attorney fees and costs to a prevailing requestor. S.C. Code § 30-4-100(B). Separate
+    civil fine of $500 if the court finds the public body arbitrarily and capriciously violated the Act by refusal or delay.
+    § 30-4-110. Good faith reliance on a prior court determination bars fee awards.
   court_action: Declaratory judgment or injunctive relief
   court_name: Circuit Court
   filing_fee_approx: 150
   filing_deadline_days: 365
   burden_of_proof: agency
-
 fees:
   copy_per_page: null
   copy_max_size: null
@@ -52,51 +39,30 @@ fees:
   review_fee_allowed: false
   redaction_fee_allowed: false
   electronic_delivery_required: false
-  notes: >-
-    No statutory per-page rate; copy charges may not exceed the
-    prevailing commercial rate. Search and retrieval fees capped at
-    the prorated hourly salary of the lowest-paid qualified employee.
-    No charges for examination and review to determine disclosability.
-    No copy charges for electronic transmission of records already in
-    electronic format. Agency may require deposit up to 25% of
-    estimated costs. Fee waiver available when in the public interest.
-
+  notes: No statutory per-page rate; copy charges may not exceed the prevailing commercial rate. Search and retrieval fees
+    capped at the prorated hourly salary of the lowest-paid qualified employee. No charges for examination and review to determine
+    disclosability. No copy charges for electronic transmission of records already in electronic format. Agency may require
+    deposit up to 25% of estimated costs. Fee waiver available when in the public interest.
 alpr:
   specific_exemption: false
   exemption_citation: null
-  notes: >-
-    No ALPR-specific public records exemption. S. 447 (2025-2026
-    session) would regulate ALPR use and set 90-day retention limits
-    but does not create a FOIA exemption; it received a favorable
-    committee report but has not passed. Body-worn camera data is
-    separately exempt under § 23-1-240. ALPR data is subject to the
-    general law enforcement records exemption under § 30-4-40(a)(3).
-
+  notes: No ALPR-specific public records exemption. S. 447 (2025-2026 session) would regulate ALPR use and set 90-day retention
+    limits but does not create a FOIA exemption; it received a favorable committee report but has not passed. Body-worn camera
+    data is separately exempt under § 23-1-240. ALPR data is subject to the general law enforcement records exemption under
+    § 30-4-40(a)(3).
 exemptions:
-  - Law enforcement investigative records (§ 30-4-40(a)(3))
-  - Personal privacy (§ 30-4-40(a)(2))
-  - Body-worn camera recordings (§ 23-1-240, separate statute)
-  - Attorney-client privilege (§ 30-4-40(a)(7))
-  - Records exempted by other statutes (§ 30-4-40(a)(4))
-  - Confidential informant identity
-
+- text: Law enforcement investigative records (§ 30-4-40(a)(3))
+- text: Personal privacy (§ 30-4-40(a)(2))
+- text: Body-worn camera recordings (§ 23-1-240, separate statute)
+- text: Attorney-client privilege (§ 30-4-40(a)(7))
+- text: Records exempted by other statutes (§ 30-4-40(a)(4))
+- text: Confidential informant identity
 template_fragments:
-  statute_invocation: >-
-    Pursuant to the South Carolina Freedom of Information Act
-    (S.C. Code § 30-4-10 et seq.)
-  response_reminder: >-
-    I expect written notification of your determination within ten
-    business days as required by S.C. Code § 30-4-30(c). If
-    notification is not provided within this period, the request is
-    deemed approved as to nonexempt records.
-  fee_cap_notice: >-
-    If fulfilling this request will cost more than $__FEE_CAP__,
-    please provide an estimate before proceeding.
-  electronic_delivery_clause: >-
-    I request that records be provided in electronic format where
-    available.
-  appeal_deadline_warning: >-
-    If this request is denied, I reserve the right to seek judicial
-    review under S.C. Code § 30-4-100 and all remedies available
-    under the South Carolina Freedom of Information Act, including
-    attorney fees and civil penalties under § 30-4-110.
+  statute_invocation: Pursuant to the South Carolina Freedom of Information Act (S.C. Code § 30-4-10 et seq.)
+  response_reminder: I expect written notification of your determination within ten business days as required by S.C. Code
+    § 30-4-30(c). If notification is not provided within this period, the request is deemed approved as to nonexempt records.
+  fee_cap_notice: If fulfilling this request will cost more than $__FEE_CAP__, please provide an estimate before proceeding.
+  electronic_delivery_clause: I request that records be provided in electronic format where available.
+  appeal_deadline_warning: If this request is denied, I reserve the right to seek judicial review under S.C. Code § 30-4-100
+    and all remedies available under the South Carolina Freedom of Information Act, including attorney fees and civil penalties
+    under § 30-4-110.
