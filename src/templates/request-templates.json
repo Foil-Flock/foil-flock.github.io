@@ -1,0 +1,59 @@
+{
+  "_description": "Parameterized request letter templates. Placeholders use __DOUBLE_UNDERSCORE__ format. State-specific legal phrases come from template_fragments in state YAML files; agency contact info from agencies.json; user input fills the rest.",
+
+  "templates": [
+    {
+      "id": "detection_data",
+      "name": "ALPR Detection Data",
+      "description": "Request captured license plate data, images, and metadata for a specific time window.",
+      "use_when": "You want to see what the cameras actually recorded — plates, vehicle descriptions, images, timestamps.",
+      "user_fields": [
+        { "id": "date", "label": "Date of interest", "type": "date", "required": true },
+        { "id": "time_start", "label": "Start time", "type": "time", "required": true },
+        { "id": "time_end", "label": "End time", "type": "time", "required": true },
+        { "id": "location", "label": "Location (road, intersection, or area)", "type": "text", "required": false, "placeholder": "e.g., Route 9A near Main Street" },
+        { "id": "fee_cap", "label": "Cost cap ($)", "type": "number", "required": false, "default": 25 }
+      ],
+      "body": "To: __AGENCY_RAO_OR_HEAD__\nFrom: __USER_NAME__\nDate: __TODAY_DATE__\nSubject: __STATE_SHORT_NAME__ Request — ALPR/Flock Safety Detection Data\n\nDear Records Access Officer:\n\n__STATE_STATUTE_INVOCATION__, I request access to and copies of the following records:\n\nAll automated license plate reader (ALPR) detection logs, images, and associated metadata captured by any ALPR device (including but not limited to Flock Safety cameras) operated by or on behalf of __AGENCY_NAME__ during the following time period:\n\nDate: __USER_DATE__\nTime: __USER_TIME_START__ to __USER_TIME_END__\n__IF_LOCATION__Location: __USER_LOCATION__\n__ENDIF__\nThis includes but is not limited to: license plate numbers, vehicle make/model/color, vehicle images, detection timestamps, camera identification numbers, and any alerts generated.\n\n__STATE_ELECTRONIC_DELIVERY__\n\n__STATE_FEE_CAP_NOTICE__\n\n__STATE_RESPONSE_REMINDER__\n\nThank you for your assistance.\n\n__USER_NAME__\n__USER_ADDRESS__\n__USER_EMAIL__"
+    },
+    {
+      "id": "contracts_policies",
+      "name": "Contracts, Policies & Data Sharing",
+      "description": "Request the Flock/ALPR contract, usage policies, data retention rules, and data-sharing agreements.",
+      "use_when": "You want to understand the terms under which your municipality adopted surveillance cameras — cost, data access rules, who else can see the data.",
+      "user_fields": [
+        { "id": "start_date", "label": "Records since (year)", "type": "number", "required": false, "default": 2020, "placeholder": "e.g., 2020" },
+        { "id": "audit_days", "label": "Audit log period (days)", "type": "number", "required": false, "default": 90 },
+        { "id": "fee_cap", "label": "Cost cap ($)", "type": "number", "required": false, "default": 50 }
+      ],
+      "body": "To: __AGENCY_RAO_OR_HEAD__\nFrom: __USER_NAME__\nDate: __TODAY_DATE__\nSubject: __STATE_SHORT_NAME__ Request — ALPR/Flock Safety Contracts and Policies\n\nDear Records Access Officer:\n\n__STATE_STATUTE_INVOCATION__, I request access to and copies of the following records:\n\n1. All contracts, agreements, memoranda of understanding, and amendments between __AGENCY_NAME__ and Flock Safety, Inc. (or any other ALPR technology vendor) currently in effect or in effect at any time since January 1, __USER_START_DATE__.\n\n2. All policies, procedures, protocols, and guidelines governing the use of automated license plate reader technology by __AGENCY_NAME__, including data retention schedules, access controls, and audit procedures.\n\n3. All data-sharing agreements permitting other law enforcement agencies to access ALPR data collected by __AGENCY_NAME__, or permitting __AGENCY_NAME__ to access data collected by other agencies.\n\n4. All records of payments made to Flock Safety, Inc. (or any ALPR vendor) since January 1, __USER_START_DATE__.\n\n5. Audit logs showing which personnel accessed the ALPR system and what queries were run, for the most recent __USER_AUDIT_DAYS__-day period.\n\n__STATE_ELECTRONIC_DELIVERY__\n\n__STATE_FEE_CAP_NOTICE__\n\n__STATE_RESPONSE_REMINDER__\n\nThank you for your assistance.\n\n__USER_NAME__\n__USER_ADDRESS__\n__USER_EMAIL__"
+    },
+    {
+      "id": "appeal_denial",
+      "name": "Administrative Appeal (Denial)",
+      "description": "Appeal a denied records request to the agency head.",
+      "use_when": "Your request was explicitly denied and you received a written denial citing a specific exemption.",
+      "user_fields": [
+        { "id": "original_date", "label": "Date of original request", "type": "date", "required": true },
+        { "id": "denial_date", "label": "Date of denial", "type": "date", "required": true },
+        { "id": "records_description", "label": "Brief description of records requested", "type": "textarea", "required": true },
+        { "id": "exemption_cited", "label": "Exemption cited in denial", "type": "text", "required": true, "placeholder": "e.g., law enforcement exemption" },
+        { "id": "counter_argument", "label": "Why the exemption doesn't apply", "type": "textarea", "required": true, "placeholder": "e.g., No active investigation has been identified, and no record-by-record justification was provided." },
+        { "id": "foil_ref", "label": "FOIL reference number (if assigned)", "type": "text", "required": false }
+      ],
+      "body": "To: __AGENCY_APPEALS_OFFICER__\n__IF_ADVISORY_BODY__cc: __ADVISORY_BODY_NAME__\n    __ADVISORY_BODY_ADDRESS__\n__ENDIF__From: __USER_NAME__\nDate: __TODAY_DATE__\nSubject: __STATE_SHORT_NAME__ Appeal__IF_FOIL_REF__ — __USER_FOIL_REF____ENDIF__\n\nDear __AGENCY_APPEALS_OFFICER__:\n\nI write to appeal the denial of my __STATE_SHORT_NAME__ request submitted on __USER_ORIGINAL_DATE__, in which I requested __USER_RECORDS_DESCRIPTION__.\n\nOn __USER_DENIAL_DATE__, I received a written denial citing __USER_EXEMPTION_CITED__. This denial lacks a reasonable basis because __USER_COUNTER_ARGUMENT__.\n\nI request immediate release of the requested records.\n\n__STATE_APPEAL_DEADLINE_WARNING__\n\n__IF_ADVISORY_BODY__I have copied the __ADVISORY_BODY_NAME__ on this appeal as required by statute.\n__ENDIF__\nThank you for your prompt attention.\n\n__USER_NAME__\n__USER_ADDRESS__\n__USER_EMAIL__"
+    },
+    {
+      "id": "appeal_nonresponse",
+      "name": "Administrative Appeal (Non-Response)",
+      "description": "Appeal when the agency simply never responded to your request.",
+      "use_when": "More than five business days have passed and you received no acknowledgment, denial, or estimated response date.",
+      "user_fields": [
+        { "id": "original_date", "label": "Date of original request", "type": "date", "required": true },
+        { "id": "records_description", "label": "Brief description of records requested", "type": "textarea", "required": true },
+        { "id": "foil_ref", "label": "FOIL reference number (if assigned)", "type": "text", "required": false }
+      ],
+      "body": "To: __AGENCY_APPEALS_OFFICER__\n__IF_ADVISORY_BODY__cc: __ADVISORY_BODY_NAME__\n    __ADVISORY_BODY_ADDRESS__\n__ENDIF__From: __USER_NAME__\nDate: __TODAY_DATE__\nSubject: __STATE_SHORT_NAME__ Appeal (Non-Response)__IF_FOIL_REF__ — __USER_FOIL_REF____ENDIF__\n\nDear __AGENCY_APPEALS_OFFICER__:\n\nI write to appeal the constructive denial of my __STATE_SHORT_NAME__ request submitted on __USER_ORIGINAL_DATE__, in which I requested __USER_RECORDS_DESCRIPTION__.\n\nMore than __STATE_INITIAL_RESPONSE_DAYS__ business days have elapsed since my request was received, and I have received no acknowledgment, denial, or estimated response date. Under applicable law, this constitutes a constructive denial.\n\nI request immediate release of the requested records.\n\n__STATE_APPEAL_DEADLINE_WARNING__\n\n__IF_ADVISORY_BODY__I have copied the __ADVISORY_BODY_NAME__ on this appeal as required by statute.\n__ENDIF__\nThank you for your prompt attention.\n\n__USER_NAME__\n__USER_ADDRESS__\n__USER_EMAIL__"
+    }
+  ]
+}

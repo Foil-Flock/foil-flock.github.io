@@ -1,0 +1,99 @@
+name: New York
+abbreviation: NY
+slug: new-york
+
+statute:
+  name: Freedom of Information Law (FOIL)
+  short_name: FOIL
+  citation: "Public Officers Law \xA7\xA7 84–90"
+  url: https://www.archives.nysed.gov/records/mr_laws_po6.shtml
+
+presumption: open
+
+response:
+  initial_days: 5
+  final_days: 20
+  day_type: business
+  notes: >-
+    Agency must acknowledge within 5 business days. If unable to fulfill
+    immediately, must provide approximate date within 20 business days.
+    Failure to respond is a constructive denial.
+
+appeal:
+  required_before_court: true
+  deadline_days: 30
+  response_days: 10
+  body: Agency head or designated appeals officer
+  advisory_body:
+    name: Committee on Open Government (COOG)
+    url: https://opengovernment.ny.gov
+    phone: "(518) 474-2518"
+    email: null
+    address: "99 Washington Ave., Suite 650, Albany, NY 12231"
+
+enforcement:
+  penalty_type: fee_shifting
+  per_day_cap: null
+  attorney_fees: mandatory
+  fee_trigger: >-
+    Agency lacked a reasonable basis for denying access (mandatory).
+    Also discretionary when agency failed to respond within statutory
+    timeframe. Pending bill S1418A (passed Senate 52-6, May 2026) would
+    lower standard from "substantially prevails" to "prevails."
+  court_action: Article 78 proceeding
+  court_name: Supreme Court
+  filing_fee_approx: 305
+  filing_deadline_days: 120
+  burden_of_proof: agency
+
+fees:
+  copy_per_page: 0.25
+  copy_max_size: "9x14 inches"
+  search_fee_allowed: false
+  review_fee_allowed: false
+  redaction_fee_allowed: false
+  electronic_delivery_required: true
+  notes: >-
+    For electronic records requiring more than 2 hours of employee time,
+    agencies may charge the hourly rate of the lowest-paid qualified
+    employee, with advance cost estimate required.
+
+alpr:
+  specific_exemption: false
+  exemption_citation: null
+  notes: >-
+    No ALPR-specific exemption. ALPR data subject to standard FOIL
+    exemptions only. NYCLU class action pending against Westchester
+    County. Institute for Justice recruiting plaintiffs for Fourth
+    Amendment challenge to Westchester ALPR system (400+ cameras,
+    2-year retention).
+
+exemptions:
+  - Law enforcement investigation interference
+  - Unwarranted invasion of personal privacy
+  - Endanger life or safety
+  - IT security compromise
+  - Trade secrets
+  - Inter-agency/intra-agency materials (excluding factual data, public instructions, final policies)
+
+template_fragments:
+  statute_invocation: >-
+    Pursuant to New York's Freedom of Information Law
+    (Public Officers Law \xA7\xA7 84–90)
+  response_reminder: >-
+    I expect a response within five business days as required by law.
+    If you deny any portion of this request, please cite the specific
+    statutory exemption relied upon and provide a written explanation
+    of how that exemption applies to each withheld record.
+  fee_cap_notice: >-
+    If fulfilling this request will cost more than $__FEE_CAP__,
+    please provide an estimate before proceeding.
+  electronic_delivery_clause: >-
+    I request that records be provided in electronic format pursuant
+    to \xA7 87(1)(b).
+  appeal_deadline_warning: >-
+    Under \xA7 89(4)(a), you are required to respond to this appeal
+    within ten business days, providing either the records or a
+    written explanation of the legal basis for continued denial.
+    Failure to respond within this period constitutes a final denial
+    for purposes of judicial review.

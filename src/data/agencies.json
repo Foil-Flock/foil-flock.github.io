@@ -1,0 +1,90 @@
+{
+  "_schema_version": "0.1.0",
+  "_description": "Agency directory. Seeded from FlockRadar + MuckRock, extended by community contributions. Each entry represents one government agency with known or suspected ALPR deployments.",
+  "_contributing": "To add or correct an agency, submit a PR editing this file. Include a source URL for any factual claim.",
+
+  "agencies": [
+    {
+      "id": "westchester-county-dps-ny",
+      "name": "Westchester County Department of Public Safety",
+      "type": "police",
+      "jurisdiction": "Westchester County",
+      "jurisdiction_type": "county",
+      "state": "NY",
+      "contact": {
+        "records_access_officer": null,
+        "email": null,
+        "phone": null,
+        "form_url": "https://www.westchestergov.com/contact-us/foil-form",
+        "mailing_address": "110 Dr. Martin Luther King Jr. Blvd., White Plains, NY 10601",
+        "submission_methods": ["web_form", "mail"]
+      },
+      "alpr": {
+        "vendor": "unknown",
+        "camera_count": 400,
+        "retention_period": "2 years",
+        "contract_status": "active",
+        "transparency_portal_url": null
+      },
+      "sources": [
+        "https://ij.org/case-intake/westchester-license-plate-cameras-alprs/"
+      ],
+      "last_verified": "2026-08-30"
+    },
+    {
+      "id": "scarsdale-pd-ny",
+      "name": "Scarsdale Police Department",
+      "type": "police",
+      "jurisdiction": "Scarsdale",
+      "jurisdiction_type": "village",
+      "state": "NY",
+      "contact": {
+        "records_access_officer": null,
+        "email": null,
+        "phone": null,
+        "form_url": null,
+        "mailing_address": "50 Tompkins Road, Scarsdale, NY 10583",
+        "submission_methods": ["email", "mail"]
+      },
+      "alpr": {
+        "vendor": "flock",
+        "camera_count": null,
+        "retention_period": null,
+        "contract_status": "unknown",
+        "transparency_portal_url": null
+      },
+      "sources": [
+        "https://fliptheflock.org/states/new-york/"
+      ],
+      "last_verified": "2026-08-30"
+    },
+    {
+      "id": "sedro-woolley-pd-wa",
+      "name": "Sedro-Woolley Police Department",
+      "type": "police",
+      "jurisdiction": "Sedro-Woolley",
+      "jurisdiction_type": "city",
+      "state": "WA",
+      "contact": {
+        "records_access_officer": null,
+        "email": null,
+        "phone": null,
+        "form_url": null,
+        "mailing_address": "325 Metcalf St., Sedro-Woolley, WA 98284",
+        "submission_methods": ["email", "mail"]
+      },
+      "alpr": {
+        "vendor": "flock",
+        "camera_count": null,
+        "retention_period": "30 days",
+        "contract_status": "cancelled",
+        "transparency_portal_url": null
+      },
+      "sources": [
+        "https://www.cascadiadaily.com/2026/aug/20/a-man-has-sued-local-governments-in-wa-over-flock-records-hes-gotten-300k/"
+      ],
+      "last_verified": "2026-08-30",
+      "notes": "Settled Rodriguez FOIL lawsuit for $40,000. Subsequently cancelled Flock contract."
+    }
+  ]
+}

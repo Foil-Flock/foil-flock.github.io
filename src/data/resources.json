@@ -1,0 +1,152 @@
+{
+  "categories": [
+    {
+      "id": "camera-databases",
+      "name": "Find Cameras in Your Area",
+      "description": "Databases and maps of ALPR camera deployments, sourced from public records and community reports.",
+      "items": [
+        {
+          "name": "FlockRadar",
+          "url": "https://flockradar.com/",
+          "description": "Open-source map of ALPR deployments. Every pin links to a public record (contract, council agenda, policy document).",
+          "open_source": true,
+          "github": "https://github.com/rxsklife/flockradar"
+        },
+        {
+          "name": "UnFlocked",
+          "url": "https://unflocked.org/",
+          "description": "Crowdsourced ALPR camera locations mapped by state. Includes per-state camera counts and coverage estimates."
+        },
+        {
+          "name": "Eyes On Flock",
+          "url": "https://eyesonflock.com/",
+          "description": "Aggregates and analyzes data from Flock Safety's own public transparency portals. Tracks camera locations, search activity, and data-sharing practices."
+        },
+        {
+          "name": "Atlas of Surveillance (EFF)",
+          "url": "https://atlasofsurveillance.org/",
+          "description": "Electronic Frontier Foundation database of surveillance technologies used by law enforcement, including ALPRs, drones, and body cameras."
+        },
+        {
+          "name": "Flock Camera Locations",
+          "url": "https://flockcameralocations.com/",
+          "description": "Per-state maps with documented camera positions. Includes live data from community reports."
+        },
+        {
+          "name": "DeFlock",
+          "url": "https://deflock.me/",
+          "description": "Crowdsourced camera sighting reports. Companion to the DeFlock mobile app for reporting camera locations."
+        }
+      ]
+    },
+    {
+      "id": "legal-guides",
+      "name": "Public Records Law Guides",
+      "description": "State-by-state legal references for understanding your right to request government records.",
+      "items": [
+        {
+          "name": "RCFP Open Government Guide",
+          "url": "https://www.rcfp.org/open-government-guide/",
+          "description": "Reporters Committee for Freedom of the Press. Comprehensive state-by-state guide to public records and open meetings laws. The most thorough reference available."
+        },
+        {
+          "name": "NY Committee on Open Government",
+          "url": "https://opengovernment.ny.gov/freedom-information-law",
+          "description": "Official New York state resource for FOIL procedures, advisory opinions (25,000+ published), and compliance guidance."
+        },
+        {
+          "name": "FOIL It and Find Out",
+          "url": "https://clioandthecontemporary.com/2026/07/23/foil-it-and-find-out/",
+          "description": "Practical New York FOIL guide with appeal templates, denial-handling strategies, and advice on finding contingency attorneys."
+        },
+        {
+          "name": "Sunlight in the City (NYC Comptroller)",
+          "url": "https://comptroller.nyc.gov/reports/sunlight-in-the-city-a-practical-blueprint-for-foil-operations-and-government-transparency/",
+          "description": "NYC Comptroller's blueprint for FOIL operations. Useful for understanding how agencies are supposed to handle requests internally."
+        },
+        {
+          "name": "NFOIC State FOI Resources",
+          "url": "https://www.nfoic.org/coalitions/state-foi-resources/",
+          "description": "National Freedom of Information Coalition. Links to state-level FOI coalitions and resources."
+        }
+      ]
+    },
+    {
+      "id": "filing-tools",
+      "name": "Filing & Tracking Tools",
+      "description": "Platforms that help you submit, track, and publish public records requests.",
+      "items": [
+        {
+          "name": "MuckRock",
+          "url": "https://www.muckrock.com/",
+          "description": "File, track, and publish records requests. Handles submission, follow-ups, and appeals. Publicly archives results. Has an API for programmatic access.",
+          "api_url": "https://www.muckrock.com/api/"
+        },
+        {
+          "name": "FOIA.gov",
+          "url": "https://www.foia.gov/",
+          "description": "Federal FOIA portal. For federal agency requests only (FBI, DHS, ICE, etc.). Not applicable to state/local requests."
+        }
+      ]
+    },
+    {
+      "id": "advocacy",
+      "name": "Advocacy & Legal Support",
+      "description": "Organizations working on surveillance oversight, privacy rights, and public records enforcement.",
+      "items": [
+        {
+          "name": "ACLU — Get the Flock Out",
+          "url": "https://www.aclu.org/campaigns-initiatives/get-the-flock-out",
+          "description": "ACLU toolkit for communities opposing Flock camera deployments. Includes organizing guides, model legislation, and talking points."
+        },
+        {
+          "name": "Institute for Justice (IJ)",
+          "url": "https://ij.org/",
+          "description": "Public interest law firm. Currently recruiting plaintiffs for Fourth Amendment challenge to Westchester County's ALPR system. Represents clients free of charge."
+        },
+        {
+          "name": "NYCLU",
+          "url": "https://www.nyclu.org/",
+          "description": "New York Civil Liberties Union. Pursuing class action against Westchester County over ALPR privacy violations."
+        },
+        {
+          "name": "Electronic Frontier Foundation",
+          "url": "https://www.eff.org/issues/street-level-surveillance",
+          "description": "EFF's street-level surveillance project. Research, advocacy, and legal analysis of ALPR, Flock, and related technologies."
+        },
+        {
+          "name": "Flip the Flock",
+          "url": "https://fliptheflock.org/",
+          "description": "State-by-state ALPR law summaries, advocacy resources, and community organizing guides."
+        },
+        {
+          "name": "Reporters Committee — Legal Hotline",
+          "url": "https://www.rcfp.org/legal-hotline/",
+          "description": "Free legal assistance for journalists and citizens navigating public records denials."
+        }
+      ]
+    },
+    {
+      "id": "background",
+      "name": "Background Reading",
+      "description": "Articles and investigations that provide context for ALPR surveillance and records request campaigns.",
+      "items": [
+        {
+          "name": "Cascadia Daily — Rodriguez Flock Campaign ($300K)",
+          "url": "https://www.cascadiadaily.com/2026/aug/20/a-man-has-sued-local-governments-in-wa-over-flock-records-hes-gotten-300k/",
+          "description": "The article that started it all. How one person's 53 records requests to Washington municipalities led to $300K in settlements and 13 cancelled Flock contracts."
+        },
+        {
+          "name": "NYCLU — License Plate Readers Are Tracking New Yorkers",
+          "url": "https://www.nyclu.org/commentary/how-license-plate-readers-track-your-every-move",
+          "description": "NYCLU analysis of how ALPR networks enable mass location tracking without warrants."
+        },
+        {
+          "name": "Flock Around and Find Out (Ritholtz)",
+          "url": "https://ritholtz.com/2026/08/flock-around-and-find-out/",
+          "description": "Citizen's guide to local ALPR oversight. Overview of the surveillance landscape and community response."
+        }
+      ]
+    }
+  ]
+}

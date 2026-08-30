@@ -1,0 +1,90 @@
+name: Washington
+abbreviation: WA
+slug: washington
+
+statute:
+  name: Public Records Act (PRA)
+  short_name: PRA
+  citation: RCW 42.56
+  url: https://apps.leg.wa.gov/rcw/default.aspx?cite=42.56
+
+presumption: open
+
+response:
+  initial_days: 5
+  final_days: null
+  day_type: business
+  notes: >-
+    Agency must respond within 5 business days by providing records,
+    providing a reasonable estimate of time needed, or denying the
+    request. Must provide "fullest assistance" and "most timely
+    possible action."
+
+appeal:
+  required_before_court: false
+  deadline_days: null
+  response_days: null
+  body: Direct court action permitted (no administrative exhaustion required)
+  advisory_body: null
+
+enforcement:
+  penalty_type: both
+  per_day_cap: 100
+  attorney_fees: discretionary
+  fee_trigger: >-
+    Courts may award reasonable attorney fees to prevailing requesters.
+    Per-day penalties of up to $100 per record wrongfully withheld,
+    compounding daily. Total penalty awards in significant cases have
+    exceeded $500,000.
+  court_action: Superior Court action
+  court_name: Superior Court
+  filing_fee_approx: 220
+  filing_deadline_days: 365
+  burden_of_proof: agency
+
+fees:
+  copy_per_page: 0.15
+  copy_max_size: null
+  search_fee_allowed: true
+  review_fee_allowed: false
+  redaction_fee_allowed: false
+  electronic_delivery_required: false
+  notes: >-
+    Agencies may charge actual costs for copying, including per-page
+    fees and costs for electronic media. Some agencies charge for
+    staff time for search and compilation.
+
+alpr:
+  specific_exemption: true
+  exemption_citation: Driver Privacy Act (signed March 2026)
+  notes: >-
+    The Driver Privacy Act (March 2026) exempts ALPR images from
+    public records requests prospectively. Courts have ruled that
+    requests filed before the Act's effective date must still be
+    honored. This law was passed in direct response to the Rodriguez
+    records request campaign.
+
+exemptions:
+  - Law enforcement investigative records
+  - Personal privacy
+  - Endanger life or safety
+  - Trade secrets and proprietary information
+  - ALPR images (Driver Privacy Act, March 2026)
+
+template_fragments:
+  statute_invocation: >-
+    Pursuant to Washington's Public Records Act (RCW 42.56)
+  response_reminder: >-
+    I expect a response within five business days as required by
+    RCW 42.56.520. Your agency is required to provide the "fullest
+    assistance" and the "most timely possible action" on this request.
+  fee_cap_notice: >-
+    If fulfilling this request will cost more than $__FEE_CAP__,
+    please provide an estimate before proceeding.
+  electronic_delivery_clause: >-
+    I request that records be provided in electronic format where
+    available.
+  appeal_deadline_warning: >-
+    If this request is denied, I reserve the right to seek judicial
+    review and all remedies available under RCW 42.56, including
+    statutory penalties and attorney fees.
