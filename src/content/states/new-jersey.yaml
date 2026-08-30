@@ -46,7 +46,7 @@ enforcement:
   court_action: Civil action or GRC complaint
   court_name: Superior Court
   filing_fee_approx: 300
-  filing_deadline_days: 365
+  filing_deadline_days: null
   burden_of_proof: agency
 
 fees:

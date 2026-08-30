@@ -16,9 +16,10 @@ response:
   day_type: business
   notes: >-
     Agency must respond within 5 business days. May extend by up
-    to 30 additional business days (35 total) for extensive
-    redactions or complex searches, with written notice. Failure
-    to respond within the deadline is a deemed denial.
+    to 30 additional calendar days with written notice, for reasons
+    including extensive redactions, complex searches, or legal
+    review. Failure to respond within the deadline is a deemed
+    denial.
 
 appeal:
   required_before_court: true

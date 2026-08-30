@@ -33,18 +33,18 @@ appeal:
     address: "3737 N. 7th Street, Suite 209, Phoenix, AZ 85014"
 
 enforcement:
-  penalty_type: both
+  penalty_type: fee_shifting
   per_day_cap: null
   attorney_fees: discretionary
   fee_trigger: >-
-    Courts may award attorney fees and costs to prevailing
-    requesters. Civil penalties of $500 to $5,000 per occurrence
-    for willful or intentional refusal to provide records.
-    A.R.S. § 39-121.02.
+    Courts may award attorney fees and legal costs to a requester
+    who has substantially prevailed. A.R.S. § 39-121.02. No
+    specific civil penalty schedule; remedies include damages and
+    costs.
   court_action: Special action or civil suit
   court_name: Superior Court
   filing_fee_approx: 350
-  filing_deadline_days: 365
+  filing_deadline_days: null
   burden_of_proof: agency
 
 fees:

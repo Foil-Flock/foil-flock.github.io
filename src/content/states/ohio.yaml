@@ -30,17 +30,17 @@ appeal:
 
 enforcement:
   penalty_type: both
-  per_day_cap: 1000
-  attorney_fees: mandatory
+  per_day_cap: 100
+  attorney_fees: discretionary
   fee_trigger: >-
-    Court shall award reasonable attorney fees to a requester who
-    prevails in a mandamus action. Statutory damages may be awarded
-    up to $1,000 per record for violations. Ohio Rev. Code
-    § 149.43(C).
+    Court may award reasonable attorney fees to a requester who
+    prevails in a mandamus action. Statutory damages of $100 per
+    business day of noncompliance, up to $1,000 total. Ohio Rev.
+    Code § 149.43(C).
   court_action: Mandamus action or Court of Claims complaint
   court_name: Court of Claims or Court of Common Pleas
   filing_fee_approx: 150
-  filing_deadline_days: 365
+  filing_deadline_days: null
   burden_of_proof: agency
 
 fees:

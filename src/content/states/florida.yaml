@@ -42,7 +42,7 @@ enforcement:
   court_action: Civil action to compel compliance
   court_name: Circuit Court
   filing_fee_approx: 400
-  filing_deadline_days: 365
+  filing_deadline_days: null
   burden_of_proof: agency
 
 fees:

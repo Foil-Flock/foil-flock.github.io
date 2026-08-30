@@ -194,7 +194,7 @@ function feeLabel(type: string) {
       )}
 
       <dt>Filing deadline</dt>
-      <dd>{s.enforcement.filing_deadline_days} days from final denial</dd>
+      <dd>{s.enforcement.filing_deadline_days ? `${s.enforcement.filing_deadline_days} days from final denial` : "No specific deadline"}</dd>
 
       {s.enforcement.fee_trigger && (
         <>

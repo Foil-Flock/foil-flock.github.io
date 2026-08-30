@@ -56,13 +56,16 @@ fees:
 
 alpr:
   specific_exemption: true
-  exemption_citation: Driver Privacy Act (signed March 2026)
+  exemption_citation: "SB 6002 (Driver Privacy Act), Laws of 2026 Ch. 239"
   notes: >-
-    The Driver Privacy Act (March 2026) exempts ALPR images from
-    public records requests prospectively. Courts have ruled that
-    requests filed before the Act's effective date must still be
-    honored. This law was passed in direct response to the Rodriguez
-    records request campaign.
+    The Driver Privacy Act (SB 6002, signed March 30, 2026) exempts
+    all ALPR data — photographs, plate numbers, GPS coordinates,
+    timestamps — from public records disclosure. Took effect
+    immediately as an emergency measure. Disclosure permitted only
+    in judicial proceedings and for de-identified research. Law also
+    restricts data sharing with federal agencies for immigration
+    enforcement and requires agencies to adopt ALPR policies by
+    December 1, 2027.
 
 exemptions:
   - Law enforcement investigative records

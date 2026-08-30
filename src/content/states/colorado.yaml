@@ -33,14 +33,14 @@ enforcement:
   attorney_fees: mandatory
   fee_trigger: >-
     Court shall award costs and reasonable attorney fees to
-    prevailing requesters, even if only partial access is
-    granted. Custodians face personal liability of up to $25/day
-    for arbitrary or capricious denial of access. C.R.S.
-    § 24-72-204(5).
+    prevailing requesters. C.R.S. § 24-72-204(5). Under the
+    Criminal Justice Records Act, custodians face personal
+    liability of up to $25/day for arbitrary or capricious denial
+    of access. C.R.S. § 24-72-305(7).
   court_action: Civil action to compel disclosure
   court_name: District Court
   filing_fee_approx: 250
-  filing_deadline_days: 365
+  filing_deadline_days: null
   burden_of_proof: agency
 
 fees:

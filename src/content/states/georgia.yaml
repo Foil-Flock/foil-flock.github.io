@@ -45,7 +45,7 @@ enforcement:
   court_action: Civil action or mandamus
   court_name: Superior Court
   filing_fee_approx: 250
-  filing_deadline_days: 365
+  filing_deadline_days: null
   burden_of_proof: agency
 
 fees:

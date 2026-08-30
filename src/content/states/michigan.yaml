@@ -33,13 +33,13 @@ enforcement:
   attorney_fees: mandatory
   fee_trigger: >-
     Court shall award reasonable attorney fees, costs, and
-    disbursements to a prevailing requester. Punitive damages
-    of $1,000 for arbitrary and capricious refusal or
-    unreasonable delay. MCL 15.240(7).
+    disbursements to a prevailing requester. Civil fines of
+    $2,500–$7,500 per occurrence for willful and intentional
+    noncompliance. MCL 15.240.
   court_action: Civil action
   court_name: Circuit Court
   filing_fee_approx: 175
-  filing_deadline_days: 365
+  filing_deadline_days: 180
   burden_of_proof: agency
 
 fees:

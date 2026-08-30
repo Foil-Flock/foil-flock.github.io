@@ -35,16 +35,20 @@ appeal:
 enforcement:
   penalty_type: both
   per_day_cap: null
-  attorney_fees: discretionary
+  attorney_fees: mandatory
   fee_trigger: >-
-    Courts may award reasonable attorney fees and costs up to $500.
-    Civil penalties of $500–$2,000 for first violation and
-    $2,000–$5,000 for subsequent violations, assessed against the
-    officer or employee personally. Va. Code § 2.2-3714.
+    Petitioner shall be entitled to recover reasonable costs and
+    attorney fees from the public body if the petitioner
+    substantially prevails on the merits, unless special
+    circumstances would make an award unjust. Va. Code
+    § 2.2-3713(D). Civil penalties of $500–$2,000 for first
+    violation and $2,000–$5,000 for subsequent violations,
+    assessed against the officer or employee personally.
+    Va. Code § 2.2-3714.
   court_action: Petition to compel compliance
   court_name: General District Court or Circuit Court
   filing_fee_approx: 85
-  filing_deadline_days: 365
+  filing_deadline_days: null
   burden_of_proof: agency
 
 fees:
@@ -62,16 +66,19 @@ fees:
     before work proceeds.
 
 alpr:
-  specific_exemption: false
-  exemption_citation: null
+  specific_exemption: true
+  exemption_citation: "Va. Code \xA7 2.2-5517"
   notes: >-
-    No ALPR public records exemption, but Va. Code § 2.2-5517
-    (amended 2025) regulates ALPR data: system data must be purged
-    after 21 days, audit data after 2 years. Sharing is restricted
-    to authorized law enforcement purposes. ALPR data requests are
-    subject to standard VFOIA exemptions.
+    ALPR system data and audit trail data are explicitly exempt
+    from VFOIA disclosure under Va. Code § 2.2-5517. System data
+    must be purged after 21 days of capture (unless tied to an
+    ongoing investigation), audit trail data after 2 years. Sale
+    of ALPR data is prohibited. Sharing is restricted to other
+    law enforcement agencies for authorized purposes. Agencies
+    must publicly post ALPR policies and annual reports.
 
 exemptions:
+  - ALPR system data and audit trail data (§ 2.2-5517)
   - Law enforcement investigation records (§ 2.2-3706)
   - Personal privacy (§ 2.2-3705.1)
   - Endanger life or physical safety

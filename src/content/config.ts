@@ -62,7 +62,7 @@ const states = defineCollection({
       court_action: z.string(), // e.g. "Article 78 proceeding"
       court_name: z.string(), // e.g. "Supreme Court"
       filing_fee_approx: z.number().nullable(), // dollars
-      filing_deadline_days: z.number(), // from final denial
+      filing_deadline_days: z.number().nullable(), // from final denial; null if no specific deadline
       burden_of_proof: z.enum(["agency", "requester"]),
     }),
 

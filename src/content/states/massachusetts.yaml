@@ -36,22 +36,24 @@ appeal:
 enforcement:
   penalty_type: both
   per_day_cap: null
-  attorney_fees: mandatory
+  attorney_fees: discretionary
   fee_trigger: >-
-    Presumption favoring attorney fee awards to prevailing
-    requesters in Superior Court, with four narrow exceptions:
-    frivolous requests, prior appellate decisions supporting
-    denial, harassment/intimidation, or non-public-interest
-    commercial requests. Punitive damages of $1,000–$5,000 for
-    bad faith denials. G.L. c. 66, § 10A.
+    Superior Court may award reasonable attorney fees and costs
+    to a requester who obtains relief, with a presumption favoring
+    the award. Five narrow exceptions: supervisor found no
+    violation, reliance on published appellate decision, reliance
+    on published AG opinion, request designed to harass, or
+    commercial purpose unrelated to government transparency.
+    Punitive damages of $1,000–$5,000 for bad faith denials.
+    G.L. c. 66, § 10A.
   court_action: Civil action to compel compliance
   court_name: Superior Court
   filing_fee_approx: 320
-  filing_deadline_days: 365
+  filing_deadline_days: null
   burden_of_proof: agency
 
 fees:
-  copy_per_page: null
+  copy_per_page: 0.05
   copy_max_size: null
   search_fee_allowed: true
   review_fee_allowed: false

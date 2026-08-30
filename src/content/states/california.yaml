@@ -33,11 +33,11 @@ enforcement:
   attorney_fees: mandatory
   fee_trigger: >-
     Court shall award reasonable attorney fees and costs to a
-    requester who prevails in litigation. Gov. Code § 7923.520.
+    requester who prevails in litigation. Gov. Code § 7923.115.
   court_action: Petition for writ of mandate or injunctive/declaratory relief
   court_name: Superior Court
   filing_fee_approx: 435
-  filing_deadline_days: 365
+  filing_deadline_days: null
   burden_of_proof: agency
 
 fees:
@@ -94,4 +94,4 @@ template_fragments:
   appeal_deadline_warning: >-
     If this request is denied, I reserve the right to seek judicial
     review and all remedies available under the CPRA, including
-    attorney fees and costs under Gov. Code \xA7 7923.520.
+    attorney fees and costs under Gov. Code \xA7 7923.115.

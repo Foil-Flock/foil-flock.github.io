@@ -35,16 +35,17 @@ appeal:
 enforcement:
   penalty_type: both
   per_day_cap: null
-  attorney_fees: discretionary
+  attorney_fees: mandatory
   fee_trigger: >-
-    Courts may award reasonable attorney fees if the agency is
-    found to have denied a request in bad faith. Civil penalties
-    of $2,500 to $5,000 may be imposed for willful and purposeful
-    failure to comply. 5 ILCS 140/11(j).
+    Court shall award reasonable attorney fees and costs to a
+    requester who prevails in a proceeding under FOIA. 5 ILCS
+    140/11(i). Civil penalties of $2,500 to $5,000 per occurrence
+    may be imposed for willful and intentional failure to comply.
+    5 ILCS 140/11(j).
   court_action: Civil action
   court_name: Circuit Court
   filing_fee_approx: 250
-  filing_deadline_days: 365
+  filing_deadline_days: null
   burden_of_proof: agency
 
 fees:
@@ -64,12 +65,11 @@ alpr:
   exemption_citation: null
   notes: >-
     No ALPR public records exemption. However, 625 ILCS 5/2-130
-    (2023) regulates ALPR use: data must be archived after 90 days
-    (retained up to 5 years if tied to investigation) and sharing
-    with out-of-state agencies for immigration enforcement or
-    reproductive health investigations is barred. Illinois has
-    over 7,000 documented ALPR cameras, concentrated in the
-    Chicago metropolitan area.
+    regulates ALPR use: ALPR information must be held
+    confidentially to the fullest extent permitted by law, and
+    sharing with out-of-state agencies for immigration enforcement
+    or reproductive health investigations is prohibited. No
+    specific data retention period is set in the statute.
 
 exemptions:
   - Law enforcement investigation records (§ 7(1)(c))
