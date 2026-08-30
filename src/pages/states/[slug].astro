@@ -1,0 +1,433 @@
+---
+import Base from "../../layouts/Base.astro";
+import TemplateGenerator from "../../components/TemplateGenerator";
+import { getCollection } from "astro:content";
+import agencyData from "../../data/agencies.json";
+import templateData from "../../templates/request-templates.json";
+
+export async function getStaticPaths() {
+  const states = await getCollection("states");
+  return states.map((state) => ({
+    params: { slug: state.data.slug },
+    props: { state },
+  }));
+}
+
+const { state } = Astro.props;
+const s = state.data;
+
+// Find agencies in this state
+const stateAgencies = agencyData.agencies.filter(
+  (a) => a.state === s.abbreviation
+);
+
+// Map the first agency if there is one (for pre-filling the template)
+const firstAgency = stateAgencies[0]
+  ? {
+      id: stateAgencies[0].id,
+      name: stateAgencies[0].name,
+      contact: stateAgencies[0].contact,
+    }
+  : null;
+
+// State data for the template generator
+const stateTemplateData = {
+  statute_short_name: s.statute.short_name,
+  initial_response_days: s.response.initial_days,
+  appeal_body: s.appeal.body,
+  advisory_body_name: s.appeal.advisory_body?.name ?? null,
+  advisory_body_address: s.appeal.advisory_body?.address ?? null,
+  fragments: s.template_fragments,
+};
+
+function penaltyLabel(type: string) {
+  const map: Record<string, string> = {
+    per_day: "Per-day penalties",
+    fee_shifting: "Fee shifting",
+    both: "Per-day + fee shifting",
+    none: "None",
+  };
+  return map[type] ?? type;
+}
+
+function feeLabel(type: string) {
+  const map: Record<string, string> = {
+    mandatory: "Mandatory",
+    discretionary: "Discretionary",
+    none: "None",
+  };
+  return map[type] ?? type;
+}
+---
+
+<Base
+  title={`${s.name} ${s.statute.short_name} Guide — Foil Flock`}
+  description={`How to file a ${s.statute.short_name} request for ALPR surveillance records in ${s.name}.`}
+  activePage="state"
+>
+  <a href="/" class="back-link">&larr; Back to search</a>
+
+  <header class="state-header">
+    <p class="eyebrow">{s.abbreviation} Public Records Law</p>
+    <h1>{s.statute.name}</h1>
+    <p class="state-citation">
+      <a href={s.statute.url} target="_blank" rel="noopener">{s.statute.citation}</a>
+    </p>
+  </header>
+
+  {/* ── Quick stats ─────────────────────────────────────── */}
+
+  <div class="stat-grid">
+    <div class="stat-block">
+      <div class="stat-label">Initial response</div>
+      <div class="stat-value">{s.response.initial_days} {s.response.day_type} days</div>
+    </div>
+    {s.response.final_days && (
+      <div class="stat-block">
+        <div class="stat-label">Final response</div>
+        <div class="stat-value">{s.response.final_days} {s.response.day_type} days</div>
+      </div>
+    )}
+    <div class="stat-block">
+      <div class="stat-label">Penalties</div>
+      <div class={`stat-value ${s.enforcement.penalty_type !== "none" ? "good" : "bad"}`}>
+        {penaltyLabel(s.enforcement.penalty_type)}
+      </div>
+    </div>
+    <div class="stat-block">
+      <div class="stat-label">Attorney fees</div>
+      <div class={`stat-value ${s.enforcement.attorney_fees === "mandatory" ? "good" : s.enforcement.attorney_fees === "discretionary" ? "warn" : "bad"}`}>
+        {feeLabel(s.enforcement.attorney_fees)}
+      </div>
+    </div>
+    <div class="stat-block">
+      <div class="stat-label">ALPR exemption</div>
+      <div class={`stat-value ${s.alpr.specific_exemption ? "bad" : "good"}`}>
+        {s.alpr.specific_exemption ? "Yes" : "None"}
+      </div>
+    </div>
+    <div class="stat-block">
+      <div class="stat-label">Burden of proof</div>
+      <div class={`stat-value ${s.enforcement.burden_of_proof === "agency" ? "good" : "warn"}`}>
+        {s.enforcement.burden_of_proof === "agency" ? "On the agency" : "On requester"}
+      </div>
+    </div>
+  </div>
+
+  {/* ── Response timeline ───────────────────────────────── */}
+
+  <section class="law-section">
+    <h2>Response timeline</h2>
+    {s.response.notes && <p>{s.response.notes}</p>}
+  </section>
+
+  {/* ── Appeal process ──────────────────────────────────── */}
+
+  <section class="law-section">
+    <h2>Appeal process</h2>
+    <dl class="detail-list-vertical">
+      <dt>Administrative appeal required?</dt>
+      <dd>{s.appeal.required_before_court ? "Yes, before going to court" : "No, can go directly to court"}</dd>
+
+      {s.appeal.deadline_days && (
+        <>
+          <dt>Appeal deadline</dt>
+          <dd>{s.appeal.deadline_days} days from denial</dd>
+        </>
+      )}
+
+      {s.appeal.response_days && (
+        <>
+          <dt>Appeal response deadline</dt>
+          <dd>{s.appeal.response_days} business days</dd>
+        </>
+      )}
+
+      <dt>Appeals body</dt>
+      <dd>{s.appeal.body}</dd>
+    </dl>
+
+    {s.appeal.advisory_body && (
+      <div class="callout good" style="margin-top: var(--gap-md);">
+        <div class="callout-label">Advisory resource</div>
+        <p>
+          The <strong>{s.appeal.advisory_body.name}</strong> can provide
+          guidance and advisory opinions on your request.
+        </p>
+        <dl class="detail-list-vertical" style="margin-top: var(--gap-sm); font-size: 13px;">
+          {s.appeal.advisory_body.url && (
+            <>
+              <dt>Website</dt>
+              <dd><a href={s.appeal.advisory_body.url} target="_blank" rel="noopener">{s.appeal.advisory_body.url.replace(/^https?:\/\//, "")}</a></dd>
+            </>
+          )}
+          {s.appeal.advisory_body.phone && (
+            <>
+              <dt>Phone</dt>
+              <dd>{s.appeal.advisory_body.phone}</dd>
+            </>
+          )}
+          {s.appeal.advisory_body.address && (
+            <>
+              <dt>Address</dt>
+              <dd>{s.appeal.advisory_body.address}</dd>
+            </>
+          )}
+        </dl>
+      </div>
+    )}
+  </section>
+
+  {/* ── Enforcement ─────────────────────────────────────── */}
+
+  <section class="law-section">
+    <h2>Enforcement</h2>
+    <dl class="detail-list-vertical">
+      <dt>Court action</dt>
+      <dd>{s.enforcement.court_action} in {s.enforcement.court_name}</dd>
+
+      {s.enforcement.filing_fee_approx && (
+        <>
+          <dt>Filing fee</dt>
+          <dd>~${s.enforcement.filing_fee_approx}</dd>
+        </>
+      )}
+
+      <dt>Filing deadline</dt>
+      <dd>{s.enforcement.filing_deadline_days} days from final denial</dd>
+
+      {s.enforcement.fee_trigger && (
+        <>
+          <dt>Attorney fee trigger</dt>
+          <dd>{s.enforcement.fee_trigger}</dd>
+        </>
+      )}
+
+      {s.enforcement.per_day_cap && (
+        <>
+          <dt>Per-day penalty cap</dt>
+          <dd>${s.enforcement.per_day_cap}/day</dd>
+        </>
+      )}
+    </dl>
+  </section>
+
+  {/* ── Fees ────────────────────────────────────────────── */}
+
+  <section class="law-section">
+    <h2>Fees</h2>
+    <dl class="detail-list-vertical">
+      {s.fees.copy_per_page !== null && (
+        <>
+          <dt>Copy fee</dt>
+          <dd>${s.fees.copy_per_page}/page</dd>
+        </>
+      )}
+      <dt>Search fees</dt>
+      <dd>{s.fees.search_fee_allowed ? "Allowed" : "Not allowed"}</dd>
+      <dt>Electronic delivery</dt>
+      <dd>{s.fees.electronic_delivery_required ? "Required when requested" : "Not required"}</dd>
+    </dl>
+    {s.fees.notes && <p class="note-text">{s.fees.notes}</p>}
+  </section>
+
+  {/* ── ALPR provisions ─────────────────────────────────── */}
+
+  <section class="law-section">
+    <h2>ALPR-specific provisions</h2>
+    {s.alpr.specific_exemption ? (
+      <div class="callout warn">
+        <div class="callout-label">Warning</div>
+        <p>
+          This state has an ALPR-specific exemption: <code>{s.alpr.exemption_citation}</code>.
+          {s.alpr.notes && ` ${s.alpr.notes}`}
+        </p>
+      </div>
+    ) : (
+      <div class="callout good">
+        <div class="callout-label">Favorable</div>
+        <p>
+          No ALPR-specific exemption. ALPR data is subject to standard
+          {" "}{s.statute.short_name} exemptions only.
+          {s.alpr.notes && ` ${s.alpr.notes}`}
+        </p>
+      </div>
+    )}
+  </section>
+
+  {/* ── Common exemptions ───────────────────────────────── */}
+
+  <section class="law-section">
+    <h2>Exemptions to watch for</h2>
+    <p class="note-text">
+      These are the exemptions agencies most commonly invoke to deny
+      surveillance records requests. Knowing them helps you anticipate
+      and counter a denial.
+    </p>
+    <ul class="exemption-list">
+      {s.exemptions.map((ex) => (
+        <li>{ex}</li>
+      ))}
+    </ul>
+  </section>
+
+  {/* ── Agencies in this state ──────────────────────────── */}
+
+  {stateAgencies.length > 0 && (
+    <section class="law-section">
+      <h2>Agencies in {s.name}</h2>
+      <div style="display: flex; flex-direction: column; gap: var(--gap-sm);">
+        {stateAgencies.map((a) => (
+          <div class="agency-card">
+            <div class="agency-name">{a.name}</div>
+            <div class="agency-meta">
+              <span class="agency-tag">{a.jurisdiction}</span>
+              <span class={`agency-tag ${a.alpr.contract_status}`}>
+                {a.alpr.contract_status}
+              </span>
+              {a.alpr.camera_count && (
+                <span class="agency-tag">{a.alpr.camera_count} cameras</span>
+              )}
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+  )}
+
+  {/* ── Template generator ──────────────────────────────── */}
+
+  <hr />
+
+  <TemplateGenerator
+    client:load
+    templates={templateData.templates}
+    agency={firstAgency}
+    stateData={stateTemplateData}
+  />
+</Base>
+
+<style>
+  .back-link {
+    display: inline-block;
+    font-size: 13px;
+    color: var(--text-muted);
+    border-bottom: none;
+    margin-bottom: var(--gap-md);
+  }
+  .back-link:hover {
+    color: var(--accent);
+  }
+
+  .state-header {
+    margin-bottom: var(--gap-lg);
+  }
+  .state-header h1 {
+    margin-top: var(--gap-xs);
+  }
+  .state-citation {
+    margin-top: var(--gap-xs);
+    font-size: 14px;
+  }
+  .state-citation a {
+    color: var(--text-secondary);
+  }
+
+  .law-section {
+    margin-top: var(--gap-xl);
+  }
+  .law-section h2 {
+    margin-bottom: var(--gap-sm);
+  }
+
+  .detail-list-vertical {
+    font-size: 14px;
+    margin: 0;
+  }
+  .detail-list-vertical dt {
+    color: var(--text-muted);
+    font-size: 13px;
+    margin-top: var(--gap-sm);
+  }
+  .detail-list-vertical dt:first-child {
+    margin-top: 0;
+  }
+  .detail-list-vertical dd {
+    margin: 0;
+    margin-top: var(--gap-xs);
+    color: var(--text);
+  }
+
+  .note-text {
+    font-size: 14px;
+    color: var(--text-secondary);
+    line-height: 1.65;
+  }
+
+  .exemption-list {
+    list-style: none;
+    padding: 0;
+    margin: var(--gap-sm) 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-xs);
+  }
+  .exemption-list li {
+    font-size: 14px;
+    color: var(--text);
+    padding: var(--gap-xs) var(--gap-sm);
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-radius: var(--radius);
+  }
+
+  /* ── Template generator overrides ─── */
+
+  :global(.template-gen) {
+    padding-top: var(--gap-md);
+  }
+
+  :global(.template-tabs) {
+    display: flex;
+    gap: 2px;
+    overflow-x: auto;
+    margin-top: var(--gap-sm);
+  }
+
+  :global(.template-tab) {
+    font-family: var(--sans);
+    font-size: 12.5px;
+    font-weight: 500;
+    padding: 0.45rem 0.85rem;
+    border: 1px solid var(--rule);
+    border-radius: var(--radius) var(--radius) 0 0;
+    background: var(--bg-alt);
+    color: var(--text-secondary);
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background 0.15s, color 0.15s;
+  }
+  :global(.template-tab:hover) {
+    background: var(--surface);
+    color: var(--text);
+  }
+  :global(.template-tab.active) {
+    background: var(--surface);
+    color: var(--accent);
+    border-bottom-color: var(--surface);
+  }
+
+  :global(.gen-form) {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-md);
+  }
+  :global(.form-group) {
+    display: flex;
+    flex-direction: column;
+  }
+
+  :global(.gen-output) {
+    margin-bottom: var(--gap-xl);
+  }
+</style>

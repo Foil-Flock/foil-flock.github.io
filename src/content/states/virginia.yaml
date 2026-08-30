@@ -1,0 +1,103 @@
+name: Virginia
+abbreviation: VA
+slug: virginia
+
+statute:
+  name: Virginia Freedom of Information Act (VFOIA)
+  short_name: VFOIA
+  citation: "Va. Code \xA7 2.2-3700 et seq."
+  url: https://law.lis.virginia.gov/vacodepopularnames/virginia-freedom-of-information-act/
+
+presumption: open
+
+response:
+  initial_days: 5
+  final_days: 12
+  day_type: business
+  notes: >-
+    Agency must respond within 5 business days. May invoke one
+    7-business-day extension for a total of 12 business days.
+    If the agency provides a cost estimate over $200, the timeline
+    pauses until the requester responds (30-day response window).
+
+appeal:
+  required_before_court: false
+  deadline_days: null
+  response_days: null
+  body: General District Court or Circuit Court
+  advisory_body:
+    name: FOIA Council
+    url: https://foiacouncil.dls.virginia.gov
+    phone: "(866) 448-3642"
+    email: null
+    address: "General Assembly Building, 201 N. 9th St., Suite 540, Richmond, VA 23219"
+
+enforcement:
+  penalty_type: both
+  per_day_cap: null
+  attorney_fees: discretionary
+  fee_trigger: >-
+    Courts may award reasonable attorney fees and costs up to $500.
+    Civil penalties of $500–$2,000 for first violation and
+    $2,000–$5,000 for subsequent violations, assessed against the
+    officer or employee personally. Va. Code § 2.2-3714.
+  court_action: Petition to compel compliance
+  court_name: General District Court or Circuit Court
+  filing_fee_approx: 85
+  filing_deadline_days: 365
+  burden_of_proof: agency
+
+fees:
+  copy_per_page: null
+  copy_max_size: null
+  search_fee_allowed: true
+  review_fee_allowed: false
+  redaction_fee_allowed: true
+  electronic_delivery_required: true
+  notes: >-
+    Agencies may charge reasonable costs for staff time and
+    copying, but may not charge for the first hour of search time
+    in most circumstances. Must provide records in any existing
+    format requested. Cost estimates over $200 require a deposit
+    before work proceeds.
+
+alpr:
+  specific_exemption: false
+  exemption_citation: null
+  notes: >-
+    No ALPR public records exemption, but Va. Code § 2.2-5517
+    (amended 2025) regulates ALPR data: system data must be purged
+    after 21 days, audit data after 2 years. Sharing is restricted
+    to authorized law enforcement purposes. ALPR data requests are
+    subject to standard VFOIA exemptions.
+
+exemptions:
+  - Law enforcement investigation records (§ 2.2-3706)
+  - Personal privacy (§ 2.2-3705.1)
+  - Endanger life or physical safety
+  - Security plans and procedures
+  - Trade secrets and proprietary information
+  - Personnel records (§ 2.2-3705.1)
+  - Attorney-client privileged communications
+
+template_fragments:
+  statute_invocation: >-
+    Pursuant to the Virginia Freedom of Information Act
+    (Va. Code \xA7 2.2-3700 et seq.)
+  response_reminder: >-
+    I expect a response within five business days as required by
+    Va. Code \xA7 2.2-3704(B). If you deny any portion of this
+    request, please provide a written response citing the specific
+    statutory exemption and explaining in detail how the exemption
+    applies.
+  fee_cap_notice: >-
+    If fulfilling this request will cost more than $__FEE_CAP__,
+    please provide an estimate before proceeding.
+  electronic_delivery_clause: >-
+    I request that records be provided in electronic format
+    pursuant to Va. Code \xA7 2.2-3704(G).
+  appeal_deadline_warning: >-
+    If this request is denied, I reserve the right to petition
+    the appropriate court to compel compliance and seek all
+    remedies available under VFOIA, including civil penalties
+    under Va. Code \xA7 2.2-3714.

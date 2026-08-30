@@ -1,0 +1,95 @@
+name: Arizona
+abbreviation: AZ
+slug: arizona
+
+statute:
+  name: Arizona Public Records Law
+  short_name: Public Records Law
+  citation: "A.R.S. \xA7 39-121 et seq."
+  url: https://www.azleg.gov/arstitle/?title=39
+
+presumption: open
+
+response:
+  initial_days: 5
+  final_days: null
+  day_type: business
+  notes: >-
+    Agency should respond within 5 working days for straightforward
+    requests. No hard statutory deadline; agencies must act
+    "promptly" and in good faith. Complex requests may take longer,
+    but the agency must communicate delays.
+
+appeal:
+  required_before_court: false
+  deadline_days: null
+  response_days: null
+  body: Superior Court
+  advisory_body:
+    name: Office of the Arizona Ombudsman
+    url: https://www.azoca.gov
+    phone: "(602) 277-7292"
+    email: null
+    address: "3737 N. 7th Street, Suite 209, Phoenix, AZ 85014"
+
+enforcement:
+  penalty_type: both
+  per_day_cap: null
+  attorney_fees: discretionary
+  fee_trigger: >-
+    Courts may award attorney fees and costs to prevailing
+    requesters. Civil penalties of $500 to $5,000 per occurrence
+    for willful or intentional refusal to provide records.
+    A.R.S. § 39-121.02.
+  court_action: Special action or civil suit
+  court_name: Superior Court
+  filing_fee_approx: 350
+  filing_deadline_days: 365
+  burden_of_proof: agency
+
+fees:
+  copy_per_page: null
+  copy_max_size: null
+  search_fee_allowed: false
+  review_fee_allowed: false
+  redaction_fee_allowed: false
+  electronic_delivery_required: false
+  notes: >-
+    Agencies may charge only the cost of copies. No search or
+    review fees permitted. Fee amounts vary by agency.
+
+alpr:
+  specific_exemption: false
+  exemption_citation: null
+  notes: >-
+    No ALPR-specific public records exemption. ALPR data is
+    subject to standard public records exemptions.
+
+exemptions:
+  - Law enforcement investigation records
+  - Personal privacy (confidential personal information)
+  - Endanger life or safety
+  - Trade secrets and proprietary information
+  - Attorney-client privileged communications
+  - Security plans and procedures
+
+template_fragments:
+  statute_invocation: >-
+    Pursuant to Arizona's Public Records Law
+    (A.R.S. \xA7 39-121 et seq.)
+  response_reminder: >-
+    I expect a prompt response as required by A.R.S. \xA7 39-121.
+    Public records must be open to inspection during office hours.
+    If you deny any portion of this request, please cite the
+    specific statutory basis and provide a written explanation.
+  fee_cap_notice: >-
+    If fulfilling this request will cost more than $__FEE_CAP__,
+    please provide an estimate before proceeding.
+  electronic_delivery_clause: >-
+    I request that records be provided in electronic format where
+    available.
+  appeal_deadline_warning: >-
+    If this request is denied, I reserve the right to seek
+    judicial review in Superior Court and all remedies available
+    under Arizona law, including attorney fees and civil penalties
+    under A.R.S. \xA7 39-121.02.

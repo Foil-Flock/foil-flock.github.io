@@ -1,0 +1,71 @@
+---
+import Base from "../layouts/Base.astro";
+import resourceData from "../data/resources.json";
+
+const categories = resourceData.categories;
+---
+
+<Base
+  title="Resources — Foil Flock"
+  description="Camera databases, legal guides, filing tools, and advocacy organizations for ALPR surveillance oversight."
+  activePage="resources"
+>
+  <header class="resources-header">
+    <p class="eyebrow">Reference</p>
+    <h1>Resources</h1>
+    <p class="resources-sub">
+      Camera databases, legal guides, filing tools, and organizations
+      working on ALPR surveillance oversight.
+    </p>
+  </header>
+
+  {categories.map((cat) => (
+    <section class="resource-section" id={cat.id}>
+      <h2>{cat.name}</h2>
+      <p class="section-desc">{cat.description}</p>
+      <div class="resource-grid">
+        {cat.items.map((item) => (
+          <a
+            href={item.url}
+            class="resource-item"
+            target="_blank"
+            rel="noopener"
+          >
+            <div class="resource-name">{item.name}</div>
+            <div class="resource-desc">{item.description}</div>
+          </a>
+        ))}
+      </div>
+    </section>
+  ))}
+</Base>
+
+<style>
+  .resources-header {
+    margin-bottom: var(--gap-xl);
+  }
+  .resources-header h1 {
+    margin-top: var(--gap-xs);
+  }
+  .resources-sub {
+    max-width: 520px;
+    color: var(--text-secondary);
+    margin-top: var(--gap-xs);
+    line-height: 1.7;
+  }
+
+  .resource-section {
+    margin-bottom: var(--gap-xl);
+  }
+  .resource-section h2 {
+    margin-bottom: var(--gap-xs);
+  }
+
+  .section-desc {
+    font-size: 14px;
+    color: var(--text-secondary);
+    margin-bottom: var(--gap-md);
+    max-width: 560px;
+    line-height: 1.6;
+  }
+</style>

@@ -1,0 +1,59 @@
+---
+interface Props {
+  title: string;
+  description?: string;
+  activePage?: "home" | "states" | "resources" | "state";
+}
+
+import "../styles/global.css";
+
+const {
+  title,
+  description = "Search for your municipality, learn your state's public records law, and generate a ready-to-send records request for ALPR surveillance data.",
+  activePage = "home",
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page-wrap">
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="/" class="logo">Foil Flock</a>
+        <div class="nav-links">
+          <a href="/" class:list={[{ active: activePage === "home" }]}>Search</a>
+          <a href="/states" class:list={[{ active: activePage === "states" || activePage === "state" }]}>States</a>
+          <a href="/resources" class:list={[{ active: activePage === "resources" }]}>Resources</a>
+        </div>
+      </nav>
+
+      <main>
+        <slot />
+      </main>
+
+      <footer class="site-footer">
+        <p>
+          Data: <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>.
+          Code: <a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener">MIT</a>.
+          Camera data seeded from <a href="https://flockradar.com" target="_blank" rel="noopener">FlockRadar</a>
+          and <a href="https://www.muckrock.com" target="_blank" rel="noopener">MuckRock</a>.
+        </p>
+        <p>
+          This site does not provide legal advice. Consult an attorney before filing a lawsuit.
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>

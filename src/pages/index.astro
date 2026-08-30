@@ -1,0 +1,223 @@
+---
+import Base from "../layouts/Base.astro";
+import Search from "../components/Search";
+import agencyData from "../data/agencies.json";
+import { getCollection } from "astro:content";
+
+const statesRaw = await getCollection("states");
+
+const states = statesRaw.map((s) => ({
+  slug: s.data.slug,
+  name: s.data.name,
+  abbreviation: s.data.abbreviation,
+  statute_short_name: s.data.statute.short_name,
+}));
+
+const agencies = agencyData.agencies;
+
+const stateCount = states.length;
+const agencyCount = agencies.length;
+---
+
+<Base title="Foil Flock" activePage="home">
+  <section class="hero">
+    <p class="eyebrow">Public records for public cameras</p>
+    <h1>Find out what the cameras see</h1>
+    <p class="hero-sub">
+      Your city may have license plate readers tracking every car that passes.
+      You have a legal right to know. Search for your municipality, learn your
+      state's public records law, and generate a ready-to-send request letter.
+    </p>
+  </section>
+
+  <Search client:load agencies={agencies} states={states} />
+
+  <section class="how-it-works">
+    <h2>How it works</h2>
+    <div class="steps-grid">
+      <div class="step-card">
+        <span class="step-number">1</span>
+        <h3>Search</h3>
+        <p>
+          Find your municipality in our directory of {agencyCount} agencies
+          with known ALPR deployments.
+        </p>
+      </div>
+      <div class="step-card">
+        <span class="step-number">2</span>
+        <h3>Learn</h3>
+        <p>
+          Read your state's public records law &mdash; response deadlines,
+          penalties for noncompliance, and how to appeal a denial.
+          We cover {stateCount} state{stateCount !== 1 ? "s" : ""} so far.
+        </p>
+      </div>
+      <div class="step-card">
+        <span class="step-number">3</span>
+        <h3>Request</h3>
+        <p>
+          Generate a ready-to-send letter with the right legal citations,
+          agency contact info, and fee cap notice already filled in.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="callout" style="margin-top: var(--gap-xl);">
+    <div class="callout-label">Why this matters</div>
+    <p>
+      In Washington state, one person filed 53 records requests to
+      municipalities running Flock Safety cameras. Agencies that stonewalled
+      or ignored the requests ended up settling for a combined $300,000, and
+      13 cancelled their Flock contracts entirely. Public records laws exist
+      in every state &mdash; you don't need a lawyer to use them.
+    </p>
+  </section>
+</Base>
+
+<style>
+  .hero {
+    padding: var(--gap-lg) 0 var(--gap-xl);
+  }
+  .hero h1 {
+    margin-top: var(--gap-sm);
+  }
+  .hero-sub {
+    max-width: 580px;
+    color: var(--text-secondary);
+    margin-top: var(--gap-sm);
+    line-height: 1.7;
+  }
+
+  .how-it-works {
+    margin-top: var(--gap-xl);
+    padding-top: var(--gap-lg);
+    border-top: 1px solid var(--rule);
+  }
+  .how-it-works h2 {
+    margin-bottom: var(--gap-md);
+  }
+
+  .steps-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--gap-md);
+    margin-top: var(--gap-md);
+  }
+
+  .step-card {
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-radius: var(--radius);
+    padding: var(--gap-md);
+  }
+  .step-card h3 {
+    margin-top: var(--gap-xs);
+  }
+  .step-card p {
+    font-size: 13.5px;
+    color: var(--text-secondary);
+    margin-top: var(--gap-xs);
+    margin-bottom: 0;
+    line-height: 1.6;
+  }
+
+  .step-number {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: var(--accent-light);
+    color: var(--accent);
+    font-family: var(--mono);
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  /* ── Search component overrides ─── */
+  :global(.search-section) {
+    margin-top: var(--gap-md);
+  }
+
+  :global(.search-results) {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-sm);
+    margin-top: var(--gap-md);
+  }
+
+  :global(.agency-card--interactive) {
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+    transition: border-color 0.15s;
+  }
+  :global(.agency-card--interactive:hover) {
+    border-color: var(--accent-border);
+  }
+
+  :global(.search-empty) {
+    margin-top: var(--gap-md);
+    padding: var(--gap-md);
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-radius: var(--radius);
+    font-size: 14px;
+    color: var(--text-secondary);
+  }
+  :global(.search-empty-hint) {
+    font-size: 13px;
+    color: var(--text-muted);
+    margin-bottom: 0;
+  }
+
+  :global(.agency-detail) {
+    margin-top: var(--gap-md);
+  }
+
+  :global(.back-btn) {
+    margin-bottom: var(--gap-md);
+  }
+
+  :global(.text-secondary) {
+    color: var(--text-secondary);
+    font-size: 14px;
+  }
+
+  :global(.detail-list) {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: var(--gap-xs) var(--gap-md);
+    font-size: 14px;
+    margin-top: var(--gap-sm);
+  }
+  :global(.detail-list dt) {
+    color: var(--text-muted);
+    font-size: 13px;
+    white-space: nowrap;
+  }
+  :global(.detail-list dd) {
+    margin: 0;
+    color: var(--text);
+  }
+
+  :global(.source-links) {
+    margin-top: var(--gap-md);
+    display: flex;
+    align-items: center;
+    gap: var(--gap-sm);
+    flex-wrap: wrap;
+  }
+  :global(.source-link) {
+    font-size: 12px;
+    color: var(--text-muted);
+    border-bottom-color: transparent;
+  }
+  :global(.source-link:hover) {
+    color: var(--accent);
+  }
+</style>

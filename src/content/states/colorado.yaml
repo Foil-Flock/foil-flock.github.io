@@ -1,0 +1,97 @@
+name: Colorado
+abbreviation: CO
+slug: colorado
+
+statute:
+  name: Colorado Open Records Act (CORA)
+  short_name: CORA
+  citation: "C.R.S. \xA7\xA7 24-72-201 to 24-72-206"
+  url: https://leg.colorado.gov/agencies/office-legislative-legal-services/colorado-open-records-act-cora
+
+presumption: open
+
+response:
+  initial_days: 3
+  final_days: 10
+  day_type: business
+  notes: >-
+    Custodian must make records available within 3 working days.
+    May extend by up to 7 additional working days for extenuating
+    circumstances (off-site storage, unusually broad requests,
+    high volume). Must notify requester of the extension.
+
+appeal:
+  required_before_court: false
+  deadline_days: null
+  response_days: null
+  body: District Court
+  advisory_body: null
+
+enforcement:
+  penalty_type: both
+  per_day_cap: 25
+  attorney_fees: mandatory
+  fee_trigger: >-
+    Court shall award costs and reasonable attorney fees to
+    prevailing requesters, even if only partial access is
+    granted. Custodians face personal liability of up to $25/day
+    for arbitrary or capricious denial of access. C.R.S.
+    § 24-72-204(5).
+  court_action: Civil action to compel disclosure
+  court_name: District Court
+  filing_fee_approx: 250
+  filing_deadline_days: 365
+  burden_of_proof: agency
+
+fees:
+  copy_per_page: 0.25
+  copy_max_size: null
+  search_fee_allowed: true
+  review_fee_allowed: false
+  redaction_fee_allowed: false
+  electronic_delivery_required: true
+  notes: >-
+    First hour of research and retrieval is free. Additional staff
+    time charged at $41.37/hour (as of July 2024, reviewed every
+    5 years). Paper copies at $0.25/page starting at page 26.
+    Digital formats exempt from per-page fees. Agencies must
+    provide searchable digital records in native format when
+    requested.
+
+alpr:
+  specific_exemption: false
+  exemption_citation: null
+  notes: >-
+    No ALPR-specific public records exemption. ALPR data is
+    subject to standard CORA exemptions.
+
+exemptions:
+  - Law enforcement investigation records
+  - Personal privacy (personnel files, medical records)
+  - Trade secrets and proprietary information
+  - Security plans and procedures
+  - Attorney-client privileged communications
+  - Deliberative process (inter-agency/intra-agency advisory communications)
+
+template_fragments:
+  statute_invocation: >-
+    Pursuant to the Colorado Open Records Act
+    (C.R.S. \xA7\xA7 24-72-201 to 24-72-206)
+  response_reminder: >-
+    I expect records to be made available within three working
+    days as required by C.R.S. \xA7 24-72-203(3)(b). If you deny
+    any portion of this request, please cite the specific
+    statutory basis and provide a written explanation.
+  fee_cap_notice: >-
+    If fulfilling this request will cost more than $__FEE_CAP__,
+    please provide an estimate before proceeding. Please note
+    that the first hour of research and retrieval is free.
+  electronic_delivery_clause: >-
+    I request that records be provided in searchable electronic
+    format in their native digital format.
+  appeal_deadline_warning: >-
+    Please be advised that under C.R.S. \xA7 24-72-204(5), I am
+    required to provide 14 days written notice before filing suit.
+    This letter serves as such notice. I reserve the right to
+    seek judicial review and all remedies available under CORA,
+    including attorney fees and per-day penalties.

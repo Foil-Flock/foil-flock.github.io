@@ -1,0 +1,94 @@
+name: Michigan
+abbreviation: MI
+slug: michigan
+
+statute:
+  name: Michigan Freedom of Information Act (FOIA)
+  short_name: FOIA
+  citation: MCL 15.231 et seq.
+  url: https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-Act-442-of-1976
+
+presumption: open
+
+response:
+  initial_days: 5
+  final_days: 15
+  day_type: business
+  notes: >-
+    Agency must respond within 5 business days with a one-time
+    extension of up to 10 additional business days (15 total).
+    Response must be in writing, granting or denying the request
+    in whole or in part. Failure to respond is a deemed denial.
+
+appeal:
+  required_before_court: false
+  deadline_days: null
+  response_days: 10
+  body: Head of public body or Circuit Court
+  advisory_body: null
+
+enforcement:
+  penalty_type: both
+  per_day_cap: null
+  attorney_fees: mandatory
+  fee_trigger: >-
+    Court shall award reasonable attorney fees, costs, and
+    disbursements to a prevailing requester. Punitive damages
+    of $1,000 for arbitrary and capricious refusal or
+    unreasonable delay. MCL 15.240(7).
+  court_action: Civil action
+  court_name: Circuit Court
+  filing_fee_approx: 175
+  filing_deadline_days: 365
+  burden_of_proof: agency
+
+fees:
+  copy_per_page: null
+  copy_max_size: null
+  search_fee_allowed: true
+  review_fee_allowed: true
+  redaction_fee_allowed: true
+  electronic_delivery_required: true
+  notes: >-
+    Fees must be based on actual incremental labor and duplication
+    costs, using the hourly wage of the lowest-paid employee
+    capable of performing the work. Requesters may specify the
+    format (electronic or paper). Agencies must provide a detailed
+    itemization of fees.
+
+alpr:
+  specific_exemption: false
+  exemption_citation: null
+  notes: >-
+    No ALPR-specific public records exemption. ALPR data is
+    subject to standard Michigan FOIA exemptions.
+
+exemptions:
+  - Law enforcement investigation records
+  - Personal privacy (personnel, student, patient records)
+  - Endanger life or physical safety
+  - Trade secrets and commercial information
+  - Attorney-client privileged communications
+  - Homeland security and cybersecurity information
+
+template_fragments:
+  statute_invocation: >-
+    Pursuant to the Michigan Freedom of Information Act
+    (MCL 15.231 et seq.)
+  response_reminder: >-
+    I expect a response within five business days as required by
+    MCL 15.235(2). If you deny any portion of this request,
+    please provide a written notice explaining the basis for
+    the denial and citing the specific statutory exemption.
+  fee_cap_notice: >-
+    If fulfilling this request will cost more than $__FEE_CAP__,
+    please provide a detailed itemized estimate before proceeding.
+  electronic_delivery_clause: >-
+    I request that records be provided in electronic format
+    pursuant to MCL 15.234(1).
+  appeal_deadline_warning: >-
+    If this request is denied, I intend to appeal to the head
+    of the public body and reserve the right to seek judicial
+    review in Circuit Court and all remedies available under
+    Michigan FOIA, including attorney fees and punitive damages
+    under MCL 15.240(7).

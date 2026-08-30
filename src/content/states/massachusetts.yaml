@@ -1,0 +1,101 @@
+name: Massachusetts
+abbreviation: MA
+slug: massachusetts
+
+statute:
+  name: Massachusetts Public Records Law
+  short_name: Public Records Law
+  citation: "G.L. c. 66, \xA7 10; G.L. c. 4, \xA7 7(26)"
+  url: https://malegislature.gov/Laws/GeneralLaws/PartI/TitleX/Chapter66/Section10
+
+presumption: open
+
+response:
+  initial_days: 10
+  final_days: 25
+  day_type: business
+  notes: >-
+    Records Access Officer must respond within 10 business days.
+    State agencies must produce records within 15 business days;
+    municipalities within 25 business days. Extensions of up to
+    20 additional business days (agencies) or 30 (municipalities)
+    with good cause shown.
+
+appeal:
+  required_before_court: false
+  deadline_days: 90
+  response_days: 10
+  body: Supervisor of Records (Secretary of the Commonwealth)
+  advisory_body:
+    name: Supervisor of Records
+    url: https://www.sec.state.ma.us/divisions/public-records/public-records-law/appealing-a-denial.htm
+    phone: "(617) 727-2832"
+    email: null
+    address: "One Ashburton Place, Room 1719, Boston, MA 02108"
+
+enforcement:
+  penalty_type: both
+  per_day_cap: null
+  attorney_fees: mandatory
+  fee_trigger: >-
+    Presumption favoring attorney fee awards to prevailing
+    requesters in Superior Court, with four narrow exceptions:
+    frivolous requests, prior appellate decisions supporting
+    denial, harassment/intimidation, or non-public-interest
+    commercial requests. Punitive damages of $1,000–$5,000 for
+    bad faith denials. G.L. c. 66, § 10A.
+  court_action: Civil action to compel compliance
+  court_name: Superior Court
+  filing_fee_approx: 320
+  filing_deadline_days: 365
+  burden_of_proof: agency
+
+fees:
+  copy_per_page: null
+  copy_max_size: null
+  search_fee_allowed: true
+  review_fee_allowed: false
+  redaction_fee_allowed: true
+  electronic_delivery_required: true
+  notes: >-
+    Hourly rate for search, segregation, and redaction capped at
+    $25/hour. State agencies: first 4 hours free. Municipalities:
+    first 2 hours free. Copying at reasonable cost. Electronic
+    delivery required when requested.
+
+alpr:
+  specific_exemption: false
+  exemption_citation: null
+  notes: >-
+    No ALPR-specific exemption. A pending bill seeks stronger
+    privacy protections limiting employee access to ALPR data.
+    ALPR data is subject to standard public records exemptions.
+
+exemptions:
+  - Law enforcement investigation records
+  - Personal privacy (personnel, medical files)
+  - Endanger physical safety
+  - Trade secrets and proprietary information
+  - Attorney-client privileged communications
+  - Homeland security and terrorism response plans
+
+template_fragments:
+  statute_invocation: >-
+    Pursuant to the Massachusetts Public Records Law
+    (G.L. c. 66, \xA7 10)
+  response_reminder: >-
+    I expect a response within ten business days as required by
+    G.L. c. 66, \xA7 10(b). If you deny any portion of this
+    request, please cite the specific statutory exemption and
+    explain how it applies to each withheld record.
+  fee_cap_notice: >-
+    If fulfilling this request will cost more than $__FEE_CAP__,
+    please provide an estimate before proceeding.
+  electronic_delivery_clause: >-
+    I request that records be provided in electronic format
+    as required by the Public Records Law when available.
+  appeal_deadline_warning: >-
+    If this request is denied, I intend to appeal to the
+    Supervisor of Records and reserve the right to seek judicial
+    review and all remedies under G.L. c. 66, \xA7 10A, including
+    attorney fees and punitive damages.

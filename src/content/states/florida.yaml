@@ -1,0 +1,103 @@
+name: Florida
+abbreviation: FL
+slug: florida
+
+statute:
+  name: Florida Public Records Act
+  short_name: Public Records Act
+  citation: "Fla. Stat. Chapter 119"
+  url: https://www.flsenate.gov/Laws/Statutes/2024/Chapter119/All
+
+presumption: open
+
+response:
+  initial_days: 0
+  final_days: null
+  day_type: business
+  notes: >-
+    Florida has no statutory response deadline. Records must be
+    provided "promptly" and agencies must respond "in good faith."
+    Unreasonable delay may constitute a constructive denial. The
+    Florida Constitution (Art. I, § 24) independently guarantees
+    the right of access. Inspection must be permitted during
+    regular business hours.
+
+appeal:
+  required_before_court: false
+  deadline_days: null
+  response_days: null
+  body: Direct court action (Circuit Court)
+  advisory_body: null
+
+enforcement:
+  penalty_type: fee_shifting
+  per_day_cap: null
+  attorney_fees: mandatory
+  fee_trigger: >-
+    Court shall award reasonable attorney fees and enforcement
+    costs to a requester who prevails, provided the requester gave
+    5 business days written notice before filing suit. Fla. Stat.
+    § 119.12. Fees may be awarded against requester if the court
+    finds the request was made with "improper purpose."
+  court_action: Civil action to compel compliance
+  court_name: Circuit Court
+  filing_fee_approx: 400
+  filing_deadline_days: 365
+  burden_of_proof: agency
+
+fees:
+  copy_per_page: 0.15
+  copy_max_size: null
+  search_fee_allowed: true
+  review_fee_allowed: false
+  redaction_fee_allowed: false
+  electronic_delivery_required: false
+  notes: >-
+    Standard copy fee is 15 cents per single-sided page, 20 cents
+    per double-sided page. Certified copies cost $1.00 per page.
+    Agencies may charge a "special service charge" for extensive
+    clerical or IT work required to fulfill a request.
+
+alpr:
+  specific_exemption: true
+  exemption_citation: "Fla. Stat. \xA7 316.0777"
+  notes: >-
+    Florida law exempts ALPR images and data containing personal
+    identifying information from public records disclosure.
+    Criminal justice agencies may access the data for official
+    duties, and individuals may access data related to their own
+    license plate unless it constitutes active criminal intelligence.
+    Florida has nearly 9,500 documented ALPR cameras statewide.
+
+exemptions:
+  - ALPR images and personal identifying information (§ 316.0777)
+  - Active criminal investigation records
+  - Confidential informant identity
+  - Security system plans
+  - Trade secrets
+  - Social security numbers and financial account numbers
+  - Medical records
+
+template_fragments:
+  statute_invocation: >-
+    Pursuant to Florida's Public Records Act
+    (Fla. Stat. Chapter 119) and Art. I, \xA7 24 of the Florida
+    Constitution
+  response_reminder: >-
+    I expect a prompt response as required by law. Florida's
+    constitutional right of access requires that public records
+    be made available without unreasonable delay. If you deny any
+    portion of this request, please cite the specific statutory
+    exemption relied upon.
+  fee_cap_notice: >-
+    If fulfilling this request will cost more than $__FEE_CAP__,
+    please provide an estimate before proceeding.
+  electronic_delivery_clause: >-
+    I request that records be provided in electronic format where
+    available.
+  appeal_deadline_warning: >-
+    Please be advised that under Fla. Stat. \xA7 119.12, I am
+    entitled to reasonable attorney fees and enforcement costs if
+    I am compelled to seek judicial relief to enforce this request.
+    This letter constitutes the required written notice prior to
+    initiating legal action.

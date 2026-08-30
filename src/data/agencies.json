@@ -85,6 +85,723 @@
       ],
       "last_verified": "2026-08-30",
       "notes": "Settled Rodriguez FOIL lawsuit for $40,000. Subsequently cancelled Flock contract."
+    },
+    {
+      "id": "la-county-sheriff-ca",
+      "name": "Los Angeles County Sheriff's Department",
+      "type": "sheriff",
+      "jurisdiction": "Los Angeles County",
+      "jurisdiction_type": "county",
+      "state": "CA",
+      "contact": {
+        "records_access_officer": null,
+        "email": null,
+        "phone": null,
+        "form_url": "https://lacounty.gov/records-request/",
+        "mailing_address": "211 W. Temple Street, Los Angeles, CA 90012",
+        "submission_methods": ["web_form", "mail"]
+      },
+      "alpr": {
+        "vendor": "flock",
+        "camera_count": null,
+        "retention_period": null,
+        "contract_status": "active",
+        "transparency_portal_url": null
+      },
+      "sources": [
+        "https://fliptheflock.org/states/california/",
+        "https://www.findingflock.com/cameras"
+      ],
+      "last_verified": "2026-08-30"
+    },
+    {
+      "id": "san-diego-pd-ca",
+      "name": "San Diego Police Department",
+      "type": "police",
+      "jurisdiction": "San Diego",
+      "jurisdiction_type": "city",
+      "state": "CA",
+      "contact": {
+        "records_access_officer": null,
+        "email": null,
+        "phone": null,
+        "form_url": "https://www.sandiego.gov/public-records",
+        "mailing_address": "1401 Broadway, San Diego, CA 92101",
+        "submission_methods": ["web_form", "mail"]
+      },
+      "alpr": {
+        "vendor": "flock",
+        "camera_count": null,
+        "retention_period": null,
+        "contract_status": "active",
+        "transparency_portal_url": null
+      },
+      "sources": [
+        "https://deflocktheusa.com/flock-cameras/california/san-diego/",
+        "https://www.findingflock.com/cameras"
+      ],
+      "last_verified": "2026-08-30"
+    },
+    {
+      "id": "houston-pd-tx",
+      "name": "Houston Police Department",
+      "type": "police",
+      "jurisdiction": "Houston",
+      "jurisdiction_type": "city",
+      "state": "TX",
+      "contact": {
+        "records_access_officer": null,
+        "email": null,
+        "phone": null,
+        "form_url": "https://www.houstontx.gov/legalaffairs/open-records.html",
+        "mailing_address": "1200 Travis St., Houston, TX 77002",
+        "submission_methods": ["web_form", "mail"]
+      },
+      "alpr": {
+        "vendor": "flock",
+        "camera_count": null,
+        "retention_period": null,
+        "contract_status": "active",
+        "transparency_portal_url": null
+      },
+      "sources": [
+        "https://unflocked.org/houston",
+        "https://fliptheflock.org/states/texas/"
+      ],
+      "last_verified": "2026-08-30"
+    },
+    {
+      "id": "dallas-pd-tx",
+      "name": "Dallas Police Department",
+      "type": "police",
+      "jurisdiction": "Dallas",
+      "jurisdiction_type": "city",
+      "state": "TX",
+      "contact": {
+        "records_access_officer": null,
+        "email": null,
+        "phone": null,
+        "form_url": null,
+        "mailing_address": "1400 S. Lamar St., Dallas, TX 75215",
+        "submission_methods": ["mail", "email"]
+      },
+      "alpr": {
+        "vendor": "flock",
+        "camera_count": null,
+        "retention_period": null,
+        "contract_status": "active",
+        "transparency_portal_url": null
+      },
+      "sources": [
+        "https://www.audacy.com/krld/news/local/flock-cameras-expand-across-dfw-amid-crime-fighting-claims-and-privacy-debates",
+        "https://fliptheflock.org/states/texas/"
+      ],
+      "last_verified": "2026-08-30"
+    },
+    {
+      "id": "atlanta-pd-ga",
+      "name": "Atlanta Police Department",
+      "type": "police",
+      "jurisdiction": "Atlanta",
+      "jurisdiction_type": "city",
+      "state": "GA",
+      "contact": {
+        "records_access_officer": null,
+        "email": null,
+        "phone": null,
+        "form_url": null,
+        "mailing_address": "226 Peachtree St. SW, Atlanta, GA 30303",
+        "submission_methods": ["mail", "email"]
+      },
+      "alpr": {
+        "vendor": "flock",
+        "camera_count": null,
+        "retention_period": null,
+        "contract_status": "active",
+        "transparency_portal_url": null
+      },
+      "sources": [
+        "https://www.findingflock.com/cameras"
+      ],
+      "last_verified": "2026-08-30",
+      "notes": "Flock Safety is headquartered in Atlanta. Georgia has an ALPR-specific exemption (O.C.G.A. § 35-1-22) that may block disclosure of plate data."
+    },
+    {
+      "id": "cobb-county-pd-ga",
+      "name": "Cobb County Police Department",
+      "type": "police",
+      "jurisdiction": "Cobb County",
+      "jurisdiction_type": "county",
+      "state": "GA",
+      "contact": {
+        "records_access_officer": null,
+        "email": null,
+        "phone": null,
+        "form_url": null,
+        "mailing_address": "140 N. Marietta Pkwy., Marietta, GA 30060",
+        "submission_methods": ["mail", "email"]
+      },
+      "alpr": {
+        "vendor": "flock",
+        "camera_count": null,
+        "retention_period": null,
+        "contract_status": "active",
+        "transparency_portal_url": null
+      },
+      "sources": [
+        "https://www.findingflock.com/cameras"
+      ],
+      "last_verified": "2026-08-30"
+    },
+    {
+      "id": "miami-dade-pd-fl",
+      "name": "Miami-Dade Police Department",
+      "type": "police",
+      "jurisdiction": "Miami-Dade County",
+      "jurisdiction_type": "county",
+      "state": "FL",
+      "contact": {
+        "records_access_officer": null,
+        "email": null,
+        "phone": null,
+        "form_url": null,
+        "mailing_address": "9105 NW 25th St., Doral, FL 33172",
+        "submission_methods": ["mail", "email"]
+      },
+      "alpr": {
+        "vendor": "flock",
+        "camera_count": null,
+        "retention_period": null,
+        "contract_status": "active",
+        "transparency_portal_url": null
+      },
+      "sources": [
+        "https://fliptheflock.org/states/florida/",
+        "https://www.findingflock.com/cameras"
+      ],
+      "last_verified": "2026-08-30",
+      "notes": "Florida has an ALPR-specific exemption (§ 316.0777) that exempts ALPR images and PII from public disclosure."
+    },
+    {
+      "id": "jacksonville-so-fl",
+      "name": "Jacksonville Sheriff's Office",
+      "type": "sheriff",
+      "jurisdiction": "Jacksonville",
+      "jurisdiction_type": "city",
+      "state": "FL",
+      "contact": {
+        "records_access_officer": null,
+        "email": null,
+        "phone": null,
+        "form_url": "https://www.jaxsheriff.org/records.aspx",
+        "mailing_address": "501 E. Bay St., Jacksonville, FL 32202",
+        "submission_methods": ["web_form", "mail"]
+      },
+      "alpr": {
+        "vendor": "flock",
+        "camera_count": null,
+        "retention_period": null,
+        "contract_status": "active",
+        "transparency_portal_url": null
+      },
+      "sources": [
+        "https://fliptheflock.org/states/florida/",
+        "https://www.findingflock.com/cameras"
+      ],
+      "last_verified": "2026-08-30"
+    },
+    {
+      "id": "dupage-county-so-il",
+      "name": "DuPage County Sheriff's Office",
+      "type": "sheriff",
+      "jurisdiction": "DuPage County",
+      "jurisdiction_type": "county",
+      "state": "IL",
+      "contact": {
+        "records_access_officer": null,
+        "email": null,
+        "phone": null,
+        "form_url": null,
+        "mailing_address": "501 N. County Farm Rd., Wheaton, IL 60187",
+        "submission_methods": ["mail", "email"]
+      },
+      "alpr": {
+        "vendor": "flock",
+        "camera_count": null,
+        "retention_period": null,
+        "contract_status": "active",
+        "transparency_portal_url": null
+      },
+      "sources": [
+        "https://www.findingflock.com/cameras"
+      ],
+      "last_verified": "2026-08-30"
+    },
+    {
+      "id": "naperville-pd-il",
+      "name": "Naperville Police Department",
+      "type": "police",
+      "jurisdiction": "Naperville",
+      "jurisdiction_type": "city",
+      "state": "IL",
+      "contact": {
+        "records_access_officer": null,
+        "email": null,
+        "phone": null,
+        "form_url": null,
+        "mailing_address": "1350 Aurora Ave., Naperville, IL 60540",
+        "submission_methods": ["mail", "email"]
+      },
+      "alpr": {
+        "vendor": "flock",
+        "camera_count": null,
+        "retention_period": null,
+        "contract_status": "active",
+        "transparency_portal_url": null
+      },
+      "sources": [
+        "https://www.findingflock.com/cameras"
+      ],
+      "last_verified": "2026-08-30"
+    },
+    {
+      "id": "fairfax-county-pd-va",
+      "name": "Fairfax County Police Department",
+      "type": "police",
+      "jurisdiction": "Fairfax County",
+      "jurisdiction_type": "county",
+      "state": "VA",
+      "contact": {
+        "records_access_officer": null,
+        "email": null,
+        "phone": null,
+        "form_url": "https://www.fairfaxcounty.gov/police/foia",
+        "mailing_address": "12099 Government Center Pkwy., Fairfax, VA 22035",
+        "submission_methods": ["web_form", "mail"]
+      },
+      "alpr": {
+        "vendor": "flock",
+        "camera_count": null,
+        "retention_period": null,
+        "contract_status": "active",
+        "transparency_portal_url": null
+      },
+      "sources": [
+        "https://www.nbcnews.com/tech/security/virginia-police-used-flock-cameras-track-driver-safety-lawsuit-surveil-rcna230399",
+        "https://www.findingflock.com/cameras"
+      ],
+      "last_verified": "2026-08-30"
+    },
+    {
+      "id": "norfolk-pd-va",
+      "name": "Norfolk Police Department",
+      "type": "police",
+      "jurisdiction": "Norfolk",
+      "jurisdiction_type": "city",
+      "state": "VA",
+      "contact": {
+        "records_access_officer": null,
+        "email": null,
+        "phone": null,
+        "form_url": null,
+        "mailing_address": "100 Brooke Ave., Norfolk, VA 23510",
+        "submission_methods": ["mail", "email"]
+      },
+      "alpr": {
+        "vendor": "flock",
+        "camera_count": null,
+        "retention_period": null,
+        "contract_status": "active",
+        "transparency_portal_url": null
+      },
+      "sources": [
+        "https://www.findingflock.com/cameras"
+      ],
+      "last_verified": "2026-08-30"
+    },
+    {
+      "id": "boston-pd-ma",
+      "name": "Boston Police Department",
+      "type": "police",
+      "jurisdiction": "Boston",
+      "jurisdiction_type": "city",
+      "state": "MA",
+      "contact": {
+        "records_access_officer": null,
+        "email": null,
+        "phone": null,
+        "form_url": "https://www.boston.gov/departments/police/public-records-requests",
+        "mailing_address": "One Schroeder Plaza, Boston, MA 02120",
+        "submission_methods": ["web_form", "mail"]
+      },
+      "alpr": {
+        "vendor": "flock",
+        "camera_count": null,
+        "retention_period": null,
+        "contract_status": "active",
+        "transparency_portal_url": null
+      },
+      "sources": [
+        "https://www.aclum.org/campaigns-initiatives/get-the-flock-out-resource-guide/",
+        "https://www.findingflock.com/cameras"
+      ],
+      "last_verified": "2026-08-30"
+    },
+    {
+      "id": "worcester-pd-ma",
+      "name": "Worcester Police Department",
+      "type": "police",
+      "jurisdiction": "Worcester",
+      "jurisdiction_type": "city",
+      "state": "MA",
+      "contact": {
+        "records_access_officer": null,
+        "email": null,
+        "phone": null,
+        "form_url": null,
+        "mailing_address": "9-11 Lincoln Square, Worcester, MA 01608",
+        "submission_methods": ["mail", "email"]
+      },
+      "alpr": {
+        "vendor": "flock",
+        "camera_count": null,
+        "retention_period": null,
+        "contract_status": "active",
+        "transparency_portal_url": null
+      },
+      "sources": [
+        "https://www.findingflock.com/cameras"
+      ],
+      "last_verified": "2026-08-30"
+    },
+    {
+      "id": "newark-pd-nj",
+      "name": "Newark Police Department",
+      "type": "police",
+      "jurisdiction": "Newark",
+      "jurisdiction_type": "city",
+      "state": "NJ",
+      "contact": {
+        "records_access_officer": null,
+        "email": null,
+        "phone": null,
+        "form_url": null,
+        "mailing_address": "480 Clinton Ave., Newark, NJ 07108",
+        "submission_methods": ["mail", "email"]
+      },
+      "alpr": {
+        "vendor": "flock",
+        "camera_count": null,
+        "retention_period": null,
+        "contract_status": "active",
+        "transparency_portal_url": null
+      },
+      "sources": [
+        "https://www.findingflock.com/cameras"
+      ],
+      "last_verified": "2026-08-30"
+    },
+    {
+      "id": "bergen-county-so-nj",
+      "name": "Bergen County Sheriff's Office",
+      "type": "sheriff",
+      "jurisdiction": "Bergen County",
+      "jurisdiction_type": "county",
+      "state": "NJ",
+      "contact": {
+        "records_access_officer": null,
+        "email": null,
+        "phone": null,
+        "form_url": null,
+        "mailing_address": "160 S. River St., Hackensack, NJ 07601",
+        "submission_methods": ["mail", "email"]
+      },
+      "alpr": {
+        "vendor": "flock",
+        "camera_count": null,
+        "retention_period": null,
+        "contract_status": "active",
+        "transparency_portal_url": null
+      },
+      "sources": [
+        "https://www.findingflock.com/cameras"
+      ],
+      "last_verified": "2026-08-30"
+    },
+    {
+      "id": "philadelphia-pd-pa",
+      "name": "Philadelphia Police Department",
+      "type": "police",
+      "jurisdiction": "Philadelphia",
+      "jurisdiction_type": "city",
+      "state": "PA",
+      "contact": {
+        "records_access_officer": null,
+        "email": null,
+        "phone": null,
+        "form_url": "https://www.phila.gov/services/government-information/get-right-to-know-request/",
+        "mailing_address": "750 Race St., Philadelphia, PA 19106",
+        "submission_methods": ["web_form", "mail"]
+      },
+      "alpr": {
+        "vendor": "flock",
+        "camera_count": null,
+        "retention_period": null,
+        "contract_status": "active",
+        "transparency_portal_url": null
+      },
+      "sources": [
+        "https://penncapital-star.com/civil-rights-social-justice/pa-lawmakers-propose-guardrails-on-automatic-license-plate-cameras-as-backlash-grows/",
+        "https://www.findingflock.com/cameras"
+      ],
+      "last_verified": "2026-08-30"
+    },
+    {
+      "id": "pittsburgh-pd-pa",
+      "name": "Pittsburgh Bureau of Police",
+      "type": "police",
+      "jurisdiction": "Pittsburgh",
+      "jurisdiction_type": "city",
+      "state": "PA",
+      "contact": {
+        "records_access_officer": null,
+        "email": null,
+        "phone": null,
+        "form_url": null,
+        "mailing_address": "1203 Western Ave., Pittsburgh, PA 15233",
+        "submission_methods": ["mail", "email"]
+      },
+      "alpr": {
+        "vendor": "flock",
+        "camera_count": null,
+        "retention_period": null,
+        "contract_status": "active",
+        "transparency_portal_url": null
+      },
+      "sources": [
+        "https://www.findingflock.com/cameras"
+      ],
+      "last_verified": "2026-08-30"
+    },
+    {
+      "id": "denver-pd-co",
+      "name": "Denver Police Department",
+      "type": "police",
+      "jurisdiction": "Denver",
+      "jurisdiction_type": "city",
+      "state": "CO",
+      "contact": {
+        "records_access_officer": null,
+        "email": null,
+        "phone": null,
+        "form_url": "https://www.denvergov.org/Government/Departments/Police-Department/About-DPD/Records-Requests",
+        "mailing_address": "1331 Cherokee St., Denver, CO 80204",
+        "submission_methods": ["web_form", "mail"]
+      },
+      "alpr": {
+        "vendor": "flock",
+        "camera_count": null,
+        "retention_period": null,
+        "contract_status": "active",
+        "transparency_portal_url": null
+      },
+      "sources": [
+        "https://www.findingflock.com/cameras"
+      ],
+      "last_verified": "2026-08-30"
+    },
+    {
+      "id": "aurora-pd-co",
+      "name": "Aurora Police Department",
+      "type": "police",
+      "jurisdiction": "Aurora",
+      "jurisdiction_type": "city",
+      "state": "CO",
+      "contact": {
+        "records_access_officer": null,
+        "email": null,
+        "phone": null,
+        "form_url": null,
+        "mailing_address": "15001 E. Alameda Pkwy., Aurora, CO 80012",
+        "submission_methods": ["mail", "email"]
+      },
+      "alpr": {
+        "vendor": "flock",
+        "camera_count": null,
+        "retention_period": null,
+        "contract_status": "active",
+        "transparency_portal_url": null
+      },
+      "sources": [
+        "https://www.findingflock.com/cameras"
+      ],
+      "last_verified": "2026-08-30"
+    },
+    {
+      "id": "columbus-pd-oh",
+      "name": "Columbus Division of Police",
+      "type": "police",
+      "jurisdiction": "Columbus",
+      "jurisdiction_type": "city",
+      "state": "OH",
+      "contact": {
+        "records_access_officer": null,
+        "email": null,
+        "phone": null,
+        "form_url": null,
+        "mailing_address": "120 Marconi Blvd., Columbus, OH 43215",
+        "submission_methods": ["mail", "email"]
+      },
+      "alpr": {
+        "vendor": "flock",
+        "camera_count": null,
+        "retention_period": null,
+        "contract_status": "active",
+        "transparency_portal_url": null
+      },
+      "sources": [
+        "https://www.wosu.org/politics-government/2026-04-28/central-ohio-police-departments-have-spent-nearly-2-million-on-flock-cameras",
+        "https://www.findingflock.com/cameras"
+      ],
+      "last_verified": "2026-08-30"
+    },
+    {
+      "id": "cincinnati-pd-oh",
+      "name": "Cincinnati Police Department",
+      "type": "police",
+      "jurisdiction": "Cincinnati",
+      "jurisdiction_type": "city",
+      "state": "OH",
+      "contact": {
+        "records_access_officer": null,
+        "email": null,
+        "phone": null,
+        "form_url": null,
+        "mailing_address": "310 Ezzard Charles Dr., Cincinnati, OH 45214",
+        "submission_methods": ["mail", "email"]
+      },
+      "alpr": {
+        "vendor": "flock",
+        "camera_count": null,
+        "retention_period": null,
+        "contract_status": "active",
+        "transparency_portal_url": null
+      },
+      "sources": [
+        "https://deflocktheusa.com/flock-cameras/ohio/",
+        "https://www.findingflock.com/cameras"
+      ],
+      "last_verified": "2026-08-30"
+    },
+    {
+      "id": "detroit-pd-mi",
+      "name": "Detroit Police Department",
+      "type": "police",
+      "jurisdiction": "Detroit",
+      "jurisdiction_type": "city",
+      "state": "MI",
+      "contact": {
+        "records_access_officer": null,
+        "email": null,
+        "phone": null,
+        "form_url": null,
+        "mailing_address": "1301 Third Ave., Detroit, MI 48226",
+        "submission_methods": ["mail", "email"]
+      },
+      "alpr": {
+        "vendor": "flock",
+        "camera_count": null,
+        "retention_period": null,
+        "contract_status": "active",
+        "transparency_portal_url": null
+      },
+      "sources": [
+        "https://flockcameralocations.com/locations/michigan",
+        "https://www.findingflock.com/cameras"
+      ],
+      "last_verified": "2026-08-30"
+    },
+    {
+      "id": "grand-rapids-pd-mi",
+      "name": "Grand Rapids Police Department",
+      "type": "police",
+      "jurisdiction": "Grand Rapids",
+      "jurisdiction_type": "city",
+      "state": "MI",
+      "contact": {
+        "records_access_officer": null,
+        "email": null,
+        "phone": null,
+        "form_url": null,
+        "mailing_address": "1 Monroe Center NW, Grand Rapids, MI 49503",
+        "submission_methods": ["mail", "email"]
+      },
+      "alpr": {
+        "vendor": "flock",
+        "camera_count": null,
+        "retention_period": null,
+        "contract_status": "active",
+        "transparency_portal_url": null
+      },
+      "sources": [
+        "https://www.findingflock.com/cameras"
+      ],
+      "last_verified": "2026-08-30"
+    },
+    {
+      "id": "phoenix-pd-az",
+      "name": "Phoenix Police Department",
+      "type": "police",
+      "jurisdiction": "Phoenix",
+      "jurisdiction_type": "city",
+      "state": "AZ",
+      "contact": {
+        "records_access_officer": null,
+        "email": null,
+        "phone": null,
+        "form_url": "https://www.phoenix.gov/police/public-records-request",
+        "mailing_address": "620 W. Washington St., Phoenix, AZ 85003",
+        "submission_methods": ["web_form", "mail"]
+      },
+      "alpr": {
+        "vendor": "flock",
+        "camera_count": null,
+        "retention_period": null,
+        "contract_status": "active",
+        "transparency_portal_url": null
+      },
+      "sources": [
+        "https://dailycaller.com/2026/08/19/flock-cameras-surviellance-towns-united-states-arizona-alcu/",
+        "https://www.findingflock.com/cameras"
+      ],
+      "last_verified": "2026-08-30"
+    },
+    {
+      "id": "scottsdale-pd-az",
+      "name": "Scottsdale Police Department",
+      "type": "police",
+      "jurisdiction": "Scottsdale",
+      "jurisdiction_type": "city",
+      "state": "AZ",
+      "contact": {
+        "records_access_officer": null,
+        "email": null,
+        "phone": null,
+        "form_url": null,
+        "mailing_address": "8401 E. Indian School Rd., Scottsdale, AZ 85251",
+        "submission_methods": ["mail", "email"]
+      },
+      "alpr": {
+        "vendor": "flock",
+        "camera_count": null,
+        "retention_period": null,
+        "contract_status": "active",
+        "transparency_portal_url": null
+      },
+      "sources": [
+        "https://www.findingflock.com/cameras"
+      ],
+      "last_verified": "2026-08-30"
     }
   ]
 }

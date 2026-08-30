@@ -1,0 +1,218 @@
+---
+import Base from "../../layouts/Base.astro";
+import { getCollection } from "astro:content";
+import agencyData from "../../data/agencies.json";
+
+const statesRaw = await getCollection("states");
+
+const agencies = agencyData.agencies;
+
+// Count agencies per state
+const agencyCountByState = new Map<string, number>();
+for (const a of agencies) {
+  agencyCountByState.set(a.state, (agencyCountByState.get(a.state) ?? 0) + 1);
+}
+
+// Sort states alphabetically
+const states = statesRaw
+  .map((s) => s.data)
+  .sort((a, b) => a.name.localeCompare(b.name));
+
+function feeLabel(type: string) {
+  const map: Record<string, string> = {
+    mandatory: "Mandatory",
+    discretionary: "Discretionary",
+    none: "None",
+  };
+  return map[type] ?? type;
+}
+
+function feeClass(type: string) {
+  if (type === "mandatory") return "good";
+  if (type === "discretionary") return "warn";
+  return "bad";
+}
+
+function responseLabel(s: any) {
+  if (s.response.initial_days === 0) return "Prompt";
+  return `${s.response.initial_days} ${s.response.day_type} days`;
+}
+---
+
+<Base
+  title="State Public Records Laws — Foil Flock"
+  description="Browse public records laws for ALPR surveillance data requests across all covered states."
+  activePage="states"
+>
+  <section class="states-header">
+    <p class="eyebrow">State-by-state guide</p>
+    <h1>Public records laws</h1>
+    <p class="states-sub">
+      Every state has a public records law, but the rules differ —
+      response deadlines, penalties, fee structures, and whether
+      ALPR data gets special protection. Pick your state to see
+      what applies.
+    </p>
+  </section>
+
+  <div class="states-grid">
+    {states.map((s) => {
+      const count = agencyCountByState.get(s.abbreviation) ?? 0;
+      return (
+        <a href={`/states/${s.slug}`} class="state-card">
+          <div class="state-card-head">
+            <span class="state-abbr">{s.abbreviation}</span>
+            <span class="state-name-label">{s.name}</span>
+          </div>
+
+          <div class="state-card-statute">{s.statute.short_name}</div>
+
+          <div class="state-card-stats">
+            <div class="mini-stat">
+              <span class="mini-label">Response</span>
+              <span class="mini-value">{responseLabel(s)}</span>
+            </div>
+            <div class="mini-stat">
+              <span class="mini-label">Atty fees</span>
+              <span class={`mini-value ${feeClass(s.enforcement.attorney_fees)}`}>
+                {feeLabel(s.enforcement.attorney_fees)}
+              </span>
+            </div>
+            <div class="mini-stat">
+              <span class="mini-label">ALPR exempt</span>
+              <span class={`mini-value ${s.alpr.specific_exemption ? "bad" : "good"}`}>
+                {s.alpr.specific_exemption ? "Yes" : "No"}
+              </span>
+            </div>
+          </div>
+
+          {count > 0 && (
+            <div class="state-card-agencies">
+              {count} {count === 1 ? "agency" : "agencies"} listed
+            </div>
+          )}
+        </a>
+      );
+    })}
+  </div>
+
+  <section class="callout" style="margin-top: var(--gap-xl);">
+    <div class="callout-label">Don't see your state?</div>
+    <p>
+      We're adding states as fast as we can verify the data.
+      <a href="https://github.com/Foil-Flock/foil-flock.github.io/issues/new" target="_blank" rel="noopener">
+        Open an issue
+      </a> to request a state or help us research one.
+    </p>
+  </section>
+</Base>
+
+<style>
+  .states-header {
+    padding: var(--gap-lg) 0 var(--gap-md);
+  }
+  .states-header h1 {
+    margin-top: var(--gap-sm);
+  }
+  .states-sub {
+    max-width: 580px;
+    color: var(--text-secondary);
+    margin-top: var(--gap-sm);
+    line-height: 1.7;
+  }
+
+  .states-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: var(--gap-sm);
+    margin-top: var(--gap-md);
+  }
+
+  .state-card {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-xs);
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-radius: var(--radius);
+    padding: var(--gap-md);
+    text-decoration: none;
+    border-bottom: 1px solid var(--rule);
+    transition: border-color 0.15s, background 0.15s;
+  }
+  .state-card:hover {
+    border-color: var(--accent-border);
+    background: var(--surface-raised);
+  }
+
+  .state-card-head {
+    display: flex;
+    align-items: baseline;
+    gap: var(--gap-sm);
+  }
+
+  .state-abbr {
+    font-family: var(--mono);
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--accent);
+    line-height: 1;
+  }
+
+  .state-name-label {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--text);
+  }
+
+  .state-card-statute {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--text-muted);
+    letter-spacing: 0.02em;
+  }
+
+  .state-card-stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--gap-xs) var(--gap-md);
+    margin-top: var(--gap-xs);
+  }
+
+  .mini-stat {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+  }
+
+  .mini-label {
+    font-family: var(--mono);
+    font-size: 9.5px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+  }
+
+  .mini-value {
+    font-size: 12.5px;
+    font-weight: 500;
+    color: var(--text);
+  }
+  .mini-value.good { color: var(--good); }
+  .mini-value.warn { color: var(--warn); }
+  .mini-value.bad { color: var(--bad); }
+
+  .state-card-agencies {
+    font-size: 11px;
+    color: var(--text-muted);
+    margin-top: var(--gap-xs);
+    font-family: var(--mono);
+  }
+
+  @media (max-width: 600px) {
+    .states-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

@@ -1,0 +1,100 @@
+name: Pennsylvania
+abbreviation: PA
+slug: pennsylvania
+
+statute:
+  name: Right-to-Know Law (RTKL)
+  short_name: RTKL
+  citation: 65 P.S. §§ 67.101 et seq.
+  url: https://www.openrecords.pa.gov/rtkl/about.cfm
+
+presumption: open
+
+response:
+  initial_days: 5
+  final_days: 35
+  day_type: business
+  notes: >-
+    Agency must respond within 5 business days. May extend by up
+    to 30 additional business days (35 total) for extensive
+    redactions or complex searches, with written notice. Failure
+    to respond within the deadline is a deemed denial.
+
+appeal:
+  required_before_court: true
+  deadline_days: 15
+  response_days: 30
+  body: Office of Open Records (OOR)
+  advisory_body:
+    name: Office of Open Records (OOR)
+    url: https://www.openrecords.pa.gov
+    phone: "(717) 346-9903"
+    email: null
+    address: "333 Market Street, 16th Floor, Harrisburg, PA 17101"
+
+enforcement:
+  penalty_type: both
+  per_day_cap: 500
+  attorney_fees: discretionary
+  fee_trigger: >-
+    Courts may order attorney fees and court costs if the agency
+    is found to have unreasonably withheld records. Civil fines
+    up to $1,500 for bad faith denial. Additional penalties up to
+    $500/day for failing to comply with OOR final orders.
+  court_action: Appeal to Court of Common Pleas
+  court_name: Court of Common Pleas
+  filing_fee_approx: 250
+  filing_deadline_days: 30
+  burden_of_proof: agency
+
+fees:
+  copy_per_page: 0.25
+  copy_max_size: null
+  search_fee_allowed: false
+  review_fee_allowed: false
+  redaction_fee_allowed: false
+  electronic_delivery_required: true
+  notes: >-
+    Duplication costs only; agencies cannot charge for review time
+    or determining whether records are exempt. Standard copy fees
+    set by OOR fee schedule. Electronic delivery required when
+    requested.
+
+alpr:
+  specific_exemption: false
+  exemption_citation: null
+  notes: >-
+    No ALPR-specific exemption. A pending bill proposes a
+    permitting process for state agency ALPR installations.
+    ALPR data is subject to standard RTKL exemptions.
+
+exemptions:
+  - Criminal investigation records
+  - Personal privacy (personal identification information)
+  - Endanger physical safety or personal security
+  - Trade secrets and confidential proprietary information
+  - Attorney-client privileged communications
+  - Internal predecisional deliberations
+  - Homeland security records
+
+template_fragments:
+  statute_invocation: >-
+    Pursuant to Pennsylvania's Right-to-Know Law
+    (65 P.S. \xA7\xA7 67.101 et seq.)
+  response_reminder: >-
+    I expect a response within five business days as required by
+    65 P.S. \xA7 67.901. If you deny any portion of this request,
+    please provide a written response citing the specific statutory
+    exemption and explaining how it applies.
+  fee_cap_notice: >-
+    If fulfilling this request will cost more than $__FEE_CAP__,
+    please provide an estimate before proceeding.
+  electronic_delivery_clause: >-
+    I request that records be provided in electronic format
+    pursuant to the Right-to-Know Law.
+  appeal_deadline_warning: >-
+    If this request is denied, I intend to appeal to the Office
+    of Open Records within 15 business days as provided by
+    65 P.S. \xA7 67.1101, and reserve the right to seek judicial
+    review and all remedies available under the RTKL, including
+    attorney fees and civil penalties.
