@@ -5,7 +5,7 @@ slug: georgia
 statute:
   name: Georgia Open Records Act (ORA)
   short_name: ORA
-  citation: "O.C.G.A. \xA7 50-18-70 et seq."
+  citation: "O.C.G.A. § 50-18-70 et seq."
   url: https://law.justia.com/codes/georgia/title-50/chapter-18/article-4/
 
 presumption: open
@@ -64,7 +64,7 @@ fees:
 
 alpr:
   specific_exemption: true
-  exemption_citation: "O.C.G.A. \xA7 35-1-22"
+  exemption_citation: "O.C.G.A. § 35-1-22"
   notes: >-
     Georgia law explicitly exempts ALPR data from public disclosure.
     O.C.G.A. § 35-1-22(f) states captured license plate data
@@ -87,10 +87,10 @@ exemptions:
 template_fragments:
   statute_invocation: >-
     Pursuant to the Georgia Open Records Act
-    (O.C.G.A. \xA7 50-18-70 et seq.)
+    (O.C.G.A. § 50-18-70 et seq.)
   response_reminder: >-
     I expect a response within three business days as required by
-    O.C.G.A. \xA7 50-18-71(b)(1)(A). If you deny any portion of
+    O.C.G.A. § 50-18-71(b)(1)(A). If you deny any portion of
     this request, please cite the specific statutory exemption and
     provide a written explanation.
   fee_cap_notice: >-
@@ -102,5 +102,5 @@ template_fragments:
   appeal_deadline_warning: >-
     If this request is denied, I reserve the right to seek judicial
     review and all remedies available under the Georgia Open Records
-    Act, including civil penalties under O.C.G.A. \xA7 50-18-74
+    Act, including civil penalties under O.C.G.A. § 50-18-74
     and attorney fees.

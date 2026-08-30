@@ -5,7 +5,7 @@ slug: colorado
 statute:
   name: Colorado Open Records Act (CORA)
   short_name: CORA
-  citation: "C.R.S. \xA7\xA7 24-72-201 to 24-72-206"
+  citation: "C.R.S. §§ 24-72-201 to 24-72-206"
   url: https://leg.colorado.gov/agencies/office-legislative-legal-services/colorado-open-records-act-cora
 
 presumption: open
@@ -76,10 +76,10 @@ exemptions:
 template_fragments:
   statute_invocation: >-
     Pursuant to the Colorado Open Records Act
-    (C.R.S. \xA7\xA7 24-72-201 to 24-72-206)
+    (C.R.S. §§ 24-72-201 to 24-72-206)
   response_reminder: >-
     I expect records to be made available within three working
-    days as required by C.R.S. \xA7 24-72-203(3)(b). If you deny
+    days as required by C.R.S. § 24-72-203(3)(b). If you deny
     any portion of this request, please cite the specific
     statutory basis and provide a written explanation.
   fee_cap_notice: >-
@@ -90,7 +90,7 @@ template_fragments:
     I request that records be provided in searchable electronic
     format in their native digital format.
   appeal_deadline_warning: >-
-    Please be advised that under C.R.S. \xA7 24-72-204(5), I am
+    Please be advised that under C.R.S. § 24-72-204(5), I am
     required to provide 14 days written notice before filing suit.
     This letter serves as such notice. I reserve the right to
     seek judicial review and all remedies available under CORA,

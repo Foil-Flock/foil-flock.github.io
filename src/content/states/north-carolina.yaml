@@ -62,7 +62,7 @@ fees:
 
 alpr:
   specific_exemption: true
-  exemption_citation: "N.C.G.S. \xA7 20-183.32(e)"
+  exemption_citation: "N.C.G.S. § 20-183.32(e)"
   notes: >-
     Captured plate data is explicitly "confidential and not a public
     record" under N.C.G.S. § 20-183.32(e) (Article 3D, enacted 2015).
@@ -87,14 +87,14 @@ template_fragments:
     (N.C.G.S. Chapter 132)
   response_reminder: >-
     I expect records to be furnished as promptly as possible as
-    required by N.C.G.S. \xA7 132-6.
+    required by N.C.G.S. § 132-6.
   fee_cap_notice: >-
     If fulfilling this request will cost more than $__FEE_CAP__,
     please provide an estimate before proceeding.
   electronic_delivery_clause: >-
     I request that records be provided in electronic format where
-    available, as permitted under N.C.G.S. \xA7 132-6.2(a).
+    available, as permitted under N.C.G.S. § 132-6.2(a).
   appeal_deadline_warning: >-
     If this request is denied, I reserve the right to seek judicial
-    review under N.C.G.S. \xA7 132-9, including mandatory attorney
+    review under N.C.G.S. § 132-9, including mandatory attorney
     fees for substantially prevailing requestors.

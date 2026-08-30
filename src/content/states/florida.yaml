@@ -60,7 +60,7 @@ fees:
 
 alpr:
   specific_exemption: true
-  exemption_citation: "Fla. Stat. \xA7 316.0777"
+  exemption_citation: "Fla. Stat. § 316.0777"
   notes: >-
     Florida law exempts ALPR images and data containing personal
     identifying information from public records disclosure.
@@ -81,7 +81,7 @@ exemptions:
 template_fragments:
   statute_invocation: >-
     Pursuant to Florida's Public Records Act
-    (Fla. Stat. Chapter 119) and Art. I, \xA7 24 of the Florida
+    (Fla. Stat. Chapter 119) and Art. I, § 24 of the Florida
     Constitution
   response_reminder: >-
     I expect a prompt response as required by law. Florida's
@@ -96,7 +96,7 @@ template_fragments:
     I request that records be provided in electronic format where
     available.
   appeal_deadline_warning: >-
-    Please be advised that under Fla. Stat. \xA7 119.12, I am
+    Please be advised that under Fla. Stat. § 119.12, I am
     entitled to reasonable attorney fees and enforcement costs if
     I am compelled to seek judicial relief to enforce this request.
     This letter constitutes the required written notice prior to

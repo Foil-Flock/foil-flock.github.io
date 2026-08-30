@@ -91,7 +91,7 @@ template_fragments:
     I expect a prompt response as required by the Public Information
     Act. If you believe any requested information is excepted from
     disclosure, you must request an Attorney General ruling within
-    ten business days per \xA7 552.301.
+    ten business days per § 552.301.
   fee_cap_notice: >-
     If fulfilling this request will cost more than $__FEE_CAP__,
     please provide a written itemized estimate before proceeding.
@@ -100,7 +100,7 @@ template_fragments:
     available.
   appeal_deadline_warning: >-
     If this request is denied without a timely Attorney General
-    ruling, the information is presumed public under \xA7 552.302.
+    ruling, the information is presumed public under § 552.302.
     I reserve the right to seek a writ of mandamus and all remedies
     available under the PIA, including attorney fees under
-    \xA7 552.323.
+    § 552.323.

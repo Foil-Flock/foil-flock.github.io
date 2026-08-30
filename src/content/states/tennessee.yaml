@@ -5,7 +5,7 @@ slug: tennessee
 statute:
   name: Tennessee Public Records Act (TPRA)
   short_name: TPRA
-  citation: "T.C.A. \xA7\xA7 10-7-503 to 10-7-517"
+  citation: "T.C.A. §§ 10-7-503 to 10-7-517"
   url: https://law.justia.com/codes/tennessee/title-10/chapter-7/part-5/
 
 presumption: open
@@ -86,10 +86,10 @@ exemptions:
 template_fragments:
   statute_invocation: >-
     Pursuant to the Tennessee Public Records Act
-    (T.C.A. \xA7\xA7 10-7-503 to 10-7-517)
+    (T.C.A. §§ 10-7-503 to 10-7-517)
   response_reminder: >-
     I expect a response within seven business days as required by
-    T.C.A. \xA7 10-7-503. If you deny any portion of this request,
+    T.C.A. § 10-7-503. If you deny any portion of this request,
     please provide a written denial citing the specific legal basis.
   fee_cap_notice: >-
     If fulfilling this request will cost more than $__FEE_CAP__,
@@ -99,5 +99,5 @@ template_fragments:
     available.
   appeal_deadline_warning: >-
     If this request is denied, I reserve the right to petition for
-    access under T.C.A. \xA7 10-7-505 and seek all remedies
+    access under T.C.A. § 10-7-505 and seek all remedies
     available, including reasonable costs and attorney fees.

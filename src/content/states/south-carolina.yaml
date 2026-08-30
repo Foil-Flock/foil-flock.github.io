@@ -5,7 +5,7 @@ slug: south-carolina
 statute:
   name: South Carolina Freedom of Information Act
   short_name: SC FOIA
-  citation: "S.C. Code \xA7 30-4-10 et seq."
+  citation: "S.C. Code § 30-4-10 et seq."
   url: https://www.scstatehouse.gov/code/t30c004.php
 
 presumption: open
@@ -83,10 +83,10 @@ exemptions:
 template_fragments:
   statute_invocation: >-
     Pursuant to the South Carolina Freedom of Information Act
-    (S.C. Code \xA7 30-4-10 et seq.)
+    (S.C. Code § 30-4-10 et seq.)
   response_reminder: >-
     I expect written notification of your determination within ten
-    business days as required by S.C. Code \xA7 30-4-30(c). If
+    business days as required by S.C. Code § 30-4-30(c). If
     notification is not provided within this period, the request is
     deemed approved as to nonexempt records.
   fee_cap_notice: >-
@@ -97,6 +97,6 @@ template_fragments:
     available.
   appeal_deadline_warning: >-
     If this request is denied, I reserve the right to seek judicial
-    review under S.C. Code \xA7 30-4-100 and all remedies available
+    review under S.C. Code § 30-4-100 and all remedies available
     under the South Carolina Freedom of Information Act, including
-    attorney fees and civil penalties under \xA7 30-4-110.
+    attorney fees and civil penalties under § 30-4-110.

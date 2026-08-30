@@ -5,7 +5,7 @@ slug: oklahoma
 statute:
   name: Oklahoma Open Records Act (ORA)
   short_name: ORA
-  citation: "51 O.S. \xA7 24A.1 et seq."
+  citation: "51 O.S. § 24A.1 et seq."
   url: https://oklahoma.gov/libraries/law-legislative-reference/library-laws-and-regulations/statutes-and-rules--open-record-act.html
 
 presumption: open
@@ -69,7 +69,7 @@ fees:
 
 alpr:
   specific_exemption: true
-  exemption_citation: "47 O.S. \xA7 7-606.1"
+  exemption_citation: "47 O.S. § 7-606.1"
   notes: >-
     All ALPR data is explicitly exempt from the Oklahoma Open Records
     Act under 47 O.S. § 7-606.1 (Uninsured Vehicle Enforcement
@@ -90,18 +90,18 @@ exemptions:
 template_fragments:
   statute_invocation: >-
     Pursuant to the Oklahoma Open Records Act
-    (51 O.S. \xA7 24A.1 et seq.)
+    (51 O.S. § 24A.1 et seq.)
   response_reminder: >-
     I expect prompt, reasonable access to the requested records
-    during regular business hours as required by 51 O.S. \xA7 24A.5.
+    during regular business hours as required by 51 O.S. § 24A.5.
   fee_cap_notice: >-
     If fulfilling this request will cost more than $__FEE_CAP__,
     please provide an estimate before proceeding.
   electronic_delivery_clause: >-
     I request that records be provided in electronic format where
     available, at no per-page charge as provided by 51 O.S.
-    \xA7 24A.5(4).
+    § 24A.5(4).
   appeal_deadline_warning: >-
     If this request is denied, I reserve the right to seek judicial
-    review under 51 O.S. \xA7 24A.17, including mandatory attorney
+    review under 51 O.S. § 24A.17, including mandatory attorney
     fees for prevailing requestors.

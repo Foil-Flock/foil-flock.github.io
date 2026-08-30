@@ -5,7 +5,7 @@ slug: massachusetts
 statute:
   name: Massachusetts Public Records Law
   short_name: Public Records Law
-  citation: "G.L. c. 66, \xA7 10; G.L. c. 4, \xA7 7(26)"
+  citation: "G.L. c. 66, § 10; G.L. c. 4, § 7(26)"
   url: https://malegislature.gov/Laws/GeneralLaws/PartI/TitleX/Chapter66/Section10
 
 presumption: open
@@ -84,10 +84,10 @@ exemptions:
 template_fragments:
   statute_invocation: >-
     Pursuant to the Massachusetts Public Records Law
-    (G.L. c. 66, \xA7 10)
+    (G.L. c. 66, § 10)
   response_reminder: >-
     I expect a response within ten business days as required by
-    G.L. c. 66, \xA7 10(b). If you deny any portion of this
+    G.L. c. 66, § 10(b). If you deny any portion of this
     request, please cite the specific statutory exemption and
     explain how it applies to each withheld record.
   fee_cap_notice: >-
@@ -99,5 +99,5 @@ template_fragments:
   appeal_deadline_warning: >-
     If this request is denied, I intend to appeal to the
     Supervisor of Records and reserve the right to seek judicial
-    review and all remedies under G.L. c. 66, \xA7 10A, including
+    review and all remedies under G.L. c. 66, § 10A, including
     attorney fees and punitive damages.

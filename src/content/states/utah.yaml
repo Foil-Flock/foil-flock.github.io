@@ -5,7 +5,7 @@ slug: utah
 statute:
   name: Government Records Access and Management Act
   short_name: GRAMA
-  citation: "Utah Code \xA7 63G-2-101 et seq."
+  citation: "Utah Code § 63G-2-101 et seq."
   url: https://le.utah.gov/xcode/Title63G/Chapter2/63G-2.html
 
 presumption: open
@@ -16,7 +16,7 @@ response:
   day_type: business
   notes: >-
     A governmental entity must respond within 10 business days
-    after receiving a written request (\xA7 63G-2-204). Response
+    after receiving a written request (§ 63G-2-204). Response
     must: (a) approve the request and provide the records,
     (b) deny the request with citation to specific exemptions,
     (c) notify the requester that it does not maintain the records
@@ -45,9 +45,9 @@ enforcement:
     Court may award reasonable attorney fees if the requester
     substantially prevails and the governmental entity's position
     was not substantially justified or was undertaken for purposes
-    of harassment (\xA7 63G-2-802(2)). Attorney fees are
+    of harassment (§ 63G-2-802(2)). Attorney fees are
     discretionary ("may"). The State Records Committee may impose
-    a civil penalty up to $500 per violation (\xA7 63G-2-403).
+    a civil penalty up to $500 per violation (§ 63G-2-403).
     Appeals from the Records Committee go to district court, with
     de novo review.
   court_action: Petition to district court (after exhausting administrative remedies)
@@ -74,11 +74,11 @@ fees:
 
 alpr:
   specific_exemption: true
-  exemption_citation: "Utah Code \xA7 63G-2-305(63) and \xA7\xA7 41-6a-2001 et seq."
+  exemption_citation: "Utah Code § 63G-2-305(63) and §§ 41-6a-2001 et seq."
   notes: >-
     ALPR data is classified as a "protected record" under GRAMA
-    (\xA7 63G-2-305(63)). The Automatic License Plate Reader
-    System Act (\xA7\xA7 41-6a-2001 et seq.) requires data
+    (§ 63G-2-305(63)). The Automatic License Plate Reader
+    System Act (§§ 41-6a-2001 et seq.) requires data
     retention of no more than 9 months unless associated with an
     active investigation or required by warrant, subpoena, or
     court order. Protected records may be disclosed only to the
@@ -87,25 +87,25 @@ alpr:
     ALPR usage is required.
 
 exemptions:
-  - Protected records including ALPR data (\xA7 63G-2-305)
-  - Private records (personal information) (\xA7 63G-2-302)
-  - Controlled records (medical, psychiatric, psychological) (\xA7 63G-2-304)
-  - Law enforcement records that would interfere with investigation (\xA7 63G-2-305(10))
-  - Trade secrets and confidential commercial information (\xA7 63G-2-305(1)-(2))
-  - Attorney-client privileged communications (\xA7 63G-2-305(17))
-  - Security measures and vulnerability assessments (\xA7 63G-2-305(37))
+  - Protected records including ALPR data (§ 63G-2-305)
+  - Private records (personal information) (§ 63G-2-302)
+  - Controlled records (medical, psychiatric, psychological) (§ 63G-2-304)
+  - Law enforcement records that would interfere with investigation (§ 63G-2-305(10))
+  - Trade secrets and confidential commercial information (§ 63G-2-305(1)-(2))
+  - Attorney-client privileged communications (§ 63G-2-305(17))
+  - Security measures and vulnerability assessments (§ 63G-2-305(37))
 
 template_fragments:
   statute_invocation: >-
     Pursuant to the Government Records Access and Management Act
-    (Utah Code \xA7 63G-2-101 et seq.)
+    (Utah Code § 63G-2-101 et seq.)
   response_reminder: >-
-    Under Utah Code \xA7 63G-2-204, the governmental entity must
+    Under Utah Code § 63G-2-204, the governmental entity must
     respond to this request within ten business days after receipt.
   fee_cap_notice: >-
     If fulfilling this request will cost more than $__FEE_CAP__,
     please provide an estimate before proceeding. Under
-    Utah Code \xA7 63G-2-203, fees may not exceed actual
+    Utah Code § 63G-2-203, fees may not exceed actual
     duplication cost and the first 15 minutes of search time
     shall be free of charge.
   electronic_delivery_clause: >-
@@ -115,8 +115,8 @@ template_fragments:
   appeal_deadline_warning: >-
     If this request is denied, I will appeal to the chief
     administrative officer as required by Utah Code
-    \xA7 63G-2-401 and reserve the right to petition the State
-    Records Committee under \xA7 63G-2-403 or seek judicial
-    review under \xA7 63G-2-404, with the burden on the
+    § 63G-2-401 and reserve the right to petition the State
+    Records Committee under § 63G-2-403 or seek judicial
+    review under § 63G-2-404, with the burden on the
     governmental entity to sustain its denial within 30 days
     of the Director of State Archives's order.

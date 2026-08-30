@@ -68,7 +68,7 @@ fees:
 
 alpr:
   specific_exemption: true
-  exemption_citation: "Minn. Stat. \xA7 13.824"
+  exemption_citation: "Minn. Stat. § 13.824"
   notes: >-
     All ALPR data is classified as private data on individuals or
     nonpublic data under Minn. Stat. § 13.824. Non-investigative
@@ -94,7 +94,7 @@ template_fragments:
     (Minn. Stat. Ch. 13)
   response_reminder: >-
     I expect compliance in an appropriate and prompt manner as
-    required by Minn. Stat. \xA7 13.03, subd. 2(a).
+    required by Minn. Stat. § 13.03, subd. 2(a).
   fee_cap_notice: >-
     If fulfilling this request will cost more than $__FEE_CAP__,
     please provide an estimate before proceeding.
@@ -103,6 +103,6 @@ template_fragments:
     available.
   appeal_deadline_warning: >-
     If this request is denied, I reserve the right to seek judicial
-    review under Minn. Stat. \xA7 13.08 and all remedies available,
+    review under Minn. Stat. § 13.08 and all remedies available,
     including exemplary damages of $1,000 to $15,000 per willful
     violation and attorney fees.

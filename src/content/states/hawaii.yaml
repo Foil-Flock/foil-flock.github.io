@@ -16,7 +16,7 @@ response:
   day_type: business
   notes: >-
     An agency must respond within 10 business days after receipt
-    of a request (HAR \xA7 2-71-13). The response must grant,
+    of a request (HAR § 2-71-13). The response must grant,
     partially grant, or deny the request. The agency must provide
     written notice of the denial, including the specific authority
     and reasons for the denial. If the agency requires additional
@@ -44,7 +44,7 @@ enforcement:
     If the court finds that the agency has not sustained its
     burden of justifying its refusal to allow access, the court
     shall award reasonable attorney fees and costs to the
-    requester. HRS \xA7 92F-15(d). "Shall" is mandatory. The
+    requester. HRS § 92F-15(d). "Shall" is mandatory. The
     court may also issue an order to compel disclosure and may
     impose such other relief as the court deems appropriate.
     OIP provides advisory opinions and may recommend remedial
@@ -63,7 +63,7 @@ fees:
   redaction_fee_allowed: false
   electronic_delivery_required: false
   notes: >-
-    Minimum $0.05/page for standard copies (\xA7 92F-21).
+    Minimum $0.05/page for standard copies (§ 92F-21).
     Search and retrieval fees: $2.50 per 15-minute increment of
     staff time. Review fees: $5.00 per 15-minute increment for
     legal review of records to segregate disclosable from
@@ -80,38 +80,38 @@ alpr:
     statutory data retention limits or access restrictions specific
     to ALPR data. ALPR data would be analyzed under UIPA's
     general exemptions, particularly the law enforcement exception
-    in HRS \xA7 92F-13(3) for records that, by their nature, must
+    in HRS § 92F-13(3) for records that, by their nature, must
     remain confidential to avoid frustration of a legitimate
     government function, and the significant privacy interest
-    balancing test in HRS \xA7 92F-14.
+    balancing test in HRS § 92F-14.
 
 exemptions:
-  - Records that must remain confidential to avoid frustration of government function (HRS \xA7 92F-13(3))
-  - Records whose disclosure would constitute clearly unwarranted invasion of privacy (HRS \xA7 92F-14)
-  - Government records protected by other state or federal law (HRS \xA7 92F-13(4))
-  - Interagency or intra-agency advisory opinions and recommendations (HRS \xA7 92F-13(2))
-  - Trial preparation records (HRS \xA7 92F-13(3))
-  - Confidential commercial or financial information (HRS \xA7 92F-13(4))
+  - Records that must remain confidential to avoid frustration of government function (HRS § 92F-13(3))
+  - Records whose disclosure would constitute clearly unwarranted invasion of privacy (HRS § 92F-14)
+  - Government records protected by other state or federal law (HRS § 92F-13(4))
+  - Interagency or intra-agency advisory opinions and recommendations (HRS § 92F-13(2))
+  - Trial preparation records (HRS § 92F-13(3))
+  - Confidential commercial or financial information (HRS § 92F-13(4))
 
 template_fragments:
   statute_invocation: >-
     Pursuant to the Uniform Information Practices Act
     (HRS Chapter 92F)
   response_reminder: >-
-    Under HAR \xA7 2-71-13, the agency must respond to this request
+    Under HAR § 2-71-13, the agency must respond to this request
     within ten business days after receipt.
   fee_cap_notice: >-
     If fulfilling this request will cost more than $__FEE_CAP__,
     please provide an estimate before proceeding. Under
-    HRS \xA7 92F-21, the first $30.00 in search fees is waived,
+    HRS § 92F-21, the first $30.00 in search fees is waived,
     and all fees must reflect actual costs.
   electronic_delivery_clause: >-
     I request that records be provided in electronic format where
     available.
   appeal_deadline_warning: >-
     If this request is denied, I reserve the right to seek judicial
-    enforcement under HRS \xA7 92F-15, and the court shall award
+    enforcement under HRS § 92F-15, and the court shall award
     reasonable attorney fees and costs when the agency fails to
     sustain its burden of justification. I may also file a
     complaint with the Office of Information Practices under
-    HRS \xA7 92F-15.5.
+    HRS § 92F-15.5.

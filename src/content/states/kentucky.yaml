@@ -95,24 +95,24 @@ exemptions:
 template_fragments:
   statute_invocation: >-
     Pursuant to the Kentucky Open Records Act
-    (KRS \xA7 61.870 et seq.)
+    (KRS § 61.870 et seq.)
   response_reminder: >-
-    KRS \xA7 61.880(1) requires a response within five days,
+    KRS § 61.880(1) requires a response within five days,
     excepting Saturdays, Sundays, and legal holidays, with
     either the requested records or a written statement of
     specific grounds for denial.
   fee_cap_notice: >-
     If fulfilling this request will cost more than $__FEE_CAP__,
     please provide an estimate before proceeding. Under
-    KRS \xA7 61.874(3), fees shall not exceed actual cost of
+    KRS § 61.874(3), fees shall not exceed actual cost of
     reproduction, excluding staff costs.
   electronic_delivery_clause: >-
-    KRS \xA7 61.874(2)(a) provides that nonexempt public records
+    KRS § 61.874(2)(a) provides that nonexempt public records
     shall be available in either standard electronic or standard
     hard copy format as designated by the requester, and I
     designate electronic format.
   appeal_deadline_warning: >-
     If this request is denied, I reserve the right to appeal to
-    the Attorney General within sixty days under KRS \xA7 61.880(2)
-    and to seek judicial review under KRS \xA7 61.882, including
+    the Attorney General within sixty days under KRS § 61.880(2)
+    and to seek judicial review under KRS § 61.882, including
     per-day penalties and attorney fees for willful withholding.

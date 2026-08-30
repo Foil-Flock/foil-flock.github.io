@@ -95,22 +95,22 @@ exemptions:
 template_fragments:
   statute_invocation: >-
     Pursuant to the Kansas Open Records Act
-    (KSA \xA7 45-215 et seq.)
+    (KSA § 45-215 et seq.)
   response_reminder: >-
-    KSA \xA7 45-218(d) requires that this request shall be acted
+    KSA § 45-218(d) requires that this request shall be acted
     upon as soon as possible, but not later than the end of the
     third business day following receipt.
   fee_cap_notice: >-
     If fulfilling this request will cost more than $__FEE_CAP__,
     please provide an estimate before proceeding. Under
-    KSA \xA7 45-219(c), a fee of $0.25 per page or less is
+    KSA § 45-219(c), a fee of $0.25 per page or less is
     deemed reasonable.
   electronic_delivery_clause: >-
     I request that records be provided in electronic format where
     available, with fees limited to the cost of computer services
-    and staff time as provided by KSA \xA7 45-219.
+    and staff time as provided by KSA § 45-219.
   appeal_deadline_warning: >-
     If this request is denied, I reserve the right to seek
-    judicial review under KSA \xA7 45-222, with the burden of
+    judicial review under KSA § 45-222, with the burden of
     proof on the public agency to sustain its action, and
     mandatory attorney fees for denials not in good faith.

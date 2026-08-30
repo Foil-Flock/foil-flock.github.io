@@ -90,10 +90,42 @@ def save_agencies(agencies_by_id):
     print(f"Wrote {len(agencies_list)} agencies to {AGENCIES_PATH}")
 
 
-def enrich_from_muckrock(agencies):
-    """Enrich agencies with contact info from MuckRock's v2 API."""
-    import time
+def build_state_abbrev_cache(client):
+    """Build a mapping of jurisdiction ID -> state abbreviation by fetching all state-level jurisdictions."""
+    parent_to_abbrev = {}
+    api_results = client.jurisdictions.list(level="s")
+    for j in api_results.results:
+        jd = vars(j)
+        abbrev = jd.get("abbrev", "")
+        if abbrev:
+            parent_to_abbrev[jd["id"]] = abbrev.upper()
+    print(f"  Cached {len(parent_to_abbrev)} state jurisdictions")
+    return parent_to_abbrev
 
+
+def resolve_state(client, jurisdiction_id, state_cache, jurisdiction_parents):
+    """Resolve a local jurisdiction ID to a state abbreviation, caching parent lookups."""
+    if jurisdiction_id in state_cache:
+        return state_cache[jurisdiction_id]
+
+    if jurisdiction_id in jurisdiction_parents:
+        parent_id = jurisdiction_parents[jurisdiction_id]
+    else:
+        j = client.jurisdictions.get(jurisdiction_id)
+        jd = vars(j)
+        parent_id = jd.get("parent")
+        jurisdiction_parents[jurisdiction_id] = parent_id
+
+    if parent_id and parent_id in state_cache:
+        abbrev = state_cache[parent_id]
+        state_cache[jurisdiction_id] = abbrev
+        return abbrev
+
+    return None
+
+
+def enrich_from_muckrock(agencies):
+    """Enrich agencies with data from MuckRock's v2 API."""
     try:
         from muckrock import MuckRock
     except ImportError:
@@ -113,62 +145,50 @@ def enrich_from_muckrock(agencies):
         print(f"MuckRock auth failed: {e}")
         return agencies
 
-    enriched = 0
-    skipped = 0
+    print("  Building jurisdiction cache...")
+    state_cache = build_state_abbrev_cache(client)
+    jurisdiction_parents = {}
+
+    matched = 0
     not_found = 0
+    errors = 0
+    total = len(agencies)
 
-    for agency_id, agency in agencies.items():
-        contact = agency.get("contact", {})
-        if contact.get("email") and contact.get("mailing_address"):
-            skipped += 1
-            continue
+    for i, (agency_id, agency) in enumerate(agencies.items(), 1):
+        if i % 50 == 0 or i == total:
+            print(f"  Progress: {i}/{total} (matched={matched}, not_found={not_found}, errors={errors})")
 
-        for attempt in range(3):
-            try:
-                results = client.agencies.list(search=agency["name"])
-                match = None
-                for result in results:
-                    result_data = vars(result)
-                    jurisdiction = result_data.get("jurisdiction", {})
-                    if isinstance(jurisdiction, dict):
-                        abbrev = jurisdiction.get("abbreviation", "")
-                    else:
-                        abbrev = ""
-                    if abbrev.upper() == agency["state"].upper():
-                        match = result_data
-                        break
-
-                if not match:
-                    not_found += 1
-                else:
-                    mr_contact = {
-                        "email": match.get("email") or None,
-                        "phone": match.get("phone") or None,
-                        "form_url": match.get("url") or None,
-                        "mailing_address": match.get("address") or None,
-                    }
-                    if any(v is not None for v in mr_contact.values()):
-                        agencies[agency_id] = merge_agency(
-                            agency, {"contact": mr_contact}
-                        )
-                        enriched += 1
-                        print(f"  + {agency['name']}: enriched contact info")
-                break
-
-            except Exception as e:
-                if "503" in str(e) and attempt < 2:
-                    wait = 5 * (attempt + 1)
-                    print(f"  ~ {agency['name']}: 503, retrying in {wait}s...")
-                    time.sleep(wait)
+        try:
+            api_results = client.agencies.list(search=agency["name"])
+            match = None
+            for result in api_results.results:
+                result_data = vars(result)
+                jid = result_data.get("jurisdiction")
+                if jid is None:
                     continue
-                print(f"  ! {agency['name']}: {e}")
-                break
+                state_abbrev = resolve_state(client, jid, state_cache, jurisdiction_parents)
+                if state_abbrev and state_abbrev == agency["state"].upper():
+                    match = result_data
+                    break
 
-        time.sleep(1.5)
+            if match:
+                matched += 1
+                mr_data = {
+                    "muckrock_id": match.get("id"),
+                }
+                types = match.get("types")
+                if types:
+                    mr_data["agency_types"] = types
+                agencies[agency_id] = merge_agency(agency, mr_data)
+            else:
+                not_found += 1
+
+        except Exception as e:
+            errors += 1
+            print(f"  ! {agency['name']}: {e}")
 
     print(
-        f"  Enriched {enriched}, skipped {skipped} (already complete),"
-        f" {not_found} not found"
+        f"  Done: {matched} matched, {not_found} not found, {errors} errors"
     )
     return agencies
 

@@ -5,7 +5,7 @@ slug: new-york
 statute:
   name: Freedom of Information Law (FOIL)
   short_name: FOIL
-  citation: "Public Officers Law \xA7\xA7 84–90"
+  citation: "Public Officers Law §§ 84–90"
   url: https://www.archives.nysed.gov/records/mr_laws_po6.shtml
 
 presumption: open
@@ -79,7 +79,7 @@ exemptions:
 template_fragments:
   statute_invocation: >-
     Pursuant to New York's Freedom of Information Law
-    (Public Officers Law \xA7\xA7 84–90)
+    (Public Officers Law §§ 84–90)
   response_reminder: >-
     I expect a response within five business days as required by law.
     If you deny any portion of this request, please cite the specific
@@ -90,9 +90,9 @@ template_fragments:
     please provide an estimate before proceeding.
   electronic_delivery_clause: >-
     I request that records be provided in electronic format pursuant
-    to \xA7 87(1)(b).
+    to § 87(1)(b).
   appeal_deadline_warning: >-
-    Under \xA7 89(4)(a), you are required to respond to this appeal
+    Under § 89(4)(a), you are required to respond to this appeal
     within ten business days, providing either the records or a
     written explanation of the legal basis for continued denial.
     Failure to respond within this period constitutes a final denial

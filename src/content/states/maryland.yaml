@@ -5,7 +5,7 @@ slug: maryland
 statute:
   name: Maryland Public Information Act (MPIA)
   short_name: MPIA
-  citation: "Md. Code, Gen. Prov. \xA7\xA7 4-101 to 4-601"
+  citation: "Md. Code, Gen. Prov. §§ 4-101 to 4-601"
   url: https://law.justia.com/codes/maryland/general-provisions/title-4/
 
 presumption: open
@@ -70,7 +70,7 @@ fees:
 
 alpr:
   specific_exemption: true
-  exemption_citation: "Md. Code, Gen. Prov. \xA7 4-326"
+  exemption_citation: "Md. Code, Gen. Prov. § 4-326"
   notes: >-
     Maryland has a mandatory ALPR exemption: custodians shall deny
     inspection of captured plate data (§ 4-326). Separately, Pub.
@@ -92,10 +92,10 @@ exemptions:
 template_fragments:
   statute_invocation: >-
     Pursuant to the Maryland Public Information Act
-    (Md. Code, Gen. Prov. \xA7\xA7 4-101 to 4-601)
+    (Md. Code, Gen. Prov. §§ 4-101 to 4-601)
   response_reminder: >-
     I expect a response within thirty calendar days as required by
-    Md. Code, Gen. Prov. \xA7 4-203. If you anticipate delay,
+    Md. Code, Gen. Prov. § 4-203. If you anticipate delay,
     please provide written notice within ten working days.
   fee_cap_notice: >-
     If fulfilling this request will cost more than $__FEE_CAP__,
@@ -103,10 +103,10 @@ template_fragments:
   electronic_delivery_clause: >-
     I request that records be provided in searchable and analyzable
     electronic format as required by Md. Code, Gen. Prov.
-    \xA7 4-205(c)(1).
+    § 4-205(c)(1).
   appeal_deadline_warning: >-
     If this request is denied, I reserve the right to seek judicial
-    review under Md. Code, Gen. Prov. \xA7 4-362 and all remedies
+    review under Md. Code, Gen. Prov. § 4-362 and all remedies
     available under the Maryland Public Information Act, including
     attorney fees and disciplinary referral for arbitrary or
     capricious conduct.

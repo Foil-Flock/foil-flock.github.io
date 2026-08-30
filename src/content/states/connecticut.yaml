@@ -5,7 +5,7 @@ slug: connecticut
 statute:
   name: Connecticut Freedom of Information Act
   short_name: Connecticut FOIA
-  citation: "Conn. Gen. Stat. \xA7\xA7 1-200 through 1-242"
+  citation: "Conn. Gen. Stat. §§ 1-200 through 1-242"
   url: https://portal.ct.gov/foi/regulations/the-foi-act/2025-foi-act
 
 presumption: open
@@ -16,7 +16,7 @@ response:
   day_type: business
   notes: >-
     Any denial must be made in writing within four business days
-    of the request (CGS \xA7 1-210(a)). If the agency does not
+    of the request (CGS § 1-210(a)). If the agency does not
     deny, it must provide access promptly. Personnel and medical
     records have a 10-business-day window. There is no explicit
     statutory provision for extensions beyond the personnel
@@ -41,11 +41,11 @@ enforcement:
   fee_trigger: >-
     FOIC may impose civil penalties of $20 to $5,000 per
     violation for denials without reasonable grounds
-    (CGS \xA7 1-206(b)(2)). No general attorney fee provision for
+    (CGS § 1-206(b)(2)). No general attorney fee provision for
     prevailing requesters. Court shall sanction frivolous or
-    dilatory appeals at up to $1,000 (CGS \xA7 1-206(d)).
+    dilatory appeals at up to $1,000 (CGS § 1-206(d)).
     Hazardous waste cases only: court may award attorney fees
-    (CGS \xA7 1-206(e)). Willful destruction of records is a
+    (CGS § 1-206(e)). Willful destruction of records is a
     Class A misdemeanor; failing to comply with FOIC orders is a
     Class B misdemeanor.
   court_action: Administrative appeal to Superior Court
@@ -63,7 +63,7 @@ fees:
   electronic_delivery_required: false
   notes: >-
     $0.25/page for state agencies; $0.50/page for all other
-    public agencies (CGS \xA7 1-212). Certified copies: $1.00
+    public agencies (CGS § 1-212). Certified copies: $1.00
     first page, $0.50 each additional. Hand-held scanner use may
     be charged up to $20 per session. No search, review, or
     redaction fees are authorized by statute. No sales tax
@@ -86,24 +86,24 @@ alpr:
     reporting required.
 
 exemptions:
-  - Law enforcement investigation records (CGS \xA7 1-210(b)(3))
+  - Law enforcement investigation records (CGS § 1-210(b)(3))
   - ALPR data (PA 26-14)
-  - Strategy/negotiation in pending litigation (CGS \xA7 1-210(b)(4))
-  - Preliminary drafts/notes with public interest balancing (CGS \xA7 1-210(b)(1))
-  - Records protected by attorney-client privilege (CGS \xA7 1-210(b)(10))
-  - Records creating safety risks to persons or facilities (CGS \xA7 1-210(b)(19))
+  - Strategy/negotiation in pending litigation (CGS § 1-210(b)(4))
+  - Preliminary drafts/notes with public interest balancing (CGS § 1-210(b)(1))
+  - Records protected by attorney-client privilege (CGS § 1-210(b)(10))
+  - Records creating safety risks to persons or facilities (CGS § 1-210(b)(19))
 
 template_fragments:
   statute_invocation: >-
     Pursuant to the Connecticut Freedom of Information Act
-    (Conn. Gen. Stat. \xA7\xA7 1-200 through 1-242)
+    (Conn. Gen. Stat. §§ 1-200 through 1-242)
   response_reminder: >-
-    Under Conn. Gen. Stat. \xA7 1-210(a), any denial must be
+    Under Conn. Gen. Stat. § 1-210(a), any denial must be
     issued in writing within four business days of this request.
   fee_cap_notice: >-
     If fulfilling this request will cost more than $__FEE_CAP__,
     please provide an estimate before proceeding. Under
-    Conn. Gen. Stat. \xA7 1-212, copy fees shall not exceed
+    Conn. Gen. Stat. § 1-212, copy fees shall not exceed
     twenty-five cents per page for state agencies.
   electronic_delivery_clause: >-
     I request that records be provided in electronic format where
@@ -112,6 +112,6 @@ template_fragments:
   appeal_deadline_warning: >-
     If this request is denied, I reserve the right to appeal to
     the Freedom of Information Commission within thirty days
-    under Conn. Gen. Stat. \xA7 1-206(b), and the Commission may
+    under Conn. Gen. Stat. § 1-206(b), and the Commission may
     impose civil penalties of up to $5,000 for denials without
     reasonable grounds.

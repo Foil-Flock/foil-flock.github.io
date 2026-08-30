@@ -296,31 +296,36 @@ export default function TemplateGenerator({ templates, agency, stateData }: Prop
             <div class="next-steps-options">
               <div class="next-step-card">
                 <div class="next-step-label">Option 1</div>
-                <div class="next-step-title">Email directly</div>
+                <div class="next-step-title">Send it yourself</div>
                 <p>
-                  Send the letter yourself — by email, mail, or through the
-                  agency's FOIA portal. You keep full control and avoid
-                  third-party accounts.
+                  Submit the letter directly — through the agency's records
+                  portal, by email, or by mail. You keep full control and
+                  avoid third-party accounts.
                 </p>
-                {agency?.contact?.email ? (
-                  <a
-                    class="next-step-action"
-                    href={`mailto:${agency.contact.email}?subject=${encodeURIComponent(stateData.statute_short_name + " Request")}&body=${encodeURIComponent(generatedLetter)}`}
-                  >
-                    Open in email client
-                  </a>
-                ) : agency?.contact?.form_url ? (
+                {agency?.contact?.form_url ? (
                   <a
                     class="next-step-action"
                     href={agency.contact.form_url}
                     target="_blank"
                     rel="noopener"
                   >
-                    Agency FOIA portal
+                    Agency records portal
                   </a>
+                ) : agency?.contact?.email ? (
+                  <a
+                    class="next-step-action"
+                    href={`mailto:${agency.contact.email}?subject=${encodeURIComponent(stateData.statute_short_name + " Request")}&body=${encodeURIComponent(generatedLetter)}`}
+                  >
+                    Open in email client
+                  </a>
+                ) : agency?.contact?.mailing_address ? (
+                  <span class="next-step-note">
+                    Mail to: {agency.contact.mailing_address}
+                  </span>
                 ) : (
                   <span class="next-step-note">
-                    Paste the letter into an email to the agency's records officer.
+                    Look up the agency's records officer on their website and
+                    submit by email, web form, or mail.
                   </span>
                 )}
               </div>

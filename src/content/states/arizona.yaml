@@ -5,7 +5,7 @@ slug: arizona
 statute:
   name: Arizona Public Records Law
   short_name: Public Records Law
-  citation: "A.R.S. \xA7 39-121 et seq."
+  citation: "A.R.S. § 39-121 et seq."
   url: https://www.azleg.gov/arstitle/?title=39
 
 presumption: open
@@ -76,9 +76,9 @@ exemptions:
 template_fragments:
   statute_invocation: >-
     Pursuant to Arizona's Public Records Law
-    (A.R.S. \xA7 39-121 et seq.)
+    (A.R.S. § 39-121 et seq.)
   response_reminder: >-
-    I expect a prompt response as required by A.R.S. \xA7 39-121.
+    I expect a prompt response as required by A.R.S. § 39-121.
     Public records must be open to inspection during office hours.
     If you deny any portion of this request, please cite the
     specific statutory basis and provide a written explanation.
@@ -92,4 +92,4 @@ template_fragments:
     If this request is denied, I reserve the right to seek
     judicial review in Superior Court and all remedies available
     under Arizona law, including attorney fees and civil penalties
-    under A.R.S. \xA7 39-121.02.
+    under A.R.S. § 39-121.02.

@@ -5,7 +5,7 @@ slug: west-virginia
 statute:
   name: West Virginia Freedom of Information Act
   short_name: WV FOIA
-  citation: "W.Va. Code \xA7 29B-1-1 et seq."
+  citation: "W.Va. Code § 29B-1-1 et seq."
   url: https://law.justia.com/codes/west-virginia/chapter-29b/article-1/
 
 presumption: open
@@ -16,7 +16,7 @@ response:
   day_type: business
   notes: >-
     A public body must respond within 5 business days of receiving
-    the request (\xA7 29B-1-3(4)). The response must grant,
+    the request (§ 29B-1-3(4)). The response must grant,
     partially grant, or deny the request. Denials must be in
     writing and state the specific exemption relied upon. If the
     request is unduly burdensome or vague, the public body must
@@ -37,10 +37,10 @@ enforcement:
   fee_trigger: >-
     If the court finds that the public body violated the FOIA, it
     shall award the requester reasonable attorney fees and costs
-    (\xA7 29B-1-7). "Shall" is mandatory upon a finding of
+    (§ 29B-1-7). "Shall" is mandatory upon a finding of
     violation. Criminal penalty: any person who willfully violates
     the provisions is guilty of a misdemeanor and subject to a
-    fine of $200 to $1,000 (\xA7 29B-1-6). The court may also
+    fine of $200 to $1,000 (§ 29B-1-6). The court may also
     issue injunctive relief compelling disclosure.
   court_action: Injunction or mandamus in circuit court
   court_name: Circuit Court
@@ -60,7 +60,7 @@ fees:
     reproducing the records. Staff time for searching may be
     charged, but not review or redaction time. If public records
     are maintained in an electronic format, copies shall be
-    provided in electronic format when requested (\xA7 29B-1-3(5)).
+    provided in electronic format when requested (§ 29B-1-3(5)).
     Fees may be waived if disclosure primarily benefits the general
     public.
 
@@ -71,39 +71,39 @@ alpr:
     West Virginia has no ALPR-specific legislation or exemption.
     No statutory data retention limits or access restrictions
     specific to ALPR data. ALPR data would be analyzed under
-    WV FOIA's general law enforcement exemptions (\xA7 29B-1-4(4))
+    WV FOIA's general law enforcement exemptions (§ 29B-1-4(4))
     for records compiled for law enforcement purposes that could
     reasonably be expected to interfere with enforcement
     proceedings or constitute an unwarranted invasion of privacy.
 
 exemptions:
-  - Law enforcement investigative records (\xA7 29B-1-4(4))
-  - Records specifically exempt by other state or federal statute (\xA7 29B-1-4(1))
-  - Trade secrets and confidential commercial/financial information (\xA7 29B-1-4(1))
-  - Internal memoranda or policy materials used in decision-making (\xA7 29B-1-4(6))
+  - Law enforcement investigative records (§ 29B-1-4(4))
+  - Records specifically exempt by other state or federal statute (§ 29B-1-4(1))
+  - Trade secrets and confidential commercial/financial information (§ 29B-1-4(1))
+  - Internal memoranda or policy materials used in decision-making (§ 29B-1-4(6))
   - Attorney-client privileged communications
-  - Personal information constituting unwarranted invasion of privacy (\xA7 29B-1-4(2))
+  - Personal information constituting unwarranted invasion of privacy (§ 29B-1-4(2))
 
 template_fragments:
   statute_invocation: >-
     Pursuant to the West Virginia Freedom of Information Act
-    (W.Va. Code \xA7 29B-1-1 et seq.)
+    (W.Va. Code § 29B-1-1 et seq.)
   response_reminder: >-
-    Under W.Va. Code \xA7 29B-1-3(4), a public body must respond
+    Under W.Va. Code § 29B-1-3(4), a public body must respond
     within five business days of receipt of this request.
   fee_cap_notice: >-
     If fulfilling this request will cost more than $__FEE_CAP__,
     please provide an estimate before proceeding. Under
-    W.Va. Code \xA7 29B-1-3(3), fees are limited to actual
+    W.Va. Code § 29B-1-3(3), fees are limited to actual
     costs of reproduction with no charges for review or
     redaction time.
   electronic_delivery_clause: >-
-    Pursuant to W.Va. Code \xA7 29B-1-3(5), I request that records
+    Pursuant to W.Va. Code § 29B-1-3(5), I request that records
     maintained in electronic format be provided in electronic
     format.
   appeal_deadline_warning: >-
     If this request is denied, I reserve the right to seek judicial
-    enforcement under W.Va. Code \xA7 29B-1-5, and the court shall
+    enforcement under W.Va. Code § 29B-1-5, and the court shall
     award reasonable attorney fees and costs upon finding a
-    violation under \xA7 29B-1-7, with willful violations subject
-    to a fine of $200 to $1,000 under \xA7 29B-1-6.
+    violation under § 29B-1-7, with willful violations subject
+    to a fine of $200 to $1,000 under § 29B-1-6.

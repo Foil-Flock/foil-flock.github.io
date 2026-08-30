@@ -5,7 +5,7 @@ slug: ohio
 statute:
   name: Ohio Public Records Act
   short_name: Public Records Act
-  citation: "Ohio Rev. Code \xA7 149.43"
+  citation: "Ohio Rev. Code § 149.43"
   url: https://codes.ohio.gov/ohio-revised-code/section-149.43
 
 presumption: open
@@ -74,10 +74,10 @@ exemptions:
 template_fragments:
   statute_invocation: >-
     Pursuant to the Ohio Public Records Act
-    (Ohio Rev. Code \xA7 149.43)
+    (Ohio Rev. Code § 149.43)
   response_reminder: >-
     I expect prompt access to these records as required by Ohio
-    Rev. Code \xA7 149.43(B). If you deny any portion of this
+    Rev. Code § 149.43(B). If you deny any portion of this
     request, you must provide an explanation including the legal
     authority for each redaction or denial.
   fee_cap_notice: >-
@@ -87,9 +87,9 @@ template_fragments:
     or redact records.
   electronic_delivery_clause: >-
     I request that records be provided in electronic format
-    pursuant to Ohio Rev. Code \xA7 149.43(B)(6).
+    pursuant to Ohio Rev. Code § 149.43(B)(6).
   appeal_deadline_warning: >-
     If this request is denied, I reserve the right to file a
     mandamus action or complaint with the Ohio Court of Claims
     and seek all remedies available under Ohio Rev. Code
-    \xA7 149.43(C), including statutory damages and attorney fees.
+    § 149.43(C), including statutory damages and attorney fees.

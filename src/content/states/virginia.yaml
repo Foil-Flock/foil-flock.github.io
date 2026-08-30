@@ -5,7 +5,7 @@ slug: virginia
 statute:
   name: Virginia Freedom of Information Act (VFOIA)
   short_name: VFOIA
-  citation: "Va. Code \xA7 2.2-3700 et seq."
+  citation: "Va. Code § 2.2-3700 et seq."
   url: https://law.lis.virginia.gov/vacodepopularnames/virginia-freedom-of-information-act/
 
 presumption: open
@@ -67,7 +67,7 @@ fees:
 
 alpr:
   specific_exemption: true
-  exemption_citation: "Va. Code \xA7 2.2-5517"
+  exemption_citation: "Va. Code § 2.2-5517"
   notes: >-
     ALPR system data and audit trail data are explicitly exempt
     from VFOIA disclosure under Va. Code § 2.2-5517. System data
@@ -90,10 +90,10 @@ exemptions:
 template_fragments:
   statute_invocation: >-
     Pursuant to the Virginia Freedom of Information Act
-    (Va. Code \xA7 2.2-3700 et seq.)
+    (Va. Code § 2.2-3700 et seq.)
   response_reminder: >-
     I expect a response within five business days as required by
-    Va. Code \xA7 2.2-3704(B). If you deny any portion of this
+    Va. Code § 2.2-3704(B). If you deny any portion of this
     request, please provide a written response citing the specific
     statutory exemption and explaining in detail how the exemption
     applies.
@@ -102,9 +102,9 @@ template_fragments:
     please provide an estimate before proceeding.
   electronic_delivery_clause: >-
     I request that records be provided in electronic format
-    pursuant to Va. Code \xA7 2.2-3704(G).
+    pursuant to Va. Code § 2.2-3704(G).
   appeal_deadline_warning: >-
     If this request is denied, I reserve the right to petition
     the appropriate court to compel compliance and seek all
     remedies available under VFOIA, including civil penalties
-    under Va. Code \xA7 2.2-3714.
+    under Va. Code § 2.2-3714.

@@ -5,7 +5,7 @@ slug: alabama
 statute:
   name: Alabama Open Records Act
   short_name: ORA
-  citation: "Ala. Code \xA7\xA7 36-12-40 to 36-12-46"
+  citation: "Ala. Code §§ 36-12-40 to 36-12-46"
   url: https://law.justia.com/codes/alabama/title-36/chapter-12/article-3/
 
 presumption: open
@@ -78,11 +78,11 @@ exemptions:
 template_fragments:
   statute_invocation: >-
     Pursuant to the Alabama Open Records Act
-    (Ala. Code \xA7\xA7 36-12-40 to 36-12-46)
+    (Ala. Code §§ 36-12-40 to 36-12-46)
   response_reminder: >-
     I expect acknowledgment of this request within ten business days
     and a substantive response within fifteen business days
-    thereafter, as required by Ala. Code \xA7 36-12-44.
+    thereafter, as required by Ala. Code § 36-12-44.
   fee_cap_notice: >-
     If fulfilling this request will cost more than $__FEE_CAP__,
     please provide an estimate before proceeding.

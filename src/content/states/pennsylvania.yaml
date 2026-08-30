@@ -81,10 +81,10 @@ exemptions:
 template_fragments:
   statute_invocation: >-
     Pursuant to Pennsylvania's Right-to-Know Law
-    (65 P.S. \xA7\xA7 67.101 et seq.)
+    (65 P.S. §§ 67.101 et seq.)
   response_reminder: >-
     I expect a response within five business days as required by
-    65 P.S. \xA7 67.901. If you deny any portion of this request,
+    65 P.S. § 67.901. If you deny any portion of this request,
     please provide a written response citing the specific statutory
     exemption and explaining how it applies.
   fee_cap_notice: >-
@@ -96,6 +96,6 @@ template_fragments:
   appeal_deadline_warning: >-
     If this request is denied, I intend to appeal to the Office
     of Open Records within 15 business days as provided by
-    65 P.S. \xA7 67.1101, and reserve the right to seek judicial
+    65 P.S. § 67.1101, and reserve the right to seek judicial
     review and all remedies available under the RTKL, including
     attorney fees and civil penalties.

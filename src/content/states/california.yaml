@@ -5,7 +5,7 @@ slug: california
 statute:
   name: California Public Records Act (CPRA)
   short_name: CPRA
-  citation: "Gov. Code \xA7\xA7 7920.000–7930.215"
+  citation: "Gov. Code §§ 7920.000–7930.215"
   url: https://leginfo.legislature.ca.gov/faces/codes_displayexpandedbranch.xhtml?tocCode=GOV&division=10.&title=1.&part=&chapter=&article=
 
 presumption: open
@@ -79,10 +79,10 @@ exemptions:
 template_fragments:
   statute_invocation: >-
     Pursuant to the California Public Records Act
-    (Gov. Code \xA7\xA7 7920.000–7930.215)
+    (Gov. Code §§ 7920.000–7930.215)
   response_reminder: >-
     I expect a determination within ten calendar days as required
-    by Gov. Code \xA7 7922.535. If you deny any portion of this
+    by Gov. Code § 7922.535. If you deny any portion of this
     request, please cite the specific statutory exemption and explain
     how it applies to each withheld record.
   fee_cap_notice: >-
@@ -90,8 +90,8 @@ template_fragments:
     please provide a written estimate before proceeding.
   electronic_delivery_clause: >-
     I request that records be provided in electronic format
-    pursuant to Gov. Code \xA7 7922.570(a).
+    pursuant to Gov. Code § 7922.570(a).
   appeal_deadline_warning: >-
     If this request is denied, I reserve the right to seek judicial
     review and all remedies available under the CPRA, including
-    attorney fees and costs under Gov. Code \xA7 7923.115.
+    attorney fees and costs under Gov. Code § 7923.115.
