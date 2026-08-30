@@ -1,0 +1,113 @@
+name: New Mexico
+abbreviation: NM
+slug: new-mexico
+
+statute:
+  name: Inspection of Public Records Act
+  short_name: IPRA
+  citation: "NMSA 1978 \xA7\xA7 14-2-1 through 14-2-12"
+  url: https://law.justia.com/codes/new-mexico/chapter-14/article-2/
+
+presumption: open
+
+response:
+  initial_days: 15
+  final_days: null
+  day_type: calendar
+  notes: >-
+    A custodian receiving a written request shall permit inspection
+    or respond in writing within 15 calendar days (\xA7 14-2-8(D)).
+    If additional time is needed, the custodian must explain in
+    writing and provide a reasonable date for fulfillment. Failure
+    to respond within 15 days is deemed a denial. The custodian
+    must provide records "as expeditiously as possible" and is
+    prohibited from unreasonable delay.
+
+appeal:
+  required_before_court: false
+  deadline_days: null
+  response_days: null
+  body: Direct court action (District Court)
+  advisory_body: null
+
+enforcement:
+  penalty_type: fee_shifting
+  per_day_cap: null
+  attorney_fees: mandatory
+  fee_trigger: >-
+    If the court finds that the custodian acted unreasonably in
+    denying the request, the court shall award damages, costs, and
+    reasonable attorney fees to the requester. NMSA \xA7 14-2-12.
+    "Shall award" is mandatory. The court may also issue injunctive
+    or declaratory relief and may conduct in camera inspection.
+    Willful violations may result in removal from office and
+    criminal prosecution for malfeasance.
+  court_action: Petition to district court (de novo review)
+  court_name: District Court
+  filing_fee_approx: 132
+  filing_deadline_days: null
+  burden_of_proof: agency
+
+fees:
+  copy_per_page: 1.00
+  copy_max_size: null
+  search_fee_allowed: false
+  review_fee_allowed: false
+  redaction_fee_allowed: false
+  electronic_delivery_required: true
+  notes: >-
+    Per-page cost shall not exceed $1.00 per page for paper copies
+    (\xA7 14-2-9). No charges for searching, retrieving, or
+    reviewing records. If a public body maintains records in an
+    electronic format, the records shall be provided in the
+    electronic format requested if the public body can do so
+    without unreasonable difficulty (\xA7 14-2-9(B)). Electronic
+    copies provided at no charge if no extraordinary effort
+    required. Fee waivers available for requests serving public
+    interest.
+
+alpr:
+  specific_exemption: true
+  exemption_citation: "Laws 2026, Chapter 20 (Driver Privacy and Safety Act)"
+  notes: >-
+    The Driver Privacy and Safety Act (Laws 2026, Chapter 20,
+    effective July 1, 2026) explicitly classifies ALPR data as
+    NOT a public record under IPRA. Data may only be retained
+    for 90 days unless associated with an active investigation or
+    required by court order. The Act restricts access to
+    authorized law enforcement purposes and requires annual
+    transparency reports on system usage.
+
+exemptions:
+  - Letters and memoranda that are matters of opinion in personnel files (\xA7 14-2-1(A))
+  - Law enforcement records that reveal confidential sources, methods, or information (\xA7 14-2-1(A))
+  - ALPR data (Laws 2026, Ch. 20, Driver Privacy and Safety Act)
+  - Trade secrets and confidential business information (\xA7 14-2-1(A))
+  - Records pertaining to pending litigation (\xA7 14-2-1(A))
+  - Medical records and similar files (invasion of personal privacy)
+  - Criminal justice information systems records
+
+template_fragments:
+  statute_invocation: >-
+    Pursuant to the Inspection of Public Records Act
+    (NMSA 1978 \xA7 14-2-1 et seq.)
+  response_reminder: >-
+    Under NMSA \xA7 14-2-8(D), the custodian must permit
+    inspection of or respond to this request within fifteen
+    calendar days, and failure to respond is deemed a denial.
+  fee_cap_notice: >-
+    If fulfilling this request will cost more than $__FEE_CAP__,
+    please provide an estimate before proceeding. Under
+    NMSA \xA7 14-2-9, per-page costs shall not exceed $1.00
+    and no charges may be imposed for searching, retrieving,
+    or reviewing records.
+  electronic_delivery_clause: >-
+    Pursuant to NMSA \xA7 14-2-9(B), I request that records be
+    provided in electronic format, as a public body that maintains
+    records electronically shall provide them in the format
+    requested if it can do so without unreasonable difficulty.
+  appeal_deadline_warning: >-
+    If this request is denied, I reserve the right to seek judicial
+    review under NMSA \xA7 14-2-12, which mandates an award of
+    damages, costs, and reasonable attorney fees when a custodian
+    has acted unreasonably.

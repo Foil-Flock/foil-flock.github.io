@@ -1,0 +1,118 @@
+name: Kentucky
+abbreviation: KY
+slug: kentucky
+
+statute:
+  name: Kentucky Open Records Act
+  short_name: KORA
+  citation: "KRS 61.870 through 61.884"
+  url: https://law.justia.com/codes/kentucky/chapter-61/
+
+presumption: open
+
+response:
+  initial_days: 5
+  final_days: null
+  day_type: business
+  notes: >-
+    Custodian must respond within five days, excepting Saturdays,
+    Sundays, and legal holidays (KRS 61.880(1)). The
+    subversion-of-intent provision (KRS 61.880(4)) addresses
+    delays beyond the five-day period as a separate violation,
+    including "excessive extensions of time" and "misdirection
+    of the applicant."
+
+appeal:
+  required_before_court: false
+  deadline_days: 60
+  response_days: 20
+  body: Attorney General (optional), then Circuit Court
+  advisory_body:
+    name: Kentucky Attorney General, Open Records/Open Meetings Division
+    url: https://www.ag.ky.gov/Resources/orom/Pages/default.aspx
+    phone: "(502) 696-5300"
+    email: null
+    address: "1024 Capital Center Drive, Suite 200, Frankfort, KY 40601"
+
+enforcement:
+  penalty_type: both
+  per_day_cap: 25
+  attorney_fees: discretionary
+  fee_trigger: >-
+    Court may award costs, including reasonable attorney fees, to
+    any prevailing person upon a finding that records were
+    willfully withheld. KRS 61.882(5). Per-day penalty of up to
+    $25 for each day of denial. Willful concealment or
+    destruction is a Class A misdemeanor (KRS 61.991(2)(a));
+    failure to produce after judgment is contempt. Proceedings
+    take precedence on the court docket (KRS 61.882(4)). AG must
+    issue decision within 20 days, extendable to 50.
+  court_action: Injunction or other appropriate order
+  court_name: Circuit Court
+  filing_fee_approx: 225
+  filing_deadline_days: null
+  burden_of_proof: agency
+
+fees:
+  copy_per_page: 0.10
+  copy_max_size: null
+  search_fee_allowed: false
+  review_fee_allowed: false
+  redaction_fee_allowed: false
+  electronic_delivery_required: true
+  notes: >-
+    $0.10/page for noncommercial requests (200 KAR 1:020);
+    county clerks up to $0.50/page (KRS 64.019). Fees for
+    noncommercial use shall not exceed actual cost of
+    reproduction, excluding cost of staff (KRS 61.874(3)).
+    Electronic format must be available when designated by
+    requester for noncommercial purposes (KRS 61.874(2)(a)).
+    Commercial use fees may be higher and include staff time.
+
+alpr:
+  specific_exemption: false
+  exemption_citation: null
+  notes: >-
+    Kentucky HB 58 (Chapter 71, Acts of 2026), signed April 10,
+    2026, effective July 15, 2026, regulates ALPR systems under
+    KRS Chapter 189 but does NOT create a specific KORA exemption.
+    Key provisions: 90-day maximum data retention unless retained
+    for lawful investigative purposes; data sharing restricted to
+    law enforcement, subpoenas, NICB, financial institutions, and
+    insurance carriers; agencies must adopt published written
+    policies. Officers must visually confirm plate matches before
+    traffic stops. ALPR data may be covered under existing
+    investigative records exemption (KRS 61.878(1)(h)).
+
+exemptions:
+  - Law enforcement investigation records (KRS 61.878(1)(h))
+  - Prosecutor records permanently exempt (KRS 61.878(1)(h))
+  - Clearly unwarranted invasion of personal privacy (KRS 61.878(1)(a))
+  - Preliminary drafts, notes, correspondence (KRS 61.878(1)(i)-(j))
+  - Security/terrorism vulnerability (KRS 61.878(1)(m))
+  - Trade secrets / commercial confidentiality (KRS 61.878(1)(c))
+
+template_fragments:
+  statute_invocation: >-
+    Pursuant to the Kentucky Open Records Act
+    (KRS \xA7 61.870 et seq.)
+  response_reminder: >-
+    KRS \xA7 61.880(1) requires a response within five days,
+    excepting Saturdays, Sundays, and legal holidays, with
+    either the requested records or a written statement of
+    specific grounds for denial.
+  fee_cap_notice: >-
+    If fulfilling this request will cost more than $__FEE_CAP__,
+    please provide an estimate before proceeding. Under
+    KRS \xA7 61.874(3), fees shall not exceed actual cost of
+    reproduction, excluding staff costs.
+  electronic_delivery_clause: >-
+    KRS \xA7 61.874(2)(a) provides that nonexempt public records
+    shall be available in either standard electronic or standard
+    hard copy format as designated by the requester, and I
+    designate electronic format.
+  appeal_deadline_warning: >-
+    If this request is denied, I reserve the right to appeal to
+    the Attorney General within sixty days under KRS \xA7 61.880(2)
+    and to seek judicial review under KRS \xA7 61.882, including
+    per-day penalties and attorney fees for willful withholding.

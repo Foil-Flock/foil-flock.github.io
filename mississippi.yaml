@@ -1,0 +1,119 @@
+name: Mississippi
+abbreviation: MS
+slug: mississippi
+
+statute:
+  name: Mississippi Public Records Act of 1983
+  short_name: Mississippi Public Records Act
+  citation: "Miss. Code Ann. \xA7 25-61-1 et seq."
+  url: https://law.justia.com/codes/mississippi/title-25/chapter-61/
+
+presumption: open
+
+response:
+  initial_days: 7
+  final_days: 14
+  day_type: business
+  notes: >-
+    Standard maximum is 7 working days for production or denial
+    (\xA7 25-61-5). If the agency cannot meet the 7-day deadline,
+    it must provide a written explanation and may extend to a
+    maximum of 14 working days from original receipt. All denials
+    must be in writing, state the specific exemption claimed, and
+    be maintained in a denial file for at least 3 years, available
+    for public inspection.
+
+appeal:
+  required_before_court: false
+  deadline_days: null
+  response_days: null
+  body: Direct court action (Chancery Court)
+  advisory_body:
+    name: Mississippi Ethics Commission
+    url: https://www.ethics.ms.gov/
+    phone: "(601) 359-1285"
+    email: null
+    address: "P.O. Box 22746, Jackson, MS 39225"
+
+enforcement:
+  penalty_type: none
+  per_day_cap: null
+  attorney_fees: none
+  fee_trigger: >-
+    Any person who denies access to non-exempt records may be
+    personally liable in a sum not to exceed $100 per violation,
+    plus all reasonable expenses incurred in bringing the
+    proceeding. Miss. Code Ann. \xA7 25-61-15. There is no
+    standalone attorney fee provision. The Ethics Commission may
+    take complaints, issue subpoenas, hold hearings, and order
+    production. Parties are not obligated to exhaust
+    administrative remedies before filing in chancery court
+    (\xA7 25-61-13).
+  court_action: Petition to chancery court (de novo review)
+  court_name: Chancery Court
+  filing_fee_approx: 91
+  filing_deadline_days: null
+  burden_of_proof: requester
+
+fees:
+  copy_per_page: null
+  copy_max_size: null
+  search_fee_allowed: true
+  review_fee_allowed: true
+  redaction_fee_allowed: true
+  electronic_delivery_required: false
+  notes: >-
+    No statutory per-page rate; Ethics Commission guidance
+    suggests $0.15/page as reasonable. Fees must not exceed actual
+    costs. Staff time billed at pay rate of lowest-level employee
+    competent to respond (\xA7 25-61-7). Redaction may be charged
+    at actual cost. Fees collected in advance. For geographic
+    information systems and electronic data, agencies may
+    establish a standard fee scale reasonably related to costs
+    of creating and maintaining such systems.
+
+alpr:
+  specific_exemption: false
+  exemption_citation: null
+  notes: >-
+    Mississippi has no enacted ALPR-specific legislation. HB 528
+    (2025 Regular Session) proposed regulating ALPR systems but
+    died in committee. ALPR data would likely be classified under
+    the general law enforcement investigative reports exemption
+    (\xA7 25-61-12), which allows agencies discretion to withhold
+    investigative reports while requiring disclosure of incident
+    reports.
+
+exemptions:
+  - Law enforcement investigative reports (discretionary, \xA7 25-61-12)
+  - Personal information of law enforcement/judicial personnel (\xA7 25-61-12)
+  - Victim information and victim impact statements (\xA7 25-61-12)
+  - Trade secrets and confidential commercial/financial information (\xA7 25-61-9)
+  - Information technology security records (\xA7 25-61-11.2)
+  - Records exempted by other state or federal law (\xA7 25-61-11)
+
+template_fragments:
+  statute_invocation: >-
+    Pursuant to the Mississippi Public Records Act of 1983
+    (Miss. Code Ann. \xA7 25-61-5)
+  response_reminder: >-
+    Under Miss. Code Ann. \xA7 25-61-5, a public body must
+    produce records or provide a written denial within seven
+    working days, and any extension may not exceed fourteen
+    working days total.
+  fee_cap_notice: >-
+    If fulfilling this request will cost more than $__FEE_CAP__,
+    please provide an estimate before proceeding. Under
+    Miss. Code Ann. \xA7 25-61-7, fees must be reasonably
+    calculated to reimburse actual costs.
+  electronic_delivery_clause: >-
+    I request responsive records in electronic format, as the
+    statute requires records to be provided in the format
+    requested if maintained in that format.
+  appeal_deadline_warning: >-
+    If this request is denied, I reserve the right to petition
+    the chancery court directly under Miss. Code Ann.
+    \xA7 25-61-13 without exhausting administrative remedies, and
+    officials who wrongfully deny access may be personally liable
+    for up to $100 per violation plus reasonable expenses under
+    \xA7 25-61-15.

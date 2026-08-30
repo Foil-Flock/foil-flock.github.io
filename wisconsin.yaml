@@ -1,0 +1,114 @@
+name: Wisconsin
+abbreviation: WI
+slug: wisconsin
+
+statute:
+  name: Wisconsin Public Records Law
+  short_name: Wisconsin Public Records Law
+  citation: "Wis. Stat. \xA7\xA7 19.31 – 19.39"
+  url: https://docs.legis.wisconsin.gov/document/statutes/19.31
+
+presumption: open
+
+response:
+  initial_days: 0
+  final_days: null
+  day_type: business
+  notes: >-
+    No fixed deadline. The statute requires response "as soon as
+    practicable and without delay" (Wis. Stat. \xA7 19.35(4)(a)).
+    The DOJ compliance guide suggests 10 business days is
+    reasonable for routine requests, but this is guidance only,
+    not a statutory requirement. Unreasonable delay can trigger
+    enforcement under Wis. Stat. \xA7 19.37.
+
+appeal:
+  required_before_court: false
+  deadline_days: null
+  response_days: null
+  body: Direct court action (Circuit Court via mandamus)
+  advisory_body:
+    name: Office of Open Government, Wisconsin Department of Justice
+    url: https://www.wisdoj.gov
+    phone: "(608) 267-2220"
+    email: null
+    address: "P.O. Box 7857, Madison, WI 53707-7857"
+
+enforcement:
+  penalty_type: both
+  per_day_cap: null
+  attorney_fees: mandatory
+  fee_trigger: >-
+    Court shall award reasonable attorney fees, damages of not
+    less than $100, and other actual costs to the requester if
+    the requester prevails in whole or in substantial part.
+    Wis. Stat. \xA7 19.37(2)(a). A forfeiture of up to $1,000
+    is available for arbitrary and capricious denial, delay, or
+    excessive fees (\xA7 19.37(4)). Punitive damages available
+    for arbitrary and capricious conduct (\xA7 19.37(3)).
+  court_action: Mandamus action (writ of mandamus)
+  court_name: Circuit Court
+  filing_fee_approx: 165
+  filing_deadline_days: null
+  burden_of_proof: agency
+
+fees:
+  copy_per_page: null
+  copy_max_size: null
+  search_fee_allowed: false
+  review_fee_allowed: false
+  redaction_fee_allowed: true
+  electronic_delivery_required: false
+  notes: >-
+    No statutory per-page amount. Fees are limited to "actual,
+    necessary and direct cost of reproduction and transcription"
+    (Wis. Stat. \xA7 19.35(3)). Location fees allowed only when
+    cost exceeds $50. Redaction fees for audio/video content
+    based on lowest-paid employee's hourly rate capable of
+    performing the task (\xA7 19.35(3)(e)). Prepayment required
+    only when fees exceed $5. Authorities may waive or reduce
+    fees when "in the public interest."
+
+alpr:
+  specific_exemption: false
+  exemption_citation: null
+  notes: >-
+    Wisconsin has no ALPR-specific statute. ALPR data handling is
+    left to individual department policy. ALPR data would be
+    analyzed under the general public records law balancing test
+    weighing public interest in disclosure against public interest
+    in nondisclosure, and any applicable law enforcement
+    exemptions.
+
+exemptions:
+  - Records from a current investigation of criminal offense or misconduct (\xA7 19.36(10)(a))
+  - Common-law balancing test (ongoing investigations, informants, undercover operations)
+  - Records required by state or federal law to be withheld (\xA7 19.36(1))
+  - Employee personal information (\xA7 19.36(8))
+  - Trade secrets (\xA7 19.36(5))
+  - Computer source code (\xA7 19.36(4)), though data outputs remain public
+
+template_fragments:
+  statute_invocation: >-
+    Pursuant to the Wisconsin Public Records Law
+    (Wis. Stat. \xA7\xA7 19.31 through 19.39)
+  response_reminder: >-
+    Under Wis. Stat. \xA7 19.35(4)(a), you are required to
+    respond to this request as soon as practicable and without
+    delay, either fulfilling the request or providing written
+    notice of denial with specific reasons.
+  fee_cap_notice: >-
+    If fulfilling this request will cost more than $__FEE_CAP__,
+    please provide an estimate before proceeding. Under
+    Wis. Stat. \xA7 19.35(3), fees are limited to the actual,
+    necessary, and direct cost of reproduction.
+  electronic_delivery_clause: >-
+    I request that records be provided in electronic format where
+    available, to minimize reproduction costs consistent with
+    Wis. Stat. \xA7 19.35(3).
+  appeal_deadline_warning: >-
+    If this request is denied, I reserve the right to commence a
+    mandamus action in circuit court under Wis. Stat. \xA7 19.37,
+    and the court shall award reasonable attorney fees, damages
+    of not less than $100, and other actual costs if I prevail in
+    whole or in substantial part.

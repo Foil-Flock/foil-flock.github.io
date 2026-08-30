@@ -1,0 +1,121 @@
+name: Oregon
+abbreviation: OR
+slug: oregon
+
+statute:
+  name: Oregon Public Records Law
+  short_name: Oregon Public Records Law
+  citation: "ORS 192.311 – 192.478"
+  url: https://www.oregonlegislature.gov/bills_laws/ors/ors192.html
+
+presumption: open
+
+response:
+  initial_days: 5
+  final_days: null
+  day_type: business
+  notes: >-
+    Custodian must acknowledge or complete the response within 5
+    business days (ORS 192.324). After acknowledgment, the agency
+    has 10 additional business days to complete the response or
+    provide a written status update with an estimated completion
+    date (ORS 192.329). The 10-day clock is suspended when fees
+    are assessed and unpaid, or when the agency requests
+    clarification. The "as soon as practicable and without
+    unreasonable delay" standard applies throughout.
+
+appeal:
+  required_before_court: true
+  deadline_days: null
+  response_days: 7
+  body: Attorney General (state agencies) or District Attorney (local bodies)
+  advisory_body:
+    name: Office of the Public Records Advocate
+    url: https://www.oregon.gov/pra
+    phone: "(503) 871-9036"
+    email: null
+    address: "2850 SW Cedar Hills Blvd, #1121, Beaverton, OR 97005"
+
+enforcement:
+  penalty_type: both
+  per_day_cap: null
+  attorney_fees: mandatory
+  fee_trigger: >-
+    Court shall award reasonable attorney fees and costs to a
+    requester who fully prevails. ORS 192.431(3). Court may
+    award fees in its discretion when requester prevails in part.
+    Fees are mandatory regardless of outcome if agency fails to
+    comply with an AG order. A flat $200 penalty may be imposed
+    for undue delay or failure to respond (ORS 192.407).
+  court_action: Petition for injunctive or declaratory relief
+  court_name: Circuit Court
+  filing_fee_approx: 281
+  filing_deadline_days: null
+  burden_of_proof: agency
+
+fees:
+  copy_per_page: null
+  copy_max_size: null
+  search_fee_allowed: false
+  review_fee_allowed: false
+  redaction_fee_allowed: true
+  electronic_delivery_required: false
+  notes: >-
+    No statutory per-page rate; fees must be "reasonably
+    calculated to reimburse the public body for the public body's
+    actual cost" (ORS 192.324). Fees exceeding $25 require
+    advance written notice and requester confirmation. Reduced or
+    waived fees apply when disclosure "primarily benefits the
+    general public." Attorney time for redaction is chargeable,
+    but time spent determining whether an exemption applies is
+    not. Each agency must publish written fee-calculation
+    procedures.
+
+alpr:
+  specific_exemption: true
+  exemption_citation: "ORS 192.345(44)"
+  notes: >-
+    Captured license plate data collected by an ALPR system
+    deployed or used by a law enforcement agency is conditionally
+    exempt from public records disclosure (SB 1516, enacted 2026,
+    effective March 31, 2026). Data retention limit: 30 days for
+    non-investigative data. Audit records must be disclosed with
+    personally identifiable information redacted. Law enforcement
+    must log search purposes and specify the crime or violation
+    being investigated. ALPR cannot be used in violation of
+    Oregon's sanctuary laws. End-to-end encryption required.
+
+exemptions:
+  - Investigatory information compiled for criminal law purposes (ORS 192.345(3))
+  - ALPR captured license plate data (ORS 192.345(44))
+  - Body camera recordings (ORS 192.345(40), conditionally exempt)
+  - Specific operational plans for anticipated threats (ORS 192.345(18))
+  - Infrastructure security records revealing vulnerability (ORS 192.345(22))
+  - Security measures revealing weaknesses (ORS 192.345(23))
+  - Records pertaining to litigation where public body is a party (ORS 192.345(1))
+
+template_fragments:
+  statute_invocation: >-
+    Pursuant to the Oregon Public Records Law
+    (ORS 192.311 through 192.478)
+  response_reminder: >-
+    Under ORS 192.324, you are required to acknowledge this
+    request within five business days and, per ORS 192.329,
+    complete your response or provide a written status update
+    within ten business days of acknowledgment.
+  fee_cap_notice: >-
+    If fulfilling this request will cost more than $__FEE_CAP__,
+    please provide an estimate before proceeding. Under
+    ORS 192.324, fees must be reasonably calculated to reimburse
+    actual costs only, and any estimate exceeding $25 requires
+    advance notice.
+  electronic_delivery_clause: >-
+    I request that records be provided in electronic format where
+    available, as they exist in machine-readable form pursuant to
+    ORS 192.324.
+  appeal_deadline_warning: >-
+    If this request is denied, I reserve the right to petition
+    the Attorney General for review under ORS 192.411, and under
+    ORS 192.431(3), the court shall award reasonable attorney
+    fees and costs to a requester who prevails in a suit to
+    compel disclosure.
