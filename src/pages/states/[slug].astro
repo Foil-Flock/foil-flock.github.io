@@ -424,6 +424,16 @@ function feeLabel(type: string) {
     flex-direction: column;
     gap: var(--gap-md);
   }
+  :global(.form-row) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--gap-md);
+  }
+  @media (max-width: 480px) {
+    :global(.form-row) {
+      grid-template-columns: 1fr;
+    }
+  }
   :global(.form-group) {
     display: flex;
     flex-direction: column;

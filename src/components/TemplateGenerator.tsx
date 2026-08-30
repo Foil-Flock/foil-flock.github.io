@@ -180,6 +180,69 @@ export default function TemplateGenerator({ templates, agencies, stateData }: Pr
     }
   }
 
+  /* ── Field rendering ──────────────────────────────────── */
+
+  const fieldPairs: Record<string, string> = {
+    time_start: "time_end",
+    original_date: "denial_date",
+    start_date: "audit_days",
+    location: "fee_cap",
+  };
+
+  function renderField(field: UserField) {
+    const inputId = `gen-${field.id}`;
+    return (
+      <div class="form-group" key={field.id}>
+        <label for={inputId}>
+          {field.label}
+          {!field.required && <span class="hint"> (optional)</span>}
+        </label>
+        {field.type === "textarea" ? (
+          <textarea
+            id={inputId}
+            value={getFieldValue(field.id)}
+            placeholder={field.placeholder}
+            onInput={(e) => updateField(field.id, (e.target as HTMLTextAreaElement).value)}
+          />
+        ) : (
+          <input
+            id={inputId}
+            type={field.type === "number" ? "number" : field.type}
+            value={getFieldValue(field.id)}
+            placeholder={field.placeholder}
+            onInput={(e) => updateField(field.id, (e.target as HTMLInputElement).value)}
+          />
+        )}
+      </div>
+    );
+  }
+
+  function renderTemplateFields(fields: UserField[]) {
+    const rendered = new Set<string>();
+    const elements: any[] = [];
+
+    for (const field of fields) {
+      if (rendered.has(field.id)) continue;
+      rendered.add(field.id);
+
+      const pairedId = fieldPairs[field.id];
+      const pairedField = pairedId ? fields.find((f) => f.id === pairedId) : null;
+
+      if (pairedField) {
+        rendered.add(pairedField.id);
+        elements.push(
+          <div class="form-row" key={field.id}>
+            {renderField(field)}
+            {renderField(pairedField)}
+          </div>
+        );
+      } else {
+        elements.push(renderField(field));
+      }
+    }
+    return elements;
+  }
+
   /* ── Render ───────────────────────────────────────────── */
 
   return (
@@ -236,15 +299,26 @@ export default function TemplateGenerator({ templates, agencies, stateData }: Pr
 
           {/* user fields */}
           <div class="gen-form" style={{ marginTop: "var(--gap-md)" }}>
-            {/* Common fields first */}
-            <div class="form-group">
-              <label for="gen-name">Your name</label>
-              <input
-                id="gen-name"
-                type="text"
-                value={getFieldValue("name")}
-                onInput={(e) => updateField("name", (e.target as HTMLInputElement).value)}
-              />
+            {/* Common fields */}
+            <div class="form-row">
+              <div class="form-group">
+                <label for="gen-name">Your name</label>
+                <input
+                  id="gen-name"
+                  type="text"
+                  value={getFieldValue("name")}
+                  onInput={(e) => updateField("name", (e.target as HTMLInputElement).value)}
+                />
+              </div>
+              <div class="form-group">
+                <label for="gen-email">Your email</label>
+                <input
+                  id="gen-email"
+                  type="email"
+                  value={getFieldValue("email")}
+                  onInput={(e) => updateField("email", (e.target as HTMLInputElement).value)}
+                />
+              </div>
             </div>
             <div class="form-group">
               <label for="gen-address">Your mailing address</label>
@@ -255,45 +329,9 @@ export default function TemplateGenerator({ templates, agencies, stateData }: Pr
                 onInput={(e) => updateField("address", (e.target as HTMLInputElement).value)}
               />
             </div>
-            <div class="form-group">
-              <label for="gen-email">Your email</label>
-              <input
-                id="gen-email"
-                type="email"
-                value={getFieldValue("email")}
-                onInput={(e) => updateField("email", (e.target as HTMLInputElement).value)}
-              />
-            </div>
 
-            {/* Template-specific fields */}
-            {activeTemplate.user_fields.map((field) => {
-              // Skip fee_cap since it's handled in the common section feel
-              const inputId = `gen-${field.id}`;
-              return (
-                <div class="form-group" key={field.id}>
-                  <label for={inputId}>
-                    {field.label}
-                    {!field.required && <span class="hint"> (optional)</span>}
-                  </label>
-                  {field.type === "textarea" ? (
-                    <textarea
-                      id={inputId}
-                      value={getFieldValue(field.id)}
-                      placeholder={field.placeholder}
-                      onInput={(e) => updateField(field.id, (e.target as HTMLTextAreaElement).value)}
-                    />
-                  ) : (
-                    <input
-                      id={inputId}
-                      type={field.type === "number" ? "number" : field.type}
-                      value={getFieldValue(field.id)}
-                      placeholder={field.placeholder}
-                      onInput={(e) => updateField(field.id, (e.target as HTMLInputElement).value)}
-                    />
-                  )}
-                </div>
-              );
-            })}
+            {/* Template-specific fields, grouped into rows */}
+            {renderTemplateFields(activeTemplate.user_fields)}
           </div>
 
           {/* output */}
