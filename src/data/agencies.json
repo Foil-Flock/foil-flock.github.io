@@ -1,8 +1,7 @@
 {
-  "_schema_version": "0.2.0",
-  "_description": "Agency directory. Seeded from flock-finder WiFi detection data + MuckRock, extended by community contributions. Each entry represents one government agency with known or suspected ALPR deployments.",
+  "_schema_version": "0.1.0",
+  "_description": "Agency directory. Seeded from FlockRadar + MuckRock, extended by community contributions.",
   "_contributing": "To add or correct an agency, submit a PR editing this file. Include a source URL for any factual claim.",
-  "_camera_data_source": "Camera counts derived from WiFi OUI fingerprinting via github.com/simeononsecurity/flock-finder. Counts represent detected devices, not confirmed installations.",
   "agencies": [
     {
       "id": "anchorage-police-department-ak",

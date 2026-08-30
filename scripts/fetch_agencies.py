@@ -9,8 +9,10 @@ Data sources:
 Usage:
   python3 scripts/fetch_agencies.py
 
-  Set MUCKROCK_TOKEN env var for authenticated MuckRock API access
-  (optional — unauthenticated access works for agency lookups).
+  Authentication (required — MuckRock API requires login):
+
+  Set SQ_USERNAME and SQ_PASSWORD env vars (your MuckRock account).
+  Requires: pip install python-muckrock
 
 This script merges upstream data with existing agencies.json,
 preserving any manual edits or community contributions. It never
@@ -20,18 +22,9 @@ previously null.
 
 import json
 import os
-import sys
-import time
 from pathlib import Path
-from urllib.request import Request, urlopen
-from urllib.error import HTTPError
 
 AGENCIES_PATH = Path(__file__).parent.parent / "src" / "data" / "agencies.json"
-MUCKROCK_API = "https://www.muckrock.com/api_v1"
-MUCKROCK_TOKEN = os.environ.get("MUCKROCK_TOKEN")
-
-# Rate limiting: MuckRock allows 1 req/sec sustained
-RATE_LIMIT_DELAY = 1.1  # seconds between API calls
 
 
 def load_existing():
@@ -41,53 +34,6 @@ def load_existing():
             data = json.load(f)
         return {a["id"]: a for a in data.get("agencies", [])}
     return {}
-
-
-def fetch_json(url, headers=None):
-    """Fetch JSON from a URL with basic error handling."""
-    req = Request(url)
-    if headers:
-        for k, v in headers.items():
-            req.add_header(k, v)
-    req.add_header("Accept", "application/json")
-    try:
-        with urlopen(req, timeout=30) as resp:
-            return json.loads(resp.read().decode())
-    except HTTPError as e:
-        print(f"  HTTP {e.code} fetching {url}", file=sys.stderr)
-        return None
-
-
-def fetch_muckrock_agency(name, state, jurisdiction):
-    """
-    Search MuckRock for an agency and return contact details.
-    Returns dict with contact fields or None.
-    """
-    headers = {}
-    if MUCKROCK_TOKEN:
-        headers["Authorization"] = f"Token {MUCKROCK_TOKEN}"
-
-    # Search by name within the state
-    search_url = (
-        f"{MUCKROCK_API}/agency/"
-        f"?search={name}"
-        f"&jurisdiction__abbreviation={state}"
-        f"&format=json"
-    )
-    data = fetch_json(search_url, headers)
-    time.sleep(RATE_LIMIT_DELAY)
-
-    if not data or not data.get("results"):
-        return None
-
-    # Take the best match (first result)
-    agency = data["results"][0]
-    return {
-        "email": agency.get("email") or None,
-        "phone": agency.get("phone") or None,
-        "form_url": agency.get("url") or None,
-        "mailing_address": agency.get("address") or None,
-    }
 
 
 def make_agency_id(name, state):
@@ -144,39 +90,99 @@ def save_agencies(agencies_by_id):
     print(f"Wrote {len(agencies_list)} agencies to {AGENCIES_PATH}")
 
 
+def enrich_from_muckrock(agencies):
+    """Enrich agencies with contact info from MuckRock's v2 API."""
+    import time
+
+    try:
+        from muckrock import MuckRock
+    except ImportError:
+        print("python-muckrock not installed. Run: pip install python-muckrock")
+        return agencies
+
+    username = os.environ.get("SQ_USERNAME", "")
+    password = os.environ.get("SQ_PASSWORD", "")
+    if not username:
+        print("Set SQ_USERNAME and SQ_PASSWORD env vars for MuckRock auth")
+        return agencies
+
+    try:
+        client = MuckRock(username=username, password=password)
+        print(f"Authenticated as {username}")
+    except Exception as e:
+        print(f"MuckRock auth failed: {e}")
+        return agencies
+
+    enriched = 0
+    skipped = 0
+    not_found = 0
+
+    for agency_id, agency in agencies.items():
+        contact = agency.get("contact", {})
+        if contact.get("email") and contact.get("mailing_address"):
+            skipped += 1
+            continue
+
+        for attempt in range(3):
+            try:
+                results = client.agencies.list(search=agency["name"])
+                match = None
+                for result in results:
+                    result_data = vars(result)
+                    jurisdiction = result_data.get("jurisdiction", {})
+                    if isinstance(jurisdiction, dict):
+                        abbrev = jurisdiction.get("abbreviation", "")
+                    else:
+                        abbrev = ""
+                    if abbrev.upper() == agency["state"].upper():
+                        match = result_data
+                        break
+
+                if not match:
+                    not_found += 1
+                else:
+                    mr_contact = {
+                        "email": match.get("email") or None,
+                        "phone": match.get("phone") or None,
+                        "form_url": match.get("url") or None,
+                        "mailing_address": match.get("address") or None,
+                    }
+                    if any(v is not None for v in mr_contact.values()):
+                        agencies[agency_id] = merge_agency(
+                            agency, {"contact": mr_contact}
+                        )
+                        enriched += 1
+                        print(f"  + {agency['name']}: enriched contact info")
+                break
+
+            except Exception as e:
+                if "503" in str(e) and attempt < 2:
+                    wait = 5 * (attempt + 1)
+                    print(f"  ~ {agency['name']}: 503, retrying in {wait}s...")
+                    time.sleep(wait)
+                    continue
+                print(f"  ! {agency['name']}: {e}")
+                break
+
+        time.sleep(1.5)
+
+    print(
+        f"  Enriched {enriched}, skipped {skipped} (already complete),"
+        f" {not_found} not found"
+    )
+    return agencies
+
+
 def main():
     print("Loading existing agencies...")
     agencies = load_existing()
     print(f"  Found {len(agencies)} existing agencies")
 
-    # ── Phase 1: Enrich existing agencies with MuckRock contact data ──
-    if MUCKROCK_TOKEN:
-        print("\nEnriching from MuckRock API...")
-        enriched = 0
-        for agency_id, agency in agencies.items():
-            contact = agency.get("contact", {})
-            if contact.get("email") and contact.get("mailing_address"):
-                continue  # already has contact info
+    print("\nEnriching from MuckRock API...")
+    agencies = enrich_from_muckrock(agencies)
 
-            mr_data = fetch_muckrock_agency(
-                agency["name"],
-                agency["state"],
-                agency.get("jurisdiction", ""),
-            )
-            if mr_data:
-                agencies[agency_id] = merge_agency(agency, {"contact": mr_data})
-                enriched += 1
-                print(f"  + {agency['name']}: enriched contact info")
-
-        print(f"  Enriched {enriched} agencies from MuckRock")
-    else:
-        print("\nSkipping MuckRock enrichment (set MUCKROCK_TOKEN to enable)")
-
-    # ── Phase 2: Save ─────────────────────────────────────────────────
     save_agencies(agencies)
-
-    print("\nDone. To add FlockRadar data, export their dataset and run:")
-    print("  python3 scripts/import_flockradar.py <export.json>")
+    print("\nDone.")
 
 
 if __name__ == "__main__":
