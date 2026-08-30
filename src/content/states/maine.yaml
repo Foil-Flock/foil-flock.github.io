@@ -1,0 +1,115 @@
+name: Maine
+abbreviation: ME
+slug: maine
+
+statute:
+  name: Freedom of Access Act
+  short_name: ME FOAA
+  citation: "1 MRSA \xA7 400-414"
+  url: https://legislature.maine.gov/statutes/1/title1ch13sec0.html
+
+presumption: open
+
+response:
+  initial_days: 5
+  final_days: null
+  day_type: business
+  notes: >-
+    An agency must acknowledge receipt of a request within five
+    business days and provide a good-faith, nonbinding estimate
+    of the time needed to complete the request (1 MRSA §408-A(3)).
+    There is no fixed deadline for final production. Agencies must
+    make a good-faith effort to respond in a reasonable time.
+    Constructive denial may be inferred from unreasonable delay.
+    Denial must cite the specific exemption and be in writing.
+
+appeal:
+  required_before_court: false
+  deadline_days: null
+  response_days: null
+  body: Direct court action (Superior Court)
+  advisory_body:
+    name: Public Access Ombudsman
+    url: https://www.maine.gov/ag/government/public-access-ombudsman.shtml
+    phone: "(207) 626-8577"
+    email: null
+    address: null
+
+enforcement:
+  penalty_type: both
+  per_day_cap: 500
+  attorney_fees: discretionary
+  fee_trigger: >-
+    Under 1 MRSA §409(4), attorney fees may be awarded to a
+    prevailing plaintiff if the court finds the denial was not
+    made in good faith. Civil forfeitures of not less than $500
+    and not more than $2,000 may be imposed for each violation
+    (1 MRSA §410). A public official who willfully violates the
+    act commits a civil violation. The Public Access Ombudsman
+    provides informal mediation and guidance but cannot compel
+    disclosure.
+  court_action: Civil action in superior court
+  court_name: Superior Court
+  filing_fee_approx: 200
+  filing_deadline_days: null
+  burden_of_proof: agency
+
+fees:
+  copy_per_page: null
+  copy_max_size: null
+  search_fee_allowed: true
+  review_fee_allowed: false
+  redaction_fee_allowed: true
+  electronic_delivery_required: false
+  notes: >-
+    Agencies may charge a reasonable fee to cover actual cost.
+    Includes labor for searching, retrieving, and reviewing
+    records, plus redaction costs. No statutory per-page rate.
+    Agencies must provide an estimate if the cost exceeds $30.
+    Electronic records should be provided in the format requested
+    when feasible.
+
+alpr:
+  specific_exemption: true
+  exemption_citation: "29-A MRSA \xA7 2117-A"
+  notes: >-
+    Maine has an ALPR-specific statute (29-A MRSA §2117-A) that
+    restricts use of ALPR data and imposes a 21-day retention
+    limit unless the data is related to a specific criminal
+    investigation or intelligence purpose. Misuse of ALPR data
+    is a Class E crime. This retention limit means most routine
+    ALPR data will have been purged before a public records
+    request can reach it.
+
+exemptions:
+  - Records designated confidential by statute (1 MRSA §402(3)(A))
+  - Law enforcement investigatory records (1 MRSA §402(3)(B))
+  - Records whose disclosure would constitute an invasion of privacy (1 MRSA §402(3)(A))
+  - Medical and psychological records
+  - Trade secrets and confidential commercial information
+  - ALPR data restricted under 29-A MRSA §2117-A
+  - Intelligence and investigative records
+
+template_fragments:
+  statute_invocation: >-
+    Pursuant to Maine's Freedom of Access Act
+    (1 MRSA §400-414)
+  response_reminder: >-
+    Under 1 MRSA §408-A(3), the agency must acknowledge receipt
+    of this request within five business days and provide a
+    good-faith estimate of the time to fulfill it.
+  fee_cap_notice: >-
+    If fulfilling this request will cost more than $__FEE_CAP__,
+    please provide an estimate before proceeding. Under
+    1 MRSA §408-A(8), the agency must provide a cost estimate
+    when fees are expected to exceed $30.
+  electronic_delivery_clause: >-
+    I request that records be provided in electronic format where
+    available. Under the FOAA, agencies should provide records
+    in the format requested when feasible.
+  appeal_deadline_warning: >-
+    If this request is denied, I reserve the right to seek judicial
+    enforcement in Superior Court. Under 1 MRSA §409(4), the court
+    may award attorney fees if the denial was not made in good
+    faith, and civil forfeitures of $500 to $2,000 may be imposed
+    for each violation.

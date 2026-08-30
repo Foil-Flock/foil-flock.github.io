@@ -1,0 +1,103 @@
+name: Delaware
+abbreviation: DE
+slug: delaware
+
+statute:
+  name: Delaware Freedom of Information Act
+  short_name: DE FOIA
+  citation: "29 Del. C. \xA7 10001 et seq."
+  url: https://delcode.delaware.gov/title29/c100/
+
+presumption: open
+
+response:
+  initial_days: 15
+  final_days: null
+  day_type: business
+  notes: >-
+    An agency must respond within 15 business days of receiving
+    the request (29 Del. C. \xA7 10003(h)). The response must
+    grant, deny, or partially deny the request. Denials must
+    state the reasons and cite the applicable exemption. If
+    additional time is needed, the agency must notify the
+    requester with a good-faith estimate.
+
+appeal:
+  required_before_court: false
+  deadline_days: 60
+  response_days: 30
+  body: Attorney General or Superior Court
+  advisory_body: null
+
+enforcement:
+  penalty_type: fee_shifting
+  per_day_cap: null
+  attorney_fees: discretionary
+  fee_trigger: >-
+    The court may award reasonable attorney fees and costs to
+    prevailing plaintiffs. Under 29 Del. C. \xA7 10005(d), fees
+    may also be awarded against a plaintiff if the action was
+    frivolous or brought for harassment. The Attorney General
+    may investigate complaints and issue advisory opinions on
+    compliance.
+  court_action: Petition in Superior Court or complaint to AG
+  court_name: Superior Court
+  filing_fee_approx: 150
+  filing_deadline_days: 60
+  burden_of_proof: agency
+
+fees:
+  copy_per_page: null
+  copy_max_size: null
+  search_fee_allowed: true
+  review_fee_allowed: false
+  redaction_fee_allowed: false
+  electronic_delivery_required: false
+  notes: >-
+    Photocopying charged per statutory schedule. Administrative
+    fees may be charged for requests requiring over one hour of
+    staff time, but legal review costs may not be charged.
+    Electronic records may be charged at material cost (CDs,
+    DVDs) plus administrative costs. Fees may be waived if
+    disclosure serves the public interest.
+
+alpr:
+  specific_exemption: false
+  exemption_citation: null
+  notes: >-
+    Delaware has no ALPR-specific legislation or exemption. ALPR
+    data would be analyzed under DE FOIA's general exemptions,
+    including the criminal investigation records exemption in
+    29 Del. C. \xA7 10002(o)(2) and the personal privacy exemption
+    for personnel, medical, and pupil files.
+
+exemptions:
+  - Criminal investigation records that would interfere with proceedings (29 Del. C. \xA7 10002(o)(2))
+  - Personnel, medical, and pupil files (29 Del. C. \xA7 10002(o)(4))
+  - Trade secrets and confidential commercial/financial information (29 Del. C. \xA7 10002(o)(7))
+  - Records specifically exempt by other state or federal law
+  - Pending litigation materials
+  - Executive session minutes (25 years)
+  - Concealed weapons permit information
+
+template_fragments:
+  statute_invocation: >-
+    Pursuant to the Delaware Freedom of Information Act
+    (29 Del. C. \xA7 10001 et seq.)
+  response_reminder: >-
+    Under 29 Del. C. \xA7 10003(h), the agency must respond to
+    this request within fifteen business days of receipt.
+  fee_cap_notice: >-
+    If fulfilling this request will cost more than $__FEE_CAP__,
+    please provide an estimate before proceeding. Under the
+    DE FOIA, fees are limited to actual costs and may not
+    include legal review time.
+  electronic_delivery_clause: >-
+    I request that records be provided in electronic format where
+    available, at the cost of the storage medium.
+  appeal_deadline_warning: >-
+    If this request is denied, I reserve the right to file a
+    complaint with the Attorney General under 29 Del. C. \xA7 10005(e)
+    or seek judicial enforcement in Superior Court. The court
+    may award reasonable attorney fees and costs to prevailing
+    plaintiffs.

@@ -1,0 +1,102 @@
+name: Vermont
+abbreviation: VT
+slug: vermont
+
+statute:
+  name: Vermont Public Records Act
+  short_name: VT PRA
+  citation: "1 VSA \xA7 315-320"
+  url: https://legislature.vermont.gov/statutes/chapter/01/005
+
+presumption: open
+
+response:
+  initial_days: 3
+  final_days: 10
+  day_type: business
+  notes: >-
+    An agency must respond within three business days with an
+    acknowledgment and a statement of whether the request will
+    be granted, denied, or partially denied. If the agency needs
+    more time, it must provide a specific date by which it will
+    respond, not to exceed 10 business days from receipt. Denial
+    must be in writing and cite the specific exemption.
+
+appeal:
+  required_before_court: false
+  deadline_days: null
+  response_days: null
+  body: Direct court action (Superior Court)
+  advisory_body: null
+
+enforcement:
+  penalty_type: both
+  per_day_cap: 1000
+  attorney_fees: discretionary
+  fee_trigger: >-
+    Under 1 VSA §319(d), the court may award reasonable attorney
+    fees and costs to the prevailing plaintiff. A public agency
+    or official who willfully destroys or alters public records
+    to prevent disclosure is subject to a fine of $50 to $1,000
+    (1 VSA §317a). The court may issue injunctive relief to
+    compel disclosure.
+  court_action: Civil action in superior court
+  court_name: Superior Court
+  filing_fee_approx: 295
+  filing_deadline_days: null
+  burden_of_proof: agency
+
+fees:
+  copy_per_page: null
+  copy_max_size: null
+  search_fee_allowed: true
+  review_fee_allowed: false
+  redaction_fee_allowed: false
+  electronic_delivery_required: false
+  notes: >-
+    Agencies may charge reasonable fees that do not exceed the
+    actual cost of providing copies. No statutory per-page rate.
+    Search fees may be charged for employee time. Electronic
+    records should be provided in the format requested when
+    feasible. Fees may not be used to deter access.
+
+alpr:
+  specific_exemption: true
+  exemption_citation: "23 VSA \xA7 1607"
+  notes: >-
+    Vermont has an ALPR-specific statute (23 VSA §1607) that
+    restricts use of ALPR data, imposes an 18-month retention
+    limit, and requires annual reporting on ALPR use. Data may
+    only be accessed for law enforcement purposes and must be
+    purged after 18 months unless part of an active investigation.
+    Law enforcement agencies must file annual reports detailing
+    their ALPR use, data sharing, and access.
+
+exemptions:
+  - Records exempt from disclosure by other state or federal law (1 VSA §317(c)(1))
+  - Law enforcement records that could interfere with enforcement proceedings (1 VSA §317(c)(5))
+  - Records whose disclosure would constitute an unwarranted invasion of privacy (1 VSA §317(c)(7))
+  - Trade secrets and confidential commercial information (1 VSA §317(c)(9))
+  - Attorney-client privileged communications
+  - ALPR data restricted under 23 VSA §1607
+  - Internal advisory communications (1 VSA §317(c)(3))
+
+template_fragments:
+  statute_invocation: >-
+    Pursuant to the Vermont Public Records Act
+    (1 VSA §315-320)
+  response_reminder: >-
+    Under 1 VSA §318(b), the agency must respond to this request
+    within three business days with an acknowledgment, and provide
+    records or a denial within ten business days.
+  fee_cap_notice: >-
+    If fulfilling this request will cost more than $__FEE_CAP__,
+    please provide an estimate before proceeding. Fees must
+    reflect actual costs and may not be used to deter access.
+  electronic_delivery_clause: >-
+    I request that records be provided in electronic format where
+    available.
+  appeal_deadline_warning: >-
+    If this request is denied, I reserve the right to seek judicial
+    enforcement under 1 VSA §319. The court may award reasonable
+    attorney fees and costs to the prevailing plaintiff.

@@ -1,0 +1,102 @@
+name: South Dakota
+abbreviation: SD
+slug: south-dakota
+
+statute:
+  name: South Dakota Open Records Act
+  short_name: SD Open Records
+  citation: "SDCL \xA7 1-27-1 to 1-27-48"
+  url: https://sdlegislature.gov/Statutes/1-27
+
+presumption: open
+
+response:
+  initial_days: 10
+  final_days: null
+  day_type: business
+  notes: >-
+    An agency should respond within 10 business days. If the
+    request cannot be fulfilled within that period, the agency
+    must notify the requester of the expected completion date.
+    Denial must be in writing, state the reasons, and cite the
+    specific exemption. Constructive denial may be inferred from
+    unreasonable delay.
+
+appeal:
+  required_before_court: true
+  deadline_days: 90
+  response_days: 30
+  body: Office of Hearing Examiners
+  advisory_body: null
+
+enforcement:
+  penalty_type: both
+  per_day_cap: 50
+  attorney_fees: discretionary
+  fee_trigger: >-
+    Under SDCL §1-27-41, a public entity or official who
+    intentionally fails to comply is subject to a civil penalty
+    of $50 per day until compliance, up to a maximum not
+    specified. The court may award reasonable attorney fees to
+    the prevailing plaintiff when the denial was in bad faith.
+    An appeal to the Office of Hearing Examiners must be filed
+    within 90 days of the denial.
+  court_action: Appeal to Hearing Examiners, then circuit court
+  court_name: Circuit Court
+  filing_fee_approx: 75
+  filing_deadline_days: 90
+  burden_of_proof: agency
+
+fees:
+  copy_per_page: null
+  copy_max_size: null
+  search_fee_allowed: true
+  review_fee_allowed: false
+  redaction_fee_allowed: false
+  electronic_delivery_required: false
+  notes: >-
+    Agencies may charge reasonable fees to reimburse actual costs
+    of searching for and copying records. No statutory per-page
+    rate. Fees may not exceed actual costs. Electronic records
+    should be provided in the format requested when feasible.
+
+alpr:
+  specific_exemption: false
+  exemption_citation: null
+  notes: >-
+    South Dakota has no ALPR-specific legislation or exemption.
+    ALPR data would be analyzed under the Open Records Act's
+    general exemptions, including the law enforcement criminal
+    investigation exemption and exemptions for records whose
+    disclosure would jeopardize public safety.
+
+exemptions:
+  - Records of law enforcement criminal investigations (SDCL §23-5-7)
+  - Personnel records and personal information (SDCL §1-27-1.5(8))
+  - Trade secrets and confidential commercial information
+  - Records made confidential by other state or federal law
+  - Attorney-client privileged communications
+  - Records whose disclosure would jeopardize public safety
+
+template_fragments:
+  statute_invocation: >-
+    Pursuant to the South Dakota Open Records Act
+    (SDCL §1-27-1 to 1-27-48)
+  response_reminder: >-
+    Under the South Dakota Open Records Act, the agency should
+    respond to this request within ten business days of receipt.
+    If more time is needed, I request written notice with an
+    estimated completion date.
+  fee_cap_notice: >-
+    If fulfilling this request will cost more than $__FEE_CAP__,
+    please provide an estimate before proceeding. Fees must
+    reflect actual costs.
+  electronic_delivery_clause: >-
+    I request that records be provided in electronic format where
+    available.
+  appeal_deadline_warning: >-
+    If this request is denied, I reserve the right to appeal to
+    the Office of Hearing Examiners within 90 days under SDCL
+    §1-27-42 and to seek judicial enforcement in circuit court.
+    Civil penalties of $50/day may be imposed for intentional
+    noncompliance.

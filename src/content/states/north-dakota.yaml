@@ -1,0 +1,104 @@
+name: North Dakota
+abbreviation: ND
+slug: north-dakota
+
+statute:
+  name: North Dakota Open Records Act
+  short_name: ND Open Records
+  citation: "NDCC \xA7 44-04-18"
+  url: https://www.ndlegis.gov/cencode/t44c04.pdf
+
+presumption: open
+
+response:
+  initial_days: 0
+  final_days: null
+  day_type: business
+  notes: >-
+    North Dakota's statute requires records to be available for
+    inspection during reasonable office hours but does not set a
+    specific response deadline. The Attorney General's office has
+    recommended a reasonable response time. When the AG issues an
+    opinion finding a violation, the entity has seven days to comply.
+    Constructive denial may be inferred from unreasonable delay.
+
+appeal:
+  required_before_court: true
+  deadline_days: null
+  response_days: 7
+  body: Attorney General (opinion request)
+  advisory_body: null
+
+enforcement:
+  penalty_type: both
+  per_day_cap: 1000
+  attorney_fees: mandatory
+  fee_trigger: >-
+    After an Attorney General opinion finding a violation, if the
+    entity does not comply within seven days, the requester may
+    bring a civil action and attorney fees are mandatory for a
+    prevailing plaintiff. Under NDCC §44-04-21.2, a knowing
+    violation is a Class A misdemeanor, and the court may award
+    actual damages or $1,000, whichever is greater, plus
+    reasonable attorney fees and costs.
+  court_action: Civil action in district court (after AG opinion)
+  court_name: District Court
+  filing_fee_approx: 80
+  filing_deadline_days: null
+  burden_of_proof: agency
+
+fees:
+  copy_per_page: 0.25
+  copy_max_size: null
+  search_fee_allowed: true
+  review_fee_allowed: false
+  redaction_fee_allowed: false
+  electronic_delivery_required: false
+  notes: >-
+    $0.25 per page for copies. Search fees allowed at $25/hour,
+    with the first hour free. No charges for review or legal
+    analysis. Electronic records should be provided in the format
+    requested when feasible. Fees may be waived if disclosure
+    serves the public interest.
+
+alpr:
+  specific_exemption: false
+  exemption_citation: null
+  notes: >-
+    North Dakota has no ALPR-specific legislation or exemption.
+    ALPR data would be analyzed under the Open Records Act's
+    general exemptions, including the law enforcement active
+    investigation exemption and exemptions for records whose
+    disclosure would endanger life or safety.
+
+exemptions:
+  - Records of active criminal investigations and intelligence information (NDCC §44-04-18.7)
+  - Records exempt by other state or federal law (NDCC §44-04-18.4)
+  - Attorney-client privileged communications (NDCC §44-04-19.1(9))
+  - Trade secrets and proprietary business information
+  - Personal information in personnel records
+  - Records whose disclosure would endanger life, safety, or property
+
+template_fragments:
+  statute_invocation: >-
+    Pursuant to the North Dakota Open Records Act
+    (NDCC §44-04-18)
+  response_reminder: >-
+    Under the North Dakota Open Records Act, all records of a
+    public entity are open and accessible for inspection during
+    reasonable office hours. I expect a timely response to this
+    request.
+  fee_cap_notice: >-
+    If fulfilling this request will cost more than $__FEE_CAP__,
+    please provide an estimate before proceeding. Under NDCC
+    §44-04-18, copies cost $0.25/page and search fees are $25/hr
+    with the first hour free.
+  electronic_delivery_clause: >-
+    I request that records be provided in electronic format where
+    available.
+  appeal_deadline_warning: >-
+    If this request is denied, I reserve the right to request an
+    Attorney General opinion under NDCC §44-04-21.1. If the AG
+    finds a violation and the entity does not comply within seven
+    days, I may seek judicial enforcement, and attorney fees are
+    mandatory for prevailing plaintiffs.

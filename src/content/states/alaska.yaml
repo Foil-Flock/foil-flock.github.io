@@ -1,0 +1,99 @@
+name: Alaska
+abbreviation: AK
+slug: alaska
+
+statute:
+  name: Alaska Public Records Act
+  short_name: APRA
+  citation: "AS \xA7 40.25.110 et seq."
+  url: https://law.alaska.gov/doclibrary/APRA.html
+
+presumption: open
+
+response:
+  initial_days: 0
+  final_days: null
+  day_type: business
+  notes: >-
+    Alaska's statute does not set a specific response deadline.
+    Records must be made available for inspection "at reasonable
+    times" and copies provided "at nominal cost." Courts have
+    interpreted this as requiring a reasonable response time.
+    Constructive denial may be inferred from unreasonable delay.
+
+appeal:
+  required_before_court: false
+  deadline_days: null
+  response_days: null
+  body: Direct court action (Superior Court)
+  advisory_body: null
+
+enforcement:
+  penalty_type: fee_shifting
+  per_day_cap: null
+  attorney_fees: discretionary
+  fee_trigger: >-
+    Prevailing parties may recover attorney fees under Alaska
+    Civil Rule 82, which provides for partial fee-shifting as a
+    matter of course. The amount is calculated as a percentage
+    of the reasonable fees, with courts having discretion to
+    adjust. This is not specific to the public records act but
+    applies to all civil litigation in Alaska.
+  court_action: Civil action in superior court
+  court_name: Superior Court
+  filing_fee_approx: 250
+  filing_deadline_days: null
+  burden_of_proof: agency
+
+fees:
+  copy_per_page: null
+  copy_max_size: null
+  search_fee_allowed: true
+  review_fee_allowed: false
+  redaction_fee_allowed: false
+  electronic_delivery_required: false
+  notes: >-
+    The statute requires disclosure at "nominal cost." Agencies
+    may charge reasonable fees for searching and copying but
+    cannot use fees to deter access. Specific per-page rates
+    are set by individual agencies. Electronic records should
+    be provided in the format requested when feasible.
+
+alpr:
+  specific_exemption: false
+  exemption_citation: null
+  notes: >-
+    Alaska has no ALPR-specific legislation or exemption. ALPR
+    data would be analyzed under the APRA's general exemptions,
+    including the law enforcement records exemption in
+    AS 40.25.120(a)(1) for records whose disclosure would
+    interfere with enforcement proceedings or investigative
+    techniques.
+
+exemptions:
+  - Records whose disclosure would interfere with enforcement proceedings or investigative techniques (AS 40.25.120(a)(1))
+  - Personnel records unless disclosure outweighs privacy (AS 40.25.120(a)(2))
+  - Medical and health records (AS 40.25.120(a)(3))
+  - Trade secrets and confidential commercial information
+  - Records made confidential by other state or federal law (AS 40.25.120(a)(4))
+  - Deliberative process communications (pre-decisional)
+
+template_fragments:
+  statute_invocation: >-
+    Pursuant to the Alaska Public Records Act
+    (AS \xA7 40.25.110 et seq.)
+  response_reminder: >-
+    Under the APRA, public records must be made available for
+    inspection at reasonable times and copies provided at nominal
+    cost. I expect a timely response to this request.
+  fee_cap_notice: >-
+    If fulfilling this request will cost more than $__FEE_CAP__,
+    please provide an estimate before proceeding. Fees must
+    reflect nominal cost and may not be used to deter access.
+  electronic_delivery_clause: >-
+    I request that records be provided in electronic format where
+    available.
+  appeal_deadline_warning: >-
+    If this request is denied, I reserve the right to seek judicial
+    enforcement under AS 40.25.125. Alaska Civil Rule 82 provides
+    for recovery of attorney fees by the prevailing party.
