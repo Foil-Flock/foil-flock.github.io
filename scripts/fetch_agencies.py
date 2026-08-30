@@ -140,6 +140,9 @@ def enrich_from_muckrock(agencies):
 
     try:
         client = MuckRock(username=username, password=password)
+        client.session.headers["User-Agent"] = (
+            "Mozilla/5.0 (compatible; FoilFlock/1.0; +https://github.com/Foil-Flock)"
+        )
         print(f"Authenticated as {username}")
     except Exception as e:
         print(f"MuckRock auth failed: {e}")

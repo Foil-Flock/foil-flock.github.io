@@ -31,7 +31,7 @@ interface Props {
   agencies: Agency[];
 }
 
-const PAGE_SIZE = 20;
+const PAGE_SIZE = 5;
 
 type SortField = "name" | "cameras" | "jurisdiction";
 

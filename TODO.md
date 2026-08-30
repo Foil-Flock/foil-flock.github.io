@@ -19,6 +19,7 @@
 29 agencies is thin. FlockRadar alone has thousands of entries.
 
 - [ ] Run `fetch_agencies.py` against FlockRadar's full dataset
+- [x] ~~Cross-reference with MuckRock API~~ — shelved: v2 API only provides `muckrock_id` and `agency_types` (no contact fields), and Cloudflare now blocks programmatic access with JS challenges. 10 agencies already matched. Revisit if MuckRock offers token-based API auth.
 - [ ] Add agency-level metadata: FOIA portal URL, online submission supported (bool)
 - [ ] Add per-agency "last verified" date field
 - [ ] Paginate or lazy-load the agency list on state pages (some states will have 100+)
@@ -43,12 +44,9 @@
 ### State page enhancements
 
 ### UI / UX
-- [ ] Mobile responsiveness audit (especially stat-grid, template tabs)
-- [ ] Accessibility audit (color contrast, focus states, screen reader flow)
 - [ ] Add state map visualization on /states index page
 - [ ] Color-code states by ALPR exemption status on map/grid
 - [ ] Add "How to use this site" walkthrough or FAQ section
-- [ ] Dark mode toggle (CSS supports it; add a visible switch)
 - [ ] Add favicon
 
 
