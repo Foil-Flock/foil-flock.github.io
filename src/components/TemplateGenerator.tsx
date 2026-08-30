@@ -108,15 +108,28 @@ export default function TemplateGenerator({ templates, agencies, stateData }: Pr
     const feeNotice = stateData.fragments.fee_cap_notice.replace(/__FEE_CAP__/g, feeCap);
     body = body.replace(/__STATE_FEE_CAP_NOTICE__/g, feeNotice);
 
-    // Advisory body conditional
+    // Conditionals: keep content when true, strip entire block when false
+    function conditional(text: string, tag: string, keep: boolean): string {
+      const re = new RegExp(`__IF_${tag}__([\\s\\S]*?)__ENDIF__\\n?`, "g");
+      return keep ? text.replace(re, "$1") : text.replace(re, "");
+    }
+
+    body = conditional(body, "ADVISORY_BODY", !!stateData.advisory_body_name);
     if (stateData.advisory_body_name) {
-      body = body.replace(/__IF_ADVISORY_BODY__/g, "");
-      body = body.replace(/__ENDIF__/g, "");
       body = body.replace(/__ADVISORY_BODY_NAME__/g, stateData.advisory_body_name);
       body = body.replace(/__ADVISORY_BODY_ADDRESS__/g, stateData.advisory_body_address ?? "");
-    } else {
-      body = body.replace(/__IF_ADVISORY_BODY__[\s\S]*?__ENDIF__\n?/g, "");
     }
+
+    const foilRef = getFieldValue("foil_ref");
+    body = conditional(body, "FOIL_REF", !!foilRef);
+    if (foilRef) body = body.replace(/__USER_FOIL_REF__/g, foilRef);
+
+    const location = getFieldValue("location");
+    body = conditional(body, "LOCATION", !!location);
+    if (location) body = body.replace(/__USER_LOCATION__/g, location);
+
+    // Clean up any remaining conditionals
+    body = body.replace(/__IF_\w+__[\s\S]*?__ENDIF__\n?/g, "");
 
     // User fields
     const today = new Date().toISOString().split("T")[0];
@@ -134,29 +147,6 @@ export default function TemplateGenerator({ templates, agencies, stateData }: Pr
     body = body.replace(/__USER_RECORDS_DESCRIPTION__/g, getFieldValue("records_description") || "[description of records]");
     body = body.replace(/__USER_EXEMPTION_CITED__/g, getFieldValue("exemption_cited") || "[exemption]");
     body = body.replace(/__USER_COUNTER_ARGUMENT__/g, getFieldValue("counter_argument") || "[your argument]");
-
-    // FOIL ref conditional
-    const foilRef = getFieldValue("foil_ref");
-    if (foilRef) {
-      body = body.replace(/__IF_FOIL_REF__/g, "");
-      body = body.replace(/__ENDIF__/g, "");
-      body = body.replace(/__USER_FOIL_REF__/g, foilRef);
-    } else {
-      body = body.replace(/__IF_FOIL_REF__[\s\S]*?__ENDIF__/g, "");
-    }
-
-    // Location conditional
-    const location = getFieldValue("location");
-    if (location) {
-      body = body.replace(/__IF_LOCATION__/g, "");
-      body = body.replace(/__ENDIF__/g, "");
-      body = body.replace(/__USER_LOCATION__/g, location);
-    } else {
-      body = body.replace(/__IF_LOCATION__[\s\S]*?__ENDIF__\n?/g, "");
-    }
-
-    // Clean up any remaining conditionals
-    body = body.replace(/__IF_\w+__[\s\S]*?__ENDIF__\n?/g, "");
 
     return body.trim();
   }, [activeTemplate, formValues, agency, stateData]);
