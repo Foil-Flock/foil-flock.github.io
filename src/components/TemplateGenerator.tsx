@@ -50,17 +50,23 @@ interface StateData {
 
 interface Props {
   templates: Template[];
-  agency: Agency | null;
+  agencies: Agency[];
   stateData: StateData;
 }
 
 /* ── Component ──────────────────────────────────────────── */
 
-export default function TemplateGenerator({ templates, agency, stateData }: Props) {
+export default function TemplateGenerator({ templates, agencies, stateData }: Props) {
   const [activeTemplateId, setActiveTemplateId] = useState(templates[0]?.id ?? "");
+  const [selectedAgencyId, setSelectedAgencyId] = useState(agencies[0]?.id ?? "");
   const [formValues, setFormValues] = useState<Record<string, string>>({});
   const [copied, setCopied] = useState(false);
   const outputRef = useRef<HTMLDivElement>(null);
+
+  const agency = useMemo(
+    () => agencies.find((a) => a.id === selectedAgencyId) ?? agencies[0] ?? null,
+    [selectedAgencyId, agencies]
+  );
 
   const activeTemplate = useMemo(
     () => templates.find((t) => t.id === activeTemplateId) ?? templates[0],
@@ -180,11 +186,27 @@ export default function TemplateGenerator({ templates, agency, stateData }: Prop
     <div class="template-gen" id="generate">
       <h2>Generate a request letter</h2>
 
-      {agency && (
+      {agencies.length > 1 ? (
+        <div class="form-group" style={{ marginBottom: "var(--gap-md)" }}>
+          <label for="gen-agency">Agency</label>
+          <select
+            id="gen-agency"
+            value={selectedAgencyId}
+            onChange={(e) => {
+              setSelectedAgencyId((e.target as HTMLSelectElement).value);
+              setCopied(false);
+            }}
+          >
+            {agencies.map((a) => (
+              <option key={a.id} value={a.id}>{a.name}</option>
+            ))}
+          </select>
+        </div>
+      ) : agency ? (
         <p class="text-secondary" style={{ fontSize: "14px", marginBottom: "var(--gap-md)" }}>
           For <strong>{agency.name}</strong>
         </p>
-      )}
+      ) : null}
 
       {/* template picker */}
       <div class="template-tabs" role="tablist">

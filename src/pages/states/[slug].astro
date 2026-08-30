@@ -26,14 +26,12 @@ const stateAgencies = agencyData.agencies.filter(
 // Total cameras detected in this state
 const totalCameras: number = (cameraCountData.counts as Record<string, number>)[s.abbreviation] ?? 0;
 
-// Map the first agency if there is one (for pre-filling the template)
-const firstAgency = stateAgencies[0]
-  ? {
-      id: stateAgencies[0].id,
-      name: stateAgencies[0].name,
-      contact: stateAgencies[0].contact,
-    }
-  : null;
+// Map agencies for the template generator
+const templateAgencies = stateAgencies.map((a) => ({
+  id: a.id,
+  name: a.name,
+  contact: a.contact,
+}));
 
 // State data for the template generator
 const stateTemplateData = {
@@ -306,7 +304,7 @@ function feeLabel(type: string) {
   <TemplateGenerator
     client:load
     templates={templateData.templates}
-    agency={firstAgency}
+    agencies={templateAgencies}
     stateData={stateTemplateData}
   />
 </Base>
