@@ -1,6 +1,6 @@
 # Foil Flock Roadmap
 
-Current: 25 states verified, 29 agencies, 4 letter templates, deployed to GitHub Pages.
+Current: 25 states verified, 798 agencies, 4 letter templates, deployed to GitHub Pages.
 
 
 ## Phase 1 — Complete state coverage
@@ -57,7 +57,7 @@ against the actual statute text.
 29 agencies is thin. FlockRadar alone has thousands of entries.
 
 - [ ] Run `fetch_agencies.py` against FlockRadar's full dataset
-- [ ] Cross-reference with MuckRock API for contact info (email, FOIA officer, address)
+- [x] Cross-reference with MuckRock API (v2 API has agency matching/types but no contact fields)
 - [ ] Add agency-level metadata: FOIA portal URL, online submission supported (bool)
 - [ ] Add per-agency "last verified" date field
 - [ ] Paginate or lazy-load the agency list on state pages (some states will have 100+)
@@ -73,16 +73,16 @@ against the actual statute text.
 - [ ] Wire up Pagefind (already a devDep) for full-site search
 
 ### Template generator improvements
-- [ ] Copy-to-clipboard button on generated letters
+- [x] Copy-to-clipboard button on generated letters
 - [ ] Print-friendly stylesheet for generated letters
 - [ ] "Download as .txt" or "Download as .pdf" option
-- [ ] Let user select from multiple agencies per state (currently auto-picks first)
+- [x] Let user select from multiple agencies per state
 - [ ] Save user info (name, address) in localStorage to pre-fill across visits
 - [ ] Add template: Data Retention Policy request
 - [ ] Add template: Data Sharing Agreement request
 
 ### State page enhancements
-- [ ] Add total camera count per state in stat-grid (aggregate from agencies.json)
+- [x] Add total camera count per state in stat-grid
 
 ### UI / UX
 - [ ] Mobile responsiveness audit (especially stat-grid, template tabs)
@@ -119,7 +119,7 @@ against the actual statute text.
 - [x] Core site architecture (Astro + Preact + Fuse.js)
 - [x] 25 state YAML files created (Batches A + B)
 - [x] All 25 states verified against primary statutory sources
-- [x] 29 agencies across 15 states
+- [x] 798 agencies across all 50 states
 - [x] 4 letter templates (detection data, contracts/policies, appeal denial, appeal non-response)
 - [x] Fuzzy search on landing page
 - [x] Resources page with external links

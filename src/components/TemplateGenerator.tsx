@@ -265,8 +265,6 @@ export default function TemplateGenerator({ templates, agencies, stateData }: Pr
               />
             </div>
 
-            <hr />
-
             {/* Template-specific fields */}
             {activeTemplate.user_fields.map((field) => {
               // Skip fee_cap since it's handled in the common section feel
