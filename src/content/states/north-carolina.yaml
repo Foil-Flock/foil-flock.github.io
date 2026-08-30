@@ -1,0 +1,100 @@
+name: North Carolina
+abbreviation: NC
+slug: north-carolina
+
+statute:
+  name: North Carolina Public Records Act
+  short_name: Public Records Act
+  citation: "N.C.G.S. Chapter 132"
+  url: https://www.ncleg.gov/Laws/GeneralStatuteSections/Chapter132
+
+presumption: open
+
+response:
+  initial_days: 0
+  final_days: null
+  day_type: business
+  notes: >-
+    No specific numeric deadline. N.C.G.S. § 132-6 requires records
+    be furnished "as promptly as possible." Unreasonable delay is
+    treated as a constructive denial. Body camera and dashcam
+    recordings have a separate 3-business-day response requirement
+    under § 132-1.4A.
+
+appeal:
+  required_before_court: false
+  deadline_days: null
+  response_days: null
+  body: Superior Court (mediation must be initiated within 30 days of responsive pleadings)
+  advisory_body: null
+
+enforcement:
+  penalty_type: fee_shifting
+  per_day_cap: null
+  attorney_fees: mandatory
+  fee_trigger: >-
+    Court shall allow reasonable attorney fees to a substantially
+    prevailing requestor. N.C.G.S. § 132-9(c). Fees may not be
+    assessed against a government body that acted in reasonable
+    reliance on a court judgment, appellate opinion, or written AG
+    opinion. Court may also order fees paid personally by an
+    employee who knowingly or intentionally violated the law.
+  court_action: Order compelling disclosure
+  court_name: Superior Court
+  filing_fee_approx: 200
+  filing_deadline_days: null
+  burden_of_proof: agency
+
+fees:
+  copy_per_page: null
+  copy_max_size: null
+  search_fee_allowed: false
+  review_fee_allowed: false
+  redaction_fee_allowed: false
+  electronic_delivery_required: false
+  notes: >-
+    Copy fees capped at actual cost of reproduction under standard
+    accounting principles. No statutory per-page rate; agencies set
+    their own rates. "Special service charge" allowed when requests
+    require extensive IT resources or clerical time. Agency bears the
+    cost of separating confidential from nonconfidential information
+    (§ 132-6(c)). Fee disputes may be mediated by the State CIO.
+
+alpr:
+  specific_exemption: true
+  exemption_citation: "N.C.G.S. \xA7 20-183.32(e)"
+  notes: >-
+    Captured plate data is explicitly "confidential and not a public
+    record" under N.C.G.S. § 20-183.32(e) (Article 3D, enacted 2015).
+    Data must not be preserved more than 90 days after capture.
+    Extended retention requires a sworn preservation request with
+    specific facts. ALPR data may not be sold. Use limited to
+    criminal investigations, felony warrant service, locating
+    missing/endangered persons, and stolen vehicle recovery.
+    Unauthorized access or disclosure is a Class 1 misdemeanor.
+
+exemptions:
+  - Criminal investigation records (§ 132-1.4)
+  - Body camera and dashcam recordings (§ 132-1.4A)
+  - Sensitive public security information (§ 132-1.7)
+  - ALPR captured plate data (§ 20-183.32(e))
+  - Emergency response plans (§ 132-1.6)
+  - Personal privacy
+
+template_fragments:
+  statute_invocation: >-
+    Pursuant to the North Carolina Public Records Act
+    (N.C.G.S. Chapter 132)
+  response_reminder: >-
+    I expect records to be furnished as promptly as possible as
+    required by N.C.G.S. \xA7 132-6.
+  fee_cap_notice: >-
+    If fulfilling this request will cost more than $__FEE_CAP__,
+    please provide an estimate before proceeding.
+  electronic_delivery_clause: >-
+    I request that records be provided in electronic format where
+    available, as permitted under N.C.G.S. \xA7 132-6.2(a).
+  appeal_deadline_warning: >-
+    If this request is denied, I reserve the right to seek judicial
+    review under N.C.G.S. \xA7 132-9, including mandatory attorney
+    fees for substantially prevailing requestors.

@@ -1,0 +1,95 @@
+name: Alabama
+abbreviation: AL
+slug: alabama
+
+statute:
+  name: Alabama Open Records Act
+  short_name: ORA
+  citation: "Ala. Code \xA7\xA7 36-12-40 to 36-12-46"
+  url: https://law.justia.com/codes/alabama/title-36/chapter-12/article-3/
+
+presumption: open
+
+response:
+  initial_days: 10
+  final_days: 15
+  day_type: business
+  notes: >-
+    Two-step process under 2024 reform (Act 2024-278, eff. Oct. 1,
+    2024): acknowledge receipt within 10 business days, then
+    substantive response within 15 business days after
+    acknowledgment (extendable in 15-day increments). Rebuttable
+    presumption of denial triggered if no response within 30 business
+    days or 60 calendar days of acknowledgment. Time-intensive
+    requests (8+ hours staff time) have longer timelines.
+
+appeal:
+  required_before_court: false
+  deadline_days: null
+  response_days: null
+  body: Direct court action (Circuit Court)
+  advisory_body: null
+
+enforcement:
+  penalty_type: none
+  per_day_cap: null
+  attorney_fees: none
+  fee_trigger: null
+  court_action: Civil action
+  court_name: Circuit Court
+  filing_fee_approx: 297
+  filing_deadline_days: null
+  burden_of_proof: agency
+
+fees:
+  copy_per_page: 0.50
+  copy_max_size: null
+  search_fee_allowed: true
+  review_fee_allowed: false
+  redaction_fee_allowed: false
+  electronic_delivery_required: false
+  notes: >-
+    No statewide statutory fee schedule. Executive Order 734 (Jan.
+    2023) sets rates for executive branch agencies only: up to
+    $0.50/page for standard copies, $20/hour for search and
+    retrieval, and no charges for legal review, redaction, or
+    electronic delivery. Other government bodies set their own fee
+    schedules with no statutory cap beyond "reasonable." In-person
+    inspection is free; citizens may copy using their own equipment.
+
+alpr:
+  specific_exemption: false
+  exemption_citation: null
+  notes: >-
+    No ALPR-specific public records exemption or ALPR regulation
+    statute. SB2 (2021), which would have restricted ALPR use and
+    required data confidentiality, passed the Senate but stalled in
+    the House Judiciary Committee. No subsequent ALPR legislation
+    has been enacted.
+
+exemptions:
+  - Security plans and procedures (§ 36-12-40(a))
+  - Active criminal investigations (judicial precedent)
+  - Confidential informant identities
+  - 911 audio recordings
+  - Personnel files
+  - Records detrimental to public safety or welfare (§ 36-12-40(a))
+
+template_fragments:
+  statute_invocation: >-
+    Pursuant to the Alabama Open Records Act
+    (Ala. Code \xA7\xA7 36-12-40 to 36-12-46)
+  response_reminder: >-
+    I expect acknowledgment of this request within ten business days
+    and a substantive response within fifteen business days
+    thereafter, as required by Ala. Code \xA7 36-12-44.
+  fee_cap_notice: >-
+    If fulfilling this request will cost more than $__FEE_CAP__,
+    please provide an estimate before proceeding.
+  electronic_delivery_clause: >-
+    I request that records be provided in electronic format where
+    available, at no per-page charge.
+  appeal_deadline_warning: >-
+    If this request is denied, I reserve the right to seek judicial
+    review and all remedies available under the Alabama Open
+    Records Act.

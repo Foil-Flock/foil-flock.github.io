@@ -80,7 +80,7 @@ function feeLabel(type: string) {
   <div class="stat-grid">
     <div class="stat-block">
       <div class="stat-label">Initial response</div>
-      <div class="stat-value">{s.response.initial_days} {s.response.day_type} days</div>
+      <div class="stat-value">{s.response.initial_days ? `${s.response.initial_days} ${s.response.day_type} days` : "No fixed deadline"}</div>
     </div>
     {s.response.final_days && (
       <div class="stat-block">

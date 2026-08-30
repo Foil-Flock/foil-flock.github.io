@@ -1,0 +1,104 @@
+name: Louisiana
+abbreviation: LA
+slug: louisiana
+
+statute:
+  name: Louisiana Public Records Act
+  short_name: Public Records Act
+  citation: "La. R.S. 44:1 et seq."
+  url: https://law.justia.com/codes/louisiana/revised-statutes/title-44/
+
+presumption: open
+
+response:
+  initial_days: 3
+  final_days: null
+  day_type: business
+  notes: >-
+    Custodian must respond within 3 days, exclusive of Saturdays,
+    Sundays, and legal public holidays. Records that are immediately
+    available must be presented immediately. If not available, the
+    custodian must certify unavailability in writing and set a date
+    and time within the 3-day window for inspection or copies.
+    La. R.S. 44:32(A), (D).
+
+appeal:
+  required_before_court: false
+  deadline_days: null
+  response_days: null
+  body: Direct court action (District Court)
+  advisory_body: null
+
+enforcement:
+  penalty_type: both
+  per_day_cap: 100
+  attorney_fees: mandatory
+  fee_trigger: >-
+    Court shall award reasonable attorney fees and litigation costs
+    to a fully prevailing requestor. For partial success, the court
+    may award fees in its discretion. La. R.S. 44:35(D)(1). Civil
+    penalties up to $100 per day (excluding weekends/holidays) for
+    unreasonable or arbitrary failure to respond. La. R.S. 44:35(E).
+    2024 amendment eliminated personal liability for custodians
+    acting on legal advice.
+  court_action: Writ of mandamus or injunctive relief
+  court_name: District Court
+  filing_fee_approx: 300
+  filing_deadline_days: null
+  burden_of_proof: agency
+
+fees:
+  copy_per_page: null
+  copy_max_size: null
+  search_fee_allowed: false
+  review_fee_allowed: false
+  redaction_fee_allowed: false
+  electronic_delivery_required: false
+  notes: >-
+    No statutory per-page rate; custodians must establish and post
+    a "reasonable" fee schedule. State agencies follow a uniform
+    schedule adopted by the commissioner of administration. Search
+    fees are not authorized. Redaction costs may not be charged per
+    appellate case law. Inspection during business hours is free.
+    Fee waiver available for indigent citizens or when use is
+    limited to a public purpose. La. R.S. 44:32(C).
+
+alpr:
+  specific_exemption: false
+  exemption_citation: null
+  notes: >-
+    Louisiana's ALPR pilot program (SB 54, 2016) included a public
+    records exemption and 60-day retention limit, but it contained a
+    sunset clause and became null and void after January 1, 2022.
+    No replacement legislation has been enacted. ALPR data is now
+    subject to the general law enforcement exemptions under
+    La. R.S. 44:3 (pending criminal litigation, investigative
+    techniques, confidential sources).
+
+exemptions:
+  - Pending criminal litigation records (La. R.S. 44:3(A)(1))
+  - Investigative techniques and equipment (La. R.S. 44:3(A)(3))
+  - Confidential informant identity (La. R.S. 44:3(A)(2))
+  - Criminal intelligence / terrorism information (La. R.S. 44:3(A)(3))
+  - Undercover officer identity (La. R.S. 44:3(A)(5))
+  - Victim identities in sex offenses and trafficking (La. R.S. 44:3(A)(4))
+
+template_fragments:
+  statute_invocation: >-
+    Pursuant to the Louisiana Public Records Act
+    (La. R.S. 44:1 et seq.)
+  response_reminder: >-
+    I expect a response within three days, exclusive of Saturdays,
+    Sundays, and legal public holidays, as required by
+    La. R.S. 44:32(D).
+  fee_cap_notice: >-
+    If fulfilling this request will cost more than $__FEE_CAP__,
+    please provide an estimate before proceeding.
+  electronic_delivery_clause: >-
+    I request that records be provided in electronic format where
+    available.
+  appeal_deadline_warning: >-
+    If this request is denied, I reserve the right to seek a writ
+    of mandamus under La. R.S. 44:35 and all remedies available,
+    including mandatory attorney fees and civil penalties of up to
+    $100 per day.

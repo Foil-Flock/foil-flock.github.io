@@ -1,0 +1,107 @@
+name: Oklahoma
+abbreviation: OK
+slug: oklahoma
+
+statute:
+  name: Oklahoma Open Records Act (ORA)
+  short_name: ORA
+  citation: "51 O.S. \xA7 24A.1 et seq."
+  url: https://oklahoma.gov/libraries/law-legislative-reference/library-laws-and-regulations/statutes-and-rules--open-record-act.html
+
+presumption: open
+
+response:
+  initial_days: 0
+  final_days: null
+  day_type: business
+  notes: >-
+    No specific day count. The statute requires "prompt, reasonable
+    access to records during regular business hours." 51 O.S.
+    § 24A.5. Agencies may delay only to prepare documents or
+    prevent excessive disruption. The Public Access Counselor may
+    review complaints about responses not returned promptly.
+
+appeal:
+  required_before_court: false
+  deadline_days: 30
+  response_days: 60
+  body: District Court (10 business days pre-suit notice required)
+  advisory_body:
+    name: Public Access Counselor Unit, Office of the Attorney General
+    url: https://oklahoma.gov/oag/open-government.html
+    phone: "(405) 521-3921"
+    email: null
+    address: "313 NE 21st St., Oklahoma City, OK 73105"
+
+enforcement:
+  penalty_type: fee_shifting
+  per_day_cap: null
+  attorney_fees: mandatory
+  fee_trigger: >-
+    A prevailing requestor shall be entitled to reasonable attorney
+    fees. 51 O.S. § 24A.17(B). If the court finds the suit clearly
+    frivolous, the public body shall also be entitled to reasonable
+    fees. Willful violation is a misdemeanor with fine up to $500
+    and/or up to one year imprisonment. § 24A.17(A). Pre-suit:
+    requestor must give 10 business days written notice and copy
+    the Attorney General before filing.
+  court_action: Declaratory or injunctive relief
+  court_name: District Court
+  filing_fee_approx: null
+  filing_deadline_days: null
+  burden_of_proof: agency
+
+fees:
+  copy_per_page: 0.25
+  copy_max_size: null
+  search_fee_allowed: false
+  review_fee_allowed: false
+  redaction_fee_allowed: false
+  electronic_delivery_required: false
+  notes: >-
+    Maximum $0.25/page for documents 8.5" x 14" or smaller;
+    $1.00/page for certified copies. Search fees permitted only
+    for commercial-purpose requests or those causing excessive
+    disruption; no search fees for public-interest requests,
+    including news media, scholars, and taxpayers. No per-page
+    fees for computer-readable formats. Fee schedules must be
+    posted publicly. 51 O.S. § 24A.5.
+
+alpr:
+  specific_exemption: true
+  exemption_citation: "47 O.S. \xA7 7-606.1"
+  notes: >-
+    All ALPR data is explicitly exempt from the Oklahoma Open Records
+    Act under 47 O.S. § 7-606.1 (Uninsured Vehicle Enforcement
+    Program), except data retained as evidence of Compulsory
+    Insurance Law violations. ALPR use is statutorily restricted to
+    insurance enforcement. Data may not be sold or shared for
+    unauthorized purposes and must be deleted when no longer needed
+    as evidence.
+
+exemptions:
+  - Law enforcement investigative records (§ 24A.8)
+  - ALPR data (47 O.S. § 7-606.1)
+  - OHP tactical and procedural records (§ 24A.8(E)-(F))
+  - CLEET training records (§ 24A.8)
+  - Recordings of officer death in line of duty (§ 24A.8)
+  - Confidential informant identity
+
+template_fragments:
+  statute_invocation: >-
+    Pursuant to the Oklahoma Open Records Act
+    (51 O.S. \xA7 24A.1 et seq.)
+  response_reminder: >-
+    I expect prompt, reasonable access to the requested records
+    during regular business hours as required by 51 O.S. \xA7 24A.5.
+  fee_cap_notice: >-
+    If fulfilling this request will cost more than $__FEE_CAP__,
+    please provide an estimate before proceeding.
+  electronic_delivery_clause: >-
+    I request that records be provided in electronic format where
+    available, at no per-page charge as provided by 51 O.S.
+    \xA7 24A.5(4).
+  appeal_deadline_warning: >-
+    If this request is denied, I reserve the right to seek judicial
+    review under 51 O.S. \xA7 24A.17, including mandatory attorney
+    fees for prevailing requestors.

@@ -1,0 +1,106 @@
+name: Indiana
+abbreviation: IN
+slug: indiana
+
+statute:
+  name: Access to Public Records Act (APRA)
+  short_name: APRA
+  citation: "IC 5-14-3"
+  url: https://law.justia.com/codes/indiana/title-5/article-14/chapter-3/
+
+presumption: open
+
+response:
+  initial_days: 7
+  final_days: null
+  day_type: calendar
+  notes: >-
+    Indiana uses deemed-denial thresholds rather than response
+    deadlines. Denial is deemed after 24 hours for in-person or
+    telephone requests and after 7 days for mail or fax requests.
+    The general standard is production within a "reasonable time."
+    No separate electronic request timeline. Liberally construed
+    in favor of disclosure per IC 5-14-3-1.
+
+appeal:
+  required_before_court: false
+  deadline_days: null
+  response_days: null
+  body: Direct court action (Circuit or Superior Court)
+  advisory_body:
+    name: Public Access Counselor (PAC)
+    url: https://www.in.gov/pac/
+    phone: "(317) 234-0906"
+    email: null
+    address: "315 W. Ohio St., Room 104, Indianapolis, IN 46202"
+
+enforcement:
+  penalty_type: both
+  per_day_cap: null
+  attorney_fees: mandatory
+  fee_trigger: >-
+    Court shall award reasonable attorney fees, court costs, and
+    litigation expenses to a substantially prevailing plaintiff.
+    IC 5-14-3-9(i). Plaintiff must first have obtained an informal
+    inquiry response or advisory opinion from the Public Access
+    Counselor to be eligible for fees. Civil penalties of up to $100
+    for the first violation and $500 for subsequent violations with
+    specific intent to unlawfully withhold. IC 5-14-3-9.5.
+  court_action: Civil action
+  court_name: Circuit or Superior Court
+  filing_fee_approx: 157
+  filing_deadline_days: null
+  burden_of_proof: agency
+
+fees:
+  copy_per_page: 0.10
+  copy_max_size: null
+  search_fee_allowed: false
+  review_fee_allowed: false
+  redaction_fee_allowed: false
+  electronic_delivery_required: true
+  notes: >-
+    $0.10/page for black and white; $0.25/page for color copies.
+    Search and review fees are prohibited. Electronic copies by
+    email are free (IC 5-14-3-8(b)(4)). Agency must make reasonable
+    efforts to provide records in the format requested. Certification
+    fee capped at $5 per document. Fee waivers available for
+    journalism, academic research, and nonprofit activities.
+
+alpr:
+  specific_exemption: false
+  exemption_citation: null
+  notes: >-
+    No ALPR-specific statute or public records exemption exists in
+    Indiana. ALPR data held by law enforcement is subject to the
+    general discretionary exemptions for investigatory records
+    (IC 5-14-3-4(b)(1)) and law enforcement recordings
+    (IC 5-14-3-4(b)(27)). Legislation is being drafted for the
+    2027 session to regulate ALPR use.
+
+exemptions:
+  - Law enforcement investigatory records (IC 5-14-3-4(b)(1))
+  - Law enforcement recordings (IC 5-14-3-4(b)(27))
+  - Criminal intelligence information (IC 5-14-3-4(b)(25))
+  - Threat to public safety / terrorist vulnerability (IC 5-14-3-4(b)(19))
+  - Security system information (IC 5-14-3-4(b)(10))
+  - Undercover officer identity (IC 5-14-3-4(b)(21))
+
+template_fragments:
+  statute_invocation: >-
+    Pursuant to the Indiana Access to Public Records Act (IC 5-14-3)
+  response_reminder: >-
+    Under IC 5-14-3-9(a), failure to respond to this request within
+    seven days constitutes a deemed denial. I expect production
+    within a reasonable time as required by law.
+  fee_cap_notice: >-
+    If fulfilling this request will cost more than $__FEE_CAP__,
+    please provide an estimate before proceeding.
+  electronic_delivery_clause: >-
+    I request that records be provided in electronic format by email
+    at no charge, as required by IC 5-14-3-8(b)(4).
+  appeal_deadline_warning: >-
+    If this request is denied, I reserve the right to seek judicial
+    review and all remedies available under the APRA, including
+    mandatory attorney fees under IC 5-14-3-9(i) and civil penalties
+    under IC 5-14-3-9.5.
