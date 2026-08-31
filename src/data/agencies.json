@@ -30,7 +30,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5227,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "fairbanks-police-department-ak",
@@ -59,7 +63,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 7748
     },
     {
       "id": "auburn-police-department-al",
@@ -88,7 +93,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 25143
     },
     {
       "id": "birmingham-police-department-al",
@@ -117,7 +123,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 3484,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "decatur-police-department-al",
@@ -146,7 +156,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 33059
     },
     {
       "id": "dothan-police-department-al",
@@ -175,7 +186,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 11936
     },
     {
       "id": "hoover-police-department-al",
@@ -204,7 +216,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 12003
     },
     {
       "id": "huntsville-police-department-al",
@@ -233,7 +246,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 7349,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "mobile-police-department-al",
@@ -262,7 +279,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 7020
     },
     {
       "id": "montgomery-police-department-al",
@@ -291,7 +309,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 7019
     },
     {
       "id": "fayetteville-police-department-ar",
@@ -320,7 +339,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 6589
     },
     {
       "id": "fort-smith-police-department-ar",
@@ -349,7 +369,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 9484
     },
     {
       "id": "hot-springs-police-department-ar",
@@ -378,7 +399,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 4938,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "jonesboro-police-department-ar",
@@ -407,7 +432,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 9485
     },
     {
       "id": "little-rock-police-department-ar",
@@ -436,7 +462,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 338,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "rogers-police-department-ar",
@@ -494,7 +524,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5119,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "avondale-police-department-az",
@@ -552,7 +586,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 18709
     },
     {
       "id": "chandler-police-department-az",
@@ -581,7 +616,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 623,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "flagstaff-police-department-az",
@@ -610,7 +649,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 9686
     },
     {
       "id": "gilbert-police-department-az",
@@ -639,7 +679,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 539,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "glendale-police-department-az",
@@ -668,7 +712,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5224,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "kingman-police-department-az",
@@ -697,7 +745,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 25172
     },
     {
       "id": "mesa-police-department-az",
@@ -726,7 +775,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 3533,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "peoria-police-department-az",
@@ -755,7 +808,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 9594
     },
     {
       "id": "phoenix-pd-az",
@@ -787,7 +841,11 @@
         "https://github.com/simeononsecurity/flock-finder",
         "https://www.findingflock.com/cameras"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 441,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "prescott-police-department-az",
@@ -847,7 +905,11 @@
         "https://github.com/simeononsecurity/flock-finder",
         "https://www.findingflock.com/cameras"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 3531,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "sierra-vista-police-department-az",
@@ -876,7 +938,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 8620
     },
     {
       "id": "surprise-police-department-az",
@@ -905,7 +968,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 7544
     },
     {
       "id": "tempe-police-department-az",
@@ -934,7 +998,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 3532,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "tucson-police-department-az",
@@ -963,7 +1031,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 30801
     },
     {
       "id": "alhambra-police-department-ca",
@@ -992,7 +1061,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 18448
     },
     {
       "id": "anaheim-police-department-ca",
@@ -1021,7 +1091,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 429,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "antioch-police-department-ca",
@@ -1050,7 +1124,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 8955
     },
     {
       "id": "arcadia-police-department-ca",
@@ -1079,7 +1154,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 11812
     },
     {
       "id": "atwater-police-department-ca",
@@ -1108,7 +1184,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 19472
     },
     {
       "id": "azusa-police-department-ca",
@@ -1137,7 +1214,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 11820
     },
     {
       "id": "bakersfield-police-department-ca",
@@ -1166,7 +1244,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 19789
     },
     {
       "id": "baldwin-park-police-department-ca",
@@ -1195,7 +1274,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 19933
     },
     {
       "id": "berkeley-police-department-ca",
@@ -1224,7 +1304,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 625,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "burbank-police-department-ca",
@@ -1253,7 +1337,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 19708
     },
     {
       "id": "calabasas-police-department-ca",
@@ -1311,7 +1396,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 25609
     },
     {
       "id": "capitola-police-department-ca",
@@ -1340,7 +1426,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 19738
     },
     {
       "id": "carlsbad-police-department-ca",
@@ -1369,7 +1456,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 4193
     },
     {
       "id": "carson-police-department-ca",
@@ -1398,7 +1486,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 25611
     },
     {
       "id": "chico-police-department-ca",
@@ -1427,7 +1516,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 10726
     },
     {
       "id": "chino-hills-police-department-ca",
@@ -1485,7 +1575,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5237,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "claremont-police-department-ca",
@@ -1514,7 +1608,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 11893
     },
     {
       "id": "concord-police-department-ca",
@@ -1543,7 +1638,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 620,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "corona-police-department-ca",
@@ -1572,7 +1671,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 19702
     },
     {
       "id": "costa-mesa-police-department-ca",
@@ -1601,7 +1701,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 8991
     },
     {
       "id": "covina-police-department-ca",
@@ -1630,7 +1731,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 18708
     },
     {
       "id": "cupertino-police-department-ca",
@@ -1659,7 +1761,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 25617
     },
     {
       "id": "daly-city-police-department-ca",
@@ -1688,7 +1791,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 9067
     },
     {
       "id": "del-mar-police-department-ca",
@@ -1717,7 +1821,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 25618
     },
     {
       "id": "diamond-bar-police-department-ca",
@@ -1775,7 +1880,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 9071
     },
     {
       "id": "duarte-police-department-ca",
@@ -1804,7 +1910,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 25619
     },
     {
       "id": "east-palo-alto-police-department-ca",
@@ -1833,7 +1940,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 7505
     },
     {
       "id": "el-cajon-police-department-ca",
@@ -1862,7 +1970,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 9073
     },
     {
       "id": "el-centro-police-department-ca",
@@ -1920,7 +2029,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 25634
     },
     {
       "id": "elk-grove-police-department-ca",
@@ -1949,7 +2059,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 9077
     },
     {
       "id": "escondido-police-department-ca",
@@ -1978,7 +2089,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 7730
     },
     {
       "id": "fairfield-police-department-ca",
@@ -2007,7 +2119,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 9084
     },
     {
       "id": "folsom-police-department-ca",
@@ -2036,7 +2149,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 19458
     },
     {
       "id": "fontana-police-department-ca",
@@ -2065,7 +2179,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 19910
     },
     {
       "id": "fremont-police-department-ca",
@@ -2094,7 +2209,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 528,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "fresno-police-department-ca",
@@ -2123,7 +2242,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 19953
     },
     {
       "id": "fullerton-police-department-ca",
@@ -2152,7 +2272,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 9336
     },
     {
       "id": "galt-police-department-ca",
@@ -2181,7 +2302,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5646
     },
     {
       "id": "garden-grove-police-department-ca",
@@ -2210,7 +2332,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 6519
     },
     {
       "id": "gilroy-police-department-ca",
@@ -2239,7 +2362,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 19464
     },
     {
       "id": "glendale-police-department-ca",
@@ -2268,7 +2392,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 19708
     },
     {
       "id": "glendora-police-department-ca",
@@ -2297,7 +2422,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 440,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "half-moon-bay-police-department-ca",
@@ -2355,7 +2484,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 19470
     },
     {
       "id": "hayward-police-department-ca",
@@ -2384,7 +2514,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5650
     },
     {
       "id": "huntington-beach-police-department-ca",
@@ -2413,7 +2544,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5513
     },
     {
       "id": "indio-police-department-ca",
@@ -2442,7 +2574,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 19694
     },
     {
       "id": "industry-police-department-ca",
@@ -2471,7 +2604,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 25624
     },
     {
       "id": "inglewood-police-department-ca",
@@ -2500,7 +2634,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 9447
     },
     {
       "id": "irvine-police-department-ca",
@@ -2529,7 +2664,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5232,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "irwindale-police-department-ca",
@@ -2558,7 +2697,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 19693
     },
     {
       "id": "la-puente-police-department-ca",
@@ -2616,7 +2756,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 12024
     },
     {
       "id": "laguna-beach-police-department-ca",
@@ -2645,7 +2786,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 12025
     },
     {
       "id": "laguna-hills-police-department-ca",
@@ -2703,7 +2845,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 19079
     },
     {
       "id": "lincoln-police-department-ca",
@@ -2732,7 +2875,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 19491
     },
     {
       "id": "loma-linda-police-department-ca",
@@ -2790,7 +2934,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 19954
     },
     {
       "id": "la-county-sheriff-ca",
@@ -2821,7 +2966,11 @@
         "https://fliptheflock.org/states/california/",
         "https://www.findingflock.com/cameras"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 350,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "los-angeles-police-department-ca",
@@ -2850,7 +2999,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 23911
     },
     {
       "id": "madera-police-department-ca",
@@ -2879,7 +3029,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5666
     },
     {
       "id": "manteca-police-department-ca",
@@ -2908,7 +3059,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 12056
     },
     {
       "id": "marina-police-department-ca",
@@ -2937,7 +3089,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 818,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "merced-police-department-ca",
@@ -2966,7 +3122,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 19890
     },
     {
       "id": "milpitas-police-department-ca",
@@ -2995,7 +3152,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 19507
     },
     {
       "id": "mission-viejo-police-department-ca",
@@ -3053,7 +3211,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 7022
     },
     {
       "id": "monrovia-police-department-ca",
@@ -3082,7 +3241,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 12084
     },
     {
       "id": "monterey-police-department-ca",
@@ -3111,7 +3271,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 19629
     },
     {
       "id": "moreno-valley-police-department-ca",
@@ -3140,7 +3301,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 7021
     },
     {
       "id": "mountain-view-police-department-ca",
@@ -3169,7 +3331,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 14668
     },
     {
       "id": "murrieta-police-department-ca",
@@ -3198,7 +3361,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 9581
     },
     {
       "id": "napa-police-department-ca",
@@ -3227,7 +3391,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 19514
     },
     {
       "id": "newark-police-department-ca",
@@ -3256,7 +3421,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 8731
     },
     {
       "id": "norwalk-police-department-ca",
@@ -3314,7 +3480,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 369,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "oceanside-police-department-ca",
@@ -3343,7 +3513,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 19822
     },
     {
       "id": "ontario-police-department-ca",
@@ -3372,7 +3543,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 9587
     },
     {
       "id": "orange-police-department-ca",
@@ -3401,7 +3573,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 12122
     },
     {
       "id": "oxnard-police-department-ca",
@@ -3430,7 +3603,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 347,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "palm-springs-police-department-ca",
@@ -3459,7 +3636,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 4824
     },
     {
       "id": "palmdale-police-department-ca",
@@ -3488,7 +3666,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 25631
     },
     {
       "id": "palo-alto-police-department-ca",
@@ -3517,7 +3696,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 404,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "pasadena-police-department-ca",
@@ -3546,7 +3729,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5672
     },
     {
       "id": "petaluma-police-department-ca",
@@ -3575,7 +3759,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 527,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "pomona-police-department-ca",
@@ -3604,7 +3792,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 19821
     },
     {
       "id": "poway-police-department-ca",
@@ -3662,7 +3851,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 18925,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "rancho-cucamonga-police-department-ca",
@@ -3691,7 +3884,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 11762
     },
     {
       "id": "red-bluff-police-department-ca",
@@ -3720,7 +3914,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 12156
     },
     {
       "id": "redding-police-department-ca",
@@ -3749,7 +3944,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 19532
     },
     {
       "id": "redlands-police-department-ca",
@@ -3778,7 +3974,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5676
     },
     {
       "id": "riverside-police-department-ca",
@@ -3807,7 +4004,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 19827
     },
     {
       "id": "roseville-police-department-ca",
@@ -3836,7 +4034,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 9619
     },
     {
       "id": "sacramento-police-department-ca",
@@ -3865,7 +4064,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5747
     },
     {
       "id": "salinas-police-department-ca",
@@ -3894,7 +4094,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 9621
     },
     {
       "id": "san-bernardino-police-department-ca",
@@ -3923,7 +4124,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5457
     },
     {
       "id": "san-carlos-police-department-ca",
@@ -3952,7 +4154,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 22073
     },
     {
       "id": "san-clemente-police-department-ca",
@@ -3981,7 +4184,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 28339
     },
     {
       "id": "san-diego-pd-ca",
@@ -4013,7 +4217,11 @@
         "https://github.com/simeononsecurity/flock-finder",
         "https://www.findingflock.com/cameras"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 636,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "san-dimas-police-department-ca",
@@ -4042,7 +4250,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 25633
     },
     {
       "id": "san-francisco-police-department-ca",
@@ -4071,7 +4280,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 19801
     },
     {
       "id": "san-gabriel-police-department-ca",
@@ -4100,7 +4310,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 19218
     },
     {
       "id": "san-jose-police-department-ca",
@@ -4129,7 +4340,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 19879
     },
     {
       "id": "san-marcos-police-department-ca",
@@ -4158,7 +4370,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 19787
     },
     {
       "id": "san-mateo-police-department-ca",
@@ -4187,7 +4400,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 7497
     },
     {
       "id": "santa-ana-police-department-ca",
@@ -4216,7 +4430,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 19903
     },
     {
       "id": "santa-barbara-police-department-ca",
@@ -4245,7 +4460,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 19901
     },
     {
       "id": "santa-clara-police-department-ca",
@@ -4274,7 +4490,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5048
     },
     {
       "id": "santa-clarita-police-department-ca",
@@ -4303,7 +4520,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 9626
     },
     {
       "id": "santa-cruz-police-department-ca",
@@ -4332,7 +4550,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 7370,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "santa-monica-police-department-ca",
@@ -4361,7 +4583,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 371,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "santa-rosa-police-department-ca",
@@ -4390,7 +4616,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 4701
     },
     {
       "id": "seaside-police-department-ca",
@@ -4419,7 +4646,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 19561
     },
     {
       "id": "shafter-police-department-ca",
@@ -4448,7 +4676,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 6100
     },
     {
       "id": "simi-valley-police-department-ca",
@@ -4477,7 +4706,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 7009
     },
     {
       "id": "south-gate-police-department-ca",
@@ -4506,7 +4736,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 35666
     },
     {
       "id": "south-pasadena-police-department-ca",
@@ -4535,7 +4766,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 12198
     },
     {
       "id": "south-san-francisco-police-department-ca",
@@ -4564,7 +4796,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 6782
     },
     {
       "id": "stanton-police-department-ca",
@@ -4593,7 +4826,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 19647
     },
     {
       "id": "stockton-police-department-ca",
@@ -4622,7 +4856,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5229,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "sunnyvale-police-department-ca",
@@ -4651,7 +4889,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 30832
     },
     {
       "id": "temecula-police-department-ca",
@@ -4680,7 +4919,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 9644
     },
     {
       "id": "temple-city-police-department-ca",
@@ -4709,7 +4949,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 25635
     },
     {
       "id": "thousand-oaks-police-department-ca",
@@ -4738,7 +4979,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 30834
     },
     {
       "id": "torrance-police-department-ca",
@@ -4767,7 +5009,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5734
     },
     {
       "id": "tracy-police-department-ca",
@@ -4796,7 +5039,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 18832
     },
     {
       "id": "turlock-police-department-ca",
@@ -4825,7 +5069,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 4328,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "tustin-police-department-ca",
@@ -4854,7 +5102,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 12230
     },
     {
       "id": "vacaville-police-department-ca",
@@ -4883,7 +5132,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5389
     },
     {
       "id": "vallejo-police-department-ca",
@@ -4912,7 +5162,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 4274,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "ventura-police-department-ca",
@@ -4941,7 +5195,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 345,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "visalia-police-department-ca",
@@ -4970,7 +5228,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 9649
     },
     {
       "id": "vista-police-department-ca",
@@ -4999,7 +5258,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 30838
     },
     {
       "id": "walnut-police-department-ca",
@@ -5028,7 +5288,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 12252
     },
     {
       "id": "watsonville-police-department-ca",
@@ -5057,7 +5318,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 19597
     },
     {
       "id": "west-covina-police-department-ca",
@@ -5086,7 +5348,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 9651
     },
     {
       "id": "westlake-village-police-department-ca",
@@ -5146,7 +5409,11 @@
         "https://github.com/simeononsecurity/flock-finder",
         "https://www.findingflock.com/cameras"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 718,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "boulder-police-department-co",
@@ -5175,7 +5442,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 7824,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "castle-pines-police-department-co",
@@ -5233,7 +5504,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 8966
     },
     {
       "id": "colorado-springs-police-department-co",
@@ -5262,7 +5534,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5218,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "denver-pd-co",
@@ -5293,7 +5569,11 @@
         "https://github.com/simeononsecurity/flock-finder",
         "https://www.findingflock.com/cameras"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 375,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "durango-police-department-co",
@@ -5322,7 +5602,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 25660
     },
     {
       "id": "fort-collins-police-department-co",
@@ -5351,7 +5632,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5027
     },
     {
       "id": "grand-junction-police-department-co",
@@ -5380,7 +5662,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 11965
     },
     {
       "id": "greeley-police-department-co",
@@ -5409,7 +5692,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5751
     },
     {
       "id": "lakewood-police-department-co",
@@ -5438,7 +5722,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 9455
     },
     {
       "id": "pueblo-police-department-co",
@@ -5467,7 +5752,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 9601
     },
     {
       "id": "thornton-police-department-co",
@@ -5496,7 +5782,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5733
     },
     {
       "id": "westminster-police-department-co",
@@ -5554,7 +5841,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 7465
     },
     {
       "id": "bristol-police-department-ct",
@@ -5583,7 +5871,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 10997
     },
     {
       "id": "hartford-police-department-ct",
@@ -5612,7 +5901,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 10156
     },
     {
       "id": "meriden-police-department-ct",
@@ -5641,7 +5931,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 32874
     },
     {
       "id": "new-haven-police-department-ct",
@@ -5670,7 +5961,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5188
     },
     {
       "id": "norwalk-police-department-ct",
@@ -5699,7 +5991,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 7704
     },
     {
       "id": "stamford-police-department-ct",
@@ -5728,7 +6021,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5479
     },
     {
       "id": "torrington-police-department-ct",
@@ -5757,7 +6051,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5735
     },
     {
       "id": "waterbury-police-department-ct",
@@ -5786,7 +6081,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5480
     },
     {
       "id": "metropolitan-police-department-of-the-district-of-columbia-dc",
@@ -5844,7 +6140,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 10680
     },
     {
       "id": "milford-police-department-de",
@@ -5902,7 +6199,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 8728
     },
     {
       "id": "boca-raton-police-department-fl",
@@ -5931,7 +6229,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 7670
     },
     {
       "id": "brandon-police-department-fl",
@@ -5989,7 +6288,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 8964
     },
     {
       "id": "clearwater-police-department-fl",
@@ -6018,7 +6318,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 4986
     },
     {
       "id": "coral-springs-police-department-fl",
@@ -6047,7 +6348,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 8988
     },
     {
       "id": "daytona-beach-police-department-fl",
@@ -6076,7 +6378,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 7557
     },
     {
       "id": "deerfield-beach-police-department-fl",
@@ -6134,7 +6437,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 891,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "fort-myers-police-department-fl",
@@ -6163,7 +6470,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 7377,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "gainesville-police-department-fl",
@@ -6192,7 +6503,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 9337
     },
     {
       "id": "hialeah-police-department-fl",
@@ -6221,7 +6533,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 23874
     },
     {
       "id": "hollywood-police-department-fl",
@@ -6250,7 +6563,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 7564
     },
     {
       "id": "jacksonville-so-fl",
@@ -6282,7 +6596,11 @@
         "https://github.com/simeononsecurity/flock-finder",
         "https://www.findingflock.com/cameras"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 659,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "kissimmee-police-department-fl",
@@ -6311,7 +6629,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 7758
     },
     {
       "id": "lakeland-police-department-fl",
@@ -6340,7 +6659,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 9454
     },
     {
       "id": "largo-police-department-fl",
@@ -6369,7 +6689,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 25802
     },
     {
       "id": "melbourne-police-department-fl",
@@ -6398,7 +6719,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 16165
     },
     {
       "id": "miami-beach-police-department-fl",
@@ -6427,7 +6749,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 7076
     },
     {
       "id": "miami-police-department-fl",
@@ -6456,7 +6779,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 30936
     },
     {
       "id": "miami-dade-pd-fl",
@@ -6488,7 +6812,8 @@
         "https://www.findingflock.com/cameras"
       ],
       "last_verified": "2026-08-30",
-      "notes": "Florida has an ALPR-specific exemption (§ 316.0777) that exempts ALPR images and PII from public disclosure."
+      "notes": "Florida has an ALPR-specific exemption (§ 316.0777) that exempts ALPR images and PII from public disclosure.",
+      "muckrock_id": 18844
     },
     {
       "id": "miramar-police-department-fl",
@@ -6517,7 +6842,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 9580
     },
     {
       "id": "new-smyrna-beach-police-department-fl",
@@ -6546,7 +6872,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 36540
     },
     {
       "id": "north-port-police-department-fl",
@@ -6575,7 +6902,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 18719
     },
     {
       "id": "ocala-police-department-fl",
@@ -6604,7 +6932,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 15950
     },
     {
       "id": "orlando-police-department-fl",
@@ -6633,7 +6962,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 447,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "palm-bay-police-department-fl",
@@ -6662,7 +6995,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 9589
     },
     {
       "id": "palm-coast-police-department-fl",
@@ -6749,7 +7083,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 9593
     },
     {
       "id": "pensacola-police-department-fl",
@@ -6778,7 +7113,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 12137
     },
     {
       "id": "pinellas-park-police-department-fl",
@@ -6836,7 +7172,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 7344
     },
     {
       "id": "port-saint-lucie-police-department-fl",
@@ -6865,7 +7202,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 23274
     },
     {
       "id": "saint-petersburg-police-department-fl",
@@ -6923,7 +7261,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 6946
     },
     {
       "id": "sunrise-police-department-fl",
@@ -6952,7 +7291,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5355
     },
     {
       "id": "tallahassee-police-department-fl",
@@ -6981,7 +7321,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 7380
     },
     {
       "id": "tampa-police-department-fl",
@@ -7010,7 +7351,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 676,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "the-villages-police-department-fl",
@@ -7068,7 +7413,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 7672
     },
     {
       "id": "athens-clarke-county-unified-government-police-department-ga",
@@ -7129,7 +7475,8 @@
         "https://www.findingflock.com/cameras"
       ],
       "last_verified": "2026-08-30",
-      "notes": "Flock Safety is headquartered in Atlanta. Georgia has an ALPR-specific exemption (O.C.G.A. § 35-1-22) that may block disclosure of plate data."
+      "notes": "Flock Safety is headquartered in Atlanta. Georgia has an ALPR-specific exemption (O.C.G.A. § 35-1-22) that may block disclosure of plate data.",
+      "muckrock_id": 11817
     },
     {
       "id": "augusta-police-department-ga",
@@ -7158,7 +7505,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 7060
     },
     {
       "id": "cobb-county-pd-ga",
@@ -7188,7 +7536,8 @@
       "sources": [
         "https://www.findingflock.com/cameras"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5718
     },
     {
       "id": "columbus-police-department-ga",
@@ -7217,7 +7566,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 7024
     },
     {
       "id": "dalton-police-department-ga",
@@ -7275,7 +7625,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 12015
     },
     {
       "id": "macon-police-department-ga",
@@ -7333,7 +7684,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 12060
     },
     {
       "id": "roswell-police-department-ga",
@@ -7362,7 +7714,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5749
     },
     {
       "id": "sandy-springs-police-department-ga",
@@ -7391,7 +7744,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 9624
     },
     {
       "id": "savannah-police-department-ga",
@@ -7420,7 +7774,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 6202
     },
     {
       "id": "east-honolulu-police-department-hi",
@@ -7478,7 +7833,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 11645
     },
     {
       "id": "mililani-police-department-hi",
@@ -7536,7 +7892,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5617
     },
     {
       "id": "ankeny-police-department-ia",
@@ -7565,7 +7922,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 25826
     },
     {
       "id": "bettendorf-police-department-ia",
@@ -7594,7 +7952,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 25827
     },
     {
       "id": "burlington-police-department-ia",
@@ -7623,7 +7982,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 26104
     },
     {
       "id": "cedar-rapids-police-department-ia",
@@ -7652,7 +8012,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 8942
     },
     {
       "id": "council-bluffs-police-department-ia",
@@ -7710,7 +8071,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 9068
     },
     {
       "id": "des-moines-police-department-ia",
@@ -7739,7 +8101,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 8941
     },
     {
       "id": "dubuque-police-department-ia",
@@ -7768,7 +8131,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 8802
     },
     {
       "id": "iowa-city-police-department-ia",
@@ -7797,7 +8161,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 9488
     },
     {
       "id": "marshalltown-police-department-ia",
@@ -7826,7 +8191,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 26064
     },
     {
       "id": "sioux-city-police-department-ia",
@@ -7855,7 +8221,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 9486
     },
     {
       "id": "urbandale-police-department-ia",
@@ -7884,7 +8251,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 19543
     },
     {
       "id": "west-des-moines-police-department-ia",
@@ -7913,7 +8281,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 19542
     },
     {
       "id": "boise-police-department-id",
@@ -7942,7 +8311,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 7025
     },
     {
       "id": "coeur-dalene-police-department-id",
@@ -8058,7 +8428,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 26126
     },
     {
       "id": "meridian-police-department-id",
@@ -8087,7 +8458,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 9489
     },
     {
       "id": "nampa-police-department-id",
@@ -8116,7 +8488,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 26131
     },
     {
       "id": "payette-police-department-id",
@@ -8174,7 +8547,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 43956
     },
     {
       "id": "star-police-department-id",
@@ -8232,7 +8606,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 11015
     },
     {
       "id": "aurora-police-department-il",
@@ -8261,7 +8636,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 7678
     },
     {
       "id": "belleville-police-department-il",
@@ -8290,7 +8666,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 11833
     },
     {
       "id": "bloomington-police-department-il",
@@ -8319,7 +8696,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 8778
     },
     {
       "id": "champaign-police-department-il",
@@ -8348,7 +8726,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 8782
     },
     {
       "id": "chicago-police-department-il",
@@ -8377,7 +8756,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 503,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "dupage-county-so-il",
@@ -8436,7 +8819,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 9075
     },
     {
       "id": "joliet-police-department-il",
@@ -8465,7 +8849,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5023,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "naperville-pd-il",
@@ -8496,7 +8884,8 @@
         "https://github.com/simeononsecurity/flock-finder",
         "https://www.findingflock.com/cameras"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 7679
     },
     {
       "id": "peoria-police-department-il",
@@ -8525,7 +8914,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 34924
     },
     {
       "id": "quincy-police-department-il",
@@ -8554,7 +8944,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 33645
     },
     {
       "id": "rockford-police-department-il",
@@ -8583,7 +8974,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 9617
     },
     {
       "id": "springfield-police-department-il",
@@ -8612,7 +9004,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 8915
     },
     {
       "id": "urbana-police-department-il",
@@ -8641,7 +9034,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 10681
     },
     {
       "id": "warrenville-police-department-il",
@@ -8670,7 +9064,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 44843
     },
     {
       "id": "bloomington-police-department-in",
@@ -8699,7 +9094,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 4230
     },
     {
       "id": "elkhart-police-department-in",
@@ -8728,7 +9124,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 22393
     },
     {
       "id": "evansville-police-department-in",
@@ -8757,7 +9154,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 9083
     },
     {
       "id": "fort-wayne-police-department-in",
@@ -8815,7 +9213,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 8349
     },
     {
       "id": "indianapolis-metropolitan-police-department-in",
@@ -8873,7 +9272,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 28565
     },
     {
       "id": "portage-police-department-in",
@@ -8902,7 +9302,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 12150
     },
     {
       "id": "south-bend-police-department-in",
@@ -8931,7 +9332,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 9630
     },
     {
       "id": "terre-haute-police-department-in",
@@ -8960,7 +9362,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 22079
     },
     {
       "id": "valparaiso-police-department-in",
@@ -8989,7 +9392,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 43491
     },
     {
       "id": "emporia-police-department-ks",
@@ -9018,7 +9422,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 22495
     },
     {
       "id": "hutchinson-police-department-ks",
@@ -9047,7 +9452,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 18716
     },
     {
       "id": "kansas-city-police-department-ks",
@@ -9076,7 +9482,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 771,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "lawrence-police-department-ks",
@@ -9105,7 +9515,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 7401
     },
     {
       "id": "leavenworth-police-department-ks",
@@ -9134,7 +9545,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 22490
     },
     {
       "id": "lenexa-police-department-ks",
@@ -9192,7 +9604,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 22484
     },
     {
       "id": "olathe-police-department-ks",
@@ -9221,7 +9634,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 7400,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "overland-park-police-department-ks",
@@ -9250,7 +9667,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 7399,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "salina-police-department-ks",
@@ -9279,7 +9700,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5682
     },
     {
       "id": "topeka-police-department-ks",
@@ -9308,7 +9730,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 4707
     },
     {
       "id": "wichita-police-department-ks",
@@ -9337,7 +9760,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 344,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "bowling-green-police-department-ky",
@@ -9366,7 +9793,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 26242
     },
     {
       "id": "elizabethtown-police-department-ky",
@@ -9395,7 +9823,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 26848
     },
     {
       "id": "frankfort-police-department-ky",
@@ -9424,7 +9853,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 22169
     },
     {
       "id": "lexington-police-department-ky",
@@ -9482,7 +9912,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 7260,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "owensboro-police-department-ky",
@@ -9569,7 +10003,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 22523
     },
     {
       "id": "st-matthews-police-department-ky",
@@ -9598,7 +10033,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 22527
     },
     {
       "id": "alexandria-police-department-la",
@@ -9627,7 +10063,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 4955,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "baton-rouge-police-department-la",
@@ -9656,7 +10096,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5230,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "lafayette-police-department-la",
@@ -9685,7 +10129,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5973
     },
     {
       "id": "lake-charles-police-department-la",
@@ -9714,7 +10159,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 22314
     },
     {
       "id": "monroe-police-department-la",
@@ -9743,7 +10189,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 24019
     },
     {
       "id": "new-orleans-police-department-la",
@@ -9772,7 +10219,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 663,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "beverly-police-department-ma",
@@ -9801,7 +10252,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 4042,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "boston-pd-ma",
@@ -9833,7 +10288,8 @@
         "https://www.aclum.org/campaigns-initiatives/get-the-flock-out-resource-guide/",
         "https://www.findingflock.com/cameras"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 22945
     },
     {
       "id": "brockton-police-department-ma",
@@ -9862,7 +10318,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 684,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "cambridge-police-department-ma",
@@ -9891,7 +10351,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 210,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "fall-river-police-department-ma",
@@ -9920,7 +10384,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 579,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "fitchburg-police-department-ma",
@@ -9949,7 +10417,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 580,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "framingham-police-department-ma",
@@ -9978,7 +10450,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 307
     },
     {
       "id": "gloucester-police-department-ma",
@@ -10007,7 +10480,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 584,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "greenfield-police-department-ma",
@@ -10036,7 +10513,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 16030
     },
     {
       "id": "haverhill-police-department-ma",
@@ -10065,7 +10543,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 585,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "lawrence-police-department-ma",
@@ -10094,7 +10576,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 685,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "leominster-police-department-ma",
@@ -10123,7 +10609,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 35272
     },
     {
       "id": "marlborough-police-department-ma",
@@ -10152,7 +10639,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 594,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "medford-police-department-ma",
@@ -10181,7 +10672,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 686,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "new-bedford-police-department-ma",
@@ -10210,7 +10705,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5122
     },
     {
       "id": "newburyport-police-department-ma",
@@ -10239,7 +10735,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 37070
     },
     {
       "id": "newton-police-department-ma",
@@ -10268,7 +10765,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 598,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "northampton-police-department-ma",
@@ -10297,7 +10798,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 779,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "peabody-police-department-ma",
@@ -10326,7 +10831,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 599,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "salem-police-department-ma",
@@ -10355,7 +10864,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 37069
     },
     {
       "id": "somerville-police-department-ma",
@@ -10384,7 +10894,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 42,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "springfield-police-department-ma",
@@ -10413,7 +10927,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 606,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "taunton-police-department-ma",
@@ -10442,7 +10960,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 608,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "walpole-police-department-ma",
@@ -10471,7 +10993,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 7165
     },
     {
       "id": "waltham-police-department-ma",
@@ -10500,7 +11023,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 7441
     },
     {
       "id": "west-bridgewater-police-department-ma",
@@ -10529,7 +11053,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 37106
     },
     {
       "id": "westfield-police-department-ma",
@@ -10558,7 +11083,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 15980
     },
     {
       "id": "woburn-police-department-ma",
@@ -10587,7 +11113,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 7747
     },
     {
       "id": "worcester-pd-ma",
@@ -10618,7 +11145,11 @@
         "https://github.com/simeononsecurity/flock-finder",
         "https://www.findingflock.com/cameras"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 611,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "annapolis-police-department-md",
@@ -10647,7 +11178,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 19845
     },
     {
       "id": "baltimore-police-department-md",
@@ -10676,7 +11208,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 646,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "bethesda-police-department-md",
@@ -10734,7 +11270,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 18582
     },
     {
       "id": "columbia-police-department-md",
@@ -10821,7 +11358,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 17705
     },
     {
       "id": "gaithersburg-police-department-md",
@@ -10850,7 +11388,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 22291
     },
     {
       "id": "hagerstown-police-department-md",
@@ -10879,7 +11418,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 2494
     },
     {
       "id": "rockville-police-department-md",
@@ -10908,7 +11448,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 19842
     },
     {
       "id": "silver-spring-police-department-md",
@@ -10966,7 +11507,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 22508
     },
     {
       "id": "westminster-police-department-md",
@@ -10995,7 +11537,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 26785
     },
     {
       "id": "augusta-police-department-me",
@@ -11024,7 +11567,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 26786
     },
     {
       "id": "lewiston-police-department-me",
@@ -11053,7 +11597,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 24683
     },
     {
       "id": "portland-police-department-me",
@@ -11082,7 +11627,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 10956
     },
     {
       "id": "ann-arbor-police-department-mi",
@@ -11111,7 +11657,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 612,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "battle-creek-police-department-mi",
@@ -11169,7 +11719,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 19411
     },
     {
       "id": "dearborn-police-department-mi",
@@ -11198,7 +11749,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 6544
     },
     {
       "id": "detroit-pd-mi",
@@ -11230,7 +11782,8 @@
         "https://github.com/simeononsecurity/flock-finder",
         "https://www.findingflock.com/cameras"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 42785
     },
     {
       "id": "flint-police-department-mi",
@@ -11259,7 +11812,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 40699
     },
     {
       "id": "grand-rapids-pd-mi",
@@ -11290,7 +11844,8 @@
         "https://github.com/simeononsecurity/flock-finder",
         "https://www.findingflock.com/cameras"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 29617
     },
     {
       "id": "kalamazoo-police-department-mi",
@@ -11319,7 +11874,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 29718
     },
     {
       "id": "lansing-police-department-mi",
@@ -11348,7 +11904,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 635,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "marquette-police-department-mi",
@@ -11406,7 +11966,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 26909
     },
     {
       "id": "saginaw-police-department-mi",
@@ -11435,7 +11996,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 7735
     },
     {
       "id": "traverse-city-police-department-mi",
@@ -11464,7 +12026,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 26917
     },
     {
       "id": "walker-police-department-mi",
@@ -11493,7 +12056,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 26918
     },
     {
       "id": "warren-police-department-mi",
@@ -11522,7 +12086,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 9650
     },
     {
       "id": "blaine-police-department-mn",
@@ -11551,7 +12116,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 46474
     },
     {
       "id": "brooklyn-center-police-department-mn",
@@ -11609,7 +12175,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 4876
     },
     {
       "id": "lake-elmo-police-department-mn",
@@ -11696,7 +12263,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 26477
     },
     {
       "id": "maplewood-police-department-mn",
@@ -11725,7 +12293,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 42790
     },
     {
       "id": "minneapolis-police-department-mn",
@@ -11754,7 +12323,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 4052
     },
     {
       "id": "moorhead-police-department-mn",
@@ -11783,7 +12353,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 27638
     },
     {
       "id": "rochester-police-department-mn",
@@ -11812,7 +12383,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 9616
     },
     {
       "id": "saint-paul-police-department-mn",
@@ -11841,7 +12413,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 4140
     },
     {
       "id": "st-cloud-police-department-mn",
@@ -11870,7 +12443,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 7759
     },
     {
       "id": "blue-springs-police-department-mo",
@@ -11899,7 +12473,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 18715
     },
     {
       "id": "clayton-police-department-mo",
@@ -11928,7 +12503,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 11896
     },
     {
       "id": "columbia-police-department-mo",
@@ -11957,7 +12533,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 6148
     },
     {
       "id": "downtown-kansas-city-police-department-mo",
@@ -12044,7 +12621,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 732,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "jefferson-city-police-department-mo",
@@ -12073,7 +12654,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 12013
     },
     {
       "id": "joplin-police-department-mo",
@@ -12102,7 +12684,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 12017
     },
     {
       "id": "kansas-city-police-department-mo",
@@ -12131,7 +12714,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 665,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "lees-summit-police-department-mo",
@@ -12160,7 +12747,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 18713
     },
     {
       "id": "marshfield-police-department-mo",
@@ -12334,7 +12922,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 9660
     },
     {
       "id": "springfield-police-department-mo",
@@ -12363,7 +12952,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 817,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "jackson-police-department-ms",
@@ -12392,7 +12985,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 8331
     },
     {
       "id": "tupelo-police-department-ms",
@@ -12421,7 +13015,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 36215
     },
     {
       "id": "billings-police-department-mt",
@@ -12450,7 +13045,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 41949
     },
     {
       "id": "bozeman-police-department-mt",
@@ -12479,7 +13075,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 11648
     },
     {
       "id": "great-falls-police-department-mt",
@@ -12537,7 +13134,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 395,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "missoula-police-department-mt",
@@ -12566,7 +13167,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 15197
     },
     {
       "id": "asheville-police-department-nc",
@@ -12595,7 +13197,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 6603
     },
     {
       "id": "burlington-police-department-nc",
@@ -12653,7 +13256,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 9657
     },
     {
       "id": "charlotte-police-department-nc",
@@ -12682,7 +13286,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 391,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "durham-police-department-nc",
@@ -12711,7 +13319,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5226,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "fayetteville-police-department-nc",
@@ -12740,7 +13352,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 6811
     },
     {
       "id": "gastonia-police-department-nc",
@@ -12769,7 +13382,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 6815
     },
     {
       "id": "greensboro-police-department-nc",
@@ -12798,7 +13412,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 7336
     },
     {
       "id": "greenville-police-department-nc",
@@ -12827,7 +13442,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 6813
     },
     {
       "id": "high-point-police-department-nc",
@@ -12856,7 +13472,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 6812
     },
     {
       "id": "jacksonville-police-department-nc",
@@ -12885,7 +13502,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 6816
     },
     {
       "id": "kinston-police-department-nc",
@@ -12914,7 +13532,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 26939
     },
     {
       "id": "lenoir-police-department-nc",
@@ -12972,7 +13591,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 26949
     },
     {
       "id": "morganton-police-department-nc",
@@ -13030,7 +13650,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 12098
     },
     {
       "id": "raleigh-police-department-nc",
@@ -13059,7 +13680,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 2664,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "rocky-mount-police-department-nc",
@@ -13088,7 +13713,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 6817
     },
     {
       "id": "wilmington-police-department-nc",
@@ -13117,7 +13743,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 6347
     },
     {
       "id": "winston-salem-police-department-nc",
@@ -13146,7 +13773,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5236,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "bismarck-police-department-nd",
@@ -13175,7 +13806,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 7199
     },
     {
       "id": "dickinson-police-department-nd",
@@ -13204,7 +13836,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 11929
     },
     {
       "id": "fargo-police-department-nd",
@@ -13233,7 +13866,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5746
     },
     {
       "id": "grand-forks-police-department-nd",
@@ -13262,7 +13896,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 772,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "williston-police-department-nd",
@@ -13291,7 +13929,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 28280
     },
     {
       "id": "beatrice-police-department-ne",
@@ -13349,7 +13988,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 34597
     },
     {
       "id": "fremont-police-department-ne",
@@ -13436,7 +14076,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 6595
     },
     {
       "id": "omaha-police-department-ne",
@@ -13465,7 +14106,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5219,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "concord-police-department-nh",
@@ -13494,7 +14139,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 22742
     },
     {
       "id": "lebanon-police-department-nh",
@@ -13523,7 +14169,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5956
     },
     {
       "id": "manchester-police-department-nh",
@@ -13552,7 +14199,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 8628
     },
     {
       "id": "nashua-police-department-nh",
@@ -13581,7 +14229,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 22741
     },
     {
       "id": "portsmouth-police-department-nh",
@@ -13610,7 +14259,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 7474
     },
     {
       "id": "raymond-police-department-nh",
@@ -13639,7 +14289,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 28699
     },
     {
       "id": "bayonne-police-department-nj",
@@ -13668,7 +14319,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 22279
     },
     {
       "id": "bergen-county-so-nj",
@@ -13698,7 +14350,8 @@
       "sources": [
         "https://www.findingflock.com/cameras"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 4475
     },
     {
       "id": "carteret-police-department-nj",
@@ -13785,7 +14438,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 9076
     },
     {
       "id": "fort-lee-police-department-nj",
@@ -13814,7 +14468,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 36172
     },
     {
       "id": "hoboken-police-department-nj",
@@ -13843,7 +14498,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 41053
     },
     {
       "id": "jersey-city-police-department-nj",
@@ -13872,7 +14528,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5235,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "linden-police-department-nj",
@@ -13901,7 +14561,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 16366
     },
     {
       "id": "long-branch-police-department-nj",
@@ -13930,7 +14591,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 27027
     },
     {
       "id": "morris-plains-police-department-nj",
@@ -13988,7 +14650,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 19214
     },
     {
       "id": "morristown-police-department-nj",
@@ -14077,7 +14740,11 @@
         "https://github.com/simeononsecurity/flock-finder",
         "https://www.findingflock.com/cameras"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 669,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "paterson-police-department-nj",
@@ -14106,7 +14773,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 6961
     },
     {
       "id": "perth-amboy-police-department-nj",
@@ -14135,7 +14803,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 35855
     },
     {
       "id": "rockaway-township-police-department-nj",
@@ -14222,7 +14891,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 22274
     },
     {
       "id": "albuquerque-police-department-nm",
@@ -14251,7 +14921,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 677,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "hobbs-police-department-nm",
@@ -14280,7 +14954,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5207,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "las-cruces-police-department-nm",
@@ -14309,7 +14987,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 4431
     },
     {
       "id": "rio-rancho-police-department-nm",
@@ -14338,7 +15017,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 18837
     },
     {
       "id": "santa-fe-police-department-nm",
@@ -14367,7 +15047,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5685
     },
     {
       "id": "carson-city-police-department-nv",
@@ -14425,7 +15106,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 861,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "las-vegas-metropolitan-police-department-nv",
@@ -14454,7 +15139,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 648,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "north-las-vegas-police-department-nv",
@@ -14483,7 +15172,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5670
     },
     {
       "id": "reno-police-department-nv",
@@ -14512,7 +15202,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5222,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "sparks-police-department-nv",
@@ -14541,7 +15235,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 12199
     },
     {
       "id": "winnemucca-police-department-nv",
@@ -14570,7 +15265,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 7013
     },
     {
       "id": "albany-police-department-ny",
@@ -14599,7 +15295,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 2367,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "amherst-police-department-ny",
@@ -14628,7 +15328,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 6958
     },
     {
       "id": "buffalo-police-department-ny",
@@ -14657,7 +15358,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 4897,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "cheektowaga-police-department-ny",
@@ -14686,7 +15391,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 19400
     },
     {
       "id": "irondequoit-police-department-ny",
@@ -14715,7 +15421,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 12008
     },
     {
       "id": "levittown-police-department-ny",
@@ -14773,7 +15480,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 23209
     },
     {
       "id": "ramapo-police-department-ny",
@@ -14802,7 +15510,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 21913
     },
     {
       "id": "rochester-police-department-ny",
@@ -14831,7 +15540,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 4360,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "scarsdale-pd-ny",
@@ -14861,7 +15574,8 @@
       "sources": [
         "https://fliptheflock.org/states/new-york/"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 21926
     },
     {
       "id": "schenectady-police-department-ny",
@@ -14890,7 +15604,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 21927
     },
     {
       "id": "syracuse-police-department-ny",
@@ -14919,7 +15634,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 21880
     },
     {
       "id": "tonawanda-town-cdp-police-department-ny",
@@ -14977,7 +15693,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 8635
     },
     {
       "id": "utica-police-department-ny",
@@ -15006,7 +15723,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 4366,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "westchester-county-dps-ny",
@@ -15065,7 +15786,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 6199
     },
     {
       "id": "canton-police-department-oh",
@@ -15094,7 +15816,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5630
     },
     {
       "id": "centerville-police-department-oh",
@@ -15123,7 +15846,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 11880
     },
     {
       "id": "cincinnati-pd-oh",
@@ -15155,7 +15879,11 @@
         "https://github.com/simeononsecurity/flock-finder",
         "https://www.findingflock.com/cameras"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5544,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "cleveland-police-department-oh",
@@ -15184,7 +15912,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 661,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "columbus-pd-oh",
@@ -15216,7 +15948,11 @@
         "https://www.findingflock.com/cameras",
         "https://www.wosu.org/politics-government/2026-04-28/central-ohio-police-departments-have-spent-nearly-2-million-on-flock-cameras"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 656,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "dayton-police-department-oh",
@@ -15245,7 +15981,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 9070
     },
     {
       "id": "fairlawn-police-department-oh",
@@ -15332,7 +16069,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 44770
     },
     {
       "id": "lorain-police-department-oh",
@@ -15361,7 +16099,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 34319
     },
     {
       "id": "mentor-police-department-oh",
@@ -15390,7 +16129,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 31108
     },
     {
       "id": "middleburg-heights-police-department-oh",
@@ -15477,7 +16217,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 27113
     },
     {
       "id": "sandusky-police-department-oh",
@@ -15506,7 +16247,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 27084
     },
     {
       "id": "springfield-police-department-oh",
@@ -15535,7 +16277,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 18630
     },
     {
       "id": "toledo-police-department-oh",
@@ -15564,7 +16307,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 3583,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "edmond-police-department-ok",
@@ -15593,7 +16340,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 27175
     },
     {
       "id": "enid-police-department-ok",
@@ -15622,7 +16370,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 18717
     },
     {
       "id": "guthrie-police-department-ok",
@@ -15680,7 +16429,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 819,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "newcastle-police-department-ok",
@@ -15738,7 +16491,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5245
     },
     {
       "id": "oklahoma-city-police-department-ok",
@@ -15767,7 +16521,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 675,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "piedmont-police-department-ok",
@@ -15854,7 +16612,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 4205
     },
     {
       "id": "astoria-police-department-or",
@@ -15912,7 +16671,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 12422
     },
     {
       "id": "bend-police-department-or",
@@ -15941,7 +16701,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 23817
     },
     {
       "id": "corvallis-police-department-or",
@@ -15970,7 +16731,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 16068
     },
     {
       "id": "eugene-police-department-or",
@@ -15999,7 +16761,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 9078
     },
     {
       "id": "hillsboro-police-department-or",
@@ -16028,7 +16791,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 9429
     },
     {
       "id": "lake-oswego-police-department-or",
@@ -16057,7 +16821,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 9015
     },
     {
       "id": "portland-police-department-or",
@@ -16115,7 +16880,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 407,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "springfield-police-department-or",
@@ -16144,7 +16913,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 21247
     },
     {
       "id": "tigard-police-department-or",
@@ -16173,7 +16943,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 8920
     },
     {
       "id": "allentown-police-department-pa",
@@ -16202,7 +16973,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 8951
     },
     {
       "id": "altoona-police-department-pa",
@@ -16231,7 +17003,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 15893
     },
     {
       "id": "bethel-township-police-department-pa",
@@ -16289,7 +17062,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5584
     },
     {
       "id": "bethlehem-township-police-department-pa",
@@ -16376,7 +17150,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 10969
     },
     {
       "id": "hanover-township-police-department-pa",
@@ -16434,7 +17209,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 11615
     },
     {
       "id": "haverford-township-police-department-pa",
@@ -16463,7 +17239,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 28257
     },
     {
       "id": "horsham-township-police-department-pa",
@@ -16521,7 +17298,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 29956
     },
     {
       "id": "lower-macungie-township-police-department-pa",
@@ -16782,7 +17560,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 37167
     },
     {
       "id": "philadelphia-pd-pa",
@@ -16814,7 +17593,11 @@
         "https://penncapital-star.com/civil-rights-social-justice/pa-lawmakers-propose-guardrails-on-automatic-license-plate-cameras-as-backlash-grows/",
         "https://www.findingflock.com/cameras"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 504,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "pittsburgh-pd-pa",
@@ -16845,7 +17628,11 @@
         "https://github.com/simeononsecurity/flock-finder",
         "https://www.findingflock.com/cameras"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 357,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "radnor-township-police-department-pa",
@@ -16903,7 +17690,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 29948
     },
     {
       "id": "richland-township-police-department-pa",
@@ -17048,7 +17836,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 37167
     },
     {
       "id": "state-college-police-department-pa",
@@ -17077,7 +17866,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 529,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "tinicum-township-police-department-pa",
@@ -17309,7 +18102,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 30074
     },
     {
       "id": "warwick-township-police-department-pa",
@@ -17367,7 +18161,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 24808
     },
     {
       "id": "whitehall-police-department-pa",
@@ -17396,7 +18191,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 38759
     },
     {
       "id": "wilkes-barre-police-department-pa",
@@ -17425,7 +18221,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 22395
     },
     {
       "id": "williamsport-police-department-pa",
@@ -17454,7 +18251,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 30134
     },
     {
       "id": "providence-police-department-ri",
@@ -17483,7 +18281,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 317,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "anderson-police-department-sc",
@@ -17541,7 +18343,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 3564,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "columbia-police-department-sc",
@@ -17570,7 +18376,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 30757
     },
     {
       "id": "florence-police-department-sc",
@@ -17599,7 +18406,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 8619,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "greenville-police-department-sc",
@@ -17628,7 +18439,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 3463,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "greer-police-department-sc",
@@ -17657,7 +18472,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 3465,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "inman-police-department-sc",
@@ -17715,7 +18534,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 30742
     },
     {
       "id": "myrtle-beach-police-department-sc",
@@ -17744,7 +18564,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 8618
     },
     {
       "id": "north-charleston-police-department-sc",
@@ -17773,7 +18594,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 3564,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "rock-hill-police-department-sc",
@@ -17831,7 +18656,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 23305
     },
     {
       "id": "pierre-police-department-sd",
@@ -17889,7 +18715,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5412
     },
     {
       "id": "sioux-falls-police-department-sd",
@@ -17918,7 +18745,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5411
     },
     {
       "id": "bristol-police-department-tn",
@@ -17976,7 +18804,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5599,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "clarksville-police-department-tn",
@@ -18005,7 +18837,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 8967
     },
     {
       "id": "east-ridge-police-department-tn",
@@ -18063,7 +18896,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 23662
     },
     {
       "id": "johnson-city-police-department-tn",
@@ -18092,7 +18926,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 46782
     },
     {
       "id": "kingsport-police-department-tn",
@@ -18121,7 +18956,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 33433
     },
     {
       "id": "knoxville-police-department-tn",
@@ -18150,7 +18986,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 6353
     },
     {
       "id": "memphis-police-department-tn",
@@ -18179,7 +19016,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 6862
     },
     {
       "id": "murfreesboro-police-department-tn",
@@ -18208,7 +19046,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 7364,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "nashville-davidson-police-department-tn",
@@ -18266,7 +19108,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 8948
     },
     {
       "id": "addison-police-department-tx",
@@ -18295,7 +19138,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 27548
     },
     {
       "id": "allen-police-department-tx",
@@ -18324,7 +19168,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 417,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "amarillo-police-department-tx",
@@ -18353,7 +19201,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 8952
     },
     {
       "id": "argyle-police-department-tx",
@@ -18382,7 +19231,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 22828
     },
     {
       "id": "arlington-police-department-tx",
@@ -18411,7 +19261,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 333,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "austin-police-department-tx",
@@ -18440,7 +19294,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 365,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "baytown-police-department-tx",
@@ -18469,7 +19327,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 27565
     },
     {
       "id": "beaumont-police-department-tx",
@@ -18498,7 +19357,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 8960
     },
     {
       "id": "bellaire-police-department-tx",
@@ -18527,7 +19387,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 27568
     },
     {
       "id": "belton-police-department-tx",
@@ -18556,7 +19417,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 27570
     },
     {
       "id": "brenham-police-department-tx",
@@ -18585,7 +19447,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 27582
     },
     {
       "id": "brownsville-police-department-tx",
@@ -18614,7 +19477,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 8963
     },
     {
       "id": "bryan-police-department-tx",
@@ -18672,7 +19536,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 8965
     },
     {
       "id": "castroville-police-department-tx",
@@ -18701,7 +19566,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 27598
     },
     {
       "id": "cedar-park-police-department-tx",
@@ -18730,7 +19596,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 22389
     },
     {
       "id": "celina-police-department-tx",
@@ -18759,7 +19626,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 27599
     },
     {
       "id": "cleburne-police-department-tx",
@@ -18788,7 +19656,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 11898
     },
     {
       "id": "college-station-police-department-tx",
@@ -18817,7 +19686,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 11904
     },
     {
       "id": "corpus-christi-police-department-tx",
@@ -18846,7 +19716,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5223,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "coupland-police-department-tx",
@@ -18907,7 +19781,8 @@
         "https://github.com/simeononsecurity/flock-finder",
         "https://www.audacy.com/krld/news/local/flock-cameras-expand-across-dfw-amid-crime-fighting-claims-and-privacy-debates"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 27367
     },
     {
       "id": "deer-park-police-department-tx",
@@ -18936,7 +19811,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 11923
     },
     {
       "id": "denton-police-department-tx",
@@ -18965,7 +19841,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5637
     },
     {
       "id": "dripping-springs-police-department-tx",
@@ -19023,7 +19900,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 11948
     },
     {
       "id": "el-paso-police-department-tx",
@@ -19052,7 +19930,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 673,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "elgin-police-department-tx",
@@ -19081,7 +19963,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 27534
     },
     {
       "id": "euless-police-department-tx",
@@ -19110,7 +19993,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 14878
     },
     {
       "id": "fate-police-department-tx",
@@ -19168,7 +20052,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 22240
     },
     {
       "id": "fort-worth-police-department-tx",
@@ -19197,7 +20082,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 664,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "fredericksburg-police-department-tx",
@@ -19226,7 +20115,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 27291
     },
     {
       "id": "friendswood-police-department-tx",
@@ -19284,7 +20174,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 9335
     },
     {
       "id": "fulshear-police-department-tx",
@@ -19342,7 +20233,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 15960
     },
     {
       "id": "garland-police-department-tx",
@@ -19371,7 +20263,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5077
     },
     {
       "id": "granbury-police-department-tx",
@@ -19400,7 +20293,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 27249
     },
     {
       "id": "grand-prairie-police-department-tx",
@@ -19429,7 +20323,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 9341
     },
     {
       "id": "haltom-city-police-department-tx",
@@ -19487,7 +20382,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5215
     },
     {
       "id": "houston-pd-tx",
@@ -19519,7 +20415,11 @@
         "https://github.com/simeononsecurity/flock-finder",
         "https://unflocked.org/houston"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 336,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "irving-police-department-tx",
@@ -19548,7 +20448,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5228,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "kilgore-police-department-tx",
@@ -19577,7 +20481,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 33348
     },
     {
       "id": "killeen-police-department-tx",
@@ -19606,7 +20511,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 7008
     },
     {
       "id": "laredo-police-department-tx",
@@ -19635,7 +20541,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5238,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "lewisville-police-department-tx",
@@ -19664,7 +20574,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 9460
     },
     {
       "id": "longview-police-department-tx",
@@ -19693,7 +20604,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 4901
     },
     {
       "id": "lowry-crossing-police-department-tx",
@@ -19751,7 +20663,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5234,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "lucas-police-department-tx",
@@ -19809,7 +20725,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 12048
     },
     {
       "id": "mcallen-police-department-tx",
@@ -19838,7 +20755,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 417,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "mckinney-police-department-tx",
@@ -19867,7 +20788,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5195
     },
     {
       "id": "melissa-police-department-tx",
@@ -19896,7 +20818,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 27410
     },
     {
       "id": "mesquite-police-department-tx",
@@ -19925,7 +20848,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 9504
     },
     {
       "id": "midland-police-department-tx",
@@ -19954,7 +20878,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 6203
     },
     {
       "id": "missouri-city-police-department-tx",
@@ -19983,7 +20908,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 9756
     },
     {
       "id": "murphy-police-department-tx",
@@ -20012,7 +20938,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 27430
     },
     {
       "id": "new-braunfels-police-department-tx",
@@ -20041,7 +20968,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 27437
     },
     {
       "id": "north-richland-hills-police-department-tx",
@@ -20099,7 +21027,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 27444
     },
     {
       "id": "odessa-police-department-tx",
@@ -20128,7 +21057,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 9586
     },
     {
       "id": "pasadena-police-department-tx",
@@ -20157,7 +21087,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 9591
     },
     {
       "id": "plano-police-department-tx",
@@ -20186,7 +21117,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5233,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "princeton-police-department-tx",
@@ -20215,7 +21150,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 22098
     },
     {
       "id": "prosper-police-department-tx",
@@ -20244,7 +21180,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 12154
     },
     {
       "id": "richardson-police-department-tx",
@@ -20273,7 +21210,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 9603
     },
     {
       "id": "rockwall-police-department-tx",
@@ -20331,7 +21269,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 9618
     },
     {
       "id": "rowlett-police-department-tx",
@@ -20360,7 +21299,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 12170
     },
     {
       "id": "sachse-police-department-tx",
@@ -20389,7 +21329,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 27505
     },
     {
       "id": "san-angelo-police-department-tx",
@@ -20418,7 +21359,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 9622
     },
     {
       "id": "san-antonio-police-department-tx",
@@ -20447,7 +21389,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 657,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "southlake-police-department-tx",
@@ -20476,7 +21422,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 18589
     },
     {
       "id": "stafford-police-department-tx",
@@ -20505,7 +21452,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 23681
     },
     {
       "id": "sugar-land-police-department-tx",
@@ -20534,7 +21482,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 22076
     },
     {
       "id": "the-woodlands-police-department-tx",
@@ -20592,7 +21541,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5737
     },
     {
       "id": "union-valley-police-department-tx",
@@ -20650,7 +21600,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 18587
     },
     {
       "id": "waco-police-department-tx",
@@ -20679,7 +21630,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5110,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "webster-police-department-tx",
@@ -20708,7 +21663,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 30162
     },
     {
       "id": "weston-police-department-tx",
@@ -20766,7 +21722,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 7256,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "bountiful-police-department-ut",
@@ -20795,7 +21755,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 30242
     },
     {
       "id": "cedar-city-police-department-ut",
@@ -20824,7 +21785,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 30176
     },
     {
       "id": "layton-police-department-ut",
@@ -20853,7 +21815,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 20041
     },
     {
       "id": "lehi-police-department-ut",
@@ -20882,7 +21845,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5661
     },
     {
       "id": "logan-police-department-ut",
@@ -20911,7 +21875,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 801,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "marriott-slaterville-police-department-ut",
@@ -20969,7 +21937,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 20042
     },
     {
       "id": "ogden-police-department-ut",
@@ -20998,7 +21967,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 30212
     },
     {
       "id": "provo-police-department-ut",
@@ -21027,7 +21997,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 9600
     },
     {
       "id": "riverdale-police-department-ut",
@@ -21056,7 +22027,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5678
     },
     {
       "id": "salt-lake-city-police-department-ut",
@@ -21085,7 +22057,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 11021
     },
     {
       "id": "sandy-police-department-ut",
@@ -21114,7 +22087,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 28120
     },
     {
       "id": "saratoga-springs-police-department-ut",
@@ -21143,7 +22117,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 7257,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "south-salt-lake-police-department-ut",
@@ -21172,7 +22150,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 30228
     },
     {
       "id": "st-george-police-department-ut",
@@ -21201,7 +22180,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 20038
     },
     {
       "id": "west-haven-police-department-ut",
@@ -21288,7 +22268,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 30243
     },
     {
       "id": "alexandria-police-department-va",
@@ -21317,7 +22298,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5616
     },
     {
       "id": "arlington-police-department-va",
@@ -21346,7 +22328,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 3834,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "blacksburg-police-department-va",
@@ -21375,7 +22361,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5624
     },
     {
       "id": "charlottesville-police-department-va",
@@ -21404,7 +22391,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 4427,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "chesapeake-police-department-va",
@@ -21433,7 +22424,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 2601
     },
     {
       "id": "fairfax-county-pd-va",
@@ -21464,7 +22456,11 @@
         "https://www.nbcnews.com/tech/security/virginia-police-used-flock-cameras-track-driver-safety-lawsuit-surveil-rcna230399",
         "https://www.findingflock.com/cameras"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 364,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "fairfax-police-department-va",
@@ -21493,7 +22489,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 364,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "fredericksburg-police-department-va",
@@ -21522,7 +22522,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 7786
     },
     {
       "id": "hampton-police-department-va",
@@ -21609,7 +22610,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 12033
     },
     {
       "id": "lynchburg-police-department-va",
@@ -21638,7 +22640,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 11118
     },
     {
       "id": "manassas-police-department-va",
@@ -21667,7 +22670,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 3987
     },
     {
       "id": "norfolk-pd-va",
@@ -21698,7 +22702,11 @@
         "https://github.com/simeononsecurity/flock-finder",
         "https://www.findingflock.com/cameras"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 9583,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "portsmouth-city-police-department-va",
@@ -21756,7 +22764,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 41324
     },
     {
       "id": "roanoke-police-department-va",
@@ -21785,7 +22794,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 46408
     },
     {
       "id": "virginia-beach-police-department-va",
@@ -21814,7 +22824,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 361,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "winchester-police-department-va",
@@ -21843,7 +22857,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 31522
     },
     {
       "id": "burlington-police-department-vt",
@@ -21872,7 +22887,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 15789
     },
     {
       "id": "essex-junction-police-department-vt",
@@ -21930,7 +22946,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 18433
     },
     {
       "id": "rutland-city-police-department-vt",
@@ -21988,7 +23005,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 11128
     },
     {
       "id": "bellevue-police-department-wa",
@@ -22017,7 +23035,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 816,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "bellingham-police-department-wa",
@@ -22046,7 +23068,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 7784
     },
     {
       "id": "bremerton-police-department-wa",
@@ -22075,7 +23098,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 34474
     },
     {
       "id": "everett-police-department-wa",
@@ -22104,7 +23128,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 777,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "federal-way-police-department-wa",
@@ -22133,7 +23161,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 6984
     },
     {
       "id": "kennewick-police-department-wa",
@@ -22191,7 +23220,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 34209
     },
     {
       "id": "olympia-police-department-wa",
@@ -22220,7 +23250,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 373,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "pasco-police-department-wa",
@@ -22249,7 +23283,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5673
     },
     {
       "id": "richland-police-department-wa",
@@ -22278,7 +23313,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5677
     },
     {
       "id": "seattle-police-department-wa",
@@ -22307,7 +23343,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 227,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "sedro-woolley-pd-wa",
@@ -22338,7 +23378,8 @@
         "https://www.cascadiadaily.com/2026/aug/20/a-man-has-sued-local-governments-in-wa-over-flock-records-hes-gotten-300k/"
       ],
       "last_verified": "2026-08-30",
-      "notes": "Settled Rodriguez FOIL lawsuit for $40,000. Subsequently cancelled Flock contract."
+      "notes": "Settled Rodriguez FOIL lawsuit for $40,000. Subsequently cancelled Flock contract.",
+      "muckrock_id": 34207
     },
     {
       "id": "spokane-police-department-wa",
@@ -22367,7 +23408,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 717,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "tacoma-police-department-wa",
@@ -22396,7 +23441,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 734,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "tumwater-police-department-wa",
@@ -22483,7 +23532,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 7391
     },
     {
       "id": "yakima-police-department-wa",
@@ -22512,7 +23562,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 10153
     },
     {
       "id": "appleton-police-department-wi",
@@ -22541,7 +23592,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 3029,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "cedarburg-police-department-wi",
@@ -22570,7 +23625,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 38305
     },
     {
       "id": "eau-claire-police-department-wi",
@@ -22599,7 +23655,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 28509
     },
     {
       "id": "fond-du-lac-police-department-wi",
@@ -22628,7 +23685,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 4464
     },
     {
       "id": "green-bay-police-department-wi",
@@ -22657,7 +23715,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 7644,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "janesville-police-department-wi",
@@ -22686,7 +23748,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 38190
     },
     {
       "id": "kenosha-police-department-wi",
@@ -22715,7 +23778,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 7039,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "la-crosse-police-department-wi",
@@ -22744,7 +23811,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 8535
     },
     {
       "id": "madison-police-department-wi",
@@ -22773,7 +23841,11 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 2662,
+      "agency_types": [
+        "Police"
+      ]
     },
     {
       "id": "milwaukee-police-department-wi",
@@ -22802,7 +23874,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 23092
     },
     {
       "id": "oshkosh-police-department-wi",
@@ -22831,7 +23904,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 22046
     },
     {
       "id": "rhinelander-police-department-wi",
@@ -22889,7 +23963,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 5715
     },
     {
       "id": "stevens-point-police-department-wi",
@@ -22947,7 +24022,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 38622
     },
     {
       "id": "wausau-police-department-wi",
@@ -22976,7 +24052,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 19376
     },
     {
       "id": "beckley-police-department-wv",
@@ -23034,7 +24111,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 22383
     },
     {
       "id": "nitro-police-department-wv",
@@ -23063,7 +24141,8 @@
       "sources": [
         "https://github.com/simeononsecurity/flock-finder"
       ],
-      "last_verified": "2026-08-30"
+      "last_verified": "2026-08-30",
+      "muckrock_id": 32534
     },
     {
       "id": "casper-police-department-wy",

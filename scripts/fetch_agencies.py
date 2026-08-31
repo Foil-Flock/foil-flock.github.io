@@ -22,6 +22,7 @@ previously null.
 
 import json
 import os
+import time
 from pathlib import Path
 
 AGENCIES_PATH = Path(__file__).parent.parent / "src" / "data" / "agencies.json"
@@ -124,7 +125,7 @@ def resolve_state(client, jurisdiction_id, state_cache, jurisdiction_parents):
     return None
 
 
-def enrich_from_muckrock(agencies):
+def enrich_from_muckrock(agencies, limit=None):
     """Enrich agencies with data from MuckRock's v2 API."""
     try:
         from muckrock import MuckRock
@@ -140,9 +141,15 @@ def enrich_from_muckrock(agencies):
 
     try:
         client = MuckRock(username=username, password=password)
-        client.session.headers["User-Agent"] = (
-            "Mozilla/5.0 (compatible; FoilFlock/1.0; +https://github.com/Foil-Flock)"
+        # Add 503 to retry list (library only retries 500, 502, 504)
+        from urllib3.util.retry import Retry
+        from requests.adapters import HTTPAdapter
+        retry = Retry(
+            total=3, backoff_factor=1.0,
+            status_forcelist=(500, 502, 503, 504),
         )
+        adapter = HTTPAdapter(max_retries=retry)
+        client.session.mount("https://", adapter)
         print(f"Authenticated as {username}")
     except Exception as e:
         print(f"MuckRock auth failed: {e}")
@@ -155,9 +162,12 @@ def enrich_from_muckrock(agencies):
     matched = 0
     not_found = 0
     errors = 0
-    total = len(agencies)
+    items = list(agencies.items())
+    if limit:
+        items = items[:limit]
+    total = len(items)
 
-    for i, (agency_id, agency) in enumerate(agencies.items(), 1):
+    for i, (agency_id, agency) in enumerate(items, 1):
         if i % 50 == 0 or i == total:
             print(f"  Progress: {i}/{total} (matched={matched}, not_found={not_found}, errors={errors})")
 
@@ -190,6 +200,9 @@ def enrich_from_muckrock(agencies):
             errors += 1
             print(f"  ! {agency['name']}: {e}")
 
+        # Courtesy delay: ~2s between agencies (well under 15/min limit)
+        time.sleep(2)
+
     print(
         f"  Done: {matched} matched, {not_found} not found, {errors} errors"
     )
@@ -197,12 +210,17 @@ def enrich_from_muckrock(agencies):
 
 
 def main():
+    import argparse
+    parser = argparse.ArgumentParser(description="Enrich agencies from MuckRock API")
+    parser.add_argument("--limit", type=int, default=None, help="Process only the first N agencies (for testing)")
+    args = parser.parse_args()
+
     print("Loading existing agencies...")
     agencies = load_existing()
     print(f"  Found {len(agencies)} existing agencies")
 
     print("\nEnriching from MuckRock API...")
-    agencies = enrich_from_muckrock(agencies)
+    agencies = enrich_from_muckrock(agencies, limit=args.limit)
 
     save_agencies(agencies)
     print("\nDone.")
