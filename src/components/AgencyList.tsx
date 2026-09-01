@@ -188,6 +188,14 @@ export default function AgencyList({ agencies }: Props) {
                       <dd>{a.contact.mailing_address}</dd>
                     </>
                   )}
+                  {a.contact.phone && (
+                    <>
+                      <dt>Phone</dt>
+                      <dd>
+                        <a href={`tel:${a.contact.phone}`}>{a.contact.phone}</a>
+                      </dd>
+                    </>
+                  )}
                   {a.contact.email && (
                     <>
                       <dt>Email</dt>
