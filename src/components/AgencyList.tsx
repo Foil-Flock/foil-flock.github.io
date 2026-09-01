@@ -25,6 +25,7 @@ interface Agency {
   sources: string[];
   last_verified: string;
   notes?: string;
+  muckrock_id?: number | null;
 }
 
 interface Props {
@@ -224,6 +225,20 @@ export default function AgencyList({ agencies }: Props) {
                     <>
                       <dt>Notes</dt>
                       <dd>{a.notes}</dd>
+                    </>
+                  )}
+                  {a.muckrock_id && (
+                    <>
+                      <dt>MuckRock</dt>
+                      <dd>
+                        <a
+                          href={`https://www.muckrock.com/agency/?search=${encodeURIComponent(a.name)}`}
+                          target="_blank"
+                          rel="noopener"
+                        >
+                          View on MuckRock
+                        </a>
+                      </dd>
                     </>
                   )}
                 </dl>

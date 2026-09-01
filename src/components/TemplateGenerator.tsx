@@ -29,6 +29,7 @@ interface Agency {
     email: string | null;
     form_url: string | null;
   };
+  muckrock_id?: number | null;
 }
 
 interface StateFragments {
@@ -387,7 +388,10 @@ export default function TemplateGenerator({ templates, agencies, stateData }: Pr
                 </p>
                 <a
                   class="next-step-action"
-                  href="https://www.muckrock.com/foi/create/"
+                  href={agency?.muckrock_id
+                    ? `https://www.muckrock.com/foi/create/?agency=${agency.muckrock_id}`
+                    : "https://www.muckrock.com/foi/create/"
+                  }
                   target="_blank"
                   rel="noopener"
                 >
