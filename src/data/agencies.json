@@ -10487,6 +10487,34 @@
       ]
     },
     {
+      "id": "grafton-police-department-ma",
+      "name": "Grafton Police Department",
+      "type": "police",
+      "jurisdiction": "Grafton",
+      "jurisdiction_type": "town",
+      "state": "MA",
+      "contact": {
+        "records_access_officer": null,
+        "email": null,
+        "phone": "508-839-2858",
+        "form_url": null,
+        "mailing_address": "28 Providence Road, Grafton, MA 01519",
+        "submission_methods": [
+          "mail"
+        ]
+      },
+      "alpr": {
+        "vendor": null,
+        "camera_count": null,
+        "retention_period": null,
+        "contract_status": "unknown",
+        "transparency_portal_url": null
+      },
+      "sources": [],
+      "last_verified": "2026-08-31",
+      "notes": "Community-submitted; ALPR details pending verification"
+    },
+    {
       "id": "greenfield-police-department-ma",
       "name": "Greenfield Police Department",
       "type": "police",

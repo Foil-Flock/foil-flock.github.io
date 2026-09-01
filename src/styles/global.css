@@ -667,6 +667,7 @@ hr {
   }
   .agency-search {
     width: 100%;
+    flex: 0 0 auto;
   }
   .agency-filters {
     width: 100%;
